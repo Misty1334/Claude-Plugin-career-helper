@@ -76,9 +76,37 @@ The skill will automatically load when you ask questions related to job search, 
 ## ✨ Features
 
 ### 🎯 LinkedIn Optimization (3 Modes)
-- **Full Profile Audit:** Comprehensive review from photo to recommendations
-- **Content Review:** Analyze existing posts for audience alignment
-- **Content Strategy Coaching (NEW):** Build sustainable 3x/week posting strategy with authentic topics, engagement network (20-30 connections), 4-week content calendar, and thread series guidance
+
+**Mode A: Full Profile Audit**
+- Comprehensive review from photo to recommendations
+- Headline and about section optimization
+- Skills reordering for ATS/recruiter systems
+
+**Mode B: Content Review (Reactive)**
+- Analyze existing posts for audience alignment
+- Decision-maker pain point identification
+- Improvement recommendations
+
+**Mode C: LinkedIn Thought Leader Content Planner (NEW)**
+
+Build your professional presence with authentic, sustainable content strategy:
+
+- **Content Pillar Discovery:** Identify 3-5 authentic topics from your real expertise (not generic)
+- **Sustainable Posting Strategy:** 3x/week cadence (Tactical/Strategic/Story post mix)
+- **Engagement Network Building:** 20-30 strategic connections organized in 3 tiers
+  - Tier 1: Industry leaders (5-7 people) for visibility
+  - Tier 2: Peers & target connections (8-12 people)
+  - Tier 3: Rising voices (10-15 people) for genuine relationships
+- **4-Week Content Calendar:** Specific topics mapped out with post types
+- **Thread Series Guidance:** When/why to use multi-post sequences (problem → solution → proof → lessons)
+- **Voice Coaching:** Write authentically, not from templates
+- **Professional, Non-Cheesy:** Grounded in experience, no hustle culture BS
+
+Creates comprehensive tracking system with:
+- Weekly activity plans with time estimates
+- Content engagement tracker
+- Success metrics dashboard
+- Topic bank for future ideas
 
 ### 📄 ATS CV Optimization
 - Keyword extraction & gap analysis from job descriptions
@@ -235,13 +263,19 @@ The skill uses **progressive disclosure** - loading specialized prompts only whe
    → Timeline, stakeholder mapping, follow-up protocols
 ```
 
-### LinkedIn Presence Building
+### LinkedIn Thought Leadership Strategy
 ```
-1. "Review my LinkedIn profile for [target role]"
-   → Full profile audit with optimization recommendations
+1. "Help me build a LinkedIn content strategy - I want to post consistently but don't know what to share"
+   → Interactive session to discover your authentic content pillars
+   → Build 3x/week posting strategy with specific topics
+   → Identify 20-30 strategic people to engage with (3-tier network)
+   → Create 4-week content calendar with Tactical/Strategic/Story mix
+   → Thread series planning (when to use multi-post sequences)
+   → Voice coaching to write authentically, not from templates
+   → Outputs: content-strategy.md + content-calendar.md with tracking tables
 
-2. "Help me build a content strategy"
-   → Content pillars, 4-week calendar, engagement network
+2. "Review my LinkedIn profile for [target role]"
+   → Full profile audit with optimization recommendations
 
 3. "Review this post before I publish it"
    → Audience alignment and improvement suggestions
