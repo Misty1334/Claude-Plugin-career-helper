@@ -8,7 +8,17 @@ End-to-end career support for job seekers at all levels. Research-driven, ATS-op
 
 ## 📦 Installation
 
-### Option 1: Download Release (Recommended)
+### Option 1: Upload via Claude Code App (Easiest)
+
+1. Go to [Releases](https://github.com/Zal4DW/career-helper/releases)
+2. Download the latest `career-helper.zip`
+3. Open Claude Code application
+4. Go to **Settings** → **Capabilities** → **Skills**
+5. Click **"Upload Skill"** or **"Add Skill"**
+6. Select the downloaded `career-helper.zip` file
+7. The skill will be automatically installed and activated
+
+### Option 2: Manual Installation
 
 1. Go to [Releases](https://github.com/Zal4DW/career-helper/releases)
 2. Download the latest `career-helper.zip`
@@ -18,7 +28,7 @@ End-to-end career support for job seekers at all levels. Research-driven, ATS-op
    - **Windows:** `%USERPROFILE%\.claude\skills\`
 5. Restart Claude Code or reload skills
 
-### Option 2: Clone from GitHub
+### Option 3: Clone from GitHub
 
 ```bash
 # Navigate to your Claude Code skills directory
@@ -30,13 +40,14 @@ cd %USERPROFILE%\.claude\skills\  # Windows
 git clone https://github.com/Zal4DW/career-helper.git Career-Helper
 ```
 
-### Option 3: Manual Download
+### Option 4: Manual Download from GitHub
 
 1. Click the green "Code" button on this repo
 2. Select "Download ZIP"
 3. Extract the zip file
 4. Rename the folder from `career-helper-main` to `Career-Helper`
 5. Move to your Claude Code skills directory (see paths above)
+6. Restart Claude Code or reload skills
 
 ### Verify Installation
 
