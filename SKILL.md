@@ -298,8 +298,44 @@ Use @ symbol to load these specialized prompts only when needed:
 - **@supporting-prompts/content-strategy-coaching.md** - Content strategy coaching for sustainable 3x/week posting with authentic topics
 - **@supporting-prompts/interview-prep.md** - Role-specific question generation with STAR frameworks from real experience
 - **@supporting-prompts/usage-guide.md** - How to use this skill, quick start examples, capabilities list
+- **@supporting-prompts/reflect-validate.md** - Reflective validation workflow for quality assurance
 
 **Progressive disclosure:** Don't load all at once. Load only what's needed for the current task to keep context efficient.
+
+## Workflow: Reflective Validation (Quality Assurance)
+
+**When to use:** CV optimization, company research, interview prep - any client-facing deliverable.
+
+After generating content, validate against quality standards before presenting:
+
+### Validation Checks
+
+**For CV/ATS Optimization:**
+- Keyword coverage ≥70% of JD terms?
+- All achievements quantified?
+- ATS-safe formatting (no tables, graphics)?
+
+**For Company Research:**
+- ALL factual claims have citations?
+- Sources recent (<12 months for news)?
+- All required sections present?
+
+**For Interview Prep:**
+- STAR format for behavioral answers?
+- Role-specific questions included?
+- Evidence-backed responses?
+
+### Validation Loop
+
+```
+Generate → Evaluate → If NEEDS_IMPROVEMENT → Refine → Re-evaluate
+                    → If PASS → Present with confidence
+                    → Max 3 iterations
+```
+
+**For full implementation details:** Load @`supporting-prompts/reflect-validate.md`
+
+This pattern ensures citation quality (this skill's differentiator) and ATS compliance.
 
 ## Quality Standards & Working with Uncertainty
 
