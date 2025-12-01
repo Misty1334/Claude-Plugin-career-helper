@@ -1,0 +1,22 @@
+{
+  "name": "career-helper",
+  "version": "0.1.0",
+  "description": "End-to-end career support for job seekers - LinkedIn optimization, ATS CV rewriting, interview preparation, company research, hiring manager identification, and networking strategy",
+  "author": "Paul Bratcher",
+  "organization": "Prosper Consulting AI, UK",
+  "created": "2025-11-20",
+  "last_updated": "2025-12-01",
+  "license": "Proprietary",
+  "capabilities": [
+    "linkedin-profile-optimization",
+    "ats-cv-rewriting",
+    "interview-preparation",
+    "company-research",
+    "hiring-manager-identification",
+    "networking-strategy",
+    "application-strategy-planning",
+    "content-coaching"
+  ],
+  "status": "internal-only",
+  "notes": "Comprehensive job search assistant with human-in-the-loop guidance"
+}
