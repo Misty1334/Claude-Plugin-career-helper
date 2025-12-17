@@ -24,6 +24,12 @@ This guide helps users understand how to use the Career Helper skill effectively
 **"What are interviewers really looking for in my answers?"**
 → I'll generate an Interviewer's Perspective report showing what they assess, red flags they watch for, and how to think about your answers
 
+**"I just got rejected from [role] at [Company] - help me understand what happened"**
+→ I'll diagnose whether it was a skill gap, signal gap, or fit/timing issue, and create a concrete recovery plan
+
+**"I've been rejected from 5 interviews this month - what am I doing wrong?"**
+→ I'll analyse patterns across your rejections and identify what to adjust
+
 **"Research [Company Name] before I apply"**
 → I'll gather comprehensive intelligence: financials, culture, hiring manager, red flags, strategy
 
@@ -66,6 +72,15 @@ Depending on what you need, gather:
 - Your CV (optional but helps tailor "experience to draw from" guidance)
 - Interview stage (optional - affects question selection)
 
+**For Post-Interview Coaching (After Rejection):**
+- Your CV (for evidence mining and "what's still true")
+- Job description (for skills analysis)
+- What happened in the interview (questions asked, how you answered)
+- Any feedback received (even vague feedback like "went another direction")
+- Stage where rejection occurred (recruiter screen, HM screen, technical, final)
+- Number of rejections in current search (for pattern analysis)
+- Existing career documents to update (3-month plan, application strategy)
+
 **For Company Research:**
 - Company name
 - Job description or role title (helpful but optional)
@@ -97,6 +112,17 @@ Depending on what you need, gather:
 5. **Iterate together** - Refine based on feedback, dig deeper as needed
 
 **You're in control** - Skip capabilities, go out of order, pivot mid-stream. This is a conversation, not a checklist.
+
+### Pro Tip: Keep This Conversation Going
+
+**Don't start new conversations** - stay in this one throughout your job search. I remember:
+- Your CV, experience, and career goals
+- Companies you've researched
+- Interview prep and STAR stories we've developed
+- Rejections and lessons learned
+- Your 3-month plan and progress
+
+Starting fresh means losing all that context. Think of this as your **ongoing career coaching session**, not one-off requests. Come back to update me on interviews, rejections, offers, and progress.
 
 ### About the @ Symbol (Progressive Disclosure)
 
@@ -156,7 +182,7 @@ When you see `@` in the skill (e.g., `@supporting-prompts/company-research.md` o
 - Post-interview follow-up templates
 - Execution tips and timing guidance
 
-### 4b. Interviewer's Perspective Reports (NEW)
+### 4b. Interviewer's Perspective Reports
 - See questions from the interviewer's viewpoint
 - What they're REALLY assessing behind each question
 - What makes a strong answer (criteria, not scripts)
@@ -165,7 +191,19 @@ When you see `@` in the skill (e.g., `@supporting-prompts/company-research.md` o
 - Covers: behavioral, situational, role-specific, cultural fit, "why" questions
 - Available standalone or integrated into full interview prep
 
-### 5. Strategic Networking Intelligence
+### 6. Post-Interview Coaching & Recovery (NEW)
+Diagnostic framework for understanding and recovering from interview rejection:
+- **Stage-specific diagnosis:** Each stage (recruiter screen, HM screen, technical, final) assesses different things
+- **Gap analysis:** Skill gap (capability issue) vs Signal gap (framing issue) vs Fit/Timing gap (external factors)
+- **Future skills alignment:** Cross-reference gaps against WEF 2025 skills (AI +87%, Cybersecurity +70%)
+- **Feedback decoding:** Interpret vague feedback like "went another direction"
+- **Wellbeing support:** Normalise rejection with data (6-10 rejections average before offer)
+- **"What's Still True" anchor:** Evidence from your CV that hasn't changed
+- **Pattern analysis:** Track multiple rejections to identify bottlenecks
+- **Action planning:** Stage-appropriate next steps, not generic advice
+- **Plan updates:** Update your 3-month plan, interview prep, or CV based on learnings
+
+### 7. Strategic Networking Intelligence
 - Identify hiring managers and direct team members
 - Find internal recruiters and key stakeholders
 - Discover company alumni who share your background
@@ -175,7 +213,7 @@ When you see `@` in the skill (e.g., `@supporting-prompts/company-research.md` o
 - Content engagement strategy before connecting
 - Response handling and follow-up approaches
 
-### 6. Application Strategy & Planning
+### 8. Application Strategy & Planning
 - Timeline with milestones and follow-up schedule
 - Stakeholder mapping and connection strategy
 - Risk mitigation for identified gaps
@@ -184,7 +222,7 @@ When you see `@` in the skill (e.g., `@supporting-prompts/company-research.md` o
 - Decision criteria and offer evaluation
 - Alternative scenario planning
 
-### 7. 3-Month Job Search Plan (NEW)
+### 9. 3-Month Job Search Plan
 Build a structured, sustainable job search with wellbeing at the core:
 - Define 3-4 audacious but achievable Month 3 goals
 - Back-solve into Month 2 and Month 1 milestones
