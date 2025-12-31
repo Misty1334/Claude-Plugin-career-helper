@@ -45,6 +45,24 @@ This guide helps users understand how to use the Career Helper skill effectively
 **"I've been made redundant and feel overwhelmed - can you help me get organised?"**
 → I'll guide you through collaborative planning to build structure, momentum, and confidence throughout your search
 
+**"I got an offer - help me negotiate"**
+→ I'll research market rates, assess your leverage, and provide counter-offer scripts tailored to your region (UK/US/EU/APAC)
+
+**"I have multiple offers - help me decide"**
+→ I'll help you compare total compensation, career trajectory, and create a weighted decision matrix based on your priorities
+
+**"Let's do a mock interview"**
+→ I'll simulate a realistic interview with your preferred interviewer persona and provide detailed feedback
+
+**"I want to go fractional/portfolio"**
+→ I'll assess your readiness, help design your portfolio, set rates, and create a client acquisition strategy
+
+**"How do I demonstrate AI skills for jobs?"**
+→ I'll assess your current AI proficiency, identify gaps for your target role, and create an upskilling roadmap
+
+**"Create a script for my LinkedIn video"**
+→ I'll write a 30-second script based on your goals (job search, thought leadership, client acquisition)
+
 ## What to Have Ready
 
 Depending on what you need, gather:
@@ -107,6 +125,43 @@ Depending on what you need, gather:
 - Existing materials status (CV, LinkedIn profile)
 - How you're feeling about the process (honestly)
 - Personal circumstances (family, location, etc.)
+
+**For Salary Negotiation:**
+- Offer details (base, bonus, equity, benefits, start date)
+- Target region (UK, US, EU, APAC)
+- Competing offers (if any - be honest, no bluffing)
+- Your priorities (what matters most to you)
+- Walk-away point (minimum acceptable)
+
+**For Offer Evaluation:**
+- Details of each offer (compensation, benefits, location)
+- Your career priorities and goals
+- Current role details (for comparison)
+- Region for cost of living adjustment
+
+**For Mock Interview:**
+- Interview prep document (if already created)
+- Interview stage (recruiter, HM, technical, panel, final)
+- Interviewer type preference
+- Specific areas you want to practice
+
+**For Portfolio/Fractional Career:**
+- Current skills inventory
+- Income goals and timeline
+- Target regions and markets
+- Financial runway (months of expenses saved)
+- Risk tolerance
+
+**For AI Readiness:**
+- Current role and target roles
+- Current AI tools you use
+- Any AI training or certifications completed
+- Concerns or gaps you've identified
+
+**For LinkedIn Video:**
+- Career goals
+- Target audience
+- Key messages to convey
 
 **For Full Application:**
 - All of the above
@@ -253,6 +308,79 @@ Build a structured, sustainable job search with wellbeing at the core:
 - Collaborative, human-in-the-loop planning (not prescriptive templates)
 - Professional but warm tone (no hustle culture or toxic positivity)
 
+### 10. Salary Negotiation Coach
+Region-aware negotiation support after receiving an offer:
+- Market compensation research via WebSearch (region-specific sources)
+- Leverage assessment based on your unique position
+- Counter-offer scripts (phone, email, in-person)
+- Total compensation framework (base, bonus, equity, pension, benefits)
+- Regional adaptations for UK, US, EU, and APAC markets
+- Common objection handling ("final offer", "salary bands", etc.)
+- Risk assessment (when to push, when to accept)
+- Acceptance and decline templates
+
+### 11. Offer Evaluation Framework
+Systematic comparison of job offers:
+- Total compensation normalisation (currency, cost of living, tax, benefits)
+- Career trajectory analysis for each option
+- Culture and fit assessment
+- Risk evaluation (company health, role clarity, stability)
+- Weighted decision matrix based on your priorities
+- Intuition check and regret minimisation framework
+- Scenario planning (best/likely/worst cases)
+
+### 12. LinkedIn Video Introduction Optimiser
+30-second profile video script creation:
+- Goal-based templates (job search, thought leadership, client acquisition, networking)
+- 30-second structure (Hook → Value → Proof → CTA)
+- 3 script options with trade-offs
+- Recording and delivery guidance
+- Technical setup checklist
+
+### 13. Portfolio & Fractional Career Support
+For non-traditional career paths:
+- Portfolio career readiness assessment (financial, skills, personal)
+- Fractional executive positioning (CFO, CMO, CTO, CPO)
+- Rate setting guidance by role and region
+- Legal and tax structure options (UK: IR35, Ltd; US: LLC, S-Corp)
+- Client acquisition strategy
+- LinkedIn optimisation for fractional/portfolio positioning
+- Portfolio CV format guidance
+
+### 14. AI Readiness Assessment
+Prepare for the 2025+ job market:
+- Current AI proficiency assessment (tools, applications, understanding)
+- Gap analysis for target role requirements
+- Tiered upskilling roadmap (immediate, foundation, differentiation)
+- CV and LinkedIn AI integration strategies
+- Interview preparation for AI-related questions
+- Portfolio project recommendations
+
+### 15. Mock Interview Simulation
+Realistic interview practice with feedback:
+- Interviewer personas (recruiter, hiring manager, technical, panel, executive)
+- Simulated interview with realistic questions and follow-ups
+- Real-time or end-of-session feedback
+- STAR compliance checking
+- Difficult interviewer modes (silent, sceptical, rapid-fire)
+- Comprehensive debrief with improvement recommendations
+
+---
+
+## Important Disclaimer
+
+**This skill provides guidance and suggestions only - not professional career advice.**
+
+Before acting on any recommendation:
+- **Verify facts independently** - especially salary data and company information
+- **Consult qualified professionals** - for legal, tax, and financial advice
+- **Use your own judgment** - you know your situation best
+- **Review all generated content** - before submitting to employers
+
+Regional guidance (tax, legal, IR35, employment law) is general information only. The creators accept no liability for career decisions made based on this tool's outputs.
+
+**All decisions are ultimately yours - you are responsible for your career choices.**
+
 ---
 
 ## About This Skill
@@ -260,6 +388,16 @@ Build a structured, sustainable job search with wellbeing at the core:
 **Created by:** Paul Bratcher
 **Organization:** Prosper Consulting
 **GitHub:** https://github.com/Zal4DW/career-helper
+**License:** CC BY-NC 4.0 (free for non-commercial use)
+
+### Found This Useful? Pay It Forward!
+
+This skill is provided **free** with a pay-it-forward mindset. If it helped you:
+
+- **Share** this skill with friends, colleagues, or anyone job searching
+- **Star** the repo on [GitHub](https://github.com/Zal4DW/career-helper)
+- **Tell your story** when you land that role
+- **Help the next person** - review someone's CV, share your tips
 
 ### We'd Love to Hear From You
 

@@ -75,7 +75,23 @@ The skill will automatically load when you ask questions related to job search, 
 
 ## ✨ Features
 
-### 🎯 LinkedIn Optimization (3 Modes)
+### NEW in v0.5.0
+
+**Salary & Offers:**
+- **Salary Negotiation Coach** - Market research, counter-offer scripts, region-specific guidance (UK/US/EU/APAC)
+- **Offer Evaluation Framework** - Multi-offer comparison, total compensation analysis, weighted decision matrix
+
+**Non-Traditional Careers:**
+- **Portfolio & Fractional Career Support** - Fractional executive positioning, rate setting, regional tax/legal guidance
+- **AI Readiness Assessment** - Skills gap analysis, upskilling roadmap, interview prep for AI questions
+
+**LinkedIn & Interview:**
+- **LinkedIn Video Optimiser** - 30-second profile video scripts with goal-based messaging
+- **Mock Interview Simulation** - Realistic practice with feedback, multiple interviewer personas
+
+---
+
+### 🎯 LinkedIn Optimization (5 Modes)
 
 **Mode A: Full Profile Audit**
 - Comprehensive review from photo to recommendations
@@ -87,7 +103,7 @@ The skill will automatically load when you ask questions related to job search, 
 - Decision-maker pain point identification
 - Improvement recommendations
 
-**Mode C: LinkedIn Thought Leader Content Planner (NEW)**
+**Mode C: LinkedIn Thought Leader Content Planner**
 
 Build your professional presence with authentic, sustainable content strategy:
 
@@ -107,6 +123,16 @@ Creates comprehensive tracking system with:
 - Content engagement tracker
 - Success metrics dashboard
 - Topic bank for future ideas
+
+**Mode D: Headline-Only Optimization**
+- Goal-first approach (job search, thought leadership, client acquisition, networking, board/advisory)
+- Headlines as value statements, not job titles
+- 3 options with trade-off analysis
+
+**Mode E: Video Introduction Optimiser**
+- 30-second profile video script generator
+- Goal-specific templates with Hook → Value → Proof → CTA structure
+- Recording and delivery guidance
 
 ### 📄 ATS CV Optimization
 - Keyword extraction & gap analysis from job descriptions
@@ -163,6 +189,49 @@ Creates comprehensive activity plan with:
 - Progress tracking metrics
 - Reflection prompts for continuous improvement
 
+### 💰 Salary Negotiation Coach
+Region-aware negotiation support:
+- Market compensation research via WebSearch
+- Leverage assessment and counter-offer strategy
+- Scripts for phone, email, and in-person negotiations
+- Total compensation framework (base, bonus, equity, pension, benefits)
+- Regional adaptations for UK, US, EU, and APAC markets
+- Common objection handling
+
+### ⚖️ Offer Evaluation Framework
+Compare offers systematically:
+- Total compensation normalisation (currency, cost of living, tax, benefits)
+- Career trajectory analysis for each option
+- Weighted decision matrix based on your priorities
+- Risk assessment (company health, role clarity, stability)
+- Intuition check and regret minimisation framework
+
+### 🎭 Mock Interview Simulation
+Realistic interview practice:
+- Multiple interviewer personas (recruiter, hiring manager, technical, executive)
+- Real-time or post-session feedback
+- STAR compliance checking
+- Difficult interviewer modes (sceptical, rapid-fire, silent)
+- Comprehensive debrief with improvement recommendations
+
+### 🧩 Portfolio & Fractional Career Support
+For non-traditional career paths:
+- Portfolio career readiness assessment
+- Fractional executive positioning (CFO, CMO, CTO, CPO)
+- Rate setting guidance by role and region
+- Legal and tax structure options (UK: IR35, Ltd; US: LLC, S-Corp)
+- Client acquisition strategy
+- LinkedIn optimisation for fractional/portfolio positioning
+
+### 🤖 AI Readiness Assessment
+Prepare for the 2025+ job market:
+- Current AI proficiency assessment
+- Gap analysis for target role requirements
+- Tiered upskilling roadmap
+- CV and LinkedIn AI integration
+- Interview preparation for AI-related questions
+- Portfolio project recommendations
+
 ---
 
 ## 🎓 Adaptive Intelligence
@@ -204,6 +273,11 @@ Or ask directly:
 "What are interviewers really looking for in my answers?"
 "Build me a LinkedIn content strategy"
 "Help me create a 3-month job search plan"
+"I got an offer - help me negotiate"
+"I have multiple offers - help me decide"
+"Let's do a mock interview"
+"I want to go fractional/portfolio"
+"How do I demonstrate AI skills for jobs?"
 ```
 
 ### What You'll Need
@@ -244,6 +318,28 @@ Or ask directly:
 - Existing materials (CV, LinkedIn status)
 - How you're feeling about the process
 
+**For Salary Negotiation:**
+- Offer details (base, bonus, equity, benefits)
+- Target region (UK, US, EU, APAC)
+- Competing offers (if any)
+- Your priorities (what matters most)
+
+**For Offer Evaluation:**
+- Details of each offer
+- Your career priorities
+- Current role details (if comparing)
+
+**For Portfolio/Fractional Career:**
+- Skills inventory
+- Income goals
+- Target regions and markets
+- Current financial runway
+
+**For AI Readiness:**
+- Current role and target roles
+- Current AI tool usage
+- Any AI training or certifications
+
 ### Understanding Outputs
 
 All outputs are saved to `career-outputs/` in your project directory:
@@ -258,7 +354,12 @@ career-outputs/
 ├── {role-slug}-networking-intelligence.md
 ├── {role-slug}-interview-prep.md
 ├── {role-slug}-interviewer-perspective.md
+├── {role-slug}-post-interview-debrief.md
 ├── {role-slug}-application-strategy.md
+├── {role-slug}-negotiation-strategy.md
+├── offer-evaluation.md
+├── portfolio-career-strategy.md
+├── ai-readiness-plan.md
 └── three-month-plan.md
 ```
 
@@ -434,9 +535,64 @@ All outputs follow these standards:
 
 ---
 
-## 📄 License
+## 📄 License & Disclaimer
 
-This skill is provided as-is for use with Claude Code. See repository for license details.
+### License
+
+This skill is licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+
+You are free to:
+- **Share** - Copy and redistribute the material
+- **Adapt** - Remix, transform, and build upon the material
+
+Under the following terms:
+- **Attribution** - Give appropriate credit and link to the repository
+- **NonCommercial** - Do not use for commercial purposes
+
+See [LICENSE](LICENSE) for full details.
+
+### Important Disclaimer
+
+**THIS SKILL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.**
+
+- This tool provides **guidance and suggestions only** - not professional career advice
+- **All decisions are ultimately yours** - you are responsible for your career choices
+- **No guarantees** of job search success, interview outcomes, or employment results
+- Salary data, market research, and company information may be incomplete or outdated
+- Regional guidance (tax, legal, employment law) is **general information only** - consult qualified professionals for specific advice
+- AI-generated content should be reviewed and verified before use
+
+**The creators accept no liability for career decisions made based on this tool's outputs.**
+
+### Your Responsibility
+
+Before acting on any recommendation:
+- Verify facts independently, especially salary data and company information
+- Consult qualified professionals for legal, tax, and financial advice
+- Use your own judgment - you know your situation best
+- Review all generated content before submitting to employers
+
+---
+
+## 🌟 Found This Useful? Pay It Forward!
+
+This skill is provided **free** with a pay-it-forward mindset. If Career Helper has helped you:
+
+### Share the Love
+- **Share this skill** with friends, colleagues, or anyone job searching
+- **Post about it** on LinkedIn (tag [@Paul Bratcher](https://www.linkedin.com/in/paul-bratcher/))
+- **Star the repo** on [GitHub](https://github.com/Zal4DW/career-helper)
+
+### Tell Your Story
+- **Share your success** in [GitHub Discussions](https://github.com/Zal4DW/career-helper/discussions)
+- **Connect on LinkedIn** and let us know how it helped
+
+### Help Others
+- Offer to review someone else's CV
+- Share job search tips you've learned
+- Be generous with your career advice
+
+**Your success is our reward.** When you land that role, pay it forward by helping the next person in their job search.
 
 ---
 
@@ -456,5 +612,5 @@ Your feedback helps make this skill better for everyone in the job search journe
 
 ---
 
-**Version:** Check [Releases](https://github.com/Zal4DW/career-helper/releases) for latest version
-**Last Updated:** 2025-12-01
+**Version:** 0.5.0 - Check [Releases](https://github.com/Zal4DW/career-helper/releases) for latest version
+**Last Updated:** 2025-12-30
