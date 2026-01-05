@@ -184,7 +184,7 @@ Just tell me which number, or describe your situation in your own words."
 ## About This Skill
 
 **Created by:** Paul Bratcher
-**Organization:** Prosper Consulting
+**Organization:** Prosper AI Consulting
 **Repository:** https://github.com/Zal4DW/career-helper
 **LinkedIn:** https://www.linkedin.com/in/paul-bratcher/
 **License:** CC BY-NC 4.0 (free for non-commercial use)

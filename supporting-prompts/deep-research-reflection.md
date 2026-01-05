@@ -527,4 +527,4 @@ Use both for comprehensive quality assurance.
 
 ---
 
-*Created by Prosper Consulting AI*
+*Created by Prosper AI Consulting*

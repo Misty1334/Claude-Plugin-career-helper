@@ -240,4 +240,4 @@ Before completing the report:
 
 ---
 
-*Created by Prosper Consulting AI*
+*Created by Prosper AI Consulting*

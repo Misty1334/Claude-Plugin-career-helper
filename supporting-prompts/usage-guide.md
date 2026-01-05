@@ -386,7 +386,7 @@ Regional guidance (tax, legal, IR35, employment law) is general information only
 ## About This Skill
 
 **Created by:** Paul Bratcher
-**Organization:** Prosper Consulting
+**Organization:** Prosper AI Consulting
 **GitHub:** https://github.com/Zal4DW/career-helper
 **License:** CC BY-NC 4.0 (free for non-commercial use)
 

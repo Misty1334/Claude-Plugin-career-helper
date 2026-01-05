@@ -373,5 +373,5 @@ After video script is complete:
 
 ---
 
-*Career Helper by Paul Bratcher | Prosper Consulting*
+*Career Helper by Paul Bratcher | Prosper AI Consulting*
 *Feedback: https://github.com/Zal4DW/career-helper*
