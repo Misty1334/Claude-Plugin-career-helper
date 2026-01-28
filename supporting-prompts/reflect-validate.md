@@ -37,14 +37,14 @@ Generate → Evaluate → If NEEDS_IMPROVEMENT → Refine → Re-evaluate
 
 | Check | Pass | Fail |
 |-------|------|------|
-| **UK Spelling** | organisation, colour, behaviour, optimise, analyse, centre | organization, color, behavior, optimize, analyze, center |
+| **UK Spelling** | organisation, colour, behaviour, optimise, analyse, centre | organisation, color, behavior, optimize, analyze, center |
 | **Em Dashes** | None present | — used anywhere |
 | **Override** | US role explicitly requires US English | Default should be UK |
 
 **Common UK vs US Spelling:**
 | UK (Correct) | US (Incorrect) |
 |--------------|----------------|
-| organisation | organization |
+| organisation | organisation |
 | colour | color |
 | behaviour | behavior |
 | optimise | optimize |
