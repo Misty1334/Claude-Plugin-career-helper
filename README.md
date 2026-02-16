@@ -130,6 +130,17 @@ Skills generate markdown files you can convert to other formats:
 
 ---
 
+## Contributing
+
+Found a bug, have a suggestion, or want to improve something? We welcome contributions and feedback.
+
+- **Report issues** - [Open an issue](https://github.com/Zal4DW/career-helper/issues) for bugs, feature requests, or suggestions
+- **Start a discussion** - [Join discussions](https://github.com/Zal4DW/career-helper/discussions) to share your experience or ask questions
+- **Share your success** - Landed a role using Career Helper? We'd love to hear about it
+- **Spread the word** - Tell others who might benefit from this plugin
+
+---
+
 ## License
 
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
