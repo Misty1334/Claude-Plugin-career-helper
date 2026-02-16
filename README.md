@@ -134,7 +134,7 @@ Skills generate markdown files you can convert to other formats:
 
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-See [LICENSE](LICENSE) for full terms.
+See [career-helper/LICENSE](career-helper/LICENSE) for full terms.
 
 ---
 
