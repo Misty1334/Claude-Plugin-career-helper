@@ -176,4 +176,4 @@ Or run **/career-helper:quick-start** if you want guided routing.
 
 ---
 
-*Getting Started Guide v1.1.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Getting Started Guide v1.2.0 | Career Helper Plugin | Prosper AI Consulting, UK*

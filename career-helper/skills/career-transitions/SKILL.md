@@ -94,4 +94,4 @@ When a capability specifies a template, you MUST:
 
 ---
 
-*Career Transitions v1.0.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Career Transitions v1.2.0 | Career Helper Plugin | Prosper AI Consulting, UK*

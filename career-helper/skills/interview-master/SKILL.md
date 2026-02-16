@@ -163,4 +163,4 @@ When a capability specifies a template, you MUST:
 
 ---
 
-*Interview Master v1.0.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Interview Master v1.2.0 | Career Helper Plugin | Prosper AI Consulting, UK*

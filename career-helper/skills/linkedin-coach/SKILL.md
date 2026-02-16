@@ -135,4 +135,4 @@ After optimising your LinkedIn, you might want:
 
 ---
 
-*LinkedIn Coach v1.0.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*LinkedIn Coach v1.2.0 | Career Helper Plugin | Prosper AI Consulting, UK*

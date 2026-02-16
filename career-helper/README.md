@@ -2,13 +2,25 @@
 
 End-to-end career support for job seekers at all levels. Six focused skills covering getting started guidance, LinkedIn optimisation, ATS CV rewriting, interview preparation, job search strategy, and career transitions.
 
-**Created by:** Prosper AI Consulting | [GitHub Issues](https://github.com/Zal4DW/career-helper/issues)
+Available to all Claude users, including free subscriptions.
+
+**Created by:** Prosper AI Consulting | [GitHub](https://github.com/Zal4DW/career-helper) | [Issues](https://github.com/Zal4DW/career-helper/issues)
 
 ---
 
 ## Installation
 
-### From Marketplace
+### Using Claude Co-worker (Recommended)
+
+Install directly from the Claude co-worker using the GitHub repository:
+
+```
+Zal4DW/career-helper
+```
+
+Add this as a plugin in your Claude co-worker session. Available on all Claude plans, including free subscriptions.
+
+### Using Claude Code CLI
 
 ```bash
 claude plugin marketplace add Zal4DW/career-helper
@@ -17,7 +29,7 @@ claude plugin install career-helper@career-helper
 
 ### Manual Installation
 
-Clone this repo into your Claude Code skills directory:
+Clone the repo into your Claude Code plugins directory:
 
 ```bash
 git clone https://github.com/Zal4DW/career-helper.git ~/.claude/plugins/career-helper
@@ -25,40 +37,17 @@ git clone https://github.com/Zal4DW/career-helper.git ~/.claude/plugins/career-h
 
 ---
 
-## Skills
+## Getting Started
 
-| Skill | Capabilities | Command |
-|:------|:-------------|:--------|
-| **Getting Started** | Full overview with examples, preparation checklists, workflow planning, tips, power user strategies | `/getting-started` |
-| **LinkedIn Coach** | Profile audit, headlines, content strategy, post review, video scripts | `/linkedin-coach` |
-| **Application Optimizer** | Company research, ATS CV rewriting, application strategy | `/application-optimizer` |
-| **Interview Master** | Interview prep, mock interviews, interviewer perspective, post-interview coaching | `/interview-master` |
-| **Career Navigator** | Networking intelligence, 3-month plans, salary negotiation, offer evaluation | `/career-navigator` |
-| **Career Transitions** | Portfolio/fractional careers, AI readiness assessment | `/career-transitions` |
-
-## Commands
-
-| Command | Purpose |
-|:--------|:--------|
-| `/career-helper:help` | Find the right skill for your situation |
-| `/career-helper:quick-start` | Guided entry point for new users |
-| `/career-helper:status` | Check your progress and see generated outputs |
-
-## Quick Start
-
-Not sure where to begin? Try:
+Not sure where to begin? Try one of these:
 
 ```
-/getting-started
+/getting-started                  Full overview of everything available
+/career-helper:quick-start        Guided questions to route you to the right skill
+/career-helper:help               Skill navigator - describe your situation
 ```
 
-Or for guided question-based routing:
-
-```
-/career-helper:quick-start
-```
-
-Or describe your situation:
+Or just describe what you need:
 
 ```
 "I want to apply for a Senior PM role at Google"
@@ -66,6 +55,29 @@ Or describe your situation:
 "I got an offer - should I negotiate?"
 "I want to go fractional"
 ```
+
+---
+
+## Skills
+
+| Skill | What It Does | Command |
+|:------|:-------------|:--------|
+| **Getting Started** | Full overview, preparation checklists, workflow planning, skill tips, power user strategies | `/getting-started` |
+| **Application Optimizer** | Company and role research, ATS-optimised CV rewriting, application strategy | `/application-optimizer` |
+| **LinkedIn Coach** | Profile audit, headline optimisation, content strategy, post review, video scripts | `/linkedin-coach` |
+| **Interview Master** | Interview prep, mock interviews, interviewer perspective reports, post-interview coaching | `/interview-master` |
+| **Career Navigator** | Networking intelligence, 3-month job search plans, salary negotiation, offer evaluation | `/career-navigator` |
+| **Career Transitions** | Portfolio and fractional careers, AI readiness assessment | `/career-transitions` |
+
+## Commands
+
+| Command | Purpose |
+|:--------|:--------|
+| `/career-helper:help` | Find the right skill for your situation |
+| `/career-helper:quick-start` | Guided entry point - answers questions and routes you |
+| `/career-helper:status` | Check your progress and see generated outputs |
+
+---
 
 ## Typical Workflow
 
@@ -79,15 +91,20 @@ Or describe your situation:
 7. Evaluate competing offers     /career-navigator
 ```
 
+---
+
 ## Features
 
-- **UK English** throughout (adapts to US when role requires)
+- **Works on all Claude plans** including free subscriptions
+- **UK English** throughout (adapts to US when the role requires)
 - **Region-aware** guidance for UK, US, EU, and APAC markets
 - **Research-driven** with cited sources and access dates
 - **ATS-optimised** CV output with keyword coverage analysis
-- **Career stage adaptation** from early career to late career
+- **Career stage adaptation** from graduates to late career
+- **Emotional intelligence** acknowledges the realities of job searching
 - **Template-driven** consistent, professional outputs
-- **No emojis** - professional tone throughout
+
+---
 
 ## Output Files
 
@@ -100,6 +117,7 @@ Skills generate markdown files you can convert to other formats:
 | `{role}-application-strategy.md` | Application Optimizer |
 | `{role}-linkedin-profile-review.md` | LinkedIn Coach |
 | `{role}-content-strategy.md` | LinkedIn Coach |
+| `{role}-content-calendar.md` | LinkedIn Coach |
 | `{role}-interview-prep.md` | Interview Master |
 | `{role}-interviewer-perspective.md` | Interview Master |
 | `{role}-post-interview-debrief.md` | Interview Master |
@@ -120,4 +138,4 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-*Career Helper Plugin v1.1.0 | Prosper AI Consulting, UK*
+*Career Helper Plugin v1.2.0 | Prosper AI Consulting, UK*

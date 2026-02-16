@@ -143,4 +143,4 @@ After optimising your application:
 
 ---
 
-*Application Optimizer v1.0.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Application Optimizer v1.2.0 | Career Helper Plugin | Prosper AI Consulting, UK*
