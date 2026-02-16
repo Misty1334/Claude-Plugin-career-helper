@@ -17,6 +17,9 @@ Ask these questions one at a time (use AskUserQuestion tool):
 - Negotiating or evaluating an offer
 - Want to improve my LinkedIn
 - Considering a career change (freelance, fractional, portfolio)
+- Returning to work after a career break (maternity, redundancy, illness, sabbatical)
+- Graduate, apprentice, or early career - looking for my first role
+- I'm a NED/Governor/Trustee and need AI governance support
 - Just exploring
 
 ### Question 2: Based on their answer, ask ONE follow-up
@@ -28,6 +31,9 @@ Ask these questions one at a time (use AskUserQuestion tool):
 | Negotiating/evaluating | "Have you received a written offer, or are you expecting one?" |
 | Improve LinkedIn | "What's your main goal - job search, thought leadership, or client acquisition?" |
 | Career change | "Are you thinking about going fractional/portfolio, or building AI skills?" |
+| Returning to work | "How long have you been away, and what was the reason (if you're comfortable sharing)?" |
+| Graduate/early career | "Do you have a target role in mind, or are you still exploring options?" |
+| NED/Governor/Trustee | "What do you need - challenge an AI proposal, set up governance, or understand AI risks?" |
 | Just exploring | "What's your career level - early, mid, experienced, or late career?" |
 
 ## Route to Skill
@@ -36,7 +42,7 @@ Based on their answers, recommend ONE skill and invoke it:
 
 | Situation | Skill to Invoke |
 |:----------|:----------------|
-| Has target role | /application-optimizer |
+| Has target role | /application-optimiser |
 | No target, needs plan | /career-navigator |
 | Interview coming | /interview-master |
 | Post-rejection | /interview-master |
@@ -44,6 +50,14 @@ Based on their answers, recommend ONE skill and invoke it:
 | LinkedIn improvement | /linkedin-coach |
 | Fractional/portfolio | /career-transitions |
 | AI skills | /career-transitions |
+| Career returner with target role | /application-optimiser (career returner persona) |
+| Career returner, needs plan | /career-navigator (career returner persona) |
+| Redundancy, needs immediate plan | /career-navigator (career returner persona) |
+| Graduate/apprentice with target | /application-optimiser (early career persona) |
+| Graduate/apprentice, exploring | /career-navigator (early career persona) |
+| NED AI governance | /ned-ai-helper |
+| Challenge AI proposal | /ned-ai-helper |
+| Board AI risk | /ned-ai-helper |
 | Just exploring | /getting-started (full overview) |
 | "How does this work?" | /getting-started |
 

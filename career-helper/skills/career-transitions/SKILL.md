@@ -90,7 +90,7 @@ When a capability specifies a template, you MUST:
 
 - **/linkedin-coach** - Optimise your LinkedIn for fractional/portfolio positioning
 - **/career-navigator** - Build a 3-month plan, negotiate rates
-- **/application-optimizer** - Research target companies for fractional roles
+- **/application-optimiser** - Research target companies for fractional roles
 
 ---
 

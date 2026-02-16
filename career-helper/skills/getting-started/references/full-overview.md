@@ -32,7 +32,7 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 ## The Five Skills - With Examples
 
-### Application Optimizer - Research, CV, and Strategy
+### Application Optimiser - Research, CV, and Strategy
 
 **What it does:** Deep company research, ATS-optimised CV rewriting, and application strategy planning.
 

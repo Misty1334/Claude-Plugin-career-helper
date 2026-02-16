@@ -25,6 +25,11 @@ Look for career-helper output files in the current working directory and common 
 - three-month-plan.md
 - portfolio-career-strategy.md
 - ai-readiness-plan.md
+- *-challenge-questions.md
+- *-risk-register-entry.md
+- *-governance-options.md
+- *-change-readiness-report.md
+- *-hitl-assessment.md
 - *-content-strategy.md
 - *-content-calendar.md
 - *-linkedin-profile-review.md
@@ -55,11 +60,11 @@ Suggested next steps:
 
 | What They Have | Suggest Next |
 |:---------------|:-------------|
-| Research brief only | /application-optimizer (CV optimisation) |
+| Research brief only | /application-optimiser (CV optimisation) |
 | CV optimised | /linkedin-coach (sync LinkedIn) |
 | LinkedIn + CV done | /interview-master (prepare for interviews) |
 | Interview prep done | /interview-master (mock interview) |
-| Post-interview debrief | /application-optimizer (next application) |
+| Post-interview debrief | /application-optimiser (next application) |
 | Offer received | /career-navigator (negotiation) |
 | Multiple offers | /career-navigator (offer evaluation) |
 | Nothing yet | /career-helper:quick-start |

@@ -15,7 +15,7 @@ Advanced techniques for users who have used the basic skills and want to extract
 **When to use:** You are applying to multiple roles simultaneously and want tailored materials for each.
 
 **Approach:**
-1. Run `/application-optimizer` (Company Research) for each target company separately
+1. Run `/application-optimiser` (Company Research) for each target company separately
 2. Start with one full CV optimisation as your "base" optimised CV
 3. For subsequent roles, provide both the new JD and your already-optimised CV - ask to adapt rather than rebuild from scratch
 4. Each role gets its own set of output files with the role slug prefix
@@ -55,7 +55,7 @@ The skills automatically look for existing output files, but explicitly pointing
 **When to use:** You are deciding between multiple companies or want to understand how different organisations compare before choosing where to apply.
 
 **Approach:**
-1. Run `/application-optimizer` (Company Research) for 2-3 target companies
+1. Run `/application-optimiser` (Company Research) for 2-3 target companies
 2. After generating all research briefs, ask: "Compare the research briefs for [Company A], [Company B], and [Company C] - which looks like the best fit for my background?"
 3. This works because the research briefs follow a consistent template, making comparison straightforward
 
@@ -97,8 +97,8 @@ The skills automatically look for existing output files, but explicitly pointing
 ### Internal Promotion
 
 Not just for external job searches. Adapt the tools:
-1. `/application-optimizer` (Company Research) on your own company - see it from the outside
-2. `/application-optimizer` (CV Optimisation) with the internal role description
+1. `/application-optimiser` (Company Research) on your own company - see it from the outside
+2. `/application-optimiser` (CV Optimisation) with the internal role description
 3. `/interview-master` (Interview Prep) adapted for internal interviews (different dynamics)
 
 ### Return from Career Break
@@ -106,14 +106,14 @@ Not just for external job searches. Adapt the tools:
 1. `/career-navigator` (3-Month Plan) with explicit mention of the break
 2. `/career-transitions` (AI Readiness) to demonstrate current technical awareness
 3. `/linkedin-coach` (Profile Audit) to reposition the break as intentional
-4. `/application-optimizer` (CV Optimisation) with focus on transferable skills and break narrative
+4. `/application-optimiser` (CV Optimisation) with focus on transferable skills and break narrative
 
 ### Redundancy Response
 
 1. `/career-navigator` (3-Month Plan) with urgency context
 2. `/linkedin-coach` (Profile Audit) - immediate LinkedIn update
 3. `/career-navigator` (Networking Intelligence) for target companies
-4. `/application-optimizer` for first target applications
+4. `/application-optimiser` for first target applications
 
 ### Board or Advisory Positioning
 

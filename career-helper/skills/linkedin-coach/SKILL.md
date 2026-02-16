@@ -110,6 +110,21 @@ Goal-first headline optimisation:
 
 ---
 
+## Persona Adaptation
+
+When the user's context matches a specific persona, load the relevant reference alongside standard capability references:
+
+| Persona | Load Reference | Trigger |
+|:--------|:--------------|:--------|
+| Career Returner | @references/career-returner-linkedin-guide.md | User mentions career break, returning to work, redundancy, maternity/paternity |
+| Early Career | (use career-stage-context.md Early Career section) | User is a graduate, apprentice, or school leaver |
+| NED | @references/ned-linkedin-strategy.md | User seeks board roles, NED positions, governor or trustee appointments |
+| Fractional | @references/fractional-linkedin-guide.md | User is going fractional, portfolio, or independent consulting |
+
+These references supplement (not replace) the standard capability references. Load both the persona reference and the standard one.
+
+---
+
 ## Output Standards
 
 - **UK English** throughout (unless US role explicitly requires US English)
@@ -129,10 +144,10 @@ When a capability specifies a template, you MUST:
 ## Related Skills
 
 After optimising your LinkedIn, you might want:
-- **/application-optimizer** - Optimise your CV to match your updated LinkedIn
+- **/application-optimiser** - Optimise your CV to match your updated LinkedIn
 - **/career-navigator** - Build a networking strategy and 3-month plan
 - **/interview-master** - Prepare for interviews
 
 ---
 
-*LinkedIn Coach v1.2.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*LinkedIn Coach v1.3.0 | Career Helper Plugin | Prosper AI Consulting, UK*

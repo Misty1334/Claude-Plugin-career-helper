@@ -130,6 +130,20 @@ When the user mentions age, experience level, or stage-related concerns, load ca
 
 ---
 
+## Persona Adaptation
+
+When the user's context matches a specific persona, load the relevant reference alongside standard capability references:
+
+| Persona | Load Reference | Trigger |
+|:--------|:--------------|:--------|
+| Career Returner | @references/career-returner-strategy.md | User mentions career break, returning to work, redundancy, maternity/paternity, caregiving |
+| Early Career | @references/early-career-search-strategy.md | User is a graduate, apprentice, school leaver, or searching for their first professional role |
+| NED | @references/ned-search-strategy.md | User seeks board roles, NED positions, governor or trustee appointments |
+
+These references supplement (not replace) the standard capability references. Load both the persona reference and the standard one.
+
+---
+
 ## Output Standards
 
 - **UK English** throughout (unless US role explicitly requires)
@@ -150,11 +164,11 @@ When a capability specifies a template, you MUST:
 
 ## Related Skills
 
-- **/application-optimizer** - Research companies and optimise your CV
+- **/application-optimiser** - Research companies and optimise your CV
 - **/linkedin-coach** - Optimise your LinkedIn profile and content
 - **/interview-master** - Prepare for interviews
 - **/career-transitions** - Explore portfolio/fractional career paths
 
 ---
 
-*Career Navigator v1.2.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Career Navigator v1.3.0 | Career Helper Plugin | Prosper AI Consulting, UK*

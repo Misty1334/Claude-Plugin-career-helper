@@ -1,10 +1,10 @@
 ---
-name: application-optimizer
-description: This skill should be used when the user asks to "optimise my CV", "tailor my CV for ATS", "research a company", "help me apply for a role", or "plan my application". Provides ATS-optimised CV rewriting, company and role research with parallel intelligence gathering, and application strategy planning.
+name: application-optimiser
+description: This skill should be used when the user asks to "optimise my CV", "fix my CV", "improve my CV", "tailor my CV for ATS", "research a company", "help me apply for a role", or "plan my application". Provides ATS-optimised CV rewriting, company and role research with parallel intelligence gathering, and application strategy planning.
 tags: cv, ats, resume, company, research, application, strategy
 ---
 
-# Application Optimizer
+# Application Optimiser
 
 Research companies, optimise your CV for ATS systems, and plan your application strategy.
 
@@ -108,6 +108,21 @@ Generate -> Evaluate -> If NEEDS_IMPROVEMENT -> Refine -> Re-evaluate (max 3 ite
 
 ---
 
+## Persona Adaptation
+
+When the user's context matches a specific persona, load the relevant reference alongside standard capability references:
+
+| Persona | Load Reference | Trigger |
+|:--------|:--------------|:--------|
+| Career Returner | @references/career-returner-cv-guide.md | User mentions career break, returning to work, redundancy, maternity/paternity, illness, caregiving |
+| Early Career | @references/early-career-cv-template.md | User is a graduate, apprentice, school leaver, or has limited professional experience |
+| NED | @references/ned-cv-template.md | User seeks board roles, NED positions, governor or trustee appointments |
+| Fractional | @references/fractional-cv-template.md | User is going fractional, portfolio, or independent consulting |
+
+These references supplement (not replace) the standard capability references. Load both the persona reference and the standard one.
+
+---
+
 ## Output Standards
 
 - **UK English** throughout (unless US role explicitly requires US English)
@@ -143,4 +158,4 @@ After optimising your application:
 
 ---
 
-*Application Optimizer v1.2.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Application Optimiser v1.3.0 | Career Helper Plugin | Prosper AI Consulting, UK*

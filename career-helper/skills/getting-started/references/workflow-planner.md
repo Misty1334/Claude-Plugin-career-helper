@@ -34,12 +34,12 @@ Ask using AskUserQuestion tool:
 **Best for:** User has identified a company and role they want to apply for.
 
 ```
-Step 1: /application-optimizer (Company Research)
+Step 1: /application-optimiser (Company Research)
         Input: Company name + job description
         Output: {role}-research-brief.md
         Why first: Everything else builds on understanding the company
             ↓
-Step 2: /application-optimizer (CV Optimisation)
+Step 2: /application-optimiser (CV Optimisation)
         Input: CV + job description + research brief
         Output: {role}-cv-optimized.md
         Why second: Research insights inform how you position yourself
@@ -83,7 +83,7 @@ Step 3: /interview-master (Mock Interview)
         Why third: Practice with the prep you've built
 ```
 
-**Optional add-on:** If there is time, run `/application-optimizer` (Company Research) before Step 1 to strengthen preparation.
+**Optional add-on:** If there is time, run `/application-optimiser` (Company Research) before Step 1 to strengthen preparation.
 
 ### Pattern C: Starting from Scratch
 
@@ -152,7 +152,7 @@ Step 1: /interview-master (Post-Interview Coaching)
 Step 2: Based on diagnosis:
         - Skill gap → /career-transitions (AI Readiness) or upskilling plan
         - Signal gap → /interview-master (Interview Prep) for next opportunity
-        - Fit/timing gap → /application-optimizer (Company Research) for alternative targets
+        - Fit/timing gap → /application-optimiser (Company Research) for alternative targets
 ```
 
 ### Pattern F: Offer Stage
@@ -178,11 +178,11 @@ Present the workflow as a numbered sequence with clear dependencies. Example:
 ```
 Based on your situation, here's my recommended approach:
 
-1. Company Research (/application-optimizer)
+1. Company Research (/application-optimiser)
    → Produces: research-brief.md
    → Feeds into: CV optimisation and interview prep
 
-2. CV Optimisation (/application-optimizer)
+2. CV Optimisation (/application-optimiser)
    → Needs: research brief + your CV + job description
    → Produces: cv-optimized.md
 

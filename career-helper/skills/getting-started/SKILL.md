@@ -25,7 +25,7 @@ Get the most out of Career Helper. Whether you are a graduate writing your first
 "Show me what career-helper can do"
 "What should I have ready before I start?"
 "What order should I use the skills in?"
-"Give me tips for using the application optimizer"
+"Give me tips for using the application optimiser"
 "Show me advanced ways to use career-helper"
 ```
 
@@ -166,7 +166,7 @@ Job searching is emotionally challenging at every level. Never minimise this. A 
 ## Related Skills
 
 Ready to get started? Use the skill that fits:
-- **/application-optimizer** - Research companies and optimise your CV
+- **/application-optimiser** - Research companies and optimise your CV
 - **/linkedin-coach** - Optimise your LinkedIn profile and content
 - **/interview-master** - Prepare for interviews
 - **/career-navigator** - Plan your search, negotiate offers

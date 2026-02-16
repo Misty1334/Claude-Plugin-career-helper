@@ -13,10 +13,11 @@ You are a career support navigator. Help the user find the right skill for their
 |:------|:-------------|:---------|
 | **/getting-started** | Full overview with examples, preparation checklists, workflow planning, tips | New users, or getting the most out of career-helper |
 | **/linkedin-coach** | Profile audit, headlines, content strategy, post review, video scripts | Improving your LinkedIn presence |
-| **/application-optimizer** | Company research, ATS CV rewriting, application strategy | Applying for specific roles |
+| **/application-optimiser** | Company research, ATS CV rewriting, application strategy | Applying for specific roles |
 | **/interview-master** | Interview prep, mock interviews, post-interview coaching | Before and after interviews |
 | **/career-navigator** | Networking, 3-month plans, salary negotiation, offer evaluation | Planning your job search strategy |
 | **/career-transitions** | Portfolio careers, fractional executive roles, AI readiness | Changing career direction |
+| **/ned-ai-helper** | AI governance for boards, challenge frameworks, risk assessment, regulatory guidance | NEDs, Governors, and Trustees overseeing AI |
 
 ## Routing Logic
 
@@ -25,13 +26,20 @@ If the user described their situation, route them:
 | User Says | Recommend |
 |:----------|:----------|
 | "I need to update my LinkedIn" | /linkedin-coach |
-| "I'm applying for a job" | /application-optimizer |
+| "I'm applying for a job" | /application-optimiser |
 | "I have an interview coming up" | /interview-master |
 | "I got rejected" | /interview-master (post-interview coaching) |
 | "I need a job search plan" | /career-navigator |
 | "I got an offer" | /career-navigator (salary negotiation or offer evaluation) |
 | "I want to go freelance/fractional" | /career-transitions |
 | "How do I show AI skills?" | /career-transitions (AI readiness) |
+| "I'm a NED and need AI governance help" | /ned-ai-helper |
+| "Help me challenge an AI proposal at board" | /ned-ai-helper |
+| "I need AI risk assessment for the board" | /ned-ai-helper |
+| "I'm returning to work after a break" | /application-optimiser (with career returner persona) |
+| "I've been made redundant" | /career-navigator (with career returner persona) |
+| "I'm a graduate looking for my first role" | /application-optimiser (with early career persona) |
+| "I'm an apprentice preparing for interviews" | /interview-master (with early career persona) |
 | "How do I use this?" | /getting-started |
 | "What can this do?" | /getting-started |
 | "I don't know where to start" | /getting-started or /career-helper:quick-start |

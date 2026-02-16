@@ -12,7 +12,7 @@ Practical guidance for getting the best results from each career-helper skill. F
 
 | Skill | Single Biggest Tip |
 |:------|:-------------------|
-| Application Optimizer | Provide the FULL job description text, not a link or summary |
+| Application Optimiser | Provide the FULL job description text, not a link or summary |
 | LinkedIn Coach | Share your LinkedIn URL, not a description of your profile |
 | Interview Master | Specify the interview stage and format - prep differs dramatically |
 | Career Navigator | Be honest about constraints (budget, location, timeline) for realistic plans |
@@ -20,7 +20,7 @@ Practical guidance for getting the best results from each career-helper skill. F
 
 ---
 
-## Application Optimizer Tips
+## Application Optimiser Tips
 
 ### Input Quality
 

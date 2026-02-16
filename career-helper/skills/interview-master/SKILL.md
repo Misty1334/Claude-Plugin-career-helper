@@ -138,6 +138,21 @@ This skill adapts advice based on your career stage:
 
 ---
 
+## Persona Adaptation
+
+When the user's context matches a specific persona, load the relevant reference alongside standard capability references:
+
+| Persona | Load Reference | Trigger |
+|:--------|:--------------|:--------|
+| Career Returner | @references/career-returner-interview-prep.md | User mentions career break, returning to work, redundancy, maternity/paternity |
+| Early Career | @references/early-career-interview-prep.md | User is a graduate, apprentice, school leaver, or attending first professional interviews |
+| NED | @references/ned-interview-prep.md | User is preparing for a board interview or nomination committee meeting |
+| Fractional | @references/fractional-discovery-prep.md | User is preparing for a client discovery call or fractional engagement pitch |
+
+These references supplement (not replace) the standard capability references. Load both the persona reference and the standard one.
+
+---
+
 ## Output Standards
 
 - **UK English** throughout (unless US role explicitly requires)
@@ -157,10 +172,10 @@ When a capability specifies a template, you MUST:
 
 ## Related Skills
 
-- **/application-optimizer** - Research the company and optimise your CV first
+- **/application-optimiser** - Research the company and optimise your CV first
 - **/linkedin-coach** - Update your LinkedIn after interview learnings
 - **/career-navigator** - Negotiate offers, evaluate multiple options
 
 ---
 
-*Interview Master v1.2.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Interview Master v1.3.0 | Career Helper Plugin | Prosper AI Consulting, UK*
