@@ -10,15 +10,15 @@ Available to all Claude users, including free subscriptions.
 
 ## Installation
 
-### Using Claude Co-worker (Recommended)
+### From the Claude Desktop App (Recommended)
 
-Install directly from the Claude co-worker using the GitHub repository:
+1. Click the **+** button next to the chat input
+2. Select **Add plugins...**
+3. In the Browse plugins dialog, open the filter dropdown and choose **Add marketplace from GitHub**
+4. Enter `Zal4DW/career-helper` and click **Sync**
+5. Click **Install** on the Career Helper plugin
 
-```
-Zal4DW/career-helper
-```
-
-Add this as a plugin in your Claude co-worker session. Available on all Claude plans, including free subscriptions.
+That's it - the skills and commands are ready to use immediately. Available on all Claude plans, including free subscriptions.
 
 ### Using Claude Code CLI
 
