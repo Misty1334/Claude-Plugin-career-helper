@@ -30,7 +30,7 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 **Important:** Never minimise the emotional challenge. A graduate terrified of their first interview deserves the same quality of support as a VP negotiating a package. Redundancy at 55 is a different experience from redundancy at 30. Let the user's situation shape how you present the tools.
 
-## The Nine Skills - With Examples
+## The Ten Skills - With Examples
 
 ### Application Optimiser - Research, CV, and Strategy
 
@@ -309,6 +309,40 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 ---
 
+### AI Impact Assessment - Is Your Role at Risk?
+
+**What it does:** Researches whether AI will materially disrupt your current or target role in the next 12 months, then delivers a frank assessment with a 6-month mitigation plan.
+
+**Real example - checking your current role:**
+
+> **You say:** "Will AI affect my job? I'm a mid-level financial analyst at a FTSE 250 company. Most of my day is spent on financial modelling, variance analysis, and writing monthly reports for the board."
+>
+> **What happens:**
+> 1. Career-helper silently researches AI's impact on financial analyst roles using current data
+> 2. Analyses each of your specific tasks against what AI can do today and what is coming
+> 3. Delivers a direct verdict: which parts of your role are at risk, which are resilient, and when
+> 4. Builds a personalised 6-month action plan with monthly milestones
+>
+> **You get:** `financial-analyst-ai-impact-assessment.md`
+
+**Real example - checking a role you are applying for:**
+
+> **You say:** "I'm applying for a Junior Content Writer role at a digital agency. Is this a good career move given AI?"
+>
+> **What happens:**
+> 1. Researches AI's current and near-term impact on content writing roles
+> 2. Assesses which content writing tasks are being automated and which require human judgment
+> 3. Gives you an honest assessment of the role's 12-month outlook
+> 4. Provides a 6-month plan to position yourself as an AI-augmented writer rather than one AI replaces
+
+**When to use it:**
+- You want an honest assessment of whether AI threatens your current role
+- You are considering applying for a role and want to check its future
+- You have heard that AI is changing your industry and want specifics, not headlines
+- You want a practical plan to stay ahead of AI disruption in your field
+
+---
+
 ## Commands
 
 In addition to skills, career-helper has three commands:
@@ -318,6 +352,10 @@ In addition to skills, career-helper has three commands:
 | `/career-helper:help` | Shows all skills and routes you to the right one | You know you need help but are not sure which skill |
 | `/career-helper:quick-start` | Asks guided questions to find your starting point | You are brand new and want to be guided |
 | `/career-helper:status` | Shows all outputs you have generated and suggests next steps | You have used skills before and want to see progress |
+
+## Getting the Best Guide
+
+There is also a comprehensive "Getting the Best from Career Helper" guide available. It covers installation, folder setup, and walks through three common scenarios: graduates starting out, experienced professionals between roles, and employed professionals wanting better positioning. Ask for the guide using `/getting-started` and selecting "Getting the best guide", or just say "give me the getting the best guide". A PDF version is available to save and share.
 
 ## Workspace Tip
 
