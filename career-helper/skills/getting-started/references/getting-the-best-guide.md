@@ -20,7 +20,7 @@ The source repository is at [github.com/Zal4DW/career-helper](https://github.com
 
 ## What You Get
 
-Career Helper is not a single tool. It is a set of seven skills, each designed for a different part of the career journey. You do not need to use them all, and you do not need to use them in order. Pick the ones that fit your situation. Here is the quick summary; the rest of this guide shows you exactly how to put them together.
+Career Helper is not a single tool. It is a set of ten skills, each designed for a different part of the career journey. You do not need to use them all, and you do not need to use them in order. Pick the ones that fit your situation. Here is the quick summary; the rest of this guide shows you exactly how to put them together.
 
 | Skill | What It Does |
 |:----|:----|
@@ -31,6 +31,9 @@ Career Helper is not a single tool. It is a set of seven skills, each designed f
 | `/interview-master` | Interview prep, mock interviews, and post-rejection coaching |
 | `/career-navigator` | Networking intelligence, 3-month plans, salary negotiation, and offer evaluation |
 | `/career-transitions` | Fractional/portfolio careers and AI readiness assessment |
+| `/ai-impact-assessment` | Honest assessment of AI disruption risk for your role, with a 6-month mitigation plan |
+| `/ned-ai-helper` | AI governance for Non-Executive Directors, Governors, and Trustees |
+| `/getting-started` | Full overview, preparation checklists, workflow planning, and this guide |
 
 Now, before you run any of them, there is one thing to do.
 
