@@ -19,6 +19,7 @@ Ask using AskUserQuestion tool:
 - Just starting a job search
 - Want to check my digital footprint
 - Considering a career change
+- Exploring alternatives to traditional employment (starting a business, public sector, charity, etc.)
 - Want to improve my professional presence
 
 **Question 2 (based on answer):**
@@ -26,6 +27,7 @@ Ask using AskUserQuestion tool:
 - Interview → "When is the interview, and what stage is it?"
 - Starting search → "Are you currently employed or between roles?"
 - Career change → "What kind of change - new industry, freelance/fractional, or upskilling?"
+- Alternatives to employment → "What are you most drawn to: starting your own business, public sector, charity/social enterprise, or are you not sure yet?"
 - Professional presence → "Is this for job search, thought leadership, or client acquisition?"
 
 ## Workflow Patterns
@@ -124,9 +126,9 @@ Step 4: /career-navigator (Networking Intelligence)
 
 **When a target role emerges:** Switch to Pattern A.
 
-### Pattern D: Career Transition
+### Pattern D: Career Transition (Fractional/Portfolio)
 
-**Best for:** User considering fractional, portfolio, freelance, or industry change.
+**Best for:** User considering fractional, portfolio, or freelance career models.
 
 ```
 Step 1: /career-transitions (Portfolio/Fractional Careers)
@@ -149,6 +151,37 @@ Step 4: /career-navigator (3-Month Plan)
         Output: three-month-plan.md
         Why fourth: Structured plan for the transition
 ```
+
+### Pattern D2: Non-Linear Career Exploration
+
+**Best for:** User questioning the traditional career ladder. Considering entrepreneurship, startup founding, public sector, charity, intrapreneurship, or multi-role career models. Not sure which direction is right.
+
+```text
+Step 1: /career-transitions (Non-Linear Career Explorer)
+        Input: Current situation, motivations, financial readiness, skills, risk tolerance
+        Output: non-linear-career-exploration.md
+        Why first: Structured exploration before committing to a direction
+            ↓
+Step 2: Based on chosen direction:
+        - Entrepreneurship/Startup → /career-transitions (Portfolio/Fractional) for financial modelling
+        - Public sector → /application-optimiser (CV for Success Profiles framework)
+        - Charity/Non-profit → /application-optimiser (CV for sector) + /linkedin-coach (repositioning)
+        - Intrapreneurship → /linkedin-coach (internal visibility) + stay in current role
+        - Multi-role/Skill stacking → /career-navigator (3-Month Plan with non-linear goals)
+        - Still deciding → /career-navigator (3-Month exploration plan)
+            ↓
+Step 3: /linkedin-coach (Profile Audit)
+        Input: LinkedIn URL + new career direction
+        Output: linkedin-profile-review.md
+        Why: Reposition LinkedIn for chosen direction
+            ↓
+Step 4: /career-navigator (3-Month Plan)
+        Input: Chosen path + career goals + transition timeline
+        Output: three-month-plan.md
+        Why: Structured action plan for the transition
+```
+
+**Key insight:** Non-linear career exploration should come before committing to a specific path. The exploration output identifies the best-fit option based on evidence, not just intuition.
 
 ### Pattern E: Post-Rejection Recovery
 

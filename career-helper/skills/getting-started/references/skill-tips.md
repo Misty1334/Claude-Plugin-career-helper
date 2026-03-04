@@ -16,7 +16,8 @@ Practical guidance for getting the best results from each career-helper skill. F
 | LinkedIn Coach | Share your LinkedIn URL, not a description of your profile |
 | Interview Master | Specify the interview stage and format - prep differs dramatically |
 | Career Navigator | Be honest about constraints (budget, location, timeline) for realistic plans |
-| Career Transitions | Know your minimum income requirement before starting |
+| Career Transitions (Portfolio/Fractional) | Know your minimum income requirement before starting |
+| Career Transitions (Non-Linear Explorer) | Be honest about whether you are running from something or towards something; the strategy depends on it |
 | Employer Footprint | Share ALL your social handles - the more platforms you provide, the more comprehensive the audit |
 
 ---
@@ -157,20 +158,28 @@ Company Research → Interview Preparation → Mock Interview
 
 - **For portfolio/fractional:** Know your minimum income requirement and current financial runway. The strategy depends heavily on how quickly you need to replace income.
 - **For AI readiness:** Be specific about your current AI experience level. "I've used ChatGPT" is different from "I've integrated LLMs into production applications".
+- **For non-linear career exploration:** Be honest about your motivations. Are you running away from something (push) or towards something (pull)? The distinction matters. Share your financial situation openly; the assessment depends on it. Think about your risk tolerance honestly, not aspirationally.
 
 ### Common Mistakes
 
 - **Rushing into fractional without financial planning.** The skill includes readiness assessment for a reason. Engage with it honestly.
 - **Treating AI readiness as a checkbox.** The skill creates a tiered upskilling roadmap (immediate, foundation, differentiation). Follow the sequence rather than jumping to advanced topics.
+- **Romanticising entrepreneurship.** Starting a business is genuinely hard. The skill will give you honest data on failure rates, financial requirements, and personal costs. Engage with the cons as seriously as the pros.
+- **Dismissing non-linear paths as "not serious."** Public sector, charity, intrapreneurship, and multi-role careers are legitimate, well-evidenced career strategies. The skill provides the same rigour for these as for traditional paths.
+- **Exploring without deciding.** The exploration is valuable, but set a timeline for making a decision. Perpetual exploration is itself a form of avoidance.
 
 ### Iteration Strategy
 
 - Portfolio career: Revisit after 3-6 months to adjust based on what clients and streams have worked
 - AI readiness: Return after completing the immediate tier to plan the next phase
+- Non-linear exploration: If you chose a path, use the action plan to guide your first 3 months. Return to reassess if the path is not working
 
 ### What Feeds Into What
 
-```
+```text
+Non-Linear Career Explorer → Portfolio/Fractional Strategy (if chosen)
+Non-Linear Career Explorer → 3-Month Plan (transition plan)
+Non-Linear Career Explorer → LinkedIn Repositioning → Application Optimiser
 Portfolio/Fractional Strategy → LinkedIn Repositioning → 3-Month Plan
 AI Readiness Assessment → CV Updates → Interview Prep (for AI questions)
 ```

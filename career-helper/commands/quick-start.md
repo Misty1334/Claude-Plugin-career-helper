@@ -19,6 +19,7 @@ Ask these questions one at a time (use AskUserQuestion tool):
 - Want to check my digital footprint before applying
 - Want a quick social media check (graduates / early career)
 - Considering a career change (freelance, fractional, portfolio)
+- Exploring alternatives to traditional employment (starting a business, public sector, charity, startup)
 - Returning to work after a career break (maternity, redundancy, illness, sabbatical)
 - Dealing with age discrimination or feeling my age is held against me
 - Worried about whether AI will affect my role or the roles I'm targeting
@@ -37,6 +38,7 @@ Ask these questions one at a time (use AskUserQuestion tool):
 | Check digital footprint | "Are you targeting a specific company, or do you want a general audit of your online presence?" |
 | Quick social media check | "Which platforms do you use most - Instagram, Twitter/X, TikTok, Facebook?" |
 | Career change | "Are you thinking about going fractional/portfolio, or building AI skills?" |
+| Alternatives to employment | "What are you most drawn to: starting your own business, founding a startup, public sector, charity/social enterprise, or are you not sure yet?" |
 | Returning to work | "How long have you been away, and what was the reason (if you're comfortable sharing)?" |
 | Age discrimination | "Are you dealing with a specific rejection you think was age-related, or is this a pattern you're seeing across your job search?" |
 | Graduate/early career | "Do you have a target role in mind, or are you still exploring options?" |
@@ -62,6 +64,11 @@ Based on their answers, recommend ONE skill and invoke it:
 | Graduate wanting to clean up socials | /social-media-review |
 | Fractional/portfolio | /career-transitions |
 | AI skills | /career-transitions |
+| Starting a business | /career-transitions (Non-Linear Career Explorer) |
+| Founding a startup | /career-transitions (Non-Linear Career Explorer) |
+| Public sector | /career-transitions (Non-Linear Career Explorer) |
+| Charity/social enterprise | /career-transitions (Non-Linear Career Explorer) |
+| Not sure, exploring alternatives | /career-transitions (Non-Linear Career Explorer) |
 | Career returner with target role | /application-optimiser (career returner persona) |
 | Career returner, needs plan | /career-navigator (career returner persona) |
 | Redundancy, needs immediate plan | /career-navigator (career returner persona) |

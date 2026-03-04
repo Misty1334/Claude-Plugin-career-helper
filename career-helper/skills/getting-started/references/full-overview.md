@@ -286,9 +286,9 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 ---
 
-### Career Transitions - Fractional, Portfolio, and AI Skills
+### Career Transitions - Fractional, Portfolio, AI Skills, and Non-Linear Careers
 
-**What it does:** Portfolio and fractional career strategy with regional tax/legal guidance, plus AI readiness assessment.
+**What it does:** Portfolio and fractional career strategy with regional tax/legal guidance, AI readiness assessment, and non-linear career exploration covering entrepreneurship, startup founding, public sector, charity, intrapreneurship, and multi-role skilling.
 
 **Real example - going fractional:**
 
@@ -303,9 +303,25 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 >
 > **You get:** `portfolio-career-strategy.md`
 
+**Real example - exploring non-linear career options:**
+
+> **You say:** "I'm burnt out on the corporate ladder. I've been thinking about starting my own thing, or maybe moving into the charity sector. What are my options?"
+>
+> **What happens:**
+> 1. Assesses your motivation, financial readiness, and transferable skills
+> 2. Explores 2-3 non-linear paths tailored to your situation (e.g., entrepreneurship, public sector, social enterprise)
+> 3. Provides honest pros and cons for each path, including financial trade-offs and success rates
+> 4. Builds a decision matrix and reversibility assessment
+> 5. Creates a career narrative and practical next steps
+>
+> **You get:** `non-linear-career-exploration.md`
+
 **When to use it:**
 - You are considering freelance, fractional, or portfolio career paths
 - You want to assess and improve your AI skills for the job market
+- You are thinking about starting a business, founding a startup, or going entrepreneurial
+- You want to explore public sector, charity, or non-profit careers
+- You want to explore non-linear career alternatives to climbing the corporate ladder
 
 ---
 

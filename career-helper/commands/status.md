@@ -25,6 +25,7 @@ Look for career-helper output files in the current working directory and common 
 - three-month-plan.md
 - portfolio-career-strategy.md
 - ai-readiness-plan.md
+- non-linear-career-exploration.md
 - *-challenge-questions.md
 - *-risk-register-entry.md
 - *-governance-options.md
@@ -75,4 +76,5 @@ Suggested next steps:
 | Multiple offers | /career-navigator (offer evaluation) |
 | Footprint dashboard done | /linkedin-coach (fix issues) or /interview-master (prep for footprint questions) |
 | Social media review done | /linkedin-coach (fix LinkedIn) or /employer-footprint (full audit) |
+| Non-linear career exploration done | /career-navigator (3-month plan for chosen path) or /application-optimiser (if pivoting to new sector) |
 | Nothing yet | /career-helper:quick-start |

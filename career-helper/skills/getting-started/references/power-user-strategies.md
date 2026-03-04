@@ -122,6 +122,26 @@ Not just for external job searches. Adapt the tools:
 3. `/linkedin-coach` (Content Strategy) focused on thought leadership
 4. `/career-navigator` (Networking Intelligence) targeting board networks
 
+### Non-Linear Career Pivot
+
+Not sure if another employed role is right? Explore alternatives systematically:
+1. `/career-transitions` (Non-Linear Career Explorer) to assess motivations, finances, and options
+2. Based on outcome:
+   - Entrepreneurship → `/career-transitions` (Portfolio/Fractional) for financial modelling
+   - Public sector → `/application-optimiser` for Success Profiles CV
+   - Charity → `/application-optimiser` for sector-specific CV + `/linkedin-coach` for repositioning
+   - Intrapreneurship → `/linkedin-coach` for internal visibility
+3. `/career-navigator` (3-Month Plan) with non-linear goals
+4. `/ai-impact-assessment` to check future resilience of chosen direction
+
+### Entrepreneurship Validation
+
+Testing a business idea alongside your job search:
+1. `/career-transitions` (Non-Linear Career Explorer) for honest business readiness assessment
+2. `/linkedin-coach` (Content Strategy) to build thought leadership in your domain
+3. `/career-navigator` (3-Month Plan) combining job search with business validation activities
+4. Keep your options open: pursue both paths until one clearly wins
+
 ---
 
 ## Strategy 7: Footprint-First Approach
@@ -163,4 +183,4 @@ Not just for external job searches. Adapt the tools:
 
 ## Presenting These Strategies
 
-When sharing with the user, pick the 2-3 most relevant strategies for their situation rather than listing all eight. Ask what they are working on and recommend accordingly.
+When sharing with the user, pick the 2-3 most relevant strategies for their situation rather than listing all of them. Ask what they are working on and recommend accordingly.

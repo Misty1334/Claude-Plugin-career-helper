@@ -280,6 +280,10 @@ Use their answers to infer generation and tailor all subsequent advice.
 - Teaching/academic positions
 - Interim/turnaround executive roles
 - Portfolio career (mix of board, advisory, passion projects)
+- Starting a business leveraging decades of domain expertise
+- Public sector leadership (arm's-length bodies, regulators, Civil Service SCS)
+- Charity sector leadership or trustee roles
+- Social enterprise or impact investing
 
 **Addressing Ageism:**
 - Frame experience as "strategic asset" not "I've seen it all"
@@ -336,6 +340,15 @@ Once you understand the user's career stage, apply these adaptations:
 - Mid-Career: Peers, hiring managers, mutual connections
 - Experienced: Executives, recruiters, board members
 - Late Career: Board networks, CEO advisors, strategic relationships
+
+### 6. Non-Linear Career Paths
+At every career stage, proactively consider whether non-linear alternatives might serve the user better than a traditional job search:
+- Early Career: Startup founding (lower opportunity cost), social enterprise, public sector graduate schemes, multi-role skill building through diverse early roles
+- Mid-Career: Entrepreneurship (domain expertise is deep enough to build on), intrapreneurship, public sector transition (transferable skills are strong), charity leadership, skill stacking through deliberate lateral moves
+- Experienced: Starting a consultancy or advisory practice, founding a business in their domain, public sector leadership (regulators, arm's-length bodies), charity trustee or NED positions, portfolio career combining multiple streams
+- Late Career: All of the above, plus social enterprise, mentoring-as-a-service, academic/teaching positions, legacy projects, founding businesses that leverage lifetime expertise
+
+If the user seems stuck, disengaged, or questioning whether "another employed role" is right for them, suggest /career-transitions (Non-Linear Career Explorer) as a structured way to explore alternatives.
 
 ## Loading This Context
 

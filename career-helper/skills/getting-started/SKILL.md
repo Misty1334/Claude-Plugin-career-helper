@@ -59,7 +59,7 @@ A comprehensive guide covering installation, folder setup, and three scenario-ba
 Walk the user through everything career-helper can do, with concrete real-world examples showing exactly when and how to use each skill. This is the "show me everything" capability.
 
 **Core approach:**
-- Present all 9 skills and their capabilities with plain-language explanations
+- Present all 10 skills and their capabilities with plain-language explanations
 - For each skill, include a real-world scenario showing exactly what to say and what you get back
 - Show the complete plugin ecosystem: skills, commands, output files, and how they connect
 - End with "What's your situation? I'll tell you exactly where to start"
@@ -198,10 +198,10 @@ Ready to get started? Use the skill that fits:
 - **/linkedin-coach** - Optimise your LinkedIn profile and content
 - **/interview-master** - Prepare for interviews
 - **/career-navigator** - Plan your search, negotiate offers
-- **/career-transitions** - Explore portfolio/fractional career paths
+- **/career-transitions** - Explore portfolio/fractional career paths, entrepreneurship, public sector, charity, and non-linear alternatives
 
 Or run **/career-helper:quick-start** if you want guided routing.
 
 ---
 
-*Getting Started Guide v1.6.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Getting Started Guide v1.7.0 | Career Helper Plugin | Prosper AI Consulting, UK*

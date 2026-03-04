@@ -86,6 +86,20 @@ Help the user gather the right materials before they start using career-helper s
 | Target region | **Essential** | Tax and legal structures vary dramatically |
 | Risk tolerance | Nice to Have | Affects transition speed recommendations |
 
+### Non-Linear Career Exploration (Entrepreneurship, Public Sector, Charity, etc.)
+
+| Item | Essential? | Why |
+|:-----|:-----------|:----|
+| Current role and background | **Essential** | Transferable skills assessment builds from this |
+| Why you want to explore alternatives | **Essential** | Pull vs push motivation determines strategy quality |
+| Financial situation (savings, obligations, partner income) | **Essential** | Every non-linear path has financial implications; honest assessment prevents bad decisions |
+| Risk tolerance (honest, not aspirational) | **Essential** | Entrepreneurship vs public sector have very different risk profiles |
+| Target region | **Essential** | Legal structures, funding, and opportunities vary by region |
+| Current CV | Nice to Have | Helps identify transferable skills quickly |
+| Specific ideas or interests (if any) | Nice to Have | Narrows the exploration to relevant paths |
+
+**What happens without financial information:** The assessment becomes generic and potentially dangerous. Recommending entrepreneurship to someone with 2 months of savings and a mortgage is irresponsible.
+
 ## Presentation Format
 
 Present the checklist as a clean, copy-paste-ready list in conversation. Example:

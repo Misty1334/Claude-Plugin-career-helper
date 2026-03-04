@@ -1,6 +1,6 @@
 # Career Helper - Claude Code Plugin
 
-End-to-end career support for job seekers at all levels, plus AI governance guidance for Non-Executive Directors and Board Governors. Nine focused skills covering getting started guidance, employer footprint analysis, social media review, LinkedIn optimisation, ATS CV rewriting, interview preparation, job search strategy, career transitions, and board-level AI oversight.
+End-to-end career support for job seekers at all levels, plus AI governance guidance for Non-Executive Directors and Board Governors. Ten focused skills covering getting started guidance, AI impact assessment, employer footprint analysis, social media review, LinkedIn optimisation, ATS CV rewriting, interview preparation, job search strategy, career transitions (including non-linear career exploration: entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling), and board-level AI oversight.
 
 Available to all Claude users, including free subscriptions.
 
@@ -54,6 +54,8 @@ Or just describe what you need:
 "Help me prepare for an interview next Tuesday"
 "I got an offer - should I negotiate?"
 "I want to go fractional"
+"I'm thinking about starting my own business"
+"What are my options besides climbing the corporate ladder?"
 "Check my digital footprint before I apply"
 "Review my social media - I'm a graduate about to start applying"
 ```
@@ -71,7 +73,8 @@ Or just describe what you need:
 | **LinkedIn Coach** | Profile audit, headline optimisation, content strategy, post review, video scripts | `/linkedin-coach` |
 | **Interview Master** | Interview prep, mock interviews, interviewer perspective reports, post-interview coaching, ageism support (UK law, practical strategies, emotional resilience) | `/interview-master` |
 | **Career Navigator** | Networking intelligence, 3-month job search plans, salary negotiation, offer evaluation | `/career-navigator` |
-| **Career Transitions** | Portfolio and fractional careers, AI readiness assessment | `/career-transitions` |
+| **Career Transitions** | Portfolio and fractional careers, AI readiness assessment, non-linear career exploration (entrepreneurship, startups, public sector, charity, intrapreneurship, multi-role skilling) | `/career-transitions` |
+| **AI Impact Assessment** | Researches whether AI will materially disrupt your role in the next 12 months, with a 6-month mitigation plan | `/ai-impact-assessment` |
 | **NED AI Helper** | AI governance for Non-Executive Directors, Board Governors, and Charity Trustees. Challenge frameworks, risk assessment, governance structures, regulatory guidance | `/ned-ai-helper` |
 
 ## Commands
@@ -111,6 +114,7 @@ Or just describe what you need:
 - **Ageism support** UK law, practical strategies, and emotional resilience for age-related rejection
 - **Template-driven** consistent, professional outputs
 - **Digital footprint audit** credit-report style employer impression dashboard
+- **Non-linear career exploration** entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling with honest pros/cons and decision frameworks
 
 ---
 
@@ -135,6 +139,8 @@ Skills generate markdown files you can convert to other formats:
 | `offer-evaluation.md` | Career Navigator |
 | `portfolio-career-strategy.md` | Career Transitions |
 | `ai-readiness-plan.md` | Career Transitions |
+| `non-linear-career-exploration.md` | Career Transitions |
+| `{role}-ai-impact-assessment.md` | AI Impact Assessment |
 | `{topic}-challenge-questions.md` | NED AI Helper |
 | `{topic}-risk-register-entry.md` | NED AI Helper |
 | `{topic}-governance-options.md` | NED AI Helper |
@@ -185,4 +191,4 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-*Career Helper Plugin v1.5.1 | Prosper AI Consulting, UK*
+*Career Helper Plugin v1.7.0 | Prosper AI Consulting, UK*

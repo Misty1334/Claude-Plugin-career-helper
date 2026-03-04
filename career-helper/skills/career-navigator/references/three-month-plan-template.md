@@ -711,6 +711,10 @@ Consider keeping a simple "wins list" - it's surprisingly helpful on difficult d
 - Skills development or retraining
 - Broader geographic or sector search
 - Portfolio career approach
+- Starting your own business or consultancy (use /career-transitions for structured assessment)
+- Public sector or charity sector transition
+- Intrapreneurship within current or new organisation
+- Multi-role career combining employment with consulting, board roles, or teaching
 
 ### If Financial Pressure Increases
 

@@ -6,6 +6,68 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 ---
 
+## [1.7.0] - 2026-03-03
+
+### Added
+- **Non-Linear Career Explorer** - New capability (Capability 3) in Career Transitions skill
+  - Comprehensive exploration of alternatives to traditional career progression
+  - **Entrepreneurship:** Business readiness assessment, honest pros/cons, legal structures by region (UK/US), funding sources, financial modelling, failure rate data
+  - **Startup founding:** VC vs bootstrapping comparison, funding paths (pre-seed to Series B+), co-founder dynamics, accelerator guidance, realistic success/failure rates (90% failure rate cited), equity and dilution considerations
+  - **Public sector careers:** Private-to-public transition guide, Success Profiles framework, Civil Service values, salary/benefits comparison, transferable skills mapping, application tips
+  - **Charity and non-profit:** Career paths (management, fundraising, programme delivery, policy, social enterprise, impact investing, grant making), "passion tax" reality, sector resources
+  - **Intrapreneurship:** Organisational readiness assessment, internal venture pitching framework, pros/cons vs external entrepreneurship
+  - **Multi-role skilling:** Skill stacking strategy, unique intersection identification, deliberate career episode design, hybrid career models
+  - Financial readiness assessment with regional guidance
+  - Transferable skills audit with meta-skills identification
+  - Weighted decision matrix with reversibility assessment
+  - Career narrative development (30-second, 2-minute, LinkedIn, and interview versions)
+  - Research-driven with WebSearch for current data on success rates, salary benchmarks, and sector insights
+- New reference: `non-linear-careers.md` - Comprehensive prompt reference covering all non-linear paths with assessment frameworks
+- New reference: `non-linear-careers-template.md` - Structured output template for exploration results
+- New reference: `alternative-career-paths-research.md` - Compiled research data on non-linear career paths, entrepreneurship, startups, public sector, charity, portfolio careers, career pivots, and intrapreneurship
+- Non-linear career stage guidance in career-stage-context.md (Early Career through Late Career)
+- Non-linear goal examples in three-month-plan.md (business validation, Civil Service applications, charity trustee positions, consulting launch, intrapreneurship, skill stacking)
+- Non-linear Plan B options in three-month-plan-template.md
+- New workflow pattern (Pattern D2: Non-Linear Career Exploration) in workflow-planner.md
+- New power user scenarios: Non-Linear Career Pivot and Entrepreneurship Validation in power-user-strategies.md
+- Non-Linear Career Exploration preparation checklist in preparation-checklist.md
+- 8 new routing entries in help command for non-linear career queries
+- 5 new routing entries in quick-start command for non-linear alternatives
+- Non-linear career exploration output tracking in status command
+- Career Transitions examples (non-linear exploration, public sector transition) in full-overview.md
+
+### Changed
+- Career Transitions skill expanded from 2 to 3 capabilities
+- Career Transitions description updated with non-linear career triggers and tags (entrepreneurship, startup, founder, business, public-sector, charity, non-profit, non-linear, intrapreneurship, career-pivot)
+- Career Transitions quick-start examples expanded with 8 new example prompts
+- Career Navigator three-month-plan.md updated with guidance to consider non-linear options and proactively suggest /career-transitions when users seem stuck or questioning traditional employment
+- Skill tips updated with Non-Linear Career Explorer tips, common mistakes, and iteration strategy
+- Plugin version bumped to 1.7.0
+- Updated all commands (help, quick-start, status) with non-linear career routing
+- Updated all getting-started references (full-overview, skill-tips, workflow-planner, power-user-strategies, preparation-checklist, SKILL.md)
+- README updated with non-linear career features, output files, and examples
+- Marketplace description updated with non-linear career exploration
+
+---
+
+## [1.6.0] - 2026-03-03
+
+### Added
+- **New skill: `/ai-impact-assessment`** - AI impact analysis for career planning
+  - Phase 1 research reference for understanding AI disruption across industries
+  - Phase 2 assessment and action plan reference for personalised AI readiness
+  - Output template for structured AI impact reports
+- **New reference: "Getting the Best from Career Helper"** guide in getting-started skill
+  - Comprehensive guide to maximising value from all 10 skills
+  - Tips, workflows, and strategies for effective use
+- AI Impact Assessment integrated into help, quick-start, overview, and plugin manifest routing
+
+### Changed
+- Plugin version bumped to 1.6.0 (10 skills)
+- Updated all getting-started references with AI Impact Assessment integration
+
+---
+
 ## [1.5.1] - 2026-02-28
 
 ### Added
