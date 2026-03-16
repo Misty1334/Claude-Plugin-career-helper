@@ -1,6 +1,6 @@
 ---
 name: tim
-description: Use when the user wants guided career coaching, doesn't know which skill to use, wants help navigating the plugin, says "help me with my career", "coach me", "guide me through this", "what should I do next", "I don't know where to start", or uses /career-helper:career-coach. Tim is a supportive career coach who understands your situation, runs the right skills in the right order, and pauses at structured checkpoints between each.
+description: This skill should be used when the user wants guided career coaching, doesn't know which skill to use, wants help navigating the plugin, says "help me with my career", "coach me", "guide me through this", "what should I do next", "I don't know where to start", or uses /career-helper:career-coach. Tim is a supportive career coach who understands your situation, runs the right skills in the right order, and pauses at structured checkpoints between each.
 tags: coach, guide, orchestrator, career, help, navigate, accessibility, dyslexia
 ---
 
