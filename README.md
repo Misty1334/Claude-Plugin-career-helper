@@ -1,6 +1,6 @@
 # Career Helper - Claude Code Plugin
 
-End-to-end career support for job seekers at all levels, plus AI governance guidance for Non-Executive Directors and Board Governors. Ten focused skills covering getting started guidance, AI impact assessment, employer footprint analysis, social media review, LinkedIn optimisation, ATS CV rewriting, interview preparation, job search strategy, career transitions (including non-linear career exploration: entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling), and board-level AI oversight.
+End-to-end career support with guided coaching for job seekers at all levels, plus AI governance guidance for Non-Executive Directors and Board Governors. Eleven skills including Tim (your personal career coach who guides you through the right skills in the right order), getting started guidance, AI impact assessment, employer footprint analysis, social media review, LinkedIn optimisation, ATS CV rewriting, interview preparation, job search strategy, career transitions (including non-linear career exploration: entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling), and board-level AI oversight.
 
 Available to all Claude users, including free subscriptions.
 
@@ -42,9 +42,10 @@ git clone https://github.com/Zal4DW/career-helper.git ~/.claude/plugins/career-h
 Not sure where to begin? Try one of these:
 
 ```
-/getting-started                  Full overview of everything available
-/career-helper:quick-start        Guided questions to route you to the right skill
-/career-helper:help               Skill navigator - describe your situation
+/career-helper:career-coach        Guided coaching with Tim - recommended for new users
+/getting-started                   Full overview of everything available
+/career-helper:quick-start         Guided questions to route you to the right skill
+/career-helper:help                Skill navigator - describe your situation
 ```
 
 Or just describe what you need:
@@ -76,6 +77,7 @@ Or just describe what you need:
 | **Career Transitions** | Portfolio and fractional careers, AI readiness assessment, non-linear career exploration (entrepreneurship, startups, public sector, charity, intrapreneurship, multi-role skilling) | `/career-transitions` |
 | **AI Impact Assessment** | Researches whether AI will materially disrupt your role in the next 12 months, with a 6-month mitigation plan | `/ai-impact-assessment` |
 | **NED AI Helper** | AI governance for Non-Executive Directors, Board Governors, and Charity Trustees. Challenge frameworks, risk assessment, governance structures, regulatory guidance | `/ned-ai-helper` |
+| **Career Coach (Tim)** | Guided career coaching — understands your situation and runs the right skills in the right order, with accessibility support | `/career-helper:career-coach` |
 
 ## Commands
 
@@ -84,10 +86,15 @@ Or just describe what you need:
 | `/career-helper:help` | Find the right skill for your situation |
 | `/career-helper:quick-start` | Guided entry point - answers questions and routes you |
 | `/career-helper:status` | Check your progress and see generated outputs |
+| `/career-helper:career-coach` | Start a guided coaching session with Tim |
 
 ---
 
 ## Typical Workflow
+
+**Prefer guided support?** Run `/career-helper:career-coach` and Tim will handle the sequencing for you, checking in between each step.
+
+**Or run skills yourself:**
 
 ```
 0. Audit your digital footprint  /employer-footprint
@@ -115,6 +122,8 @@ Or just describe what you need:
 - **Template-driven** consistent, professional outputs
 - **Digital footprint audit** credit-report style employer impression dashboard
 - **Non-linear career exploration** entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling with honest pros/cons and decision frameworks
+- **Guided coaching** Tim orchestrates skills based on your situation with structured checkpoints
+- **Accessibility** dyslexia-friendly enhanced mode with signposting, numbered options, and plain language
 
 ---
 
@@ -152,6 +161,7 @@ Skills generate markdown files you can convert to other formats:
 | `{name}-footprint-interview-questions.md` | Employer Footprint |
 | `{name}-social-media-review.md` | Social Media Review |
 | `{name}-social-cleanup-guide.md` | Social Media Review |
+| `career-helper-preferences.md` | Tim (Career Coach) |
 
 ---
 
@@ -191,4 +201,4 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-*Career Helper Plugin v1.7.0 | Prosper AI Consulting, UK*
+*Career Helper Plugin v1.8.0 | Prosper AI Consulting, UK*
