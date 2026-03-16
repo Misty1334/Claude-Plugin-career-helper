@@ -91,3 +91,5 @@ Based on their answers, recommend ONE skill and invoke it:
 When routing, say: "Based on what you've told me, I'd recommend starting with **/[skill-name]**. Let me get that started for you."
 
 Then invoke the recommended skill.
+
+Alternatively, mention: "If you'd prefer guided support where I run skills for you and check in between each one, try `/career-helper:career-coach` to work with Tim, your career coach."
