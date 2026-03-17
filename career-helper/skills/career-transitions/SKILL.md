@@ -35,6 +35,19 @@ Support for non-traditional career paths: fractional executive roles, portfolio 
 
 ---
 
+## Accessibility
+
+**At skill start**, check for `career-helper-preferences.md` in the current working directory using the Glob tool. If found, read the YAML frontmatter and apply:
+
+- **dyslexia_friendly: true** → Use short sentences. Number all lists and options (never unnumbered). One decision per message. No idioms or metaphors — use plain replacements. Explicit signposting at every transition ("Step 2 of 3. Next: AI readiness."). Refer to saved files by description, not filename. Repeat key details (company names, role titles, dates) — do not assume the user remembers from earlier messages.
+- **colour_blind: true** → Never use colour alone to convey meaning. Use labels, text, or icons for all status indicators.
+
+If **no preferences file exists** and this skill was invoked directly (not dispatched by Tim): ask once — "Do you have any accessibility preferences I should know about? For example, if you're dyslexic I can adjust how I format things." If yes, save to `career-helper-preferences.md` using the format documented in the Tim skill before continuing. If the user declines or says no, proceed without creating the file.
+
+These rules apply to **all communication with the user** and to the **formatting of output documents**.
+
+---
+
 ## 1. Portfolio & Fractional Career Support
 
 **What you need:** Skills inventory, income goals, target regions, current situation

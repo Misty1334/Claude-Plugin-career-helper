@@ -17,6 +17,19 @@ Use `CURRENT_DATE` for all date-dependent operations (document versioning, repor
 
 ---
 
+## Accessibility
+
+**At skill start**, check for `career-helper-preferences.md` in the current working directory using the Glob tool. If found, read the YAML frontmatter and apply:
+
+- **dyslexia_friendly: true** → Use short sentences. Number all lists and options (never unnumbered). One decision per message. No idioms or metaphors — use plain replacements. Explicit signposting at every transition. Refer to saved files by description, not filename. Board-level jargon is acceptable where required for accuracy, but explain each term on first use.
+- **colour_blind: true** → Never use colour alone to convey meaning. Use labels, text, or icons for all status indicators. Risk matrices must use text labels (e.g. "HIGH", "MEDIUM", "LOW"), not colour coding.
+
+If **no preferences file exists** and this skill was invoked directly (not dispatched by Tim): ask once — "Do you have any accessibility preferences I should know about? For example, if you're dyslexic I can adjust how I format things." If yes, save to `career-helper-preferences.md` using the format documented in the Tim skill before continuing. If the user declines or says no, proceed without creating the file.
+
+These rules apply to **all communication with the user** and to the **formatting of output documents**.
+
+---
+
 # NED AI Helper by Prosper
 
 Board-level AI governance support for Non-Executive Directors, Governors, and Charity Trustees. Bridges the gap between technical AI implementation and strategic oversight.

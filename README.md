@@ -123,7 +123,7 @@ Or just describe what you need:
 - **Digital footprint audit** credit-report style employer impression dashboard
 - **Non-linear career exploration** entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling with honest pros/cons and decision frameworks
 - **Guided coaching** Tim orchestrates skills based on your situation with structured checkpoints
-- **Accessibility** dyslexia-friendly enhanced mode with signposting, numbered options, and plain language
+- **Accessibility across all skills** dyslexia-friendly enhanced mode with signposting, numbered options, and plain language; colour-blind safe output with text labels instead of colour coding. Preferences stored in `career-helper-preferences.md` and respected by every skill, command, and Tim
 
 ---
 
@@ -201,4 +201,4 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-*Career Helper Plugin v1.8.0 | Prosper AI Consulting, UK*
+*Career Helper Plugin v1.8.2 | Prosper AI Consulting, UK*

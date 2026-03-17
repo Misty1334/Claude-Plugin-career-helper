@@ -6,6 +6,22 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 ---
 
+## [1.8.3] - 2026-03-17
+
+### Added
+- **Accessibility support across all skills and commands** — previously only Tim checked for accessibility preferences; now every skill and command does
+  - All 10 non-Tim skills check for `career-helper-preferences.md` at skill start and apply dyslexia-friendly and colour-blind safe formatting
+  - Skills invoked directly (not via Tim) ask once about accessibility preferences if no preferences file exists, then save for future sessions
+  - `/career-helper:quick-start` includes accessibility as part of its intake questions
+  - `/career-helper:status` respects accessibility preferences in its output formatting
+  - Skill-specific accessibility guidance: risk matrices, dashboards, and status indicators always use text labels, never colour alone
+
+### Changed
+- README updated to reflect accessibility coverage across all skills
+- Plugin version bumped to 1.8.3
+
+---
+
 ## [1.8.0] - 2026-03-16
 
 ### Added

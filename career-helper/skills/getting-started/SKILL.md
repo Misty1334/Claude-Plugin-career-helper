@@ -34,6 +34,19 @@ Get the most out of Career Helper. Whether you are a graduate writing your first
 
 ---
 
+## Accessibility
+
+**At skill start**, check for `career-helper-preferences.md` in the current working directory using the Glob tool. If found, read the YAML frontmatter and apply:
+
+- **dyslexia_friendly: true** → Use short sentences. Number all lists and options (never unnumbered). One decision per message. No idioms or metaphors — use plain replacements. Explicit signposting at every transition. Refer to saved files by description, not filename.
+- **colour_blind: true** → Never use colour alone to convey meaning. Use labels, text, or icons for all status indicators.
+
+If **no preferences file exists** and this skill was invoked directly (not dispatched by Tim): ask once — "Do you have any accessibility preferences I should know about? For example, if you're dyslexic I can adjust how I format things." If yes, save to `career-helper-preferences.md` using the format documented in the Tim skill before continuing. If the user declines or says no, proceed without creating the file.
+
+These rules apply to **all communication with the user** and to the **formatting of output documents**.
+
+---
+
 ## 6. Getting the Best Guide
 
 **What you need:** Nothing - works for everyone
