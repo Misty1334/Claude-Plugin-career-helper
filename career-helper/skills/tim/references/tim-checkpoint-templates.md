@@ -6,7 +6,7 @@ This reference is loaded by the Tim career coach skill to ensure consistent chec
 
 ## 1. Standard Checkpoint Template
 
-```
+```text
 DONE: [what was completed — one line]
 SAVED: [filename(s) — or "your [description] (in your career-helper folder)" for dyslexia mode]
 FLAG: [only include this line if there's something genuinely worth pausing for]
@@ -19,7 +19,7 @@ Followed by one clear question or 2–3 numbered options.
 
 ## 2. Progress Tracker Template
 
-```
+```text
 YOUR JOURNEY
 1. [step name] .......... done
 2. [step name] .......... done
@@ -40,7 +40,7 @@ Rules:
 
 ## 3. Welcome Back Template
 
-```
+```text
 WELCOME BACK
 - Last session: [date and what was done]
 - Files on record: [summary of existing outputs]
@@ -59,9 +59,9 @@ Rules:
 
 ### Variation A: Standard (no flag)
 
-```
-DONE: Company research for Boots
-SAVED: applications/marketing-manager-boots/research-brief.md
+```text
+DONE: Company research for Greenfield & Co
+SAVED: applications/marketing-manager-greenfield/research-brief.md
 NEXT: CV optimisation — I'll tailor your CV using the research findings
 
 Ready to move on?
@@ -69,9 +69,9 @@ Ready to move on?
 
 ### Variation B: With flag
 
-```
-DONE: Company research for Boots
-SAVED: applications/marketing-manager-boots/research-brief.md
+```text
+DONE: Company research for Greenfield & Co
+SAVED: applications/marketing-manager-greenfield/research-brief.md
 FLAG: Glassdoor reviews mention high turnover in your target team
 NEXT: CV optimisation — I'll tailor your CV using the research findings
 
@@ -80,9 +80,9 @@ Ready to move on, or do you want to talk about the turnover concern first?
 
 ### Variation C: With choice (user decides next step)
 
-```
-DONE: Post-interview coaching for Boots
-SAVED: applications/marketing-manager-boots/post-interview-debrief.md
+```text
+DONE: Post-interview coaching for Greenfield & Co
+SAVED: applications/marketing-manager-greenfield/post-interview-debrief.md
 FLAG: Gap analysis suggests your CV positioning may be the issue, not interview technique
 
 What would you like to do next?
@@ -93,9 +93,9 @@ What would you like to do next?
 
 ### Variation D: With check-in (after emotionally demanding skill)
 
-```
+```text
 DONE: Post-rejection coaching — reviewed your last three applications
-SAVED: applications/marketing-manager-boots/rejection-analysis.md
+SAVED: applications/marketing-manager-greenfield/rejection-analysis.md
 CHECK-IN: That covered some tough ground. How are you feeling about things?
 NEXT: CV repositioning — the analysis shows positioning is the issue, not your experience
 
@@ -112,16 +112,16 @@ Rules for CHECK-IN:
 
 ### Variation E: Session end
 
-```
+```text
 SESSION SUMMARY
 - Company research .......... done
 - CV optimisation ........... done
 - LinkedIn sync ............. done
 
 SAVED FILES:
-- applications/marketing-manager-boots/research-brief.md
-- applications/marketing-manager-boots/cv-optimised.md
-- applications/marketing-manager-boots/linkedin-updates.md
+- applications/marketing-manager-greenfield/research-brief.md
+- applications/marketing-manager-greenfield/cv-optimised.md
+- applications/marketing-manager-greenfield/linkedin-updates.md
 
 STILL TO DO:
 - Interview preparation
@@ -132,11 +132,11 @@ Your preferences have been saved. Next time, I'll pick up where we left off.
 
 ### Variation F: Dyslexia-enhanced checkpoint
 
-```
+```text
 Step 2 of 5 done.
 
-DONE: CV optimisation for the Marketing Manager role at Boots
-SAVED: Your optimised CV (in your Boots application folder)
+DONE: CV optimisation for the Marketing Manager role at Greenfield & Co
+SAVED: Your optimised CV (in your Greenfield & Co application folder)
 NEXT: LinkedIn update — I'll sync your LinkedIn profile to match your new CV
 
 Do you want to:

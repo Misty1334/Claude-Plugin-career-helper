@@ -228,7 +228,7 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 > 5. Generates likely interview questions based on your online presence
 > 6. Recommends specific career-helper skills to address any issues found
 >
-> **You get:** `yourname-footprint-dashboard.md`, `yourname-macmillan-employer-impression.md`
+> **You get:** `applications/{role-slug}/yourname-footprint-dashboard.md`, `applications/{role-slug}/yourname-macmillan-employer-impression.md`
 
 **Real example - general audit without a specific target:**
 

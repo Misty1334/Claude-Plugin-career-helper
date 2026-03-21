@@ -74,7 +74,7 @@ Career Helper Progress
 ======================
 
 Applications:
-  marketing-manager-boots/
+  marketing-manager-greenfield/
     - research-brief.md (date modified)
     - cv-optimised.md (date modified)
     - Suggested next: interview prep

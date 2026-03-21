@@ -80,7 +80,7 @@ Your folder/
 ├── career-helper-preferences.md
 ├── three-month-plan.md
 ├── applications/
-│   ├── marketing-manager-boots/
+│   ├── marketing-manager-greenfield/
 │   │   ├── research-brief.md
 │   │   ├── cv-optimised.md
 │   │   └── interview-prep.md

@@ -23,9 +23,9 @@ Advanced techniques for users who have used the basic skills and want to extract
 **Key insight:** Company research briefs are always unique. CVs can be adapted between similar roles. Interview prep should always be role-specific.
 
 **File organisation:** Each application gets its own folder automatically. For multiple applications, your workspace looks like:
-```
+```text
 applications/
-├── marketing-manager-boots/
+├── marketing-manager-greenfield/
 │   ├── research-brief.md
 │   └── cv-optimised.md
 ├── head-fundraising-macmillan/

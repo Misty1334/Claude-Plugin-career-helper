@@ -32,7 +32,7 @@ Practical guidance for getting the best results from each career-helper skill. F
 
 ### Common Mistakes
 
-- **Submitting a generic CV and expecting magic.** The skill optimises for a specific JD. A CV optimised for "Marketing Manager at Boots" will not work well for "Head of Fundraising at Macmillan".
+- **Submitting a generic CV and expecting magic.** The skill optimises for a specific JD. A CV optimised for "Marketing Manager at Greenfield & Co" will not work well for "Head of Fundraising at Macmillan".
 - **Ignoring the keyword coverage score.** If coverage is below 70%, the CV may not pass ATS filters. Review the analysis and add missing keywords where you genuinely have the experience.
 - **Skipping company research.** The research brief reveals what the company actually values, which should influence how you frame achievements in your CV.
 
@@ -131,7 +131,7 @@ Company Research → Interview Preparation → Mock Interview
 ### Common Mistakes
 
 - **Creating a plan and not following up.** Use `/career-helper:status` to track what you have completed and get prompted for next steps.
-- **Networking without a specific target.** "Help me network better" is less effective than "Who should I connect with at Boots for a Marketing Manager role?"
+- **Networking without a specific target.** "Help me network better" is less effective than "Who should I connect with at Greenfield & Co for a Marketing Manager role?"
 - **Negotiating without market data.** The skill researches market rates, but sharing any data you already have (other offers, salary surveys) strengthens the strategy.
 
 ### Iteration Strategy

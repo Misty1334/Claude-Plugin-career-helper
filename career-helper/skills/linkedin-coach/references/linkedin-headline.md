@@ -167,9 +167,9 @@ C: [Title] at [Company] | [Transformation/Initiative Led]
 
 **Formula Options:**
 
-```
+```text
 A: [Title] | [Industry/Community] | [Interest/Side Project]
-   "Marketing Lead at Boots | Retail & FMCG | Building Brand Loyalty"
+   "Marketing Lead at Greenfield & Co | Retail & FMCG | Building Brand Loyalty"
 
 B: [Title] | [Shared Challenge/Interest] | Open to Connect
    "Engineering Manager | Navigating Hybrid Teams | Always Up for Coffee Chats"
