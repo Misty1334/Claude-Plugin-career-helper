@@ -49,6 +49,7 @@ Ask these questions one at a time (use AskUserQuestion tool):
 - Worried about whether AI will affect my role or the roles I'm targeting
 - Graduate, apprentice, or early career - looking for my first role
 - I'm a NED/Governor/Trustee and need AI governance support
+- I don't know what I want — I need help figuring out my direction
 - Just exploring
 
 ### Question 2: Based on their answer, ask ONE follow-up
@@ -68,6 +69,7 @@ Ask these questions one at a time (use AskUserQuestion tool):
 | Graduate/early career | "Do you have a target role in mind, or are you still exploring options?" |
 | NED/Governor/Trustee | "What do you need - challenge an AI proposal, set up governance, or understand AI risks?" |
 | Worried about AI impact | "Are you concerned about your current role, or a role you're applying for?" |
+| I don't know what I want | "That's completely normal. Would you like some help figuring out what direction might suit you?" |
 | Just exploring | "What's your career level - early, mid, experienced, or late career?" |
 
 ## Route to Skill
@@ -106,6 +108,7 @@ Based on their answers, recommend ONE skill and invoke it:
 | Board AI risk | /ned-ai-helper |
 | Worried about AI disrupting role | /ai-impact-assessment |
 | Wants to know if target role is future-proof | /ai-impact-assessment |
+| Doesn't know what they want | /career-helper:career-coach (Tim will use ikigai questions to help find direction) |
 | Just exploring | /getting-started (full overview) |
 | "How does this work?" | /getting-started |
 | Wants a guide to read or share | /getting-started (getting the best guide) |

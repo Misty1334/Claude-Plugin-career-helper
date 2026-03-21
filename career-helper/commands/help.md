@@ -77,6 +77,7 @@ If the user described their situation, route them:
 | "I keep getting rejected and I don't know why" | /career-helper:career-coach |
 | "How do I use this?" | /getting-started |
 | "What can this do?" | /getting-started |
+| "I don't know what I want" | /career-helper:career-coach (Tim will help find direction) |
 | "I don't know where to start" | /getting-started or /career-helper:career-coach |
 | "Give me the getting the best guide" | /getting-started (getting the best guide) |
 | "How do I get the best results?" | /getting-started (getting the best guide) |

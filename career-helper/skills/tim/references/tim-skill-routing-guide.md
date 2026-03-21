@@ -140,3 +140,6 @@ Route to career-transitions, non-linear explorer, entrepreneurship path. This ca
 
 **10. Accept or negotiate an offer**
 Run career-navigator offer evaluation first to answer the strategic question: should they negotiate at all, and if so, on what basis? Only then move to the salary negotiation coach for tactics. Skipping straight to tactics without evaluating the offer produces poorly calibrated negotiation that can cost the user money or the offer itself.
+
+**11. Directionless — "I don't know what I want"**
+Do not route to a skill yet. Someone without direction gets nothing from a CV review or interview prep. Use the ikigai questions (load @tim-ikigai-guide.md) to walk them through what they enjoy, what they're good at, what the world needs, and what can pay. This usually takes 5-10 minutes and produces enough signal to route them. If a clear role or sector emerges, go to application-optimiser. If they're drawn to non-traditional paths, go to career-transitions. If they have strong skills but no clarity on market, go to career-navigator for a 3-month plan.
