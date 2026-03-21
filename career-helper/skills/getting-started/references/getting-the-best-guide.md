@@ -153,7 +153,7 @@ You probably have most of this already, but pulling it together in one place bef
 
 **Step 1: Employer Footprint Analysis**
 
-Start with `/employer-footprint`. This is the full digital audit, not the lightweight social scan. It runs eight parallel research agents across Google, LinkedIn, Twitter, GitHub, news media, and more, producing a scored dashboard with traffic-light indicators across eight dimensions. At your level, your digital footprint is part of your candidacy whether you like it or not. This tells you exactly what an employer will find and what to do about it.
+Start with `/employer-footprint`. This is the full digital audit, not the lightweight social scan. It runs eight parallel research agents across Google, LinkedIn, Twitter, GitHub, news media, and more, producing a scored dashboard with text-label ratings (GREEN/AMBER/RED) across eight dimensions. At your level, your digital footprint is part of your candidacy whether you like it or not. This tells you exactly what an employer will find and what to do about it.
 
 If you have a target company in mind, provide it. The skill maps your online presence against the company's stated values and culture.
 
@@ -303,7 +303,7 @@ To summarise, here is what you get across the full skill set:
 
 - **ATS-optimised CVs** tailored to specific job descriptions with 70%+ keyword coverage
 - **Company intelligence briefs** covering leadership, culture, financials, red flags, and hiring context
-- **Digital footprint dashboards** scored across eight dimensions with traffic-light indicators
+- **Digital footprint dashboards** scored across eight dimensions with text-label ratings
 - **LinkedIn profile audits** with headline optimisation, content strategy, and 4-week posting calendars
 - **Interview preparation packs** with 15 to 20 role-specific questions, STAR frameworks, and mock simulation
 - **Networking intelligence** identifying 8 to 12 strategic contacts at target companies with outreach templates

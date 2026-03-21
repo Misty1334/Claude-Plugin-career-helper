@@ -145,7 +145,7 @@ Launch parallel research agents for each channel simultaneously:
 
 ### Scoring Dimensions
 
-Each dimension scored 1-10 with traffic-light indicator:
+Each dimension scored 1-10 with text-label rating (GREEN/AMBER/RED):
 
 | Dimension | What It Measures |
 |:----------|:----------------|
@@ -271,7 +271,7 @@ When the user's context matches a specific persona, adapt the analysis focus:
 - **UK English** throughout (unless US role explicitly requires US English)
 - **No emojis** - Professional tone
 - **Cited sources** - All findings include URLs and access dates
-- **Traffic-light scoring** - Clear visual indicators (GREEN/AMBER/RED)
+- **Text-label ratings** — GREEN/AMBER/RED as text, never colour alone
 - **Evidence-based** - Every flag backed by specific findings
 - **Never invent data** - Mark missing info as `[NOT FOUND]` or `[PRIVATE]`
 - **Privacy-conscious** - Only analyse publicly available information
