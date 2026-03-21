@@ -35,7 +35,7 @@ This is the most important section of a fractional CV. It replaces the single "c
 ```markdown
 ## Current Portfolio
 
-### Fractional CFO | Acme Corp (Series B FinTech, 80 employees) | Mar 2025 - Present
+### Fractional CFO | Kendal Mint (Series B FinTech, 80 employees) | Mar 2025 - Present
 2 days/week | Scope: Financial strategy, fundraise preparation, board reporting
 
 - Built Series B financial model and data room; company raised GBP 12M at 3x prior valuation
@@ -65,7 +65,7 @@ Not every client can be named. Use the appropriate level of disclosure.
 
 | Confidentiality Level | Format Example | When to Use |
 |----------------------|----------------|-------------|
-| Named (with permission) | Fractional CMO, Acme Corp (Series B FinTech) | Client has given explicit consent to be referenced |
+| Named (with permission) | Fractional CMO, Kendal Mint (Series B FinTech) | Client has given explicit consent to be referenced |
 | Anonymised with detail | Fractional CMO, Series B FinTech (70 employees, UK) | No permission, but sector and stage are not identifying |
 | Sector only | Fractional CTO, Healthcare SaaS | Client is identifiable by stage/size combination, or NDA applies |
 | Confidential | Fractional COO, PE-backed retail business | Strict NDA; provide only the broadest descriptor possible |

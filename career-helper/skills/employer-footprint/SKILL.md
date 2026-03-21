@@ -20,8 +20,8 @@ See yourself through an employer's eyes. A deep-research swarm audit of your dig
 ## Quick Start
 
 ```
-"Check my digital footprint before I apply to Google"
-"What would a recruiter find if they Googled me?"
+"Check my digital footprint before I apply to the NHS"
+"What would a recruiter find if they searched for me online?"
 "Audit my LinkedIn and Twitter for red flags"
 "Generate interview questions based on what's publicly visible about me"
 ```
@@ -145,7 +145,7 @@ Launch parallel research agents for each channel simultaneously:
 
 ### Scoring Dimensions
 
-Each dimension scored 1-10 with traffic-light indicator:
+Each dimension scored 1-10 with text-label rating (GREEN/AMBER/RED):
 
 | Dimension | What It Measures |
 |:----------|:----------------|
@@ -192,7 +192,7 @@ The full footprint analysis interpreted specifically through the lens of the tar
 - Flag any misalignments between your online presence and their culture
 - Generate talking points that leverage your digital presence positively
 
-**Output:** `{name-slug}-{company-slug}-employer-impression.md`
+**Output:** `applications/{role-slug}/{name-slug}-{company-slug}-employer-impression.md` if an application folder exists for this company; otherwise `{name-slug}-{company-slug}-employer-impression.md` in the workspace root
 
 ---
 
@@ -271,7 +271,7 @@ When the user's context matches a specific persona, adapt the analysis focus:
 - **UK English** throughout (unless US role explicitly requires US English)
 - **No emojis** - Professional tone
 - **Cited sources** - All findings include URLs and access dates
-- **Traffic-light scoring** - Clear visual indicators (GREEN/AMBER/RED)
+- **Text-label ratings** — GREEN/AMBER/RED as text, never colour alone
 - **Evidence-based** - Every flag backed by specific findings
 - **Never invent data** - Mark missing info as `[NOT FOUND]` or `[PRIVATE]`
 - **Privacy-conscious** - Only analyse publicly available information

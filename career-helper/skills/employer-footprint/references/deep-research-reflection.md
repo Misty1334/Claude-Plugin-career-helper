@@ -230,7 +230,7 @@ RED FLAG HUNT:
 SCORING:
 □ All applicable dimensions scored 1-10
 □ Evidence cited for each score
-□ Traffic-light indicators applied
+□ Text-label ratings applied (GREEN/AMBER/RED)
 □ Strengths and concerns listed
 
 OUTPUT:

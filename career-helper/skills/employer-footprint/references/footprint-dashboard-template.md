@@ -15,7 +15,7 @@
 ║                                                             ║
 ║                        {X.X} / 10                           ║
 ║                                                             ║
-║                    [{TRAFFIC LIGHT}]                         ║
+║                    [{GREEN/AMBER/RED}]                       ║
 ║                                                             ║
 ║  {One-line summary of overall employer impression}          ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -45,9 +45,11 @@
 ```
 
 **Score Key:**
-- **GREEN (7-10):** Strong positive signal - competitive advantage
-- **AMBER (4-6):** Adequate but improvement opportunities exist
-- **RED (1-3):** Significant concern or gap - action recommended
+- **GREEN (7-10): Strong** — positive signal, competitive advantage
+- **AMBER (4-6): Adequate** — improvement opportunities exist
+- **RED (1-3): Concern** — significant gap, action recommended
+
+*Ratings always use text labels (GREEN/AMBER/RED) alongside scores — never colour alone.*
 
 ---
 

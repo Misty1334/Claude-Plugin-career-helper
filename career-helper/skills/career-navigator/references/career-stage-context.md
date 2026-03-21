@@ -109,7 +109,7 @@ Use their answers to infer generation and tailor all subsequent advice.
 - Showcase speaking engagements, publications, awards
 - Balance connections: peers, seniors (aspirational), juniors (mentoring)
 - Join executive/professional groups relevant to target roles
-- Headline: Combine expertise + value (e.g., "Product Leader | Scaling B2B SaaS | Ex-Google")
+- Headline: Combine expertise + value (e.g., "Operations Director | Driving Efficiency in Retail | Ex-Tesco")
 - Recommendations from managers, peers, and direct reports
 - Open to Work: Use recruiter-only setting to avoid alerting current employer
 - Endorsements: Ensure top 3 skills match target role keywords

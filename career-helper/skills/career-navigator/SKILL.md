@@ -58,7 +58,7 @@ Agentic parallel research to identify high-value connections:
 
 Uses parallel WebSearch to find 8-12 strategic people, prioritised in 3 tiers.
 
-**Output:** `{role-slug}-networking-intelligence.md`
+**Output:** `applications/{role-slug}/networking-intelligence.md`
 
 ---
 
@@ -106,7 +106,7 @@ Region-aware negotiation coaching:
 - EU: Mandatory benefits, works councils, 13th month salary
 - APAC: Variable bonus structures, housing allowances
 
-**Output:** `{role-slug}-negotiation-strategy.md`
+**Output:** `applications/{role-slug}/negotiation-strategy.md`
 
 ---
 
@@ -126,6 +126,12 @@ Comprehensive offer analysis:
 - Scenario planning (best/likely/worst cases)
 
 **Output:** `offer-evaluation.md`
+
+---
+
+## Application Folder
+
+Role-specific outputs (networking intelligence, negotiation strategy) are saved in `applications/{role-slug}/`. Cross-application outputs (three-month-plan, offer-evaluation) are saved in the workspace root. When running a role-specific capability, check if the application folder exists first using Glob. If it doesn't, create it when saving the first output.
 
 ---
 

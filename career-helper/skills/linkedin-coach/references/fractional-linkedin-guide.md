@@ -118,7 +118,7 @@ Currently working with 3 companies across FinTech and HealthTech.
 
 Selected engagements:
 
--- Acme Corp (Series B FinTech, 80 employees) | 2025 - Present --
+-- Kendal Mint (Series B FinTech, 80 employees) | 2025 - Present --
 Built financial infrastructure supporting GBP 12M raise. Reduced monthly
 close from 15 to 5 days. Introduced board reporting framework.
 

@@ -55,7 +55,7 @@ Complete profile sections review:
 - Discoverability and recruiter search optimisation
 - Activity and content strategy recommendations
 
-**Output:** `{role-slug}-linkedin-profile-review.md`
+**Output:** `applications/{role-slug}/linkedin-profile-review.md`
 
 ---
 
@@ -69,7 +69,7 @@ Analyse existing posts:
 - Decision-maker pain point identification
 - Content improvement recommendations
 
-**Output:** `{role-slug}-content-review.md`
+**Output:** `applications/{role-slug}/content-review.md`
 
 ---
 
@@ -87,7 +87,7 @@ Build a sustainable posting strategy:
 - Thread series guidance (when/why to use multi-post sequences)
 - Voice coaching - write authentically, not from templates
 
-**Output:** `{role-slug}-content-strategy.md` + `{role-slug}-content-calendar.md`
+**Output:** `applications/{role-slug}/content-strategy.md` + `applications/{role-slug}/content-calendar.md`
 
 ---
 
@@ -120,6 +120,12 @@ Goal-first headline optimisation:
 - 3 script options with trade-offs
 
 **Output:** Video script in conversation (copy-paste ready)
+
+---
+
+## Application Folder
+
+Role-specific outputs (profile review, content review, content strategy, content calendar) are saved in `applications/{role-slug}/`. When running a capability for a specific role, check if the application folder exists first using Glob. If it doesn't, create it when saving the first output. If the user is not targeting a specific role (e.g., general LinkedIn improvement), save outputs in the workspace root with a descriptive filename.
 
 ---
 

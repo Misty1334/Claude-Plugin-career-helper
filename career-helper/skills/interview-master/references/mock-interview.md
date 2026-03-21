@@ -68,6 +68,8 @@ Do you have an interview prep document from Career Helper I should reference?
 - "How would you handle {specific scenario}?"
 - "What would your first 90 days look like?"
 - "Tell me about a time you failed"
+- "How have you helped your colleagues improve?"
+- "What matters most to you when choosing your next company?"
 - "What questions do you have for me?"
 
 ---

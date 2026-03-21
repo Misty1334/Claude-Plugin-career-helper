@@ -47,7 +47,7 @@ This prompt is designed to execute multiple research agents simultaneously, each
 - All findings must be cited with source URL and access date
 - Distinguish between confirmed facts and inferences
 - Note when content is private/inaccessible (do NOT attempt to bypass privacy)
-- Score findings on a consistent 1-10 scale with traffic-light indicators
+- Score findings on a consistent 1-10 scale with text-label ratings (GREEN/AMBER/RED)
 - Focus on employer-relevant signals, not personal judgement
 
 ---
@@ -233,7 +233,7 @@ let the user decide how to handle.
 
 Each dimension receives a score with clear criteria:
 
-| Score | Label | Traffic Light | Meaning |
+| Score | Label | Rating | Meaning |
 |:------|:------|:-------------|:--------|
 | 9-10 | Excellent | GREEN | Strong positive signal; competitive advantage |
 | 7-8 | Good | GREEN | Solid presence; meets employer expectations |

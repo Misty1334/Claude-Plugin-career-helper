@@ -218,21 +218,21 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 **Real example - checking your footprint before applying:**
 
-> **You say:** "Check my digital footprint before I apply to Spotify. My LinkedIn is linkedin.com/in/yourname, my GitHub is github.com/yourname, and my Twitter is @yourname. Here's my CV."
+> **You say:** "Check my digital footprint before I apply to Macmillan. My LinkedIn is linkedin.com/in/yourname and my Twitter is @yourname. Here's my CV."
 >
 > **What happens:**
-> 1. Parallel research agents scan Google, LinkedIn, Twitter/X, GitHub, and other platforms simultaneously
-> 2. Analyses what Spotify's culture values and maps your presence against those values
+> 1. Parallel research agents scan Google, LinkedIn, Twitter/X, and other platforms simultaneously
+> 2. Analyses what Macmillan's culture values and maps your presence against those values
 > 3. Produces a credit-report style dashboard scoring you on 8 dimensions (Professional Visibility, Brand Consistency, Thought Leadership, Cultural Fit, Red Flag Risk, Network Strength, Technical Credibility, Content Quality)
 > 4. Identifies strengths employers will notice and concerns that need addressing
 > 5. Generates likely interview questions based on your online presence
 > 6. Recommends specific career-helper skills to address any issues found
 >
-> **You get:** `yourname-footprint-dashboard.md`, `yourname-spotify-employer-impression.md`
+> **You get:** `applications/{role-slug}/yourname-footprint-dashboard.md`, `applications/{role-slug}/yourname-macmillan-employer-impression.md`
 
 **Real example - general audit without a specific target:**
 
-> **You say:** "What would a recruiter find if they Googled me? I'm @yourname on most platforms."
+> **You say:** "What would a recruiter find if they searched for me online? I'm @yourname on most platforms."
 >
 > **What happens:**
 > 1. Searches for your name as a recruiter would

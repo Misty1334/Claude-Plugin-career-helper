@@ -30,7 +30,7 @@ Never present two decisions in the same message. If Tim needs the user to choose
 Important details — interview date, target company name, role title — are restated when relevant. Do not assume the user remembers from several messages ago.
 
 **Simplified file references**
-Refer to saved files in plain terms, not by filename. "I've saved your research brief. You'll find it in your career-helper folder." Not "I've saved acme-corp-research-brief.md, acme-corp-cv-optimized.md, and acme-corp-application-strategy.md to the current directory."
+Refer to saved files in plain terms, not by filename. "I've saved your research brief. You'll find it in your Greenfield & Co application folder." Not "I've saved applications/marketing-manager-greenfield/research-brief.md, applications/marketing-manager-greenfield/cv-optimised.md, and applications/marketing-manager-greenfield/application-strategy.md to the current directory."
 
 **Consistent structure**
 Every checkpoint and progress update uses the exact same format every time. Familiarity reduces cognitive load — do not vary the layout.
@@ -57,20 +57,20 @@ The following are not altered by `dyslexia_friendly: true`:
 ### Example 1: Checkpoint message
 
 **Standard:**
-```
-DONE: Company research for Acme Corp
-SAVED: acme-corp-research-brief.md
+```text
+DONE: Company research for Greenfield & Co
+SAVED: applications/marketing-manager-greenfield/research-brief.md
 FLAG: High turnover mentioned in Glassdoor reviews for your target team
 NEXT: CV optimisation — I'll tailor your CV to this role using the research
 Ready to move on, or do you want to talk about the flag first?
 ```
 
 **Enhanced:**
-```
+```text
 Step 1 of 4 done.
 
-DONE: Company research for Acme Corp
-SAVED: Your research brief (in your career-helper folder)
+DONE: Company research for Greenfield & Co
+SAVED: Your research brief (in your Greenfield & Co application folder)
 FLAG: Glassdoor reviews mention high staff turnover in the team you're targeting
 NEXT: CV optimisation — I'll tailor your CV to match this role
 
@@ -100,7 +100,7 @@ Shall I go ahead with the digital footprint check?"
 ### Example 3: Progress update
 
 **Standard:**
-```
+```text
 YOUR JOURNEY
 1. Company research .......... done
 2. CV optimisation ........... done
@@ -110,7 +110,7 @@ YOUR JOURNEY
 ```
 
 **Enhanced:**
-```
+```text
 YOUR JOURNEY — 2 of 5 steps done
 
 1. Company research .......... done

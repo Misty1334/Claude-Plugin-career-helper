@@ -37,29 +37,38 @@ Important: Tim asks sensitively before assuming a persona. "55 and struggling" c
 
 ## 3. Output File Patterns
 
-Tim uses Glob to scan for existing outputs before routing. Files are stored in the user's working directory under `career-helper/outputs/`.
+Tim uses Glob to scan for existing outputs before routing. Role-specific files are stored in per-application folders under `applications/{role-slug}/`. Shared and personal files are stored in the workspace root.
+
+### Per-application folder: `applications/{role-slug}/`
 
 **Application Optimiser:**
-- `{role-slug}-research-brief.md`
-- `{role-slug}-cv-optimized.md`
-- `{role-slug}-linkedin-updates.md`
-- `{role-slug}-application-strategy.md`
+- `applications/{role-slug}/research-brief.md`
+- `applications/{role-slug}/cv-optimised.md`
+- `applications/{role-slug}/linkedin-updates.md`
+- `applications/{role-slug}/application-strategy.md`
 
 **LinkedIn Coach:**
-- `{role-slug}-linkedin-profile-review.md`
-- `{role-slug}-content-review.md`
-- `{role-slug}-content-strategy.md`
-- `{role-slug}-content-calendar.md`
+- `applications/{role-slug}/linkedin-profile-review.md`
+- `applications/{role-slug}/content-review.md`
+- `applications/{role-slug}/content-strategy.md`
+- `applications/{role-slug}/content-calendar.md`
 
 **Interview Master:**
-- `{role-slug}-interview-prep.md`
-- `{role-slug}-interviewer-perspective.md`
-- `{role-slug}-post-interview-debrief.md`
+- `applications/{role-slug}/interview-prep.md`
+- `applications/{role-slug}/interviewer-perspective.md`
+- `applications/{role-slug}/post-interview-debrief.md`
 
-**Career Navigator:**
-- `{role-slug}-networking-intelligence.md`
+**Career Navigator (role-specific):**
+- `applications/{role-slug}/networking-intelligence.md`
+- `applications/{role-slug}/negotiation-strategy.md`
+
+**Employer Footprint (role-specific):**
+- `applications/{role-slug}/{name-slug}-{company-slug}-employer-impression.md`
+
+### Workspace root (shared/personal files)
+
+**Career Navigator (shared):**
 - `three-month-plan.md`
-- `{role-slug}-negotiation-strategy.md`
 - `offer-evaluation.md`
 
 **Career Transitions:**
@@ -67,9 +76,8 @@ Tim uses Glob to scan for existing outputs before routing. Files are stored in t
 - `ai-readiness-plan.md`
 - `non-linear-career-exploration.md`
 
-**Employer Footprint:**
+**Employer Footprint (personal):**
 - `{name-slug}-footprint-dashboard.md`
-- `{name-slug}-{company-slug}-employer-impression.md`
 - `{name-slug}-social-media-audit.md`
 - `{name-slug}-footprint-interview-questions.md`
 
@@ -92,6 +100,10 @@ Tim uses Glob to scan for existing outputs before routing. Files are stored in t
 
 **Tim:**
 - `career-helper-preferences.md`
+
+### How Tim scans for progress
+
+To check what exists for a given application, scan `applications/{role-slug}/` for files. To check all applications, scan `applications/*/`. To check shared files, scan the root directory.
 
 ---
 

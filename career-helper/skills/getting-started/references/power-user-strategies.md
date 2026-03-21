@@ -22,15 +22,20 @@ Advanced techniques for users who have used the basic skills and want to extract
 
 **Key insight:** Company research briefs are always unique. CVs can be adapted between similar roles. Interview prep should always be role-specific.
 
-**File organisation tip:** Output files use `{role-slug}` prefixes automatically. For multiple applications, you will accumulate files like:
-```
-senior-pm-google-research-brief.md
-senior-pm-google-cv-optimized.md
-head-product-startup-research-brief.md
-head-product-startup-cv-optimized.md
+**File organisation:** Each application gets its own folder automatically. For multiple applications, your workspace looks like:
+```text
+applications/
+├── marketing-manager-greenfield/
+│   ├── research-brief.md
+│   └── cv-optimised.md
+├── head-fundraising-macmillan/
+│   ├── research-brief.md
+│   └── cv-optimised.md
+└── senior-planner-birmingham-council/
+    └── research-brief.md
 ```
 
-Use `/career-helper:status` to see everything you have generated.
+Use `/career-helper:status` to see everything you have generated across all applications.
 
 ---
 
@@ -173,11 +178,13 @@ Testing a business idea alongside your job search:
 - When goals shift, re-run the 3-month plan
 - Research briefs older than 3 months should be refreshed - company situations change
 
-**File management:** All outputs are markdown files in your working directory. You can:
-- Convert to PDF for submission
+**File management:** All outputs are markdown files organised in per-application folders. You can:
+- Open any application folder to see everything for that role in one place
+- Convert files to PDF for submission
 - Copy sections into application forms
 - Share with mentors or coaches for feedback
 - Use as reference during real interviews
+- Archive completed application folders when a role is finished
 
 ---
 

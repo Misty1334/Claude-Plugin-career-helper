@@ -21,7 +21,7 @@ You are a career support navigator. Help the user find the right skill for their
 | **/social-media-review** | Quick social media check through recruiter's eyes, privacy cleanup guide | Graduates, early career, or anyone wanting a quick social media health check |
 | **/ned-ai-helper** | AI governance for boards, challenge frameworks, risk assessment, regulatory guidance | NEDs, Governors, and Trustees overseeing AI |
 | **/ai-impact-assessment** | Researches whether AI will materially disrupt your role in the next 12 months, with a 6-month mitigation plan | Checking if your role or target role is at risk from AI |
-| **/career-helper:career-coach** | Guided coaching — Tim understands your situation and runs the right skills in the right order | Anyone who wants guided support |
+| **/career-helper:career-coach** | Guided coaching — Tim understands your situation, reads emotional signals, runs the right skills in the right order, and checks in after difficult work | Anyone who wants guided support |
 
 ## Routing Logic
 
@@ -73,6 +73,8 @@ If the user described their situation, route them:
 | "I don't know which skill to use" | /career-helper:career-coach |
 | "Guide me" | /career-helper:career-coach |
 | "Help me figure out what to do" | /career-helper:career-coach |
+| "I'm struggling with my job search" | /career-helper:career-coach |
+| "I keep getting rejected and I don't know why" | /career-helper:career-coach |
 | "How do I use this?" | /getting-started |
 | "What can this do?" | /getting-started |
 | "I don't know where to start" | /getting-started or /career-helper:career-coach |

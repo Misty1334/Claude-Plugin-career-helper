@@ -6,6 +6,33 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 ---
 
+## [1.9.0] - 2026-03-21
+
+### Added
+- **Wellbeing and emotional awareness in Tim's coaching** — Tim now reads emotional signals during intake, acknowledges difficulty before routing to skills, and checks in after emotionally demanding work
+  - Intake Q2 branches based on emotional context: forced change gets "how are you feeling?", steady situations get "what would help most?"
+  - Wellbeing Notes in preferences file carry emotional context across sessions
+  - CHECK-IN line in checkpoints after skills that touch rejection, ageism, redundancy, or difficult feelings
+  - Pace line in Progress Tracker after emotionally demanding sessions
+  - Skill dispatch now passes emotional context to sub-agents so they can calibrate tone
+- **Agent memory for Tim** (`memory: project`) — Tim now builds persistent coaching knowledge across sessions
+  - Stores routing patterns, skill sequencing insights, and coaching approaches that work
+  - Separate from user data (which stays in preferences file)
+- **Interview Master: peer development questions** — explicit "How have you helped your colleagues improve?" question type with STAR guidance focused on the other person's outcome
+- **Interview Master: company selection criteria** — "What matters most when choosing your next company?" with values-alignment answer framework
+- **Wellbeing-aware checkpoint template** (Variation D) with CHECK-IN rules and concrete example
+
+### Changed
+- **Accessibility: traffic-light terminology replaced** — all references to "traffic-light indicators" changed to "text-label ratings (GREEN/AMBER/RED)" across employer-footprint SKILL.md, dashboard template, digital-footprint-audit, deep-research-reflection, and getting-the-best guide
+- Dashboard template score key now includes accessibility note: "Ratings always use text labels alongside scores — never colour alone"
+- Tim's "What Tim never does" lists deduplicated — Persona section covers voice/tone, Wellbeing section covers coaching boundaries, with cross-reference
+- Sequencing Logic updated to require emotional acknowledgment before routing
+- Returning user instructions broken into readable sub-bullets
+- Mock interview hiring manager typical questions expanded with peer development and company selection criteria
+- Plugin version bumped to 1.9.0
+
+---
+
 ## [1.8.3] - 2026-03-17
 
 ### Added

@@ -55,7 +55,7 @@ Agentic parallel research covering:
 
 Uses parallel WebSearch, WebFetch, and Task tool for comprehensive intelligence.
 
-**Output:** `{role-slug}-research-brief.md`
+**Output:** `applications/{role-slug}/research-brief.md`
 
 ---
 
@@ -75,8 +75,8 @@ NLP and recruitment AI specialist approach:
 - Formatting and parsing safety verification
 
 **Output:**
-- `{role-slug}-cv-optimized.md`
-- `{role-slug}-linkedin-updates.md` (LinkedIn sync recommendations)
+- `applications/{role-slug}/cv-optimised.md`
+- `applications/{role-slug}/linkedin-updates.md` (LinkedIn sync recommendations)
 
 ---
 
@@ -92,7 +92,13 @@ Comprehensive planning:
 - Follow-up protocols and decision framework
 - Cover letter approach
 
-**Output:** `{role-slug}-application-strategy.md`
+**Output:** `applications/{role-slug}/application-strategy.md`
+
+---
+
+## Application Folder
+
+All role-specific outputs are saved in `applications/{role-slug}/`. When running any capability for a role, check if the folder exists first using Glob. If it doesn't, create it when saving the first output. The `{role-slug}` is derived from the role title and company (e.g., "Marketing Manager at Greenfield & Co" becomes `marketing-manager-greenfield`).
 
 ---
 

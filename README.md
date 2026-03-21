@@ -77,7 +77,7 @@ Or just describe what you need:
 | **Career Transitions** | Portfolio and fractional careers, AI readiness assessment, non-linear career exploration (entrepreneurship, startups, public sector, charity, intrapreneurship, multi-role skilling) | `/career-transitions` |
 | **AI Impact Assessment** | Researches whether AI will materially disrupt your role in the next 12 months, with a 6-month mitigation plan | `/ai-impact-assessment` |
 | **NED AI Helper** | AI governance for Non-Executive Directors, Board Governors, and Charity Trustees. Challenge frameworks, risk assessment, governance structures, regulatory guidance | `/ned-ai-helper` |
-| **Career Coach (Tim)** | Guided career coaching — understands your situation and runs the right skills in the right order, with accessibility support | `/career-helper:career-coach` |
+| **Career Coach (Tim)** | Guided career coaching — understands your situation, reads emotional signals, runs the right skills in the right order, checks in after difficult work, with accessibility support and persistent agent memory | `/career-helper:career-coach` |
 
 ## Commands
 
@@ -117,12 +117,12 @@ Or just describe what you need:
 - **Research-driven** with cited sources and access dates
 - **ATS-optimised** CV output with keyword coverage analysis
 - **Career stage adaptation** from graduates to late career
-- **Emotional intelligence** acknowledges the realities of job searching
+- **Wellbeing-aware coaching** Tim reads emotional signals, acknowledges difficulty before routing, checks in after heavy work, and carries wellbeing context across sessions
 - **Ageism support** UK law, practical strategies, and emotional resilience for age-related rejection
 - **Template-driven** consistent, professional outputs
 - **Digital footprint audit** credit-report style employer impression dashboard
 - **Non-linear career exploration** entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling with honest pros/cons and decision frameworks
-- **Guided coaching** Tim orchestrates skills based on your situation with structured checkpoints
+- **Guided coaching** Tim orchestrates skills based on your situation with structured checkpoints and persistent agent memory that improves routing over time
 - **Accessibility across all skills** dyslexia-friendly enhanced mode with signposting, numbered options, and plain language; colour-blind safe output with text labels instead of colour coding. Preferences stored in `career-helper-preferences.md` and respected by every skill, command, and Tim
 
 ---
@@ -201,4 +201,4 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-*Career Helper Plugin v1.8.2 | Prosper AI Consulting, UK*
+*Career Helper Plugin v1.9.0 | Prosper AI Consulting, UK*

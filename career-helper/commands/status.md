@@ -14,55 +14,80 @@ Check for `career-helper-preferences.md` in the current working directory. If fo
 
 ## Check for Existing Outputs
 
-Look for career-helper output files in the current working directory and common locations:
+Look for career-helper output files in two locations:
+
+### 1. Application folders
+
+Scan `applications/*/` for per-application subfolders. Each subfolder represents one job application and may contain:
 
 ```
-*.md files matching patterns:
-- *-research-brief.md
-- *-cv-optimized.md
-- *-linkedin-updates.md
-- *-application-strategy.md
-- *-interview-prep.md
-- *-interviewer-perspective.md
-- *-post-interview-debrief.md
-- *-networking-intelligence.md
-- *-negotiation-strategy.md
-- *-offer-evaluation.md
+applications/{role-slug}/
+- research-brief.md
+- cv-optimised.md
+- linkedin-updates.md
+- application-strategy.md
+- interview-prep.md
+- interviewer-perspective.md
+- post-interview-debrief.md
+- networking-intelligence.md
+- negotiation-strategy.md
+- linkedin-profile-review.md
+- content-strategy.md
+- content-calendar.md
+- content-review.md
+- *-employer-impression.md
+```
+
+### 2. Root workspace files
+
+Scan the working directory root for shared and personal files:
+
+```
 - three-month-plan.md
 - portfolio-career-strategy.md
 - ai-readiness-plan.md
 - non-linear-career-exploration.md
+- offer-evaluation.md
+- *-footprint-dashboard.md
+- *-social-media-audit.md
+- *-footprint-interview-questions.md
+- *-social-media-review.md
+- *-social-cleanup-guide.md
+- *-employer-impression.md
+- *-ai-impact-assessment.md
 - *-challenge-questions.md
 - *-risk-register-entry.md
 - *-governance-options.md
 - *-change-readiness-report.md
 - *-hitl-assessment.md
-- *-content-strategy.md
-- *-content-calendar.md
-- *-linkedin-profile-review.md
-- *-footprint-dashboard.md
-- *-employer-impression.md
-- *-social-media-audit.md
-- *-footprint-interview-questions.md
-- *-social-media-review.md
-- *-social-cleanup-guide.md
+- career-helper-preferences.md
 ```
 
 ## Present Status
 
-### If outputs found:
+### If application folders found:
 
-Show a progress summary:
+Show a per-application progress summary:
 
 ```
 Career Helper Progress
 ======================
 
-Completed:
-- [skill] [output file] (date modified)
+Applications:
+  marketing-manager-greenfield/
+    - research-brief.md (date modified)
+    - cv-optimised.md (date modified)
+    - Suggested next: interview prep
 
-Suggested next steps:
-- Based on what you've done, consider [next skill]
+  head-fundraising-macmillan/
+    - research-brief.md (date modified)
+    - Suggested next: CV optimisation
+
+Shared files:
+  - three-month-plan.md (date modified)
+
+Overall suggested next steps:
+  - Based on what you've done, consider [next skill]
 ```
 
 ### If no outputs found:

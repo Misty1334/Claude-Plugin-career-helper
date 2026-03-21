@@ -61,7 +61,7 @@ Role-specific preparation:
 
 All answers cite your real experience with evidence.
 
-**Output:** `{role-slug}-interview-prep.md`
+**Output:** `applications/{role-slug}/interview-prep.md`
 
 **Suggested next steps:**
 - "Want me to generate an Interviewer's Perspective report?"
@@ -89,7 +89,7 @@ Question categories covered:
 - Cultural fit (values and working style)
 - "Why" questions (motivation and fit)
 
-**Output:** `{role-slug}-interviewer-perspective.md`
+**Output:** `applications/{role-slug}/interviewer-perspective.md`
 
 ---
 
@@ -135,12 +135,18 @@ Realistic interview practice:
 - "What's Still True" evidence anchor from CV
 - Pattern tracking across multiple rejections
 
-**Output:** `{role-slug}-post-interview-debrief.md`
+**Output:** `applications/{role-slug}/post-interview-debrief.md`
 
 **Suggested next steps:**
 - Skill gap? "Want me to help update your CV to address this?"
 - Signal gap? "Shall we refine your interview prep stories?"
 - Fit/timing? "Let's identify similar roles at competitor companies"
+
+---
+
+## Application Folder
+
+All role-specific outputs are saved in `applications/{role-slug}/`. When running any capability for a role, check if the folder exists first using Glob. If it doesn't, create it when saving the first output. If a research brief or CV already exists in the folder from a previous skill run, use those to inform interview preparation.
 
 ---
 
