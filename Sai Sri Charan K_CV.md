@@ -35,11 +35,11 @@ Certified Scrum Product Owner (CSPO) — 2024 | Project Management Professional 
 ### JPMorgan Chase & Co. (JPMC) | Hyderabad, India | Sep 2023 – Present
 **Product Manager**
 
-- Conceived, championed, and delivered 4 production-grade AI/ML products on AWS — **ARIES** (anomaly-detection-based ATM resiliency scoring for proactive hardware, server, and data issue mitigation) and **ANDOP** (AI-driven cash level decisioning and replenishment optimization) in ATM Channel; automated regulatory reporting and credit scoring in Home Lending — taking each from pitch to production.
-- Led ATM Channel cloud modernisation programme across 4 scrum teams (30+ engineers and leads) and 2 Product Associates, modernising customer-facing ATM experience and internal operational tooling at enterprise scale.
-- Owned HMDA regulatory reporting compliance product for Home Lending originations (Encompass platform), partnering with 3 scrum teams (18 engineers + leads); applied anomaly-detection automation to improve reporting accuracy and eliminate manual review cycles, maintaining 100% regulatory compliance.
-- Delivered AI-powered automated credit scoring model for home loan qualification, improving underwriting consistency and reducing loan qualification turnaround time at scale.
-- Defined product vision and roadmap across two high-impact portfolios, aligning priorities with VPs, Executive Directors, and Managing Directors to secure continued investment and cross-team alignment.
+- Conceived, championed, and delivered 4 production-grade AI/ML products on AWS within 18 months — **ARIES** (anomaly-detection-based ATM resiliency scoring proactively monitoring hardware, server, and data health across JPMC's 16,000+ ATM fleet) and **ANDOP** (AI-driven cash level decisioning reducing unnecessary replenishment cycles by ~20%) in ATM Channel; automated HMDA regulatory reporting and credit scoring in Home Lending — taking each from pitch to production.
+- Led ATM Channel cloud modernisation programme across 4 scrum teams (30+ engineers and leads) and 2 Product Associates, delivering 6+ major releases over 18 months to modernise customer-facing ATM experience and operational tooling serving millions of daily transactions.
+- Owned HMDA regulatory reporting compliance product for Home Lending originations (Encompass platform), partnering with 3 scrum teams (18 engineers + leads); reduced manual review effort by ~60% through anomaly-detection automation, improving data accuracy across 100,000+ annual loan application records and maintaining 100% regulatory compliance.
+- Delivered AI-powered automated credit scoring model for home loan qualification, cutting loan qualification turnaround time by ~40% and improving underwriting consistency across thousands of applications annually.
+- Drove quarterly product roadmap reviews across 2 portfolios with VPs, Executive Directors, and Managing Directors, aligning 7 scrum teams (50+ engineers) to unified OKRs and securing continued investment in AI/ML initiatives.
 
 ---
 
