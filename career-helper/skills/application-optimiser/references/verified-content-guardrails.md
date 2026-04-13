@@ -18,70 +18,70 @@ This rule is non-negotiable. A shorter bullet with verified content is always pr
 
 ## Sources of Truth, in Priority Order
 
-1. **Master facts file** (if present in cwd) — `master-facts.md` or similar. Pre-verified timeline, metrics, and bullet library. When present, treat as authoritative.
-2. **The user's current CV** — verified content by default; ask only if something looks inconsistent or dated.
-3. **Explicit conversation turns** — facts the user has confirmed in chat.
-4. **Job description** — source for target keywords only, never for candidate history.
+1. **Master facts file** (if present in cwd), typically `master-facts.md` or similar. Pre-verified timeline, metrics, and bullet library. When present, treat as authoritative.
+2. **The user's current CV.** Verified content by default; ask only if something looks inconsistent or dated.
+3. **Explicit conversation turns.** Facts the user has confirmed in chat.
+4. **Job description.** Source for target keywords only, never for candidate history.
 
 Never pull candidate content from a sample or template resume. Templates are for layout only.
 
 ---
 
-## Trigger Phrases — If You Find Yourself Writing These, Stop
+## Trigger Phrases: If You Find Yourself Writing These, Stop
 
 These phrases usually signal that you are about to invent or infer. When one appears in your draft, check whether every substantive word traces to a verified source before continuing.
 
-- "Based on your experience..." — is the experience you are about to describe actually documented?
-- "Given your background..." — verified or assumed?
-- "You also..." — is this in the source material?
-- "Your cross-functional..." — was "cross-functional" in the source, or are you adding it?
-- "Your award-winning..." — verified award, or editorialising?
-- "Your innovative..." — verified, or marketing language?
-- "Strategic leader with..." — generic positioning you are inventing?
+- "Based on your experience...": is the experience you are about to describe actually documented?
+- "Given your background...": verified or assumed?
+- "You also...": is this in the source material?
+- "Your cross-functional...": was "cross-functional" in the source, or are you adding it?
+- "Your award-winning...": verified award, or editorialising?
+- "Your innovative...": verified, or marketing language?
+- "Strategic leader with...": generic positioning you are inventing?
 
 If you catch yourself mid-sentence using one of these, stop and check the source.
 
 ---
 
-## Decision Tree — Is This Content Safe to Include?
+## Decision Tree: Is This Content Safe to Include?
 
 Before including any substantive word, phrase, or claim in a delivered bullet:
 
 1. **Can you cite the source?** (Master facts section, CV section, or a specific conversation turn.)
-   - No → Do not include. Flag for clarification.
-   - Yes → Continue.
+   - No: do not include. Flag for clarification.
+   - Yes: continue.
 
 2. **Are you using the exact words from the source?**
-   - Yes → Safe to include.
-   - No → Continue.
+   - Yes: safe to include.
+   - No: continue.
 
 3. **Have you only removed redundant words, without changing meaning?**
-   - Yes → Safe to include.
-   - No → Continue.
+   - Yes: safe to include.
+   - No: continue.
 
 4. **Are you choosing between two verified alternatives in the source?**
-   - Yes → Safe to include. Document the choice in your internal reasoning.
-   - No → Flag for user clarification.
+   - Yes: safe to include. Document the choice in your internal reasoning.
+   - No: flag for user clarification.
 
 If the decision tree ever exits at "flag for clarification", the default action is to ask the user, not to guess.
 
 ---
 
-## Safe Optimisation — What You Are Allowed to Do
+## Safe Optimisation: What You Are Allowed to Do
 
 These operations preserve meaning while improving readability:
 
 - Remove redundant connectors: "in order to" becomes "to".
 - Consolidate structure: "that included X, Y, and Z" becomes "via X, Y, and Z".
 - Use a participial phrase in place of a relative clause: "that reached" becomes "reaching".
-- Choose between two verified phrasings in the source (e.g., the library has both "led" and "co-led" — pick the one the source actually uses for that specific achievement).
+- Choose between two verified phrasings in the source (e.g., the library has both "led" and "co-led"; pick the one the source actually uses for that specific achievement).
 - Choose the more specific of two verified alternatives when both are in the source (e.g., use the specific platform name rather than the generic platform type if both are in the source).
 - Reorder elements within a bullet as long as no meaning shifts.
 - Apply UK English spelling.
 
 ---
 
-## Unsafe Changes — Never Do These
+## Unsafe Changes: Never Do These
 
 These operations introduce unverifiable content:
 
@@ -97,7 +97,7 @@ These operations introduce unverifiable content:
 
 ---
 
-## Examples — Safe and Unsafe
+## Examples: Safe and Unsafe
 
 ### Example 1: Removing redundancy (safe)
 
@@ -135,7 +135,7 @@ What went wrong: "high-performing", "cross-functional", "strategically engaged",
 
 ---
 
-## Hallucination Red Flags — Self-Review Before Delivery
+## Hallucination Red Flags: Self-Review Before Delivery
 
 After drafting a CV but before presenting it, scan for these red flags in your own output:
 

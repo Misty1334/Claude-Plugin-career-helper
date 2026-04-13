@@ -6,17 +6,33 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 ---
 
+## [1.10.1] - 2026-04-13
+
+### Added
+- **`.claude/CLAUDE.md`** project instructions file codifying the house style for AI assistants working in this repo: no em dashes, no emojis, UK English, Oxford comma, hyphenated compound modifiers, second-person coaching voice, content integrity rules, file organisation conventions, and versioning policy.
+
+### Changed
+- Plugin and marketplace version bumped to 1.10.1
+- All em dashes removed from new content introduced in v1.10.0 (`verified-content-guardrails.md`, `master-facts-template.md`, ATS-Helper additions, career-navigator Coaching Voice section, Tim master-facts section, reflect-validate additions, CHANGELOG 1.10.0 entry). Replaced with colons, semicolons, commas, or full stops as appropriate to the surrounding clause.
+
+### Fixed
+- ATS-Helper heading "Content Verification" no longer uses an em dash (CodeRabbit flag on PR #24)
+- ATS-Helper "3 to 5 line summary" now correctly hyphenated as "3- to 5-line summary" (CodeRabbit flag on PR #24)
+- Coverage threshold conflict between ATS-Helper (90%) and reflect-validate (70%) resolved by explicitly documenting the two as distinct gates: 90% is the aspirational target, 70% is the minimum acceptance gate. Cross-referenced in both files (CodeRabbit flag on PR #24)
+
+---
+
 ## [1.10.0] - 2026-04-13
 
 ### Added
-- **Verified content guardrails** (`application-optimiser/references/verified-content-guardrails.md`) — non-negotiable anti-hallucination rules for CV rewriting, including a trigger-phrase STOP list, a decision tree for source verification, safe-vs-unsafe optimisation examples, and a hallucination red-flag self-review checklist. Every substantive word in a delivered CV must now trace to a verified source.
-- **Master facts template** (`application-optimiser/references/master-facts-template.md`) — optional single-source-of-truth file users can maintain once and reuse across every application. Covers verified timeline, metrics bank, and bullet library organised by emphasis area. When present in cwd, application-optimiser prefers it over any other source.
-- **9-step job-analysis flow in ATS-Helper** — refactored the execution plan from 3 steps (keyword extraction, CV rewrite, LinkedIn sync) to 9 steps: Career Fit Assessment, Content Strategy, Resume-Job Alignment, Keyword and Concept Extraction, Recruiter Perspective, Enhancement Recommendations, Gap Analysis, Read Between the Lines, and finally the optimised CV rewrite plus LinkedIn reconciliation.
-- **Coaching Voice section in career-navigator** — direct market-reality feedback, flight-risk check, overthinking-versus-applying heuristic, optimistic-role-analysis versus strategic-career-advice distinction, and cross-session consistency rules. Codifies the balance between warmth and directness that career coaching actually needs.
-- **Master facts awareness in Tim** — before dispatching application-optimiser for CV work, Tim now checks for `master-facts.md` in the current working directory and passes the path to the sub-agent as the authoritative source of truth. For first-time users, Tim mentions the master-facts template as an optional one-time setup.
-- **Traceability and hallucination red-flag scan in reflect-validate** — CV validation now runs a source traceability check before keyword coverage, and a red-flag scan for unverified adjectives, team composition, geography, reporting structure, and timing details before delivery.
-- **CONTRIBUTORS.md** — manual contributor acknowledgement log at repo root, crediting community contributions by name with contribution summaries.
-- **CONTRIBUTING.md** (`.github/CONTRIBUTING.md`) — contribution guide covering what belongs in the repo, PR process, house style (UK English, no em dashes, no emojis, Oxford comma), skill content conventions, and versioning rules.
+- **Verified content guardrails** (`application-optimiser/references/verified-content-guardrails.md`): non-negotiable anti-hallucination rules for CV rewriting, including a trigger-phrase STOP list, a decision tree for source verification, safe-vs-unsafe optimisation examples, and a hallucination red-flag self-review checklist. Every substantive word in a delivered CV must now trace to a verified source.
+- **Master facts template** (`application-optimiser/references/master-facts-template.md`): optional single-source-of-truth file users can maintain once and reuse across every application. Covers verified timeline, metrics bank, and bullet library organised by emphasis area. When present in cwd, application-optimiser prefers it over any other source.
+- **9-step job-analysis flow in ATS-Helper**: refactored the execution plan from 3 steps (keyword extraction, CV rewrite, LinkedIn sync) to 9 steps: Career Fit Assessment, Content Strategy, Resume-Job Alignment, Keyword and Concept Extraction, Recruiter Perspective, Enhancement Recommendations, Gap Analysis, Read Between the Lines, and finally the optimised CV rewrite plus LinkedIn reconciliation.
+- **Coaching Voice section in career-navigator**: direct market-reality feedback, flight-risk check, overthinking-versus-applying heuristic, optimistic-role-analysis versus strategic-career-advice distinction, and cross-session consistency rules. Codifies the balance between warmth and directness that career coaching actually needs.
+- **Master facts awareness in Tim**: before dispatching application-optimiser for CV work, Tim now checks for `master-facts.md` in the current working directory and passes the path to the sub-agent as the authoritative source of truth. For first-time users, Tim mentions the master-facts template as an optional one-time setup.
+- **Traceability and hallucination red-flag scan in reflect-validate**: CV validation now runs a source traceability check before keyword coverage, and a red-flag scan for unverified adjectives, team composition, geography, reporting structure, and timing details before delivery.
+- **CONTRIBUTORS.md**: manual contributor acknowledgement log at repo root, crediting community contributions by name with contribution summaries.
+- **CONTRIBUTING.md** (`.github/CONTRIBUTING.md`): contribution guide covering what belongs in the repo, PR process, house style (UK English, no em dashes, no emojis, Oxford comma), skill content conventions, and versioning rules.
 
 ### Changed
 - Plugin version bumped to 1.10.0

@@ -92,7 +92,7 @@ Generate → Evaluate → If NEEDS_IMPROVEMENT → Refine → Re-evaluate
 | **Role Alignment** | Summary/headline matches target role using verified language? |
 | **Skills Match** | Skills section reflects JD requirements and user's documented expertise? |
 
-**Note on coverage thresholds:** This 70% figure is the *minimum acceptance gate* — content below this threshold gets refined before delivery. The companion `@ATS-Helper.md` defines a separate *aspirational target* of 90% — what a strong rewrite aims for when verified evidence supports it. Coverage between 70 and 90 percent passes validation but should still be improved if the source allows.
+**Note on coverage thresholds:** This 70% figure is the *minimum acceptance gate*; content below this threshold gets refined before delivery. The companion `@ATS-Helper.md` defines a separate *aspirational target* of 90%, which is what a strong rewrite aims for when verified evidence supports it. Coverage between 70 and 90 percent passes validation but should still be improved if the source allows.
 
 **Traceability Check (run before any other CV check):**
 
@@ -106,7 +106,7 @@ If any bullet fails traceability, mark the whole CV as NEEDS_IMPROVEMENT and ref
 
 **Hallucination Red Flag Scan:**
 
-Before delivery, scan the draft for these patterns — if any appear and cannot be cited to source, remove them:
+Before delivery, scan the draft for these patterns. If any appear and cannot be cited to source, remove them:
 
 - Adjectives: "strategic", "innovative", "comprehensive", "robust", "world-class", "industry-leading"
 - Team composition: "cross-functional", "distributed", "diverse", "matrixed"

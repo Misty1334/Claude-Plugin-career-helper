@@ -5,7 +5,7 @@
 **How to use this file:**
 
 1. Copy this template into your workspace as `master-facts.md`.
-2. Fill in only what is verifiable. Leave placeholders (`{{LIKE_THIS}}`) in place for anything you are unsure about — do not guess.
+2. Fill in only what is verifiable. Leave placeholders (`{{LIKE_THIS}}`) in place for anything you are unsure about. Do not guess.
 3. When running application-optimiser, the skill will prefer content from this file over anything else. That means every bullet in your generated CV can be traced directly back here.
 4. Update the file whenever you land a new achievement, metric, or role change.
 
@@ -13,7 +13,7 @@
 
 - Stops every CV rewrite from drifting or inventing details.
 - Lets you reuse pre-verified bullets across applications rather than rewriting from scratch.
-- Creates an audit trail — every bullet on your CV traces back to a specific entry here.
+- Creates an audit trail: every bullet on your CV traces back to a specific entry here.
 - Makes it obvious when something is missing, so you can go find the real answer rather than let the AI fill the gap.
 
 **Important:** If a fact is not in this file, the application-optimiser skill will either ask you or leave a `[MISSING]` placeholder. It will never invent a detail to fill a gap.
@@ -54,7 +54,7 @@ Scope (geography, business unit): {{SCOPE}}
 Repeat for each role. If there is a gap between roles, add a line:
 
 ```
-Gap: {{MMM_YYYY}} to {{MMM_YYYY}} — {{REASON_IF_YOU_WANT_TO_DOCUMENT}}
+Gap: {{MMM_YYYY}} to {{MMM_YYYY}}, {{REASON_IF_YOU_WANT_TO_DOCUMENT}}
 ```
 
 ---
@@ -65,7 +65,7 @@ Every number you are willing to put on a CV should appear here once, with contex
 
 ```
 - Metric: {{e.g., "Grew weekly newsletter from 40k to 180k subscribers"}}
-  Role: {{COMPANY_NAME}} — {{TITLE}}
+  Role: {{COMPANY_NAME}}, {{TITLE}}
   Timeframe: {{e.g., "Jan 2022 to Dec 2023"}}
   Source: {{HOW_YOU_KNOW_IT_e.g., "Internal dashboard", "Quarterly report"}}
   Attribution: {{"solo" | "co-led with X" | "team of N"}}
@@ -181,9 +181,9 @@ Only include if relevant to your target roles.
 This section is for things you know are not in the file yet, or areas where you would need to go verify something before it can be used.
 
 ```
-- {{e.g., "Accenture 2012-2014 — need to confirm exact project names before using in bullets"}}
-- {{e.g., "No documented metrics for OYO role — would need to ask former manager"}}
-- {{e.g., "Career break 2019-2020 — want to leave undocumented on CV"}}
+- {{e.g., "Accenture 2012-2014: need to confirm exact project names before using in bullets"}}
+- {{e.g., "No documented metrics for OYO role; would need to ask former manager"}}
+- {{e.g., "Career break 2019-2020: want to leave undocumented on CV"}}
 ```
 
 When application-optimiser encounters a gap listed here, it will not try to fill it. It will either ask you or leave a placeholder in the output.
@@ -204,7 +204,7 @@ Things you do not want included on any CV, even if they are true. Examples: a fo
 ## Usage Notes
 
 - **When you first run application-optimiser**, point it at this file. It will treat these entries as the authoritative source.
-- **Keep this file plain markdown.** Do not use tables, images, or complex formatting — the skill needs to parse it reliably.
+- **Keep this file plain markdown.** Do not use tables, images, or complex formatting; the skill needs to parse it reliably.
 - **Re-read the file occasionally.** Your career keeps moving; this file should keep up.
 - **Never delete metrics.** If a metric becomes stale, mark it with a date and move it to a "historical" section rather than removing it.
 
