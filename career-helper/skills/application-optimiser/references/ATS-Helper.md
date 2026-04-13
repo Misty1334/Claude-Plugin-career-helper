@@ -200,7 +200,7 @@ Using Steps 1 to 8, produce the final deliverables.
 #### 9a. Optimised CV
 
 PROFILE
-A 3 to 5 line summary aligned to the target title, integrating the highest-value keywords from Step 4 and 1 to 2 core concepts. Use only verified phrasing — avoid generic marketing language like "multi-disciplinary", "high-growth environments", or "strategic leader" unless those exact words appear in the source.
+A 3- to 5-line summary aligned to the target title, integrating the highest-value keywords from Step 4 and 1 to 2 core concepts. Use only verified phrasing; avoid generic marketing language like "multi-disciplinary", "high-growth environments", or "strategic leader" unless those exact words appear in the source.
 
 SKILLS
 List 10 to 16 items grouped by theme. Include exact tool names and key frameworks from the job description where the user's verified experience supports them.
@@ -281,8 +281,16 @@ Confirm exact string matches between LinkedIn and CV for employer names, job tit
 
 ## Quality Bar and Acceptance Criteria
 
+Two distinct thresholds apply to keyword coverage. They are not interchangeable:
+
+- **Aspirational target (this skill):** 90 percent of [Keyword_List] represented in Skills or Experience. This is what a strong CV rewrite aims for when verified evidence supports it.
+- **Minimum acceptance gate (`@reflect-validate.md`):** 70 percent. Below this, validation marks the CV as NEEDS_IMPROVEMENT and refines before presenting to the user.
+
+Coverage between 70 and 90 percent passes validation but should still be improved if the source contains verified evidence to support more keywords. Coverage below 70 percent is never delivered.
+
 - **Verification:** every substantive word in the final CV traces to the master facts file, the user's current CV, or explicit conversation confirmation. No exceptions.
-- **Coverage:** at least 90 percent of [Keyword_List] represented in Skills or Experience.
+- **Coverage (aspirational):** at least 90 percent of [Keyword_List] represented in Skills or Experience.
+- **Coverage (minimum gate):** at least 70 percent — below this, refine before delivery.
 - **Quantification:** at least 70 percent of bullets include a concrete metric or frequency.
 - **Alignment:** every [Concept_List] item has at least one explicit supporting bullet.
 - **Clarity:** no buzzwords without evidence. Each bullet is specific, observable, and testable.

@@ -86,11 +86,13 @@ Generate → Evaluate → If NEEDS_IMPROVEMENT → Refine → Re-evaluate
 |-----------|-------|
 | **Source Traceability** | Can every substantive bullet cite its source (master facts file, current CV, or explicit conversation turn)? |
 | **No Invented Content** | No modifiers, scope, geography, or timing details added beyond the source? |
-| **Keyword Coverage** | ≥70% of JD keywords integrated (using only verified experience)? |
-| **Quantified Achievements** | Numbers, percentages, metrics present — all traceable to source? |
+| **Keyword Coverage (minimum gate)** | ≥70% of JD keywords integrated, using only verified experience. Below 70% → NEEDS_IMPROVEMENT. |
+| **Quantified Achievements** | Numbers, percentages, metrics present, all traceable to source? |
 | **ATS-Safe Formatting** | No tables, graphics, columns, fancy fonts? |
 | **Role Alignment** | Summary/headline matches target role using verified language? |
 | **Skills Match** | Skills section reflects JD requirements and user's documented expertise? |
+
+**Note on coverage thresholds:** This 70% figure is the *minimum acceptance gate* — content below this threshold gets refined before delivery. The companion `@ATS-Helper.md` defines a separate *aspirational target* of 90% — what a strong rewrite aims for when verified evidence supports it. Coverage between 70 and 90 percent passes validation but should still be improved if the source allows.
 
 **Traceability Check (run before any other CV check):**
 
