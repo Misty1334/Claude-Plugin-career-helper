@@ -73,9 +73,16 @@ If a bullet would need a detail you cannot cite, **flag and ask**. Never guess.
 
 ## Execution Plan
 
-You will deliver nine sequential outputs as strict sections. Sections 1 to 8 are analysis. Section 9 is the final CV rewrite plus LinkedIn reconciliation.
+This is a conditional multi-stage flow built around a fit gate at Step 1.
 
-Do not skip steps. Each step builds on the last.
+**Stage 1 (always runs):** Deliver Step 1, the Career Fit Assessment.
+
+**Stage 2 (conditional):** Steps 2 to 9 only run if Step 1 rates the fit as **Strong** or **Moderate**, OR if the user has explicitly confirmed they want to proceed after a Poor/Questionable rating.
+
+- If fit is **Strong** or **Moderate**: continue straight through Steps 2 to 9 without pausing. Each step builds on the last; do not skip steps within Stage 2.
+- If fit is **Poor** or **Questionable**: stop after Step 1. Emit the literal marker `PAUSE_FOR_CONFIRMATION` on its own line, followed by a short prompt asking the user whether to proceed despite the fit concerns. Do not generate Steps 2 to 9 until the user responds with explicit confirmation. On confirmation, resume from Step 2 and run through to Step 9 without further pauses.
+
+Sections 2 to 8 are analysis. Section 9 is the final CV rewrite plus LinkedIn reconciliation.
 
 <Step_1_Output>
 ### 1. Career Fit Assessment
@@ -84,7 +91,7 @@ How well does this role align with the user's verified career trajectory and str
 
 Rate fit as: **Strong / Moderate / Poor / Questionable**.
 
-If the fit is Poor or Questionable, explicitly ask the user whether they want to proceed before continuing to Step 2. Do not silently push through.
+If the fit is **Poor** or **Questionable**, explain the specific concerns in two or three lines, then emit `PAUSE_FOR_CONFIRMATION` on its own line and ask: "The fit looks weak for the reasons above. Do you still want me to proceed with the full rewrite, or would you rather revisit the target role first?" Wait for the user's answer before generating Step 2.
 </Step_1_Output>
 
 <Step_2_Output>
