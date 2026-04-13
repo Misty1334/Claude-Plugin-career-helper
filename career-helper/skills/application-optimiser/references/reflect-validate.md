@@ -79,25 +79,55 @@ Generate → Evaluate → If NEEDS_IMPROVEMENT → Refine → Re-evaluate
 
 ## Validation Criteria by Capability
 
-### 1. CV/ATS Optimization
+### 1. CV/ATS Optimisation
 
 **Content Requirements:**
 | Criterion | Check |
 |-----------|-------|
-| **Keyword Coverage** | ≥70% of JD keywords integrated? |
-| **Quantified Achievements** | Numbers, percentages, metrics present? |
+| **Source Traceability** | Can every substantive bullet cite its source (master facts file, current CV, or explicit conversation turn)? |
+| **No Invented Content** | No modifiers, scope, geography, or timing details added beyond the source? |
+| **Keyword Coverage (minimum gate)** | ≥70% of JD keywords integrated, using only verified experience. Below 70% → NEEDS_IMPROVEMENT. |
+| **Quantified Achievements** | Numbers, percentages, metrics present, all traceable to source? |
 | **ATS-Safe Formatting** | No tables, graphics, columns, fancy fonts? |
-| **Role Alignment** | Summary/headline matches target role? |
-| **Skills Match** | Skills section reflects JD requirements? |
+| **Role Alignment** | Summary/headline matches target role using verified language? |
+| **Skills Match** | Skills section reflects JD requirements and user's documented expertise? |
+
+**Note on coverage thresholds:** This 70% figure is the *minimum acceptance gate*; content below this threshold gets refined before delivery. The companion `@ATS-Helper.md` defines a separate *aspirational target* of 90%, which is what a strong rewrite aims for when verified evidence supports it. Coverage between 70 and 90 percent passes validation but should still be improved if the source allows.
+
+**Traceability Check (run before any other CV check):**
+
+For every substantive bullet in the draft CV, answer:
+1. Which source entry does this bullet come from? (Master facts section, CV section, or conversation turn.)
+2. Are all substantive words present in that source, or traceable to a verified alternative in the source?
+3. If rephrased, does the meaning remain identical?
+4. Have only redundant words been removed, never added meaning?
+
+If any bullet fails traceability, mark the whole CV as NEEDS_IMPROVEMENT and refine before continuing to keyword coverage.
+
+**Hallucination Red Flag Scan:**
+
+Before delivery, scan the draft for these patterns. If any appear and cannot be cited to source, remove them:
+
+- Adjectives: "strategic", "innovative", "comprehensive", "robust", "world-class", "industry-leading"
+- Team composition: "cross-functional", "distributed", "diverse", "matrixed"
+- Geographic scope: "across X countries", "global", "EMEA-wide"
+- Reporting structure: "direct reports", "dotted line", "matrixed"
+- Timing: "within X months", "in the first Y", "by Q3"
+- Hybrid bullets stitched from different source bullets
+- Combined metrics from different achievements
+
+See `@verified-content-guardrails.md` for the full guardrail rules.
 
 **Output Format:**
 ```xml
 <cv_evaluation>PASS | NEEDS_IMPROVEMENT | FAIL</cv_evaluation>
 <cv_feedback>
+- Traceability: X of Y bullets have a citable source (target: 100%)
+- Hallucination red flags found: [list with locations]
 - Keyword coverage: X% (target: 70%+)
 - Missing key terms: [list]
 - Formatting issues: [list]
-- Suggested improvements: [specific changes]
+- Suggested improvements: [specific changes using verified content only]
 </cv_feedback>
 ```
 
