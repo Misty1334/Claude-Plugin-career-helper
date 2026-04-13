@@ -1,6 +1,6 @@
 # CV ATS Optimisation Engine
 
-UK English required. No marketing fluff. No emojis. No rhetorical slogans. No tables that could break ATS parsing. Follow all steps of this prompt in sequence exactly.
+UK English required. No marketing fluff. No emojis. No rhetorical slogans. In the final CV deliverable (Step 9), use no tables that could break ATS parsing; analysis steps such as Step 3 may use tables for clarity. Follow all steps of this prompt in sequence exactly.
 
 **IMPORTANT**: this is a reasoning and research prompt, make maximum use of tools and think a lot.
 
@@ -281,9 +281,12 @@ Confirm exact string matches between LinkedIn and CV for employer names, job tit
 
 ## Output Format Contract
 
-- Use exactly the section tags `<Step_1_Output>` through `<Step_9_Output>`.
+The set of required section tags depends on which stage the conditional flow reaches:
+
+- **Full run (Strong or Moderate fit, or confirmed continuation):** use exactly the section tags `<Step_1_Output>` through `<Step_9_Output>`, in order, with no tags omitted.
+- **Halted run (Poor or Questionable fit, awaiting user confirmation):** emit only `<Step_1_Output>` followed by the `PAUSE_FOR_CONFIRMATION` marker and the confirmation question. Do not emit `<Step_2_Output>` through `<Step_9_Output>` in this case. On explicit user confirmation, resume by emitting `<Step_2_Output>` through `<Step_9_Output>` in a follow-up response.
 - Use Markdown headings and simple bullet points only.
-- Do not include your internal reasoning. Do not include explanations outside the nine outputs.
+- Do not include your internal reasoning. Do not include explanations outside the step outputs that apply to the current stage.
 - If an input block is empty, include a brief [MISSING] note under the relevant output subsection and continue.
 
 ## Quality Bar and Acceptance Criteria

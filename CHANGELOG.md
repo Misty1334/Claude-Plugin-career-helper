@@ -6,6 +6,18 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 ---
 
+## [1.10.3] - 2026-04-13
+
+### Fixed
+- ATS-Helper Output Format Contract now reflects the conditional flow introduced in v1.10.2. Previously the contract unconditionally required `<Step_1_Output>` through `<Step_9_Output>`, which contradicted the Step 1 gate that halts on Poor/Questionable fit. The contract now specifies two stages: a full run emits all nine tags; a halted run emits only `<Step_1_Output>` plus the `PAUSE_FOR_CONFIRMATION` marker, and the remaining tags are emitted only after explicit user confirmation (CodeRabbit flag on PR #24).
+- ATS-Helper "no tables" rule on line 3 was a global prohibition that conflicted with Step 3 analysis, which explicitly requires a table. The rule is now scoped to the CV deliverable in Step 9, while analysis steps may use tables for clarity (CodeRabbit flag on PR #24).
+- CHANGELOG v1.10.0 entries for "Verified content guardrails" and "Master facts template" now use the full repo-relative paths (`career-helper/skills/application-optimiser/references/...`) rather than the shortened form, so links are navigable from the repo root (CodeRabbit flag on PR #24).
+
+### Changed
+- Plugin and marketplace version bumped to 1.10.3
+
+---
+
 ## [1.10.2] - 2026-04-13
 
 ### Fixed
@@ -35,8 +47,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 ## [1.10.0] - 2026-04-13
 
 ### Added
-- **Verified content guardrails** (`application-optimiser/references/verified-content-guardrails.md`): non-negotiable anti-hallucination rules for CV rewriting, including a trigger-phrase STOP list, a decision tree for source verification, safe-vs-unsafe optimisation examples, and a hallucination red-flag self-review checklist. Every substantive word in a delivered CV must now trace to a verified source.
-- **Master facts template** (`application-optimiser/references/master-facts-template.md`): optional single-source-of-truth file users can maintain once and reuse across every application. Covers verified timeline, metrics bank, and bullet library organised by emphasis area. When present in cwd, application-optimiser prefers it over any other source.
+- **Verified content guardrails** (`career-helper/skills/application-optimiser/references/verified-content-guardrails.md`): non-negotiable anti-hallucination rules for CV rewriting, including a trigger-phrase STOP list, a decision tree for source verification, safe-vs-unsafe optimisation examples, and a hallucination red-flag self-review checklist. Every substantive word in a delivered CV must now trace to a verified source.
+- **Master facts template** (`career-helper/skills/application-optimiser/references/master-facts-template.md`): optional single-source-of-truth file users can maintain once and reuse across every application. Covers verified timeline, metrics bank, and bullet library organised by emphasis area. When present in cwd, application-optimiser prefers it over any other source.
 - **9-step job-analysis flow in ATS-Helper**: refactored the execution plan from 3 steps (keyword extraction, CV rewrite, LinkedIn sync) to 9 steps: Career Fit Assessment, Content Strategy, Resume-Job Alignment, Keyword and Concept Extraction, Recruiter Perspective, Enhancement Recommendations, Gap Analysis, Read Between the Lines, and finally the optimised CV rewrite plus LinkedIn reconciliation.
 - **Coaching Voice section in career-navigator**: direct market-reality feedback, flight-risk check, overthinking-versus-applying heuristic, optimistic-role-analysis versus strategic-career-advice distinction, and cross-session consistency rules. Codifies the balance between warmth and directness that career coaching actually needs.
 - **Master facts awareness in Tim**: before dispatching application-optimiser for CV work, Tim now checks for `master-facts.md` in the current working directory and passes the path to the sub-agent as the authoritative source of truth. For first-time users, Tim mentions the master-facts template as an optional one-time setup.
