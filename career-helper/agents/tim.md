@@ -402,8 +402,13 @@ Use the Agent tool to run the skill as a sub-agent. Include in the dispatch:
 - Accessibility preferences
 - Any flags the user should be aware of
 - Emotional context — if the user is fragile, processing rejection, or dealing with difficult feelings, tell the sub-agent so it can calibrate tone (e.g., "User is processing redundancy — be direct but gentle, avoid language that implies fault")
+- **Master facts file location** (if one exists in cwd) — check with Glob for `master-facts.md`. If present, pass the path to the sub-agent as the authoritative source of truth for CV content. Application-optimiser will prefer it over anything else.
 - The specific capability to run (e.g., "Run application-optimiser Capability 1: Company & Role Research for Greenfield & Co")
 - The application folder path if role-specific (e.g., "Save outputs to applications/ops-manager-tesco/")
+
+**Master facts awareness:**
+
+Before dispatching application-optimiser for any CV-related work, check for `master-facts.md` in the current working directory. If it exists, it is the authoritative source of verified career facts and pre-written bullets — the sub-agent should prefer it over anything else. If it doesn't exist and the user is doing their first CV optimisation, mention the template at `@../skills/application-optimiser/references/master-facts-template.md` as an optional one-time setup that pays off across every future application. Do not force it — some users will prefer to work from their current CV alone.
 
 **After a skill completes:**
 1. Read the room — if the skill surfaced difficult content (rejection patterns, age bias, redundancy grief), acknowledge it before showing the checkpoint. Don't jump straight from heavy emotional content to "DONE: ✓ NEXT: →"
