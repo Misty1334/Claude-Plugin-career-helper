@@ -76,6 +76,101 @@ automatically included and should be retained.
 
 =======================================================================
 
+NON-COMMERCIAL USE CLARIFICATION:
+
+The spirit of this licence is simple: open reuse, sharing, commenting, and
+paying it forwards with warmth and kindness, as long as the work is not
+used for commercial gain. Everything below is a practical unpacking of
+that one sentence. If there is ever a conflict between the spirit above
+and the detail below, the spirit wins.
+
+CC BY-NC 4.0 prohibits commercial use, but it does permit a wide range of
+non-profit, public sector, charitable, and personal uses. This clarification
+makes the intent of the licensor explicit, prompted by a community question
+about whether an unemployed job seeker could build a local-model interface
+(for example, a simple web UI wrapping Ollama, Llama, or Qwen) around
+Career Helper and offer it to a public employment service. The short answer
+to that question is yes, with warmth and with thanks for asking.
+
+The following uses are expressly welcomed, provided attribution and the
+spirit of "Pay It Forward" below are preserved.
+
+  1. Personal use by an individual job seeker, including cloning, forking,
+     self-hosting, and wrapping the skills in a local interface (for
+     example, a web UI on top of Ollama, Llama, Qwen, or any other local
+     model) to help that person, their family, or their friends find work.
+
+  2. Use by public sector bodies, government employment services, state
+     welfare agencies, and equivalent public bodies in any country, to
+     help the job seekers they serve, provided no fee is charged to the
+     job seeker.
+
+  3. Use by registered charities, non-profits, and community groups that
+     support people into work, retraining, or career change, provided the
+     service is free at the point of use.
+
+  4. Use by schools, colleges, and universities in free careers services,
+     alumni support, and employability programmes.
+
+  5. Use by mutual aid groups, volunteer career coaches, and individuals
+     running free workshops or study groups for job seekers.
+
+The following uses are NOT permitted without separate written permission
+from the licensor.
+
+  1. Use by commercial recruitment agencies, outplacement firms, executive
+     search firms, or career coaches who charge fees to clients.
+
+  2. Use by external consultancies that are paid to deliver career
+     services built on Career Helper, including cases where the paying
+     party is itself a public body. In plain terms: a public employment
+     service using Career Helper internally to help its own claimants is
+     welcome; a commercial consultancy paid by that same public body to
+     run a Career Helper service on its behalf is not.
+
+  3. Repackaging, rebranding, or selling Career Helper, or any substantial
+     derivative, as part of a commercial product, subscription, or
+     service.
+
+  4. Training proprietary AI models for commercial deployment on Career
+     Helper content.
+
+COMMERCIAL LICENSING:
+
+  If your intended use is commercial, please get in touch rather than
+  walking away. Open an issue or a discussion on the GitHub repository
+  describing what you would like to do, and we will have a conversation
+  about a commercial licence. Any proceeds from commercial licensing
+  arrangements will be donated to an appropriate charity, chosen with
+  the spirit of this project in mind: supporting job seekers, people
+  out of work, and those facing barriers to employment. We would rather
+  say yes on sensible terms and turn the proceeds into more help for
+  more people than have anyone feel shut out of using Career Helper.
+
+IF YOU ARE UNSURE:
+
+  The guiding question is simple: is money changing hands for the career
+  help itself? If no, and your intent is to help people get into work,
+  you are almost certainly within the spirit of this licence. If yes, you
+  probably need a commercial arrangement. When in doubt, open an issue on
+  the GitHub repository and ask. The licensor has a strong preference for
+  saying yes to non-profit, public sector, and volunteer use.
+
+FORKS AND DERIVATIVES:
+
+  Forks are welcome. If you build a wrapper, a web interface, a
+  local-model adaptation, or any other derivative, please:
+
+    1. Keep the CC BY-NC 4.0 licence on the derivative.
+    2. Acknowledge Career Helper and link back to the upstream repository
+       in your README.
+    3. Tell the people you help that Career Helper exists so they can
+       use it directly themselves.
+    4. Where practical, contribute improvements back upstream so that
+       other job seekers benefit.
+
+=======================================================================
+
 PAY IT FORWARD
 
 This skill is provided as-is, for free, with a pay-it-forward mindset.
