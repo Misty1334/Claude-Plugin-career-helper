@@ -6,6 +6,18 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 ---
 
+## [1.10.4] - 2026-04-15
+
+### Added
+- **Non-commercial use clarification** added to `LICENSE`. CC BY-NC 4.0 already permitted non-profit, public sector, charitable, and personal use, but a community question from an unemployed job seeker asking whether they could build a local-model interface (Ollama, Llama, or Qwen) around Career Helper and offer it to a national public employment service made it clear that the licence text was not explicit enough. The new section leads with the spirit of the licence (open reuse, sharing, commenting, and paying it forwards with warmth and kindness, as long as the work is not used for commercial gain), then unpacks five welcomed use cases (personal use including local-model wrappers, public employment services, charities and community groups, schools and universities, and mutual aid or volunteer coaches) and four uses that still require a commercial arrangement (paid recruitment and outplacement, paid external consultancies even when the paying party is a public body, commercial repackaging, and commercial model training).
+- **Commercial licensing route** in `LICENSE`. Commercial users are asked to open a GitHub issue or discussion rather than walk away. Proceeds from any commercial licensing arrangement will be donated to an appropriate charity supporting job seekers and people facing barriers to employment.
+- **"Forks and derivatives" guidance** in `LICENSE` covering licence retention, upstream attribution, telling end users the upstream project exists, and contributing improvements back.
+
+### Changed
+- Plugin and marketplace version bumped to 1.10.4
+
+---
+
 ## [1.10.3] - 2026-04-13
 
 ### Fixed
