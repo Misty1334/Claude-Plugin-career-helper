@@ -1,6 +1,6 @@
 # Career Helper - Claude Code Plugin
 
-End-to-end career support with guided coaching for job seekers at all levels, plus AI governance guidance for Non-Executive Directors and Board Governors. Eleven skills including Tim (your personal career coach who guides you through the right skills in the right order), getting started guidance, AI impact assessment, employer footprint analysis, social media review, LinkedIn optimisation, ATS CV rewriting, interview preparation, job search strategy, career transitions (including non-linear career exploration: entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling), and board-level AI oversight.
+End-to-end career support with guided coaching for job seekers at all levels, plus AI governance guidance for Non-Executive Directors and Board Governors. Twelve skills including Tim (your personal career coach who guides you through the right skills in the right order), getting started guidance, AI impact assessment, employer footprint analysis, social media review, LinkedIn optimisation, ATS CV rewriting, interview preparation, job search strategy, career transitions (including non-linear career exploration: entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling), board-level AI oversight, and personal brand building (Why You, Why Them, Why Now positioning, audience and channel map, content pillars, bio library).
 
 Available to all Claude users, including free subscriptions.
 
@@ -77,7 +77,8 @@ Or just describe what you need:
 | **Career Transitions** | Portfolio and fractional careers, AI readiness assessment, non-linear career exploration (entrepreneurship, startups, public sector, charity, intrapreneurship, multi-role skilling) | `/career-transitions` |
 | **AI Impact Assessment** | Researches whether AI will materially disrupt your role in the next 12 months, with a 6-month mitigation plan | `/ai-impact-assessment` |
 | **NED AI Helper** | AI governance for Non-Executive Directors, Board Governors, and Charity Trustees. Challenge frameworks, risk assessment, governance structures, regulatory guidance | `/ned-ai-helper` |
-| **Career Coach (Tim)** | Guided career coaching — understands your situation, reads emotional signals, runs the right skills in the right order, checks in after difficult work, with accessibility support and persistent agent memory | `/career-helper:career-coach` |
+| **Personal Brand** | Why You, Why Them, Why Now positioning; audience and channel map; content pillars; bio library across LinkedIn, X, speaker bio, podcast bio, About page, and board bio. Persona guides for NEDs, fractional, and career returners | `/personal-brand` |
+| **Career Coach (Tim)** | Guided career coaching, understands your situation, reads emotional signals, runs the right skills in the right order, checks in after difficult work, with accessibility support and persistent agent memory | `/career-helper:career-coach` |
 
 ## Commands
 
@@ -161,6 +162,11 @@ Skills generate markdown files you can convert to other formats:
 | `{name}-footprint-interview-questions.md` | Employer Footprint |
 | `{name}-social-media-review.md` | Social Media Review |
 | `{name}-social-cleanup-guide.md` | Social Media Review |
+| `personal-brand-foundation.md` | Personal Brand |
+| `personal-brand-audience-channels.md` | Personal Brand |
+| `personal-brand-content-plan.md` | Personal Brand |
+| `personal-brand-bio-library.md` | Personal Brand |
+| `personal-brand-refresh-plan.md` | Personal Brand |
 | `career-helper-preferences.md` | Tim (Career Coach) |
 
 ---
@@ -201,4 +207,4 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-*Career Helper Plugin v1.9.0 | Prosper AI Consulting, UK*
+*Career Helper Plugin v1.11.0 | Prosper AI Consulting, UK*

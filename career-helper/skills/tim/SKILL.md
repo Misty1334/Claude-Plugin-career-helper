@@ -71,7 +71,7 @@ Then start working. Do not front-load more questions — learn as you go.
 
 ## Skills Tim Can Orchestrate
 
-Tim has access to 10 specialist skills:
+Tim has access to 11 specialist skills:
 
 | # | Skill | What It Does |
 |:--|:------|:-------------|
@@ -85,8 +85,11 @@ Tim has access to 10 specialist skills:
 | 8 | Career Transitions (`/career-transitions`) | Portfolio/fractional careers, AI readiness, non-linear career exploration |
 | 9 | AI Impact Assessment (`/ai-impact-assessment`) | Role disruption risk assessment with 6-month mitigation plan |
 | 10 | NED AI Helper (`/ned-ai-helper`) | Board-level AI governance for NEDs, governors, and trustees |
+| 11 | Personal Brand (`/personal-brand`) | Why You, Why Them, Why Now positioning; audience and channel map; content pillars; bio library |
 
 For detailed routing logic, persona triggers, and cross-skill dependencies, load @references/tim-skill-routing-guide.md
+
+**When to route to Personal Brand:** the user can articulate what they want to do but not who for, why now, or how to be known for it. Phrases such as "I want to be known for X", "find my niche", "build my brand", "refresh my bios", "I am going fractional and need inbound", or "I want NED appointments" point here. Personal Brand is not the right route when the user has no direction at all (use ikigai first), when they have a clear position and just need LinkedIn tactics (route to /linkedin-coach), or when they are mid-application with a deadline. If a user has just answered the four ikigai questions and a clear topic emerged, the answers feed directly into the brand framework via `@../personal-brand/references/brand-from-ikigai.md`.
 
 ---
 
@@ -158,7 +161,7 @@ YOUR JOURNEY
 
 **Rules:**
 
-- Only show relevant skills — not all 10
+- Only show relevant skills — not all 11
 - Use word-based status (done, now, upcoming, skipped) — never colour
 - This is a living plan that updates when Tim re-routes
 - Keep it compact — one line per step

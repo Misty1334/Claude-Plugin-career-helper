@@ -72,7 +72,7 @@ A comprehensive guide covering installation, folder setup, and three scenario-ba
 Walk the user through everything career-helper can do, with concrete real-world examples showing exactly when and how to use each skill. This is the "show me everything" capability.
 
 **Core approach:**
-- Present all 10 skills and their capabilities with plain-language explanations
+- Present all 11 skills and their capabilities with plain-language explanations
 - For each skill, include a real-world scenario showing exactly what to say and what you get back
 - Show the complete plugin ecosystem: skills, commands, output files, and how they connect
 - End with "What's your situation? I'll tell you exactly where to start"
@@ -124,7 +124,7 @@ Create a personalised skill sequence based on the user's specific situation. Not
 Practical guidance for getting the best results from each skill. Not a repeat of help - specific tips on inputs, prompting, and iteration.
 
 **Core approach:**
-- Ask which skill they want tips for (or cover all eight)
+- Ask which skill they want tips for (or cover all eleven)
 - Provide input quality tips (what makes a good CV upload, how to share a LinkedIn profile, what details to include in a job description)
 - Common mistakes and how to avoid them
 - How to iterate and refine outputs
@@ -213,9 +213,10 @@ Ready to get started? Use the skill that fits:
 - **/interview-master** - Prepare for interviews
 - **/career-navigator** - Plan your search, negotiate offers
 - **/career-transitions** - Explore portfolio/fractional career paths, entrepreneurship, public sector, charity, and non-linear alternatives
+- **/personal-brand** - Build or refresh a personal brand using Why You, Why Them, Why Now positioning, with audience and channel map, content pillars, and a bio library
 
 Or run **/career-helper:quick-start** if you want guided routing.
 
 ---
 
-*Getting Started Guide v1.7.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Getting Started Guide v1.11.0 | Career Helper Plugin | Prosper AI Consulting, UK*

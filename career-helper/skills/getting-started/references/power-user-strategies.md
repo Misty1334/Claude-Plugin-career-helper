@@ -122,10 +122,12 @@ Not just for external job searches. Adapt the tools:
 
 ### Board or Advisory Positioning
 
-1. `/career-transitions` (Portfolio/Fractional) to explore advisory structures
-2. `/linkedin-coach` (Profile Audit) repositioned for board visibility
-3. `/linkedin-coach` (Content Strategy) focused on thought leadership
-4. `/career-navigator` (Networking Intelligence) targeting board networks
+1. `/personal-brand` (Brand Foundation, with NED persona guide loaded) for board-credible positioning that respects confidentiality, conflict of interest, and director duties
+2. `/personal-brand` (Audience and Channel Map) weighting chairs, head-hunters, and trusted sector publications above broad social
+3. `/personal-brand` (Bio Library) including the Board Bio as a primary surface
+4. `/linkedin-coach` (Profile Audit) to apply the bio library to LinkedIn
+5. `/career-navigator` (Networking Intelligence) targeting board networks
+6. `/ned-ai-helper` if AI governance is the topic the user wants to be known for
 
 ### Non-Linear Career Pivot
 
@@ -146,6 +148,30 @@ Testing a business idea alongside your job search:
 2. `/linkedin-coach` (Content Strategy) to build thought leadership in your domain
 3. `/career-navigator` (3-Month Plan) combining job search with business validation activities
 4. Keep your options open: pursue both paths until one clearly wins
+
+### Going Fractional with an Inbound-Generating Brand
+
+For users who have committed to going fractional, portfolio, or independent and need a brand that does the heavy lifting:
+1. `/career-transitions` (Portfolio/Fractional Careers) for the structural and financial decision (skip if already committed)
+2. `/personal-brand` (Brand Foundation, with fractional persona guide) for stage- and sector-specific positioning that filters the right enquiries up front
+3. `/personal-brand` (Audience and Channel Map) prioritising LinkedIn plus a personal "work with me" page; conversion infrastructure matters as much as content
+4. `/personal-brand` (Content Pillars and Cadence) at medium-investment level by default; daily LinkedIn presence plus monthly long-form
+5. `/personal-brand` (Bio Library) including a "work with me" page and a first-message-to-founder template
+6. `/linkedin-coach` (Profile Audit + Content Strategy) to apply the brand to LinkedIn-specific tactics
+7. `/career-navigator` (Networking Intelligence) for warm reconnections with pre-pivot network
+
+**Key insight:** the buyer's risk-reducer is whether you have done the role at this stage in this sector with this kind of founder. The brand needs to make that explicit; vague fractional brands attract vague enquiries at lower rates.
+
+### Returner Brand Build
+
+For users returning after a career break who want positioning that frames the gap honestly without making it the story:
+1. `/personal-brand` (Brand Foundation, with career returner persona guide) for a positioning that frames the gap as a chapter rather than a hole
+2. `/personal-brand` (Bio Library) with disproportionate focus on LinkedIn About; this is the surface doing the most work for an active return
+3. `/application-optimiser` (with career returner persona) to align the CV with the brand
+4. `/linkedin-coach` (with career returner reference) for platform-specific tactics
+5. `/career-navigator` (3-Month Plan with career returner persona) to combine brand-build activity with applications
+
+**Key insight:** the brand work is also confidence work. Read the bios aloud; the user's first reaction often reveals whether the positioning sounds like them or like an over-corrected version.
 
 ---
 

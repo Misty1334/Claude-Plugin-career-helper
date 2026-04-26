@@ -1,6 +1,6 @@
 # Tim Skill Routing Guide
 
-This file is loaded by the Tim career coach skill when making routing decisions. It describes how the 10 skills relate to each other, what output files to expect, and how to handle common scenarios.
+This file is loaded by the Tim career coach skill when making routing decisions. It describes how the 11 skills relate to each other, what output files to expect, and how to handle common scenarios.
 
 ---
 
@@ -16,6 +16,9 @@ Skills produce outputs that feed into other skills. Tim checks for existing outp
 - ai-impact-assessment findings feed into: career-transitions (consider non-linear pivot if role at risk)
 - career-navigator networking intelligence feeds into: interview-master (who you'll meet), application-optimiser (insider context)
 - linkedin-coach updates feed into: application-optimiser (keep CV/LinkedIn consistent)
+- ikigai answers (captured in conversation or in `career-helper-preferences.md`) feed into: personal-brand (the four answers map onto Why You, Why Them, Why Now via the `brand-from-ikigai.md` bridge)
+- personal-brand foundation feeds into: linkedin-coach (positioning informs headline and content strategy), career-navigator (brand-build activities included in 3-month plan), career-transitions (brand layer for fractional or portfolio positioning), employer-footprint (intended positioning becomes the benchmark for the audit)
+- career-transitions output feeds into: personal-brand (structural decision must be made before the brand layer; never run brand for a path the user has not yet committed to)
 
 ---
 
@@ -25,11 +28,12 @@ When Tim detects these signals in what the user says, it activates the correspon
 
 | Signal | Persona | Skills That Support It |
 |:-------|:--------|:----------------------|
-| Mentions break, redundancy, maternity, illness, sabbatical | Career Returner | application-optimiser, interview-master, career-navigator |
+| Mentions break, redundancy, maternity, illness, sabbatical | Career Returner | application-optimiser, interview-master, career-navigator, personal-brand |
 | Mentions age, "too old", "overqualified", discrimination, long-service redundancy, "younger candidates" | Ageism | interview-master (loads 3 ageism references) |
 | Graduate, apprentice, first job, student, early career | Early Career | application-optimiser, interview-master, career-navigator |
-| Board, governance, trustee, non-executive, NED | NED | ned-ai-helper exclusively |
-| Freelance, portfolio, fractional, consulting, independent | Fractional | career-transitions |
+| Board, governance, trustee, non-executive, NED | NED | ned-ai-helper for governance content; personal-brand (with NED persona guide) for positioning |
+| Freelance, portfolio, fractional, consulting, independent | Fractional | career-transitions for structure; personal-brand (with fractional persona guide) for inbound brand |
+| "Want to be known for X", "find my niche", "thought leadership", "build my brand", "refresh my bios" | Brand-Building | personal-brand (Capability A first; route to other capabilities based on what is missing) |
 
 Important: Tim asks sensitively before assuming a persona. "55 and struggling" could be ageism or something else entirely. Confirm before loading a persona.
 
@@ -101,6 +105,13 @@ Tim uses Glob to scan for existing outputs before routing. Role-specific files a
 **Tim:**
 - `career-helper-preferences.md`
 
+**Personal Brand:**
+- `personal-brand-foundation.md` (or `applications/{role-slug}/personal-brand-foundation.md`)
+- `personal-brand-audience-channels.md`
+- `personal-brand-content-plan.md`
+- `personal-brand-bio-library.md`
+- `personal-brand-refresh-plan.md`
+
 ### How Tim scans for progress
 
 To check what exists for a given application, scan `applications/{role-slug}/` for files. To check all applications, scan `applications/*/`. To check shared files, scan the root directory.
@@ -109,7 +120,7 @@ To check what exists for a given application, scan `applications/{role-slug}/` f
 
 ## 4. Common Routing Scenarios
 
-These are the 10 gaps Tim was designed to bridge.
+These are the gaps Tim was designed to bridge.
 
 **1. Industry change but same job title**
 The user wants to move sector but keep doing the same work. This could be career-transitions (non-linear explorer for sector change) or application-optimiser (repositioned CV for a new industry). Ask: "Are you changing what you do, or where you do it?" If they are changing sector only, application-optimiser with repositioning focus is usually sufficient. If the identity or direction is unclear, career-transitions first.
@@ -142,4 +153,14 @@ Route to career-transitions, non-linear explorer, entrepreneurship path. This ca
 Run career-navigator offer evaluation first to answer the strategic question: should they negotiate at all, and if so, on what basis? Only then move to the salary negotiation coach for tactics. Skipping straight to tactics without evaluating the offer produces poorly calibrated negotiation that can cost the user money or the offer itself.
 
 **11. Directionless — "I don't know what I want"**
-Do not route to a skill yet. Someone without direction gets nothing from a CV review or interview prep. Use the ikigai questions (load @tim-ikigai-guide.md) to walk them through what they enjoy, what they're good at, what the world needs, and what can pay. This usually takes 5-10 minutes and produces enough signal to route them. If a clear role or sector emerges, go to application-optimiser. If they're drawn to non-traditional paths, go to career-transitions. If they have strong skills but no clarity on market, go to career-navigator for a 3-month plan.
+Do not route to a skill yet. Someone without direction gets nothing from a CV review or interview prep. Use the ikigai questions (load @tim-ikigai-guide.md) to walk them through what they enjoy, what they're good at, what the world needs, and what can pay. This usually takes 5-10 minutes and produces enough signal to route them. If a clear role or sector emerges, go to application-optimiser. If they're drawn to non-traditional paths, go to career-transitions. If they have strong skills but no clarity on market, go to career-navigator for a 3-month plan. If a clear topic plus audience emerges and the user wants to be known for it, route to personal-brand using the `brand-from-ikigai.md` bridge so the four answers feed Why You, Why Them, Why Now directly.
+
+**12. Brand vs LinkedIn vs ikigai confusion**
+Three adjacent skills, three different problems. Use this rule of thumb:
+- The user does not know what they want at all: ikigai questions first (in Tim).
+- The user knows what they want to do but cannot articulate who it is for, why now, or how to be known for it: personal-brand (Capability A: Brand Foundation).
+- The user has clear positioning and just needs LinkedIn-specific tactics (headline, post structure, content cadence): linkedin-coach.
+A clarifying question to ask: "Are you trying to figure out what you stand for, or how to make it findable?" The first answer is brand foundation work; the second is brand layer plus LinkedIn tactics. If both answers are yes, run personal-brand first (it produces the spine), then linkedin-coach (it dresses it for the platform).
+
+**13. Fractional pivot needing both structure and brand**
+Two questions, in order. First: "Have you decided you are going fractional, or are you still weighing it up?" If still weighing, run career-transitions (non-linear explorer, fractional path) for the structural and financial decision. Only once the user has committed should personal-brand be run with the fractional persona guide loaded; brand work for a path the user has not committed to produces output that gets binned. If they have already committed, skip career-transitions and run personal-brand directly.

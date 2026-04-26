@@ -21,7 +21,8 @@ You are a career support navigator. Help the user find the right skill for their
 | **/social-media-review** | Quick social media check through recruiter's eyes, privacy cleanup guide | Graduates, early career, or anyone wanting a quick social media health check |
 | **/ned-ai-helper** | AI governance for boards, challenge frameworks, risk assessment, regulatory guidance | NEDs, Governors, and Trustees overseeing AI |
 | **/ai-impact-assessment** | Researches whether AI will materially disrupt your role in the next 12 months, with a 6-month mitigation plan | Checking if your role or target role is at risk from AI |
-| **/career-helper:career-coach** | Guided coaching — Tim understands your situation, reads emotional signals, runs the right skills in the right order, and checks in after difficult work | Anyone who wants guided support |
+| **/personal-brand** | Why You, Why Them, Why Now positioning; audience and channel map; content pillars; bio library across LinkedIn, X, speaker bio, podcast bio, About page, and more | Building or refreshing a personal brand, going fractional, positioning for board roles, finding your niche or voice |
+| **/career-helper:career-coach** | Guided coaching, Tim understands your situation, reads emotional signals, runs the right skills in the right order, and checks in after difficult work | Anyone who wants guided support |
 
 ## Routing Logic
 
@@ -69,6 +70,16 @@ If the user described their situation, route them:
 | "Is my role at risk from AI?" | /ai-impact-assessment |
 | "Will my job be automated?" | /ai-impact-assessment |
 | "Should I be worried about AI replacing my role?" | /ai-impact-assessment |
+| "Help me build my personal brand" | /personal-brand |
+| "I want to position myself as X" | /personal-brand |
+| "Find my niche" or "find my voice" | /personal-brand |
+| "I want to be known for X" | /personal-brand |
+| "I want to do thought leadership" | /personal-brand |
+| "Refresh my bio" or "my bios are inconsistent" | /personal-brand (Capability D: Bio Library) |
+| "I am going fractional and need inbound" | /career-transitions first, then /personal-brand (fractional persona) |
+| "I want NED appointments and to be visible for board work" | /personal-brand (NED persona); add /ned-ai-helper for AI governance content |
+| "I have a LinkedIn but I do not know what I am trying to be known for" | /personal-brand first, then /linkedin-coach |
+| "My online presence has drifted, help me refresh it" | /personal-brand (Capability E: Brand Refresh) |
 | "Coach me through my job search" | /career-helper:career-coach |
 | "I don't know which skill to use" | /career-helper:career-coach |
 | "Guide me" | /career-helper:career-coach |

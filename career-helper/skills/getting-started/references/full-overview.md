@@ -30,7 +30,7 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 **Important:** Never minimise the emotional challenge. A graduate terrified of their first interview deserves the same quality of support as a VP negotiating a package. Redundancy at 55 is a different experience from redundancy at 30. Let the user's situation shape how you present the tools.
 
-## The Ten Skills - With Examples
+## The Eleven Skills - With Examples
 
 ### Application Optimiser - Research, CV, and Strategy
 
@@ -356,6 +356,57 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 - You are considering applying for a role and want to check its future
 - You have heard that AI is changing your industry and want specifics, not headlines
 - You want a practical plan to stay ahead of AI disruption in your field
+
+---
+
+### Personal Brand - Positioning, Audience, Pillars, and Bios
+
+**What it does:** Builds a personal brand from positioning down to platform-ready bios, structured around the Why You, Why Them, Why Now framework. Five capabilities: Brand Foundation, Audience and Channel Map, Content Pillars and Cadence, Bio Library, and Brand Refresh.
+
+**Real example - going fractional and needing inbound:**
+
+> **You say:** "I am going fractional CTO and I need inbound. I have done two exits at B2B SaaS and want Series B founders to find me."
+>
+> **What happens:**
+> 1. Capability A walks you through eleven questions across Why You, Why Them, and Why Now, producing a positioning statement, one-line elevator, three-word brand summary, and a permission slip
+> 2. Capability B turns Why Them into a sharp ideal-buyer profile, a three-tier engagement list (industry voices, peers, rising voices), a channel matrix, and a weekly rhythm matched to your time budget
+> 3. Capability C derives three to five content pillars from the foundation, with ten topic seeds per pillar and a long-form, mid-form, and short-form cadence
+> 4. Capability D writes a coherent set of bios across LinkedIn About (long, medium, trimmed), LinkedIn Headline, X/Twitter, speaker bio (three lengths), podcast guest bio, conference proposal bio, About page, email signature, and board bio
+>
+> **You get:** `personal-brand-foundation.md`, `personal-brand-audience-channels.md`, `personal-brand-content-plan.md`, `personal-brand-bio-library.md`
+
+**Real example - positioning for board, NED, governor, or trustee work:**
+
+> **You say:** "I want to be known for AI governance on regulated boards. I am ex-FCA and I sit on two boards already. Help me build a brand."
+>
+> **What happens:**
+> 1. The NED persona guide loads alongside the standard references
+> 2. Capability A focuses on board-relevant proof (governance committees, decisions where you pushed back, scars), with three-word options that lean independent ("rigorous", "calm", "patient") rather than executive ("transformational", "visionary")
+> 3. The channel matrix weights relational channels (chairs, head-hunters, sector publications) above broad social
+> 4. Capability D includes the Board Bio as a primary surface
+>
+> **You get:** Brand documents calibrated for board credibility, with explicit guardrails for confidentiality, conflict of interest, and director duties
+
+**Real example - returning after a career break:**
+
+> **You say:** "I have been out for two years caring for my father. I want to come back to engineering leadership but my LinkedIn About has nothing on it. Help me figure out what to say."
+>
+> **What happens:**
+> 1. The career returner persona guide loads alongside the standard references
+> 2. Capability A frames the gap as a chapter rather than a hole, with one to three sentences naming what was done during the break and what stayed sharp
+> 3. Capability D produces a returner-shaped LinkedIn About that leads with the next chapter, references pre-break experience as supporting context, and acknowledges the break in plain language without making it the story
+>
+> **You get:** `personal-brand-foundation.md`, `personal-brand-bio-library.md`, with confidence and wellbeing notes built in
+
+**When to use it:**
+- You can articulate what you want to do but not who it is for or why now
+- You are going fractional, portfolio, or independent and need a brand that does the heavy lifting
+- You want board, NED, governor, or trustee appointments and need recognisable positioning
+- You want to do thought leadership and have not written down what you actually want to be known for
+- Your bios are inconsistent across LinkedIn, X, your speaker page, and your About page
+- Your online presence has drifted from where you want to be (Capability E: Brand Refresh)
+
+**How it differs from /linkedin-coach:** Personal Brand is the strategy layer (Why You, Why Them, Why Now). LinkedIn Coach is the platform layer (headline mechanics, post review, video script). Run brand first; LinkedIn Coach turns the positioning into LinkedIn-shaped output.
 
 ---
 

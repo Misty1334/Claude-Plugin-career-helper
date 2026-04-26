@@ -21,6 +21,7 @@ Ask using AskUserQuestion tool:
 - Considering a career change
 - Exploring alternatives to traditional employment (starting a business, public sector, charity, etc.)
 - Want to improve my professional presence
+- Want to build or refresh my personal brand (positioning, audience, content, bios)
 
 **Question 2 (based on answer):**
 - Applying → "Do you have a specific role in mind, or are you exploring?"
@@ -29,6 +30,7 @@ Ask using AskUserQuestion tool:
 - Career change → "What kind of change - new industry, freelance/fractional, or upskilling?"
 - Alternatives to employment → "What are you most drawn to: starting your own business, public sector, charity/social enterprise, or are you not sure yet?"
 - Professional presence → "Is this for job search, thought leadership, or client acquisition?"
+- Personal brand → "Are you starting from scratch (positioning), refreshing existing bios, or building a content plan? And is this for fractional, board work, a sector pivot, or something else?"
 
 ## Workflow Patterns
 
@@ -197,6 +199,71 @@ Step 2: Based on diagnosis:
         - Skill gap → /career-transitions (AI Readiness) or upskilling plan
         - Signal gap → /interview-master (Interview Prep) for next opportunity
         - Fit/timing gap → /application-optimiser (Company Research) for alternative targets
+```
+
+### Pattern G: Personal Brand Build
+
+**Best for:** User wants to build or refresh a personal brand. They have direction (a topic or a role they want to be known for) but not yet positioning.
+
+```text
+Step 1: /personal-brand (Capability A: Brand Foundation)
+        Input: distinct angle, proof points, target audience, why-now anchor (or ikigai answers from Tim)
+        Output: personal-brand-foundation.md
+        Why first: pillars, channels, and bios are downstream of positioning; a generic foundation produces generic everything else
+            ↓
+Step 2: /personal-brand (Capability B: Audience and Channel Map)
+        Input: positioning statement, weekly time budget
+        Output: personal-brand-audience-channels.md
+        Why second: the channel matrix follows the audience profile; reversing the order produces a plan the user does not run
+            ↓
+Step 3: /personal-brand (Capability C: Content Pillars and Cadence)
+        Input: foundation document, audience map
+        Output: personal-brand-content-plan.md
+        Why third: pillars come from the intersection of Why You and Why Them; the audience map sharpens both
+            ↓
+Step 4: /personal-brand (Capability D: Bio Library)
+        Input: foundation document, existing bios to refresh (if any)
+        Output: personal-brand-bio-library.md
+        Why fourth: bios reuse the same proof points framed differently; producing them last ensures consistency across LinkedIn, X, speaker bio, podcast bio, About page, and board bio
+            ↓
+Step 5 (optional): /linkedin-coach (Profile Audit)
+        Input: positioning statement, bio library
+        Output: linkedin-profile-review.md
+        Why optional: turns the brand layer into LinkedIn-shaped tactics. Skip if LinkedIn is not the primary channel.
+```
+
+**Persona variations:**
+
+- **Fractional or Portfolio:** before Step 1, run /career-transitions (Portfolio/Fractional Careers) if the user has not yet committed to going fractional. Brand work for a path the user has not committed to produces output that gets binned. Once committed, Steps 1 to 4 load the fractional persona guide.
+- **NED, Governor, or Trustee:** Steps 1 to 4 load the NED persona guide. The channel matrix in Step 2 weights relational channels (chairs, head-hunters, sector publications) above broad social. If AI governance is the topic, also run /ned-ai-helper.
+- **Career Returner:** Steps 1 and 4 load the career returner persona guide. Step 4 disproportionately weights LinkedIn About; Steps 2 and 3 are optional during the active-return phase.
+
+**Key insight:** Run Step 1 before any other capability. The foundation is the spine; the rest is dressing.
+
+### Pattern H: Brand Refresh
+
+**Best for:** User has an existing online presence that has drifted from where they want to be. Bios are inconsistent, content pillars no longer fit, channels no longer match audience.
+
+```text
+Step 1: /personal-brand (Capability E: Brand Refresh)
+        Input: links to current LinkedIn, personal site, recent talks or posts; intended positioning
+        Output: personal-brand-refresh-plan.md
+        Why first: the audit identifies drift before any rewrite
+            ↓
+Step 2 (conditional, based on what the audit surfaces):
+        - Risky or off-brand legacy content → /social-media-review
+        - Need a deeper scored employer-impression dashboard → /employer-footprint
+        - Positioning has changed but is not yet documented → /personal-brand (Capability A) before continuing
+            ↓
+Step 3: /personal-brand (Capability D: Bio Library)
+        Input: refreshed positioning, surfaces flagged in the refresh plan
+        Output: personal-brand-bio-library.md
+        Why: rewrite every surface the audit flagged as drifted, in one consistent pass
+            ↓
+Step 4 (optional): /linkedin-coach (Profile Audit)
+        Input: refreshed bio library
+        Output: linkedin-profile-review.md
+        Why optional: applies the refreshed bios to LinkedIn at the platform-tactic layer
 ```
 
 ### Pattern F: Offer Stage
