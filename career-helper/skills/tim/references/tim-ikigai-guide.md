@@ -97,6 +97,9 @@ Then look for overlaps:
 | Worried about relevance/future | AI Impact Assessment |
 | Needs to build confidence first | Start with Employer Footprint or LinkedIn (quick wins) |
 | Still genuinely unsure | Career Navigator (3-month exploration plan) |
+| Clear topic plus audience emerged, wants to be known for it | Personal Brand (use the `brand-from-ikigai.md` bridge so the four answers feed the Why You, Why Them, Why Now framework rather than starting again) |
+| Wants to go fractional, portfolio, or independent and the topic is clear | Career Transitions first for the structural decision, then Personal Brand for the brand layer |
+| Wants board, NED, governor, or trustee appointments and the topic is clear | Personal Brand with the NED persona guide loaded; route to /ned-ai-helper if the topic is AI governance specifically |
 
 ---
 

@@ -6,6 +6,35 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 ---
 
+## [1.11.0] - 2026-04-26
+
+### Added
+- **New skill: `/personal-brand`** for personal brand building, structured around the Why You, Why Them, Why Now framework. Five capabilities:
+  - Capability A: Brand Foundation. An eleven-question interview producing a positioning statement, one-line elevator, three-word brand summary, and a "permission slip" paragraph the user can defend.
+  - Capability B: Audience and Channel Map. Sharp ideal-audience profile, three-tier engagement strategy (industry voices, peers, rising voices), channel matrix matched to where the audience actually is, and a low/medium/high investment weekly rhythm.
+  - Capability C: Content Pillars and Cadence. Three to five pillars derived from the foundation, ten topic seeds per pillar, a repurposing cascade (long-form to thread to short post to talk), voice rules, and a first-90-days plan.
+  - Capability D: Bio Library. A coherent set of bios at every length the user actually needs (LinkedIn About long/medium/trimmed, LinkedIn headline, X/Twitter bio, speaker bio in three sizes, podcast guest bio, conference proposal bio, About page, email signature line, and board bio).
+  - Capability E: Brand Refresh. A diagnostic of current online positioning signals, drift analysis against intended positioning, and a prioritised refresh plan.
+- **Personal Brand reference suite** (`career-helper/skills/personal-brand/references/`): `personal-brand-foundation.md`, `audience-channel-map.md`, `content-pillars-from-brand.md`, `bio-library-templates.md`, `brand-from-ikigai.md` (the bridge file mapping ikigai answers onto Why You, Why Them, Why Now), and `personal-brand-output-template.md`.
+- **Three persona guides** for the personal-brand skill: `ned-personal-brand-guide.md` (board, NED, governor, and trustee positioning, with adjustments for confidentiality, conflict of interest, and director duties), `fractional-personal-brand-guide.md` (fractional, portfolio, and independent positioning, treating the brand as the inbound funnel), and `career-returner-personal-brand-guide.md` (returner positioning that frames the gap honestly without making it the story, with confidence and wellbeing notes).
+- **Tim integration**: personal-brand added as the eleventh specialist skill in both `career-helper/agents/tim.md` and `career-helper/skills/tim/SKILL.md`. Tim now has explicit detection signals for when to route to personal-brand vs ikigai vs linkedin-coach (the "what you stand for vs how to make it findable" distinction), with two new example judgements and a clarifying question to resolve ambiguity.
+- **Ikigai-to-brand bridge in Tim's ikigai guide** (`career-helper/skills/tim/references/tim-ikigai-guide.md`): the post-questions routing table now includes routes to personal-brand when a clear topic plus audience emerges, with the `brand-from-ikigai.md` bridge so the four ikigai answers feed Why You, Why Them, Why Now directly rather than starting again.
+- **Routing guide additions** (`career-helper/skills/tim/references/tim-skill-routing-guide.md`): cross-skill dependency entries for ikigai-to-brand, brand-to-LinkedIn, brand-to-careers-navigator, brand-to-career-transitions (structural decision must precede the brand layer), and brand-to-employer-footprint. New brand-building persona row in the persona-trigger table. Two new common routing scenarios: "Brand vs LinkedIn vs ikigai confusion" with a clarifying question, and "Fractional pivot needing both structure and brand" with the order rule.
+- **Help command routing** (`career-helper/commands/help.md`): personal-brand row in the skills table and ten new routing entries covering the trigger phrases (build my brand, position myself as X, find my niche, find my voice, be known for X, thought leadership, refresh my bio, fractional inbound, NED visibility, online presence drift).
+- **Output file patterns** for personal-brand added to README and to Tim's routing guide so Tim can scan for existing brand outputs before re-running capabilities.
+
+### Changed
+- Plugin and marketplace version bumped to 1.11.0
+- Plugin and marketplace descriptions updated to mention personal brand building as the headline new capability (twelve skills total)
+- README skills table and output file table updated with the new skill and its five output filenames
+- Tim's "Skills Tim Can Run" and "Skills Tim Can Orchestrate" tables expanded from 10 rows to 11 with detection guidance for the new skill
+- Tim's "Common Routing Scenarios" count updated from "10 gaps" (which had drifted to 11 in v1.9.0 without the count being updated) to a generic "gaps" framing, with two new scenarios appended
+
+### House style
+- All new content adheres to the house style codified in v1.10.1: no em dashes, UK English throughout, Oxford comma, hyphenated compound modifiers, no emojis or emoji-style markers, no hyperbole, second-person coaching voice. Existing files were not retrofitted.
+
+---
+
 ## [1.10.4] - 2026-04-15
 
 ### Added
