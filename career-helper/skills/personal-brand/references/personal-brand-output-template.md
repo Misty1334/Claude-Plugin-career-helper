@@ -25,7 +25,7 @@ Linked role or context: {{ROLE_OR_CONTEXT_OR_NONE}}
 
 {{ONE_LINE_ELEVATOR}}
 
-## Three-word Brand Summary
+## Three-part Brand Summary
 
 {{POINT_OF_VIEW}} | {{AUDIENCE}} | {{PROOF}}
 
@@ -56,6 +56,16 @@ Linked role or context: {{ROLE_OR_CONTEXT_OR_NONE}}
 - Market shift: {{MARKET_SHIFT}}
 - Personal shift: {{PERSONAL_SHIFT}}
 - Cost of inaction (12 months): {{COST_OF_INACTION}}
+
+## Voice Rules
+
+- Sentence length: {{SHORT_AND_CLIPPED_OR_MIXED_OR_LONG_AND_FLOWING}}
+- Tone: {{DRY_WARM_DIRECT_MEASURED_PLAYFUL_RESERVED}}
+- Use of first person: {{I_OR_WE_OR_NEITHER_OR_DEPENDS}}
+- Use of personal stories: {{OFTEN_OCCASIONALLY_RARELY_NEVER}}
+- Words to avoid: {{HYPERBOLE_AND_JARGON_LIST}}
+- Words and phrases to lean into: {{AUDIENCE_NATIVE_LANGUAGE}}
+- House rules: {{NON_NEGOTIABLES_FOR_STYLE_AND_CLAIMS}}
 
 ---
 
@@ -394,7 +404,7 @@ What your existing presence currently says you stand for, who for, and why now:
 
 Every output file ends with the line:
 
-```
+```markdown
 *Personal Brand Helper | Career Helper Plugin | Prosper AI Consulting, UK*
 ```
 

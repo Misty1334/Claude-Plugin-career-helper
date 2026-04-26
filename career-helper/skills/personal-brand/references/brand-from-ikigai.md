@@ -116,7 +116,7 @@ The bridge does not replace the foundation work. It accelerates it. The user doe
 
 This file does not produce a standalone output. It informs the foundation document (Capability A). When the bridge is used, mention it in the foundation output:
 
-```
+```text
 > Foundation drafted from prior ikigai answers in {{PREFERENCES_FILE_OR_SESSION}}, then sharpened through the Why You, Why Them, Why Now framework.
 ```
 

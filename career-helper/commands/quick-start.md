@@ -49,6 +49,7 @@ Ask these questions one at a time (use AskUserQuestion tool):
 - Worried about whether AI will affect my role or the roles I'm targeting
 - Graduate, apprentice, or early career - looking for my first role
 - I'm a NED/Governor/Trustee and need AI governance support
+- I want to build or refresh my personal brand (positioning, online presence, bios)
 - I don't know what I want — I need help figuring out my direction
 - Just exploring
 
@@ -69,6 +70,7 @@ Ask these questions one at a time (use AskUserQuestion tool):
 | Graduate/early career | "Do you have a target role in mind, or are you still exploring options?" |
 | NED/Governor/Trustee | "What do you need - challenge an AI proposal, set up governance, or understand AI risks?" |
 | Worried about AI impact | "Are you concerned about your current role, or a role you're applying for?" |
+| Personal brand | "Are you starting from scratch (positioning), refreshing existing bios, or building a content plan? And is this for fractional, board work, a sector pivot, or something else?" |
 | I don't know what I want | "That's completely normal. Would you like some help figuring out what direction might suit you?" |
 | Just exploring | "What's your career level - early, mid, experienced, or late career?" |
 
@@ -108,6 +110,13 @@ Based on their answers, recommend ONE skill and invoke it:
 | Board AI risk | /ned-ai-helper |
 | Worried about AI disrupting role | /ai-impact-assessment |
 | Wants to know if target role is future-proof | /ai-impact-assessment |
+| Personal brand from scratch (positioning) | /personal-brand (Capability A: Brand Foundation) |
+| Refresh existing bios across surfaces | /personal-brand (Capability D: Bio Library) |
+| Build a content plan from positioning | /personal-brand (Capability C: Content Pillars and Cadence) |
+| Personal brand for fractional inbound | /career-transitions first if not yet committed; then /personal-brand (fractional persona) |
+| Personal brand for board, NED, governor, or trustee work | /personal-brand (NED persona); add /ned-ai-helper if AI governance is the topic |
+| Returner brand work | /personal-brand (career returner persona) |
+| Existing online presence has drifted | /personal-brand (Capability E: Brand Refresh) |
 | Doesn't know what they want | /career-helper:career-coach (Tim will use ikigai questions to help find direction) |
 | Just exploring | /getting-started (full overview) |
 | "How does this work?" | /getting-started |

@@ -19,6 +19,7 @@ Practical guidance for getting the best results from each career-helper skill. F
 | Career Transitions (Portfolio/Fractional) | Know your minimum income requirement before starting |
 | Career Transitions (Non-Linear Explorer) | Be honest about whether you are running from something or towards something; the strategy depends on it |
 | Employer Footprint | Share ALL your social handles - the more platforms you provide, the more comprehensive the audit |
+| Personal Brand | Run Capability A (Brand Foundation) before any other capability; pillars, channels, and bios are downstream of positioning and a generic foundation produces generic everything else |
 
 ---
 
@@ -248,4 +249,43 @@ Employer Impression → Application Optimiser (company-specific positioning)
 Social Media Review → LinkedIn Coach (fix professional profile)
                     → Employer Footprint (full scored audit)
 Privacy Cleanup → Peace of mind → Start applying with confidence
+```
+
+---
+
+## Personal Brand Tips
+
+### Input Quality
+
+- **Specific audience:** "Senior leaders" is not an audience. The skill needs a job title, sector, stage, geography, and the room the audience is in when they need your perspective. Generic audiences produce generic positioning.
+- **Real proof points:** Capture specific roles, projects, results, scars, and rooms you have been in. Adjectives ("transformational", "highly experienced") are not proof; the skill will push back. Bring the underlying facts.
+- **Why-now anchor:** Name something specific that has shifted in the last 6 to 18 months in your sector or your career arc. Without a why-now, the positioning sounds timeless, which usually reads as generic.
+- **Existing bios:** if you have a LinkedIn About, X bio, or speaker bio you want refreshed, paste them in. The skill works faster from a starting point than from a blank page.
+- **Ikigai answers:** if you have already been through Tim's four ikigai questions, the answers feed Why You, Why Them, Why Now directly via the `brand-from-ikigai.md` bridge. Mention them.
+
+### Common Mistakes
+
+- **Skipping Capability A and going straight to bios.** Bios written without a positioning statement read as generic and cannot be defended in a podcast pitch or board interview. Always run the foundation first.
+- **Choosing channels before defining the audience.** The channel matrix follows the audience profile; reversing the order produces a plan the user does not actually run.
+- **Reaching for marketing language.** "World-class", "transformational", "supercharge", "industry-leading" are flagged in every quality check. The framework only works if the writing earns trust on its own merits.
+- **Inventing proof.** If you have not actually given a talk, run a panel, won an award, or published in a named title, do not let the bio say so. The skill uses `{{PLACEHOLDER}}` tags for unconfirmed facts; respect them.
+- **Trying to build for two audiences at once.** Pick the priority for the next 6 to 12 months. Multi-audience strategies can come later; building for two simultaneously usually produces clarity for neither.
+
+### Iteration Strategy
+
+1. Run Capability A. Read the four artefacts aloud (positioning, elevator, three words, permission slip). If anything makes you wince, rewrite that piece before moving on.
+2. Run Capability B. Decide on two primary channels and one supporting channel; commit to a weekly rhythm you can sustain.
+3. Run Capability C. Produce three to five pillars and at least ten topic seeds per pillar.
+4. Run Capability D. Confirm or correct every fact flagged with `{{PLACEHOLDER}}`. Read all bios aloud in length order; check they sound like the same person.
+5. Optional: run Capability E (Brand Refresh) after 6 months to check whether your existing surfaces have drifted.
+
+### What Feeds Into What
+
+```text
+Tim ikigai questions → Personal Brand Capability A (foundation)
+Personal Brand A → B (audience and channels) → C (pillars and cadence) → D (bio library)
+Personal Brand A → LinkedIn Coach (positioning informs headline and content tactics)
+Personal Brand A → Career Navigator (3-month plan with brand-build activity included)
+Career Transitions (fractional/portfolio decision) → Personal Brand (brand layer for the chosen path)
+Personal Brand E → Social Media Review (if cleanup is needed) or Employer Footprint (if a deeper audit is needed)
 ```

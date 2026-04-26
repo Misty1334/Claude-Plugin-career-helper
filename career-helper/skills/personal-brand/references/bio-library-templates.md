@@ -57,7 +57,7 @@ Used by: recruiters, hiring managers, prospective clients, audience members comi
 
 Structure:
 
-```
+```text
 [Two-sentence hook: distinct angle plus audience plus why-now.]
 
 [Three to four sentences of permission slip: roles, projects, scars, results, told as a thread, not a list.]
@@ -85,7 +85,7 @@ Two-sentence hook, two-sentence permission slip, one-line audience and contact. 
 
 Cross-reference: `@../linkedin-coach/references/linkedin-headline.md` for goal-specific formulas. The personal-brand version is positioning-led:
 
-```
+```text
 [Distinct angle in 4 to 6 words] for [audience] | [proof point in 4 to 6 words] | [optional why-now in 3 to 5 words]
 ```
 
@@ -101,7 +101,7 @@ Constraint: 160 characters including spaces. Punchy, audience-aware, voice-true.
 
 Pattern:
 
-```
+```text
 [Distinct angle, 4 to 8 words]. [Audience, 3 to 5 words]. [Proof, 3 to 8 words]. [Optional link or handle reference.]
 ```
 
@@ -117,7 +117,7 @@ Used by: conference programmes, panel introductions, podcast show notes.
 
 Structure:
 
-```
+```text
 [Sentence 1: current role, distinct angle, audience, in third person.]
 [Sentence 2: permission slip; the strongest two or three proof points.]
 [Sentence 3: what the user writes, speaks, or works on, with one specific recent example if available.]
@@ -130,7 +130,7 @@ Always offer a third-person and a first-person version. Conferences default to t
 
 A tighter version for printed programmes and panel boards:
 
-```
+```text
 [Role, distinct angle, audience.]
 [Strongest two proof points.]
 [One line on the current focus or one specific recent piece of work.]
@@ -140,7 +140,7 @@ A tighter version for printed programmes and panel boards:
 
 For spoken introductions and lower-thirds:
 
-```
+```text
 [Name] is [distinct angle] for [audience], with [proof in 5 to 8 words].
 ```
 
@@ -150,7 +150,7 @@ Used by: hosts when introducing the user. This is where the user wants the host 
 
 Structure:
 
-```
+```text
 [Sentence 1: the position, told for a listening audience.]
 [Sentence 2: the proof, told as a story moment, not a list.]
 [Sentence 3: the current focus or argument the user is working on, so the host has a hook.]
@@ -162,7 +162,7 @@ Avoid jargon. The audience is listening, often distracted, often new to the user
 
 Submitted alongside a talk proposal. Bias is toward credibility for that specific talk:
 
-```
+```text
 [Sentence 1: position relative to the talk topic.]
 [Sentence 2: proof points specifically relevant to the talk topic.]
 [Sentence 3: previous talks, panels, or publications on the topic, if any.]
@@ -177,7 +177,7 @@ This is the canonical version. It can be longer because the reader has chosen to
 
 Structure:
 
-```
+```text
 [Opening paragraph: distinct angle, audience, why-now. Written to feel like a person, not a press release.]
 [Middle paragraph: permission slip; the proof, told as a thread of work, not a list.]
 [Optional paragraph: themes the user writes or speaks about, with three to five linked examples if they exist.]
@@ -190,13 +190,13 @@ The About page is where voice matters most. Read aloud. Cut anything that makes 
 
 A single line, often overlooked, that gets read by every recipient:
 
-```
+```text
 [Name] | [distinct angle, 5 to 8 words] | [link to site or canonical bio]
 ```
 
 Optional second line for current focus:
 
-```
+```text
 Currently: [one specific thing the user is working on or writing about].
 ```
 
@@ -208,7 +208,7 @@ Used by: NED applications, governor and trustee panels, committee invitations. T
 
 Structure:
 
-```
+```text
 [Sentence 1: name, current board roles or executive role.]
 [Sentence 2: most senior or relevant prior board roles, with sectors and dates if confirmed.]
 [Sentence 3: distinct angle relevant to a board context (governance specialism, sector knowledge, regulatory background).]

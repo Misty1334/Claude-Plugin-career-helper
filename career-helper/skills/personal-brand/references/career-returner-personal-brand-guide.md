@@ -109,7 +109,7 @@ For a returner, the LinkedIn About section is the primary surface and deserves d
 
 Structure for the returner LinkedIn About (long version):
 
-```
+```text
 [Sentence 1: current chapter, what the user is looking for or about to start.]
 [Sentence 2: pre-break experience, summarised in one credible line: role, sector, scope.]
 [Sentence 3 to 4: permission slip; two or three of the strongest pre-break proof points.]

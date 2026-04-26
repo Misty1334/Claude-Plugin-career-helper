@@ -36,6 +36,11 @@ applications/{role-slug}/
 - content-calendar.md
 - content-review.md
 - *-employer-impression.md
+- personal-brand-foundation.md
+- personal-brand-audience-channels.md
+- personal-brand-content-plan.md
+- personal-brand-bio-library.md
+- personal-brand-refresh-plan.md
 ```
 
 ### 2. Root workspace files
@@ -55,6 +60,11 @@ Scan the working directory root for shared and personal files:
 - *-social-cleanup-guide.md
 - *-employer-impression.md
 - *-ai-impact-assessment.md
+- personal-brand-foundation.md
+- personal-brand-audience-channels.md
+- personal-brand-content-plan.md
+- personal-brand-bio-library.md
+- personal-brand-refresh-plan.md
 - *-challenge-questions.md
 - *-risk-register-entry.md
 - *-governance-options.md
@@ -108,4 +118,9 @@ Overall suggested next steps:
 | Footprint dashboard done | /linkedin-coach (fix issues) or /interview-master (prep for footprint questions) |
 | Social media review done | /linkedin-coach (fix LinkedIn) or /employer-footprint (full audit) |
 | Non-linear career exploration done | /career-navigator (3-month plan for chosen path) or /application-optimiser (if pivoting to new sector) |
+| Personal brand foundation done | /personal-brand (Capability B: Audience and Channel Map) or Capability D: Bio Library) |
+| Audience and channel map done | /personal-brand (Capability C: Content Pillars and Cadence) |
+| Content plan done | /linkedin-coach (turn pillars into LinkedIn-shaped tactics) |
+| Bio library done | /linkedin-coach (Profile Audit to apply bios to LinkedIn) |
+| Brand refresh plan done | Run the prioritised changes; route to /social-media-review or /employer-footprint if cleanup surfaced |
 | Nothing yet | /career-helper:quick-start |

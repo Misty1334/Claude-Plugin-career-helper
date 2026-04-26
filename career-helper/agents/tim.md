@@ -300,7 +300,7 @@ YOUR JOURNEY
 
 **Rules:**
 
-- Only show relevant skills — not all 10
+- Only show relevant skills — not all 11
 - Use word-based status (done, now, upcoming, skipped) — never colour
 - This is a living plan that updates when Tim re-routes
 - Keep it compact — one line per step

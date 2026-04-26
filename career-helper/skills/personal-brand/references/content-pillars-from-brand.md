@@ -147,7 +147,7 @@ Pull the voice rules directly from the foundation. They should already exist; th
 
 Capture in a short block:
 
-```
+```text
 VOICE RULES
 
 Sentence length: [short and clipped / mixed / long and flowing]

@@ -100,6 +100,23 @@ Help the user gather the right materials before they start using career-helper s
 
 **What happens without financial information:** The assessment becomes generic and potentially dangerous. Recommending entrepreneurship to someone with 2 months of savings and a mortgage is irresponsible.
 
+### Personal Brand Building
+
+| Item | Essential? | Why |
+|:-----|:-----------|:----|
+| Distinct angle (what perspective only you hold) | **Essential** | The Why You block of the framework cannot be answered without this; the user must have something specific to say |
+| Three to five concrete proof points (roles, projects, scars, results) | **Essential** | Brand work is the highest-risk area for confabulation; every claim must trace to verified experience |
+| Specific audience (job title, sector, stage, geography, the room they are in) | **Essential** | "Senior leaders" is not an audience. Generic audiences produce generic positioning |
+| Why-now anchor (a sector or career shift in the last 6 to 18 months) | **Essential** | Without timing, the position sounds timeless, which usually reads as generic |
+| Realistic weekly time budget for brand work | **Essential** | Channel choices and cadence depend on it; overcommitting is the most common failure mode |
+| Existing bios (LinkedIn About, X/Twitter, speaker bio) | Nice to Have | Speeds up the bio library; the skill works faster from a starting point than a blank page |
+| Ikigai answers (from a prior Tim session) | Nice to Have | The four answers feed Why You, Why Them, Why Now via the bridge file |
+| Constraints (employer policy, regulated industry, anonymity needs, privacy boundaries) | Nice to Have | Shapes the channel matrix and content rules |
+
+**What happens without specificity in the audience or proof:** the framework will surface the gap and either slow down or push you toward placeholder language. The skill explicitly refuses to invent metrics, awards, employers, or speaking history. Better to confirm facts up front than to discover later that bios contain claims you cannot defend.
+
+**What happens without a why-now anchor:** the position lands as "I have done X for many years" rather than "X is changing in this specific way and I have learned the lesson the field is about to learn the hard way". The latter is what gets followed, hired, and invited onto stages.
+
 ## Presentation Format
 
 Present the checklist as a clean, copy-paste-ready list in conversation. Example:

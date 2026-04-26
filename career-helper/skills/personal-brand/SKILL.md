@@ -20,7 +20,7 @@ Strategic positioning for your online presence, built around three questions: Wh
 
 ## Quick Start
 
-```
+```text
 "Help me build a personal brand for my fractional CTO work"
 "I want to be known for AI governance on boards. Where do I start?"
 "Build me a content plan that fits my Why You, Why Them, Why Now"
@@ -197,4 +197,4 @@ When a capability specifies a template, you MUST:
 
 ---
 
-*Personal Brand Helper v1.0.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Personal Brand Helper v1.11.0 | Career Helper Plugin | Prosper AI Consulting, UK*

@@ -207,4 +207,4 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-*Career Helper Plugin v1.9.0 | Prosper AI Consulting, UK*
+*Career Helper Plugin v1.11.0 | Prosper AI Consulting, UK*
