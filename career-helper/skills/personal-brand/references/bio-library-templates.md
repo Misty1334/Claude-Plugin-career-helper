@@ -28,7 +28,7 @@ Output: a single document with bios at every length the user actually needs, dra
 ## Inputs Required
 
 - The foundation document (Capability A output) at minimum
-- Existing bios the user wants refreshed (paste them in)
+- Existing bios the user wants to refresh (paste them in)
 - Any specific contexts the user is preparing for (e.g., "I have a podcast pitch on Friday, I need the guest bio version")
 
 If the foundation does not exist, do not invent one. Run a short version of Capability A first.
@@ -109,7 +109,7 @@ Example shape (illustrative):
 
 > Boring AI for regulated boards. NEDs, governors, trustees. Ex-FCA. Currently writing about post-AI-Act board readiness.
 
-Provide two or three options. Read aloud test: if it cannot be said in one breath, cut.
+Provide two or three options. Read-aloud test: if it cannot be said in one breath, cut.
 
 ### 6. Speaker Bio (one-paragraph, 80 to 120 words)
 

@@ -258,7 +258,7 @@ Worked example (placeholders):
 
 > AI governance for boards inheriting models they did not commission, because regulators are moving faster than internal capability.
 
-Constraint: under 25 words. Read aloud test: if it cannot be said in one breath without stumbling, shorten.
+Constraint: under 25 words. Read-aloud test: if it cannot be said in one breath without stumbling, shorten.
 
 ### Artefact 3: Three-part brand summary
 

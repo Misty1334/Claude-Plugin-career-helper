@@ -118,7 +118,7 @@ Overall suggested next steps:
 | Footprint dashboard done | /linkedin-coach (fix issues) or /interview-master (prep for footprint questions) |
 | Social media review done | /linkedin-coach (fix LinkedIn) or /employer-footprint (full audit) |
 | Non-linear career exploration done | /career-navigator (3-month plan for chosen path) or /application-optimiser (if pivoting to new sector) |
-| Personal brand foundation done | /personal-brand (Capability B: Audience and Channel Map) or Capability D: Bio Library) |
+| Personal brand foundation done | /personal-brand (Capability B: Audience and Channel Map) or /personal-brand (Capability D: Bio Library) |
 | Audience and channel map done | /personal-brand (Capability C: Content Pillars and Cadence) |
 | Content plan done | /linkedin-coach (turn pillars into LinkedIn-shaped tactics) |
 | Bio library done | /linkedin-coach (Profile Audit to apply bios to LinkedIn) |
