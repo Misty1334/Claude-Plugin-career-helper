@@ -76,9 +76,11 @@ Set this up when an interview is booked, then trigger it the day before.
 
 ```text
 I have an interview for [role] at [company] on [date]. Read the interview-prep file in
-the matching applications folder. Give me a focused day-before checklist: the five
-stories to have ready, the questions I planned to ask, and the logistics to confirm.
-Keep it short and calm in tone.
+the matching applications folder. Give me a focused day-before checklist: the stories
+to have ready, the questions I planned to ask, and the logistics to confirm, drawn only
+from that file. If the file does not exist, or a section is missing, say which and list
+only what the file supports; do not invent stories, questions, or logistics. Keep it
+short and calm in tone.
 ```
 
 Cadence: On demand.

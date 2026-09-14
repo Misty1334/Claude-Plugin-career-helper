@@ -64,7 +64,7 @@ Role-specific preparation, built from a competency map outwards:
 - 8-10 intelligent questions to ask (by interviewer type)
 - Talking points and execution tips
 - Objection handling for every risk in four steps: acknowledge, reframe, evidence, close
-- A one-page dashboard at the front: readiness by competency (Ready, Needs work, Gap), top five things they will like, top five concerns, top five stories, top ten questions to practise, and one thing to do today
+- A one-page dashboard at the front: readiness by competency (Ready, Needs work, Gap: a preparation verdict distinct from the evidence rating, so a Strong competency with no story prepared yet is Needs work), up to five things they will like, top five concerns, top five stories, top ten questions to practise, and one thing to do today
 - Post-interview follow-up templates
 
 All answers cite your real experience with evidence. There is no overall readiness score: a single number invites you to optimise the number rather than the gap.

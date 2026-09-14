@@ -17,6 +17,9 @@ Written last, placed first. One screen.
 |:-----------|:--------|:-------------------|
 | {Competency 1} | {Ready / Needs work / Gap} | {One line} |
 | {Competency 2} | {Verdict} | {One line} |
+| {Repeat one row for every competency in the map, 8 to 12 in total} | | |
+
+Verdict rule: readiness is how prepared you are, not how strong the evidence is. Ready = a Strong or Partial rating with a prepared story or answer framework in this pack. Needs work = a Strong or Partial rating with no prepared story yet, or a story without a result. Gap = a Gap rating; the objection entry is the preparation.
 
 ### Top Five Things They Will Like
 {Up to five; fewer if fewer Strong ratings exist, and say so}
@@ -187,10 +190,15 @@ Ranked from the map: Gap on High-likelihood first, then Partial on High-likeliho
 **Examples from Your Experience:**
 {Specific projects, tools used, outcomes achieved}
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the competency rating, for example leading with the tool rather than the decision}
+
 **Relevant Citations (if applicable):**
 - {Industry best practice or source if relevant}
 
 ---
+
+{Repeat for every technical question; each carries "What Not to Say".}
 
 ### Category 3: Situational/Hypothetical Questions
 
@@ -209,7 +217,12 @@ Ranked from the map: Gap on High-likelihood first, then Partial on High-likeliho
 **Similar Real Situation:**
 {Actual experience that provides credibility}
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the competency rating, for example a hypothetical with no real example behind it}
+
 ---
+
+{Repeat for every situational question; each carries "What Not to Say".}
 
 ### Category 4: Company-Specific Questions
 
@@ -231,6 +244,9 @@ Ranked from the map: Gap on High-likelihood first, then Partial on High-likeliho
 **Sources to Reference (if appropriate):**
 - {Recent article, interview, product launch}
 
+**What Not to Say:**
+{One or two specific things to avoid, for example praise that any candidate could give without research}
+
 ---
 
 #### "Why This Role?"
@@ -243,6 +259,9 @@ Ranked from the map: Gap on High-likelihood first, then Partial on High-likeliho
 - Specific aspects that excite you
 - How you'll add value}
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the risks section, for example implying the role is a step down}
+
 ---
 
 #### "Why Leave Your Current Role?"
@@ -254,6 +273,9 @@ Ranked from the map: Gap on High-likelihood first, then Partial on High-likeliho
 - Shows career growth logic
 - Demonstrates enthusiasm for target company
 - Avoids negativity}
+
+**What Not to Say:**
+{One or two specific things to avoid, for example criticism of a current employer or colleague}
 
 ---
 
