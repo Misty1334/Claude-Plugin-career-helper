@@ -22,6 +22,8 @@
 
 Or, for a quiet period: No new signals across the {{N}} organisations on the map between {{start}} and {{end}}.
 
+{{DYSLEXIA-FRIENDLY VARIANT: number each organisation and list its new signals as short numbered lines (date, what happened, source). Signpost sections ("Section 1 of 5: what changed"). One decision per numbered item under Offered, Not Applied.}}
+
 ---
 
 ## Priority Changes

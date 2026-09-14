@@ -15,6 +15,8 @@
 5. Choose the folder, or leave it empty. This decides where the task runs (next section).
 6. Save, then run it once straight away from the Scheduled list. Read the result, and approve anything it asks for so future runs do not stall.
 
+**Dyslexia-friendly mode:** keep the steps above numbered, give them one at a time with a confirmation between each ("Step 2 of 6 done. Next: choosing the cadence."), ask the cloud-or-local question on its own with two short numbered options, and refer to the routine by its name ("your weekly update routine"), never by a filename or a prompt string. Troubleshooting is one likely cause per message, with the fix, not the whole table at once.
+
 Each run is its own Cowork session with access to the same things a normal task has: connected tools, plugins, skills, and web research. Runs appear in the Scheduled list, where you can open one to see what it did.
 
 ---

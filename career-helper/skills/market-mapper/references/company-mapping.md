@@ -32,6 +32,8 @@ Read `three-month-plan.md`, `skills-inventory.md`, and `applications/tracker.md`
 
 Play the seed back in five or six lines and get a yes before searching.
 
+**Dyslexia-friendly mode:** play the seed back as a numbered list, one dimension per line. Ask for the yes on its own, with no other question in the same message. Signpost each pass as you go ("Pass 1 of 4: the seed profile. Next: comparables.").
+
 ---
 
 ## Step 3: Assemble the Comparables
@@ -142,6 +144,21 @@ Every map ends with a short coverage statement before the next actions:
 - The signal window and the date of the run
 - What the map cannot claim: "This is what public sources showed in the window, not a full picture of any organisation's plans."
 - The standing mitigations: the Claude for Chrome extension for LinkedIn, the weekly update to catch what this run missed, and the user's own network as a source the map cannot see
+
+---
+
+## Dyslexia-Friendly Output
+
+When `career-helper-preferences.md` sets `dyslexia_friendly: true`, the map keeps the same content in a shape that does not need visual scanning:
+
+1. Replace the eight-column watchlist table with a numbered list, one organisation per entry, each field on its own short labelled line (Organisation, What they do, Latest signal and date, Decision maker, Angle, Priority, Last checked).
+2. Keep the per-organisation signal table to three columns (Date, Signal, Source) or use a numbered list.
+3. Write each angle as one short sentence with no idiom ("Follow the company page and read their strategy page", not "keep an ear to the ground").
+4. Repeat the organisation name in every line that refers to it.
+5. Put the coverage statement as a numbered list and the next actions as one action per number.
+6. In conversation, refer to the map as "your market map", never by filename, and present one decision at a time (for example, which organisation to act on first, then whether to schedule the update).
+
+With `colour_blind: true` nothing changes: priorities are text labels already.
 
 ---
 

@@ -32,6 +32,8 @@
 
 Priority reflects evidence in the window, not preference. Quiet rows are offered for removal at the next update.
 
+{{DYSLEXIA-FRIENDLY VARIANT: replace the table above with a numbered list, one organisation per entry, each field on its own short labelled line. Keep every field; only the shape changes.}}
+
 ---
 
 ## Organisation Detail

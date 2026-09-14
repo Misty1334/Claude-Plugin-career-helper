@@ -5,6 +5,8 @@
 
 What is scheduled, where it runs, and where its output lands. Update this file whenever a routine is added, paused, or changed. `/career-helper:status` reads it.
 
+{{DYSLEXIA-FRIENDLY VARIANT: replace the table with a numbered list, one routine per entry, each field on its own short labelled line.}}
+
 ---
 
 ## Scheduled

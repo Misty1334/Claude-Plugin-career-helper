@@ -92,7 +92,9 @@ Generate Sections 1 to 9 in order, then write Section 0 last and place it first 
 
 ### Section 0: One-Page Dashboard
 
-Placed at the top of the pack. One screen, no more, in dyslexia-friendly mode numbered throughout.
+Placed at the top of the pack. One screen, no more.
+
+**Dyslexia-friendly mode (when `career-helper-preferences.md` sets `dyslexia_friendly: true`):** number everything in the dashboard and in the pack; replace the competency map table (Section 1A) with a numbered list, one competency per entry, each field on its own short labelled line; keep each risk, objection step, and "what not to say" to one or two short sentences; signpost every section ("Section 3 of 9: your stories"); repeat the company name and role title where they matter rather than relying on the header; use no idioms or metaphors in any answer framework; and in conversation refer to the pack as "your interview prep", not by filename, offering one next step at a time (the perspective report, then the mock).
 
 **Readiness by competency:** a short table, one row per competency from Section 1A, with a text-label verdict (Ready, Needs work, Gap) and one line on what would move it. No overall score: a single number invites the user to optimise the number rather than the gap.
 

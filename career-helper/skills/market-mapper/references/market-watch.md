@@ -61,6 +61,8 @@ Use `market-watch-update-template.md`. Keep it to one screen for a normal week:
 - Three suggested actions for the week, each tied to a signal and fitting the posture
 - Coverage: what was unreachable this run
 
+In dyslexia-friendly mode, number every organisation and every signal, signpost each section, keep each suggested action to one short sentence, and present each offered removal or addition as its own numbered decision; never bundle two decisions in one line.
+
 If nothing changed, the update is a header, one line saying "No new signals across the {{N}} organisations on the map in the period {{start}} to {{end}}", the coverage line, and the footer. Do not manufacture observations to fill the page.
 
 Save to `market-watch/{{YYYY-MM-DD}}-update.md`.

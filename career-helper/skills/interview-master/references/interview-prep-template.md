@@ -72,6 +72,8 @@ Written last, placed first. One screen.
 | 1 | {Competency} | {One line} | {Quote or paraphrase} | {High / Medium / Low} | {Behavioural / Technical / Situational / Motivational} | {Strong / Partial / Gap} | {CV line, role, or metric; or "none found"} | {Assessor's likely doubt, or "nothing obvious"} |
 | 2 | {Competency} | {...} | {...} | {...} | {...} | {...} | {...} | {...} |
 
+{DYSLEXIA-FRIENDLY VARIANT: replace this table with a numbered list, one competency per entry, each field on its own short labelled line. Keep every field.}
+
 ---
 
 ## Top Five Risks
