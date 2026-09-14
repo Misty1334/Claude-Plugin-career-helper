@@ -52,16 +52,22 @@ These rules apply to **all communication with the user** and to the **formatting
 **Load:** @references/interview-prep.md
 **Template:** @references/interview-prep-template.md
 
-Role-specific preparation:
-- 15-20 likely questions (behavioural, technical, situational, company-specific)
+Role-specific preparation, built from a competency map outwards:
+- A competency map of 8-12 competencies from the job description: why each matters, the evidence in the spec, how likely it is to be tested, and the interview style it will take
+- CV alignment per competency with a text-label rating (Strong, Partial, Gap), the evidence behind it, and what may concern the assessor; a Gap is recorded, never stretched
+- The top five risks, ranked from the map, each with a mitigation
+- 15-20 likely questions (behavioural, technical, situational, company-specific), each with what not to say
 - STAR answer frameworks using your actual experience
 - Interviewer's perspective for each question
 - 5-7 pre-prepared adaptable stories
+- Two or three timed openers ("tell me about yourself", "why this role, why now") as talking points with a word count, not scripts
 - 8-10 intelligent questions to ask (by interviewer type)
-- Talking points, concern mitigation, execution tips
+- Talking points and execution tips
+- Objection handling for every risk in four steps: acknowledge, reframe, evidence, close
+- A one-page dashboard at the front: readiness by competency (Ready, Needs work, Gap), top five things they will like, top five concerns, top five stories, top ten questions to practise, and one thing to do today
 - Post-interview follow-up templates
 
-All answers cite your real experience with evidence.
+All answers cite your real experience with evidence. There is no overall readiness score: a single number invites you to optimise the number rather than the gap.
 
 **Output:** `applications/{role-slug}/interview-prep.md`
 
@@ -239,9 +245,10 @@ When a capability specifies a template, you MUST:
 ## Related Skills
 
 - **/application-optimiser** - Research the company and optimise your CV first
+- **/skills-radar** - A Gap rating in the competency map is the same evidence its gap analysis wants; run it when the same Gap recurs across interviews
 - **/linkedin-coach** - Update your LinkedIn after interview learnings
 - **/career-navigator** - Negotiate offers, evaluate multiple options
 
 ---
 
-*Interview Master v1.5.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Interview Master v1.6.0 | Career Helper Plugin | Prosper AI Consulting, UK*

@@ -17,6 +17,7 @@ Skills produce outputs that feed into other skills. Tim checks for existing outp
 - social-media-review results feed into: linkedin-coach (cleanup recommendations), employer-footprint (if deeper audit needed)
 - career-transitions outputs feed into: application-optimiser (reposition CV for sector pivot), linkedin-coach (rebrand for fractional/portfolio), career-navigator (3-month plan for new path)
 - interview-master post-debrief feeds into: application-optimiser (refine CV after rejection)
+- interview-master competency map feeds into: skills-radar (a Gap rating on a High-likelihood competency is gap-analysis evidence, especially when it recurs across preps) and application-optimiser (a Partial rating often means the CV undersells something the user has done)
 - ai-impact-assessment findings feed into: career-transitions (consider non-linear pivot if role at risk)
 - career-navigator networking intelligence feeds into: interview-master (who you'll meet), application-optimiser (insider context)
 - linkedin-coach updates feed into: application-optimiser (keep CV/LinkedIn consistent)

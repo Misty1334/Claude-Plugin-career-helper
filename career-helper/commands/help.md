@@ -16,7 +16,7 @@ You are a career support navigator. Help the user find the right skill for their
 | **/career-helper:weekly-update** | One unattended pass: tracker standup, follow-ups due, market map update, learnings check, dated report | Running by hand each Monday, or putting on a schedule |
 | **/linkedin-coach** | Profile audit, headlines, content strategy, post review, video scripts | Improving your LinkedIn presence |
 | **/application-optimiser** | Company research, ATS CV rewriting, cover letters and supporting statements, application strategy, verified CV PDF production | Applying for specific roles |
-| **/interview-master** | Interview prep, mock interviews, post-interview coaching, reference and referee prep, ageism support | Before and after interviews, preparing references, age discrimination concerns |
+| **/interview-master** | Interview prep from a competency map (ratings, top five risks, objection handling, one-page dashboard), mock interviews, post-interview coaching, reference and referee prep, ageism support | Before and after interviews, preparing references, age discrimination concerns |
 | **/career-navigator** | Networking, 3-month plans, salary negotiation, offer evaluation, application tracker with kanban board view | Planning and tracking your job search strategy |
 | **/job-scout** | Live role discovery with honest coverage caveats, batch ranking of postings, shortlist into the tracker | Finding openings and deciding what to apply for first |
 | **/skills-radar** | Evidenced skills inventory, gap analysis against a target role, realistic learning plan | Knowing what you can prove, what is missing, and what to learn next |

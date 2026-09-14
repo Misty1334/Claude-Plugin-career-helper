@@ -302,7 +302,7 @@ Run complete interview simulation with all components.
 ### Targeted Practice
 
 Focus on specific areas:
-- "Let's practice just behavioral questions"
+- "Let's practise just behavioural questions"
 - "Let's work on your 'tell me about yourself'"
 - "Let's do rapid-fire to build speed"
 

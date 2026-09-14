@@ -29,7 +29,7 @@ Career Helper is not a single tool. It is a set of fifteen skills plus a guided 
 | `/employer-footprint` | Full digital footprint audit with a scored dashboard |
 | `/application-optimiser` | Company research, ATS CV optimisation, cover letters and supporting statements, application strategy, and verified CV PDF production |
 | `/linkedin-coach` | Profile audit, headline crafting, content strategy, and video intro scripts |
-| `/interview-master` | Interview prep, mock interviews, post-rejection coaching, reference and referee prep, and ageism support |
+| `/interview-master` | Interview prep built from a competency map (ratings, top five risks, objection handling, one-page dashboard), mock interviews, post-rejection coaching, reference and referee prep, and ageism support |
 | `/career-navigator` | Networking intelligence, 3-month plans, salary negotiation, offer evaluation, an application tracker with an interactive kanban board view, and a learnings loop that turns interviews, rejections, and wins into synthesised patterns |
 | `/job-scout` | Live role discovery across job boards and careers pages (with honest coverage caveats), batch ranking of postings, and a shortlist that feeds the tracker |
 | `/skills-radar` | An evidenced skills inventory (including skills your CV undersells), gap analysis against a target role, and a realistic learning plan |

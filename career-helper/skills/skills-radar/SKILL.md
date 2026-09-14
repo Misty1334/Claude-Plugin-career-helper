@@ -139,7 +139,7 @@ When a capability specifies a template, you MUST:
 - **/job-scout**: Winnability scoring uses the inventory; re-rank after gaps close
 - **/career-transitions**: AI Readiness Assessment for AI-specific skills roadmaps
 - **/employer-footprint**: Consent-based audit of what your public presence signals to employers
-- **/interview-master**: Turning evidenced skills into interview stories
+- **/interview-master**: Turning evidenced skills into interview stories; its competency map's Gap ratings are input to the gap analysis
 
 ---
 

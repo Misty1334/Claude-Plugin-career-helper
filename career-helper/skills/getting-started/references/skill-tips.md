@@ -103,6 +103,8 @@ CV Optimisation (sync LinkedIn with CV)
 ### Common Mistakes
 
 - **Preparing for "an interview" generically.** Stage-specific preparation is dramatically more effective. Ask for the specific stage.
+- **Reading the dashboard and skipping the map.** The one-page dashboard is a summary. The competency map underneath it is where the Gap ratings live, and a Gap on a High-likelihood competency is the thing to work on first.
+- **Arguing with a Gap rating.** The skill rates what the CV evidences, not what you know you can do. If the rating is wrong, the fix is evidence (a line on the CV, a story with a result), not a better argument on the day.
 - **Skipping the Interviewer's Perspective report.** This capability shows what interviewers are REALLY assessing behind each question. It changes how you think about your answers.
 - **Memorising scripts instead of frameworks.** The skill provides STAR frameworks, not scripts. Memorised answers sound robotic. Understand the framework and adapt in the moment.
 - **Not doing a mock interview.** Reading preparation is not the same as practising delivery. The mock interview with feedback is where real improvement happens.
@@ -114,6 +116,7 @@ CV Optimisation (sync LinkedIn with CV)
 3. Do at least one mock interview
 4. Review feedback and update your preparation notes
 5. For a different stage at the same company, run Interview Preparation again with the new stage specified
+6. If the same Gap appears across two or three preps, run `/skills-radar`; a recurring interview Gap is gap-analysis evidence
 
 ### Reference and Referee Prep
 

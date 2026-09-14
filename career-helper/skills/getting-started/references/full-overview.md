@@ -115,18 +115,18 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 ### Interview Master - Preparation, Practice, and Recovery
 
-**What it does:** Interview preparation with STAR frameworks, interviewer perspective reports, realistic mock interviews, post-rejection coaching, and reference and referee preparation.
+**What it does:** Interview preparation built from a competency map (8 to 12 competencies from the job description, each rated Strong, Partial, or Gap against your CV), with the top five risks ranked, STAR frameworks, four-step objection handling, timed openers, and a one-page dashboard at the front; plus interviewer perspective reports, realistic mock interviews, post-rejection coaching, and reference and referee preparation.
 
 **Real example - preparing for an interview:**
 
 > **You say:** "I have a final-round panel interview at Stripe for a Senior Engineer role next Thursday. Here's the JD and my CV."
 >
 > **What happens:**
-> 1. Generates 15-20 likely questions tailored to the role, company, and interview stage
-> 2. Builds STAR answer frameworks using YOUR actual experience from your CV
-> 3. Creates 5-7 pre-prepared stories you can adapt to different questions
-> 4. Provides 8-10 intelligent questions to ask the panel
-> 5. Then offers a mock interview to practice before the real thing
+> 1. Maps 8-12 competencies from the job description and rates each against your CV (Strong, Partial, Gap), then ranks the top five risks
+> 2. Generates 15-20 likely questions tailored to the role, company, and interview stage, each with what not to say
+> 3. Builds STAR answer frameworks using YOUR actual experience, plus a four-step answer (acknowledge, reframe, evidence, close) for every risk
+> 4. Creates 5-7 pre-prepared stories, two or three timed openers, and 8-10 intelligent questions to ask the panel
+> 5. Puts a one-page dashboard at the front (readiness by competency, top five likes, concerns, stories, ten questions to practise), then offers a mock interview
 >
 > **You get:** `senior-engineer-stripe-interview-prep.md`
 
