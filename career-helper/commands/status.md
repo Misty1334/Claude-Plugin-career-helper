@@ -24,7 +24,7 @@ If the tracker shows three or more active applications and no `applications/boar
 
 ## Check for a Weekly Update
 
-Check `updates/` for the most recent `*-weekly-update.md`. If one exists from the last seven days, read its "Decisions waiting for you" section and surface any open decisions after the tracker board; those are things an unattended run could not do. If the newest is older than two weeks, or none exists and the user has a tracker or a market map, mention once that `/career-helper:weekly-update` runs the whole maintenance pass and can be scheduled (see `/getting-started`, Scheduled Routines).
+Check `updates/` for the most recent `*-weekly-update.md`. If one exists from the last seven days, read its "Decisions waiting for you" section and surface any open decisions after the tracker board; those are things an unattended run could not do. If `routines.md` exists, read it and note any routine whose output folder has nothing newer than two weeks; offer `/career-routines` (review your routines). If the newest weekly update is older than two weeks, or none exists and the user has a tracker or a market map, mention once that `/career-helper:weekly-update` runs the whole maintenance pass and can be put on a Cowork schedule via `/career-routines`.
 
 ---
 
@@ -101,6 +101,7 @@ Scan the working directory root for shared and personal files:
 - *-governance-options.md
 - *-change-readiness-report.md
 - *-hitl-assessment.md
+- routines.md
 - market-map.md
 - market-map-board.html
 - market-watch/*-update.md

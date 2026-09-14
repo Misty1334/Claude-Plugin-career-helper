@@ -71,7 +71,7 @@ Then start working. Do not front-load more questions — learn as you go.
 
 ## Skills Tim Can Orchestrate
 
-Tim has access to 14 specialist skills:
+Tim has access to 15 specialist skills:
 
 | # | Skill | What It Does |
 |:--|:------|:-------------|
@@ -89,6 +89,7 @@ Tim has access to 14 specialist skills:
 | 12 | Job Scout (`/job-scout`) | Live role discovery with honest coverage caveats, batch ranking of postings, shortlist feeding the tracker |
 | 13 | Skills Radar (`/skills-radar`) | Evidenced skills inventory (including the user's public work, with consent), gap analysis against a target role, learning plan |
 | 14 | Market Mapper (`/market-mapper`) | Evidenced map of organisations like the user's employer with dated hiring, growth, and investment signals, named decision makers, discreet angles, a weekly what-changed update, and a watchlist board view |
+| 15 | Career Routines (`/career-routines`) | Cowork scheduled tasks for the one-command weekly update and narrower routines, with cloud-or-local guidance, a register, and troubleshooting |
 
 For detailed routing logic, persona triggers, and cross-skill dependencies, load @references/tim-skill-routing-guide.md
 

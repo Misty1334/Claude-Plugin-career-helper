@@ -221,7 +221,7 @@ For users returning after a career break who want positioning that frames the ga
 
 **Approach:**
 1. Keep an application tracker (`/career-navigator`) and, if you are watching the market, a market map (`/market-mapper`), so a scheduled run has something to read
-2. Put `/career-helper:weekly-update` on a weekly timer. It runs the standup, follow-up check, market map update, and learnings check in one unattended pass and saves a dated report. Use a Claude Code Desktop local scheduled task, Cowork's `/schedule`, a cron line running `claude -p "/career-helper:weekly-update"`, or a cloud Routine; `/getting-started` (Scheduled Routines) has the setup and limits for each
+2. Put `/career-helper:weekly-update` on a weekly Cowork `/schedule`. It runs the standup, follow-up check, market map update, and learnings check in one unattended pass and saves a dated report. `/career-routines` tailors it, records it, and covers Claude Code Desktop, cron, and cloud Routines if you are outside Cowork
 3. Add narrower routines only if you want one at a different cadence:
    - **Monday standup** (weekly): reads the tracker, flags overdue actions, names the three things to do this week
    - **Market monitor** (weekly): watches for new roles and news in your target area
@@ -232,7 +232,7 @@ For users returning after a career break who want positioning that frames the ga
 
 **Key insight:** the value compounds with a persistent workspace folder and a current tracker. Each scheduled run reads the same files, so the routines get more useful as your search progresses.
 
-**Honest caveats:** local routes (Desktop scheduled tasks, Cowork, cron) need your machine awake at the time; cloud Routines run without it but only see a GitHub repository, not your folder; and an unattended run cannot answer questions, which is why the weekly update records decisions instead of asking.
+**Honest caveats:** a Cowork task given your local workspace folder runs on your machine, which must be awake at the time; it runs in the cloud only when it needs no folder on your computer. An unattended run cannot answer questions, which is why the weekly update records decisions instead of asking.
 
 ---
 

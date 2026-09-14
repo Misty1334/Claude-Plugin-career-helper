@@ -20,7 +20,7 @@ The source repository is at [github.com/Zal4DW/career-helper](https://github.com
 
 ## What You Get
 
-Career Helper is not a single tool. It is a set of fourteen skills plus a guided coach, each designed for a different part of the career journey. You do not need to use them all, and you do not need to use them in order. Pick the ones that fit your situation, or let Tim (your career coach) figure it out for you. Here is the quick summary; the rest of this guide shows you exactly how to put them together.
+Career Helper is not a single tool. It is a set of fifteen skills plus a guided coach, each designed for a different part of the career journey. You do not need to use them all, and you do not need to use them in order. Pick the ones that fit your situation, or let Tim (your career coach) figure it out for you. Here is the quick summary; the rest of this guide shows you exactly how to put them together.
 
 | Skill | What It Does |
 |:----|:----|
@@ -38,6 +38,7 @@ Career Helper is not a single tool. It is a set of fourteen skills plus a guided
 | `/ai-impact-assessment` | Honest assessment of AI disruption risk for your role, with a 6-month mitigation plan |
 | `/ned-ai-helper` | AI governance for Non-Executive Directors, Governors, and Trustees |
 | `/personal-brand` | Why You, Why Them, Why Now positioning, audience and channel map, content pillars, and a bio library |
+| `/career-routines` | Claude Cowork scheduled tasks for the one-command weekly update and narrower routines, with honest cloud-or-local guidance and a register of what is running |
 | `/getting-started` | Full overview, preparation checklists, workflow planning, and this guide |
 
 **Accessibility:** Career Helper adapts for dyslexia and colour-blindness across every skill. Tim will ask about your preferences at the start, or you can mention them at any point. If you are dyslexic, you will get shorter sentences, numbered options, explicit signposting, and confirmation checks. All scoring and status indicators use text labels, never colour alone.
@@ -638,7 +639,7 @@ To summarise, here is what you get across the full skill set:
 - **Reference and referee prep** to choose, ask, and brief your referees, with UK conventions and regulated-role notes
 - **An application tracker** that keeps every live application, its stage, and its next action in one plain-text board you own
 - **An application learnings loop** that captures each interview, rejection, and win as a structured note and synthesises them into the patterns that are actually shaping your search
-- **A weekly update you can schedule.** `/career-helper:weekly-update` runs the tracker standup, follow-up check, market map update, and learnings check in one unattended pass and saves a dated report. Put it on a Monday timer (Claude Code Desktop scheduled task, Cowork `/schedule`, cron, or a cloud Routine; `/getting-started` explains each route and its limits) and the search keeps moving between sessions.
+- **A weekly update you can schedule.** `/career-helper:weekly-update` runs the tracker standup, follow-up check, market map update, and learnings check in one unattended pass and saves a dated report. `/career-routines` puts it on a Cowork `/schedule`, explains when a task runs in the cloud and when it needs your computer awake, and keeps a register of what is running, so the search keeps moving between sessions.
 - **AI readiness assessments** with tiered upskilling roadmaps
 - **AI impact assessments** that research whether your role faces material disruption, with 6-month mitigation plans
 - **Fractional and portfolio career planning** including rate setting, IR35 guidance, and client acquisition strategy

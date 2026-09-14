@@ -416,3 +416,34 @@ Act now organisations → /career-navigator (networking intelligence) or /job-sc
 Chosen organisation with a role → applications/tracker.md (stage Researching) → /application-optimiser
 applications/tracker.md → Market Mapper update (organisations already in play are flagged, not re-suggested)
 ```
+
+---
+
+## Career Routines Tips
+
+### Input Quality
+
+- **Have the inputs before the routine.** A weekly update with no tracker and no market map reports "not found" every Monday. Build one of them first.
+- **Say where you want it to run.** With your local workspace folder, a Cowork task runs on your machine and needs it awake; without a local folder it runs in the cloud. Choose a time to match.
+- **Run it once by hand.** Approve anything it asks for on that first run, so scheduled runs never stall on a permission.
+
+### Common Mistakes
+
+- **Scheduling six routines on day one.** Start with the weekly update; it already contains the standup, the follow-up check, and the market map update.
+- **A 07:30 Monday task on a laptop that is in a bag until nine.** The most common "it did not run". Pick a time you are at your desk, or move the workspace somewhere cloud-reachable.
+- **Editing out the honesty lines.** "Do not invent" and "record decisions, do not ask" are what keep an unattended run trustworthy.
+
+### Iteration Strategy
+
+- Read the "Decisions waiting for you" section each week and act on it; the routine cannot.
+- Review `routines.md` monthly via `/career-routines`; pause anything you no longer read.
+- If a report is the same every week, the input files are not changing; that is a job-search signal, not a routine fault.
+
+### What Feeds Into What
+
+```text
+/career-routines → Cowork /schedule → /career-helper:weekly-update → updates/{date}-weekly-update.md
+Weekly update → tracker At a Glance refresh, market-map.md and market-map-board.html refresh, market-watch/{date}-update.md
+updates/ "Decisions waiting for you" → /career-helper:status → you
+routines.md → /career-helper:status (stale routine check)
+```

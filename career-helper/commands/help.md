@@ -11,7 +11,8 @@ You are a career support navigator. Help the user find the right skill for their
 
 | Skill | What It Does | Best For |
 |:------|:-------------|:---------|
-| **/getting-started** | Full overview with examples, preparation checklists, workflow planning, tips, scheduled routines for every surface | New users, getting the most out of career-helper, or automating the search |
+| **/getting-started** | Full overview with examples, preparation checklists, workflow planning, tips | New users and getting the most out of career-helper |
+| **/career-routines** | Cowork scheduled tasks for the weekly update and narrower routines, tailored prompts, a register of what is running, troubleshooting, and other surfaces | Automating the search, or fixing a routine that is not running |
 | **/career-helper:weekly-update** | One unattended pass: tracker standup, follow-ups due, market map update, learnings check, dated report | Running by hand each Monday, or putting on a schedule |
 | **/linkedin-coach** | Profile audit, headlines, content strategy, post review, video scripts | Improving your LinkedIn presence |
 | **/application-optimiser** | Company research, ATS CV rewriting, cover letters and supporting statements, application strategy, verified CV PDF production | Applying for specific roles |
@@ -109,7 +110,8 @@ If the user described their situation, route them:
 | "Give me the getting the best guide" | /getting-started (getting the best guide) |
 | "How do I get the best results?" | /getting-started (getting the best guide) |
 | "Can I get a guide to share?" | /getting-started (getting the best guide) |
-| "Can I automate my job search?" or "set up a weekly routine" | /getting-started (scheduled routines), which leads with /career-helper:weekly-update |
+| "Can I automate my job search?" or "set up a weekly routine" | /career-routines |
+| "What routines do I have?" or "my scheduled task did not run" | /career-routines (review your routines) |
 | "Run my weekly update" or "what needs doing this week?" | /career-helper:weekly-update |
 
 ## Response Format

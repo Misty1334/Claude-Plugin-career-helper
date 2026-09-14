@@ -18,7 +18,7 @@ Get the most out of Career Helper. Whether you are a graduate writing your first
 | 4 | Skill-by-Skill Tips | Maximise results from any specific skill |
 | 5 | Power User Strategies | Advanced techniques for experienced users |
 | 6 | Getting the Best Guide | Comprehensive downloadable guide with scenario-based walkthroughs |
-| 7 | Scheduled Routines | Put the weekly update or a narrower routine on a schedule, wherever you run Claude |
+| 7 | Scheduled Routines | Put the weekly update or a narrower routine on a Cowork schedule (routes to /career-routines) |
 
 ## Quick Start
 
@@ -76,7 +76,7 @@ A comprehensive guide covering installation, folder setup, and three scenario-ba
 Walk the user through everything career-helper can do, with concrete real-world examples showing exactly when and how to use each skill. This is the "show me everything" capability.
 
 **Core approach:**
-- Present all 14 skills and their capabilities with plain-language explanations
+- Present all 15 skills and their capabilities with plain-language explanations
 - For each skill, include a real-world scenario showing exactly what to say and what you get back
 - Show the complete plugin ecosystem: skills, commands, output files, and how they connect
 - End with "What's your situation? I'll tell you exactly where to start"
@@ -128,7 +128,7 @@ Create a personalised skill sequence based on the user's specific situation. Not
 Practical guidance for getting the best results from each skill. Not a repeat of help - specific tips on inputs, prompting, and iteration.
 
 **Core approach:**
-- Ask which skill they want tips for (or cover all fourteen)
+- Ask which skill they want tips for (or cover all fifteen)
 - Provide input quality tips (what makes a good CV upload, how to share a LinkedIn profile, what details to include in a job description)
 - Common mistakes and how to avoid them
 - How to iterate and refine outputs
@@ -159,19 +159,18 @@ Advanced techniques for users who have used the basic skills and want more.
 
 ## 7. Scheduled Routines
 
-**What you need:** A workspace folder, and to know where you run Claude (Claude Code Desktop, Claude Cowork, the command line, or the web)
-**Load:** @references/scheduled-routines.md
+**What you need:** A workspace folder and a Claude Cowork session
+**Load:** @../career-routines/references/cowork-scheduling.md and @../career-routines/references/routine-library.md
 
-Help the user turn their job search into a living process that updates itself on a schedule.
+Scheduling has its own skill, `/career-routines`. From here, give the short version and route:
 
 **Core approach:**
-- Lead with the simplest route: `/career-helper:weekly-update` runs the tracker standup, follow-up check, market map update, and learnings check in one unattended pass and saves a dated report; put that one command on a weekly timer
-- Ask where they run Claude, then give the matching setup from the reference: a Claude Code Desktop local scheduled task (recommended; runs on their machine with the folder), Claude Cowork `/schedule`, a cron or launchd line running `claude -p "/career-helper:weekly-update"`, or a cloud Routine (only if the workspace is a private GitHub repository, since routines cannot see local files)
-- Be honest about each route's limits as the reference states them: local routes need the machine awake, cron does not catch up missed runs, cloud routines clone a repository rather than reading a folder, and `/loop` is session-scoped
-- Offer the narrower ready-made routines only if the user wants a different cadence for one of them
+- Lead with the simplest route: `/career-helper:weekly-update` runs the tracker standup, follow-up check, market map update, and learnings check in one unattended pass and saves a dated report; put that one command on a weekly Cowork schedule via `/schedule`
+- Say plainly where a Cowork task runs: in the cloud when it needs no folder on the computer, on the machine (which must be awake) when it is given a local workspace folder, which a Career Helper workspace usually is
+- Route to `/career-routines` for tailoring the prompt, recording it in `routines.md`, reviewing routines, or scheduling outside Cowork
 - Keep the "do not invent" and "record decisions, do not ask" instructions in any prompt the user edits
 
-**Output:** Conversational setup guidance and copy-paste prompts or scheduler entries
+**Output:** Conversational guidance, then a handoff to `/career-routines`
 
 ---
 
@@ -236,6 +235,7 @@ Ready to get started? Use the skill that fits:
 - **/interview-master** - Prepare for interviews
 - **/career-navigator** - Plan your search, negotiate offers
 - **/market-mapper** - Map the organisations like your employer that are growing or hiring, and keep the map current weekly
+- **/career-routines** - Put the weekly update and other routines on a Cowork schedule, and review what is running
 - **/career-transitions** - Explore portfolio/fractional career paths, entrepreneurship, public sector, charity, and non-linear alternatives
 - **/personal-brand** - Build or refresh a personal brand using Why You, Why Them, Why Now positioning, with audience and channel map, content pillars, and a bio library
 

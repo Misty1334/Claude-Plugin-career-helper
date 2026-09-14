@@ -84,9 +84,9 @@ Tell the user in one line that the map has been updated and the update file save
 
 ## Running on a Schedule
 
-This capability is one step of `/career-helper:weekly-update`, which is built to run unattended on a timer, and it also has a standalone prompt (routine 6 in `/getting-started`, Scheduled Routines). Both tell the scheduled session to read the map, report only changes, apply nothing that needs a decision, and never invent a signal, a person, or a URL; keep those instructions if the prompt is edited.
+This capability is one step of `/career-helper:weekly-update`, which is built to run unattended on a Cowork schedule, and it also has a standalone prompt (routine 6 in the `/career-routines` library). Both tell the scheduled session to read the map, report only changes, apply nothing that needs a decision, and never invent a signal, a person, or a URL; keep those instructions if the prompt is edited.
 
-Where to schedule depends on the surface: a Claude Code Desktop local scheduled task, Claude Cowork `/schedule`, a cron line running `claude -p`, or a cloud Routine. The scheduled routines reference states each route's limits honestly (local routes need the machine awake; cloud Routines only see a GitHub repository). Say "update my market map" by hand whenever you like; the delta logic is identical.
+`/career-routines` covers the setup, including the one thing that matters most: a Cowork task given a local workspace folder runs on the user's machine, which must be awake, while a task needing no local folder runs in the cloud. It also covers Claude Code Desktop, cron, and cloud Routines for people outside Cowork. Say "update my market map" by hand whenever you like; the delta logic is identical.
 
 ---
 

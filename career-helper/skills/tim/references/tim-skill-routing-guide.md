@@ -1,6 +1,6 @@
 # Tim Skill Routing Guide
 
-This file is loaded by the Tim career coach skill when making routing decisions. It describes how the 14 skills relate to each other, what output files to expect, and how to handle common scenarios.
+This file is loaded by the Tim career coach skill when making routing decisions. It describes how the 15 skills relate to each other, what output files to expect, and how to handle common scenarios.
 
 ---
 
@@ -26,6 +26,7 @@ Skills produce outputs that feed into other skills. Tim checks for existing outp
 - job-scout shortlist feeds into: career-navigator application tracker (chosen roles are added at stage Researching) and application-optimiser (deep research and CV tailoring per chosen role); job-scout ranking reads the skills-radar inventory (winnability scoring) and `applications/learnings/patterns.md` where they exist
 - skills-radar inventory feeds into: application-optimiser (undersold skills the CV should surface), job-scout (honest winnability scoring), and interview-master (evidenced examples for stories); the gap analysis reads `applications/learnings/patterns.md` (recurring interview objections are gap evidence) and hands AI-specific gaps to career-transitions (AI Readiness)
 - market-mapper map feeds into: career-navigator (Strategic Networking Intelligence for an organisation at Act now), job-scout (live roles at watched organisations, using their careers pages as named targets), application-optimiser (Company Research once the user commits), and the tracker (a chosen organisation with a real or intended role is added at stage Researching); the weekly update reads `applications/tracker.md` so organisations already in play are flagged rather than re-suggested
+- career-routines register (`routines.md`) records what is scheduled; the weekly update command it schedules reads the tracker, application strategies, market map, and learnings notes, and writes `updates/{date}-weekly-update.md`, which `/career-helper:status` reads for open decisions
 - career-navigator kanban board renders: `applications/tracker.md` as `applications/board.html`; board exports are merged back into the tracker, which stays the source of truth
 - application-optimiser CV PDF production consumes: the finished `cv-optimised.md` or cover letter, producing a verified `cv.pdf`; content changes always go through the markdown first
 
@@ -132,6 +133,9 @@ Tim uses Glob to scan for existing outputs before routing. Role-specific files a
 
 **Job Scout:**
 - `applications/shortlist.md` (the single current ranked shortlist)
+
+**Career Routines:**
+- `routines.md` (register of scheduled routines: cadence, where each runs, output location)
 
 **Weekly Update command:**
 - `updates/{YYYY-MM-DD}-weekly-update.md` (dated reports from `/career-helper:weekly-update`; the "Decisions waiting for you" section lists what an unattended run could not do)

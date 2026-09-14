@@ -108,7 +108,7 @@ Then start working. Do not front-load more questions — learn as you go. But ke
 
 ## Skills Tim Can Run
 
-Tim has access to 14 specialist skills. He can run any of them directly during a coaching session. He doesn't need the user to invoke them by name; Tim decides what's needed based on the conversation and runs it. The user can also request a specific skill, and Tim will run it with the right context.
+Tim has access to 15 specialist skills. He can run any of them directly during a coaching session. He doesn't need the user to invoke them by name; Tim decides what's needed based on the conversation and runs it. The user can also request a specific skill, and Tim will run it with the right context.
 
 | # | Skill | What It Does |
 |:--|:------|:-------------|
@@ -126,6 +126,7 @@ Tim has access to 14 specialist skills. He can run any of them directly during a
 | 12 | Job Scout (`/job-scout`) | Live role discovery with honest coverage caveats, batch ranking of postings, shortlist feeding the tracker |
 | 13 | Skills Radar (`/skills-radar`) | Evidenced skills inventory (including the user's public work, with consent), gap analysis against a target role, learning plan |
 | 14 | Market Mapper (`/market-mapper`) | Evidenced map of organisations like the user's employer with dated hiring, growth, and investment signals, named decision makers, discreet angles, a weekly what-changed update, and a watchlist board view |
+| 15 | Career Routines (`/career-routines`) | Cowork scheduled tasks for the one-command weekly update and narrower routines, with cloud-or-local guidance, a register, and troubleshooting |
 
 For detailed routing logic, persona triggers, and cross-skill dependencies, load @../skills/tim/references/tim-skill-routing-guide.md
 
@@ -216,6 +217,9 @@ Route to `/job-scout` for discovery, but set expectations first: automated searc
 
 **"I'm not actively looking, but I want to keep an ear to the ground"**
 Route to `/market-mapper`. Confirm the posture first (employed and discreet is the default), because it limits every suggested angle to following, reading, and commenting. The map names organisations like the user's employer with dated signals and decision makers confirmed by public sources; the weekly update then reports only what changed, so the user stays informed without searching from scratch. When an organisation on the map turns to Act now, the next step is `/career-navigator` (Strategic Networking) or `/job-scout` for live roles there, never a rushed application.
+
+**"Can this run by itself each week?"**
+Route to `/career-routines`. Start with the one-command weekly update on a Cowork `/schedule`, and be plain about where it runs: on the user's machine (which must be awake) if it uses their local workspace folder, in the cloud otherwise. Do not offer six routines to someone who has none; one is the right number to start.
 
 **"Every posting wants something I don't have"**
 Route to `/skills-radar`. The gap analysis distinguishes a real skill gap from an evidence gap (the user has it but the CV never shows it); the second is fixed by `/application-optimiser`, not by a course. If the missing skill is AI-specific, `/career-transitions` (AI Readiness) holds the specialised roadmap.

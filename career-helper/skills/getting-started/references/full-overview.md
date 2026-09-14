@@ -30,7 +30,7 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 **Important:** Never minimise the emotional challenge. A graduate terrified of their first interview deserves the same quality of support as a VP negotiating a package. Redundancy at 55 is a different experience from redundancy at 30. Let the user's situation shape how you present the tools.
 
-## The Fourteen Skills - With Examples
+## The Fifteen Skills - With Examples
 
 ### Application Optimiser - Research, CV, Cover Letters, and Strategy
 
@@ -548,6 +548,43 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 ---
 
+### Career Routines - Keep It Moving on a Schedule
+
+**What it does:** Sets up Claude Cowork scheduled tasks that run the Career Helper maintenance pass without you. The first routine for almost everyone is the one-command weekly update (`/career-helper:weekly-update`): tracker standup, follow-ups due, market map update with the board refreshed, a learnings check, and a dated report with a "Decisions waiting for you" section for anything an unattended run could not decide. The skill tailors the prompt, walks you through `/schedule`, records what you set up in `routines.md`, reviews what has and has not run, and troubleshoots. It is plain about where a task runs: in the cloud when it needs no folder on your computer, on your machine (which must be awake) when it is given your local workspace folder.
+
+**Real example - the first routine:**
+
+> **You say:** "Set up a weekly routine that keeps my job search moving."
+>
+> **What happens:**
+> 1. Checks which files exist (tracker, market map, learnings) so the routine has something to read
+> 2. Recommends the weekly update and asks one question: run it on your machine with your folder, or in the cloud
+> 3. Gives you the exact `/schedule` steps and the prompt to paste, and suggests running it once by hand to approve anything it needs
+> 4. Records the routine in `routines.md` so `/career-helper:status` can see it
+>
+> **You get:** A Monday report in `updates/` each week, and a register of what is running
+
+**Real example - it did not run:**
+
+> **You say:** "My scheduled task did not run over the weekend. Why?"
+>
+> **What happens:**
+> 1. Reads `routines.md` and the output folders to see what last ran
+> 2. Works through the likely causes in order: the task uses a local folder and the laptop was asleep; a permission was never granted; the input file does not exist; the schedule is paused
+> 3. Offers the fix for each, for example moving the time to when you are at your desk
+>
+> **You get:** A routine that runs, and an updated register
+
+**When to use it:**
+- You want the tracker, follow-ups, and market map to update themselves each week
+- You are employed and want the market map watched without sitting down to do it
+- A routine has gone quiet and you want to know why
+- You run Career Helper outside Cowork and need the cron or Claude Code Desktop equivalent
+
+---
+
+---
+
 ## Commands
 
 In addition to skills, career-helper has four commands:
@@ -561,7 +598,7 @@ In addition to skills, career-helper has four commands:
 
 ## Automating Your Search
 
-The simplest way to keep the search moving between sessions is to put `/career-helper:weekly-update` on a weekly timer. It runs the tracker standup, the follow-up check, the market map update, and a learnings check in one unattended pass, saves a dated report to `updates/`, and lists anything it could not decide for you. Where you schedule it depends on where you run Claude: a local scheduled task in Claude Code Desktop (runs on your machine with your folder; needs the app open and the computer awake), Claude Cowork's `/schedule`, a cron or launchd line running `claude -p "/career-helper:weekly-update"`, or a cloud Routine (runs without your machine, but only sees a GitHub repository, not a local folder). Run `/getting-started` and choose scheduled routines for the setup steps and the honest limits of each route, plus narrower ready-made prompts (Monday standup, market monitor, posting reminder, follow-up check, pre-interview nudge, market map update) if you want one at a different cadence.
+The simplest way to keep the search moving between sessions is to put `/career-helper:weekly-update` on a weekly Cowork schedule. It runs the tracker standup, the follow-up check, the market map update, and a learnings check in one unattended pass, saves a dated report to `updates/`, and lists anything it could not decide for you. Run `/career-routines` to set it up: it explains when a Cowork task runs in the cloud and when it needs your computer awake, tailors the prompt, records the routine, and offers narrower prompts (Monday standup, market monitor, posting reminder, follow-up check, pre-interview nudge, market map update) if you want one at a different cadence. It also covers Claude Code Desktop, cron, and cloud Routines for people outside Cowork.
 
 ## Getting the Best Guide
 

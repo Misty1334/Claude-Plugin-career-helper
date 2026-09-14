@@ -79,4 +79,4 @@ If no Career Helper files exist at all, the report is one line saying so and poi
 
 ## Scheduling This Command
 
-How to put this on a timer, for each surface, is in the getting-started skill's scheduled routines reference (`/getting-started`, Scheduled Routines). The short version: Claude Code Desktop users create a local scheduled task whose instructions are `/career-helper:weekly-update`, set to the workspace folder, weekly on Monday; Claude Cowork users paste the same into `/schedule`; command-line users put `claude -p "/career-helper:weekly-update" --permission-mode acceptEdits --permission-prompts none` in cron from the workspace folder.
+In Claude Cowork, type `/schedule` in any task, paste `/career-helper:weekly-update` as the prompt, choose weekly on Monday, and choose your workspace folder. With a local folder the task runs on your machine, so pick a time the computer is normally awake; with no local folder it runs in the cloud. `/career-routines` tailors the prompt, records the routine in `routines.md`, reviews what is running, and covers scheduling outside Cowork (Claude Code Desktop, cron, cloud Routines).

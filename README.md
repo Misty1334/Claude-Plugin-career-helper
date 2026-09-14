@@ -2,7 +2,7 @@
 
 # Career Helper - Claude Code Plugin
 
-End-to-end career support with guided coaching for job seekers at all levels, plus AI governance guidance for Non-Executive Directors and Board Governors. Fifteen skills including Tim (your personal career coach who guides you through the right skills in the right order), getting started guidance, AI impact assessment, employer footprint analysis, social media review, LinkedIn optimisation, ATS CV rewriting, cover letters and supporting statements, verified CV PDF production, interview preparation, reference and referee prep, job search strategy with an application tracker and interactive kanban board, live role discovery with batch ranking (job scout), an evidenced skills inventory with gap analysis and learning plans (skills radar), a market map of organisations like your employer with dated signals, decision makers, and a weekly what-changed update (market mapper), career transitions (including non-linear career exploration: entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling), board-level AI oversight, and personal brand building (Why You, Why Them, Why Now positioning, audience and channel map, content pillars, bio library). Ready-made Claude Cowork scheduled routines keep the search moving between sessions.
+End-to-end career support with guided coaching for job seekers at all levels, plus AI governance guidance for Non-Executive Directors and Board Governors. Sixteen skills including Tim (your personal career coach who guides you through the right skills in the right order), getting started guidance, AI impact assessment, employer footprint analysis, social media review, LinkedIn optimisation, ATS CV rewriting, cover letters and supporting statements, verified CV PDF production, interview preparation, reference and referee prep, job search strategy with an application tracker and interactive kanban board, live role discovery with batch ranking (job scout), an evidenced skills inventory with gap analysis and learning plans (skills radar), a market map of organisations like your employer with dated signals, decision makers, and a weekly what-changed update (market mapper), scheduled Cowork routines with a one-command weekly update (career routines), career transitions (including non-linear career exploration: entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling), board-level AI oversight, and personal brand building (Why You, Why Them, Why Now positioning, audience and channel map, content pillars, bio library). Ready-made Claude Cowork scheduled routines keep the search moving between sessions.
 
 Available to all Claude users, including free subscriptions.
 
@@ -69,7 +69,8 @@ Or just describe what you need:
 
 | Skill | What It Does | Command |
 |:------|:-------------|:--------|
-| **Getting Started** | Full overview, preparation checklists, workflow planning, skill tips, power user strategies, scheduled routines for every surface | `/getting-started` |
+| **Getting Started** | Full overview, preparation checklists, workflow planning, skill tips, power user strategies | `/getting-started` |
+| **Career Routines** | Claude Cowork scheduled tasks for the one-command weekly update and narrower routines: tailored prompts, honest cloud-or-local guidance, a register of what is running, troubleshooting, and other surfaces | `/career-routines` |
 | **Employer Footprint** | Digital footprint audit through employer's eyes, social media scan, credit-report style dashboard, interview questions from online presence | `/employer-footprint` |
 | **Social Media Review** | Quick social media check through recruiter's eyes, privacy cleanup guide. Especially useful for graduates and early career. | `/social-media-review` |
 | **Application Optimiser** | Company and role research, ATS-optimised CV rewriting, cover letters and supporting statements, application strategy, verified CV PDF production with layout and ATS text-layer checks | `/application-optimiser` |
@@ -117,7 +118,7 @@ Or just describe what you need:
 10. Evaluate competing offers     /career-navigator
 ```
 
-**Tip:** Put `/career-helper:weekly-update` on a weekly schedule and the tracker standup, follow-up check, and market map update run without you. `/getting-started` (Scheduled Routines) shows how on Claude Code Desktop, Claude Cowork, cron, or a cloud Routine, with the honest limits of each.
+**Tip:** In Claude Cowork, put `/career-helper:weekly-update` on a weekly `/schedule` and the tracker standup, follow-up check, and market map update run without you. `/career-routines` sets it up, explains when a task runs in the cloud and when it needs your computer, and covers other surfaces.
 
 ---
 
@@ -139,7 +140,7 @@ Or just describe what you need:
 - **Market mapper** a map of organisations like your employer with dated signals and named decision makers, built for the employed and discreet, with a weekly update that reports only what changed and a watchlist board (four priority columns, same mechanics as the application board)
 - **Verified CV PDFs** a generate-verify loop that renders an ATS-safe PDF, checks the text layer parses, and inspects the layout page by page
 - **Reference and referee prep** choosing, asking, and briefing referees, with UK conventions and regulated-role notes
-- **Weekly update on a schedule** one command (`/career-helper:weekly-update`) runs the tracker standup, follow-ups, market map update, and learnings check unattended and saves a dated report, with setup guidance for Claude Code Desktop scheduled tasks, Claude Cowork `/schedule`, cron, and cloud Routines
+- **Weekly update on a schedule** one command (`/career-helper:weekly-update`) runs the tracker standup, follow-ups, market map update, and learnings check unattended and saves a dated report; the career routines skill puts it on a Claude Cowork `/schedule`, keeps a register of what is running, and covers Claude Code Desktop, cron, and cloud Routines for people outside Cowork
 - **Ikigai direction-finding** Tim's four-question exercise for when you do not know what you want, with an optional interactive, colour-blind-safe ikigai map you can keep
 - **Career stage adaptation** from graduates to late career
 - **Wellbeing-aware coaching** Tim reads emotional signals, acknowledges difficulty before routing, checks in after heavy work, and carries wellbeing context across sessions
@@ -205,6 +206,7 @@ Skills generate markdown files you can convert to other formats:
 | `market-map.md` | Market Mapper |
 | `market-map-board.html` | Market Mapper |
 | `updates/{date}-weekly-update.md` | Weekly Update command |
+| `routines.md` | Career Routines |
 | `market-watch/{date}-update.md` | Market Mapper |
 | `career-helper-preferences.md` | Tim (Career Coach) |
 

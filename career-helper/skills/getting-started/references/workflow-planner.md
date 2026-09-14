@@ -278,7 +278,7 @@ Step 1: /market-mapper (Market Map)
         Output: market-map.md
         Why first: it defines what "similar" means and gathers dated signals before any outreach is considered
             ↓
-Step 2: /market-mapper (Watchlist and Weekly Update), scheduled in Claude Cowork or run manually
+Step 2: /market-mapper (Watchlist and Weekly Update), on a Cowork schedule via /career-routines or run manually
         Input: the existing map
         Output: market-watch/{date}-update.md, updated market-map.md
         Why: only what changed is reported, so the weekly read stays short
