@@ -8,7 +8,7 @@
 
 ## Principles
 
-1. **The map file remains the source of truth.** The board is a view, not a second database. `market-map.md` holds the signals, sources, and decision-maker detail; the board shows the watchlist summary and changes flow back into the Watchlist section only.
+1. **The map file remains the source of truth.** The board is a view, not a second database. `market-map.md` holds the signals, sources, and decision-maker detail; the board shows the watchlist summary. The Watchlist is the section the board exports, and the sync steps below also carry priority changes and organisation additions or removals into the affected detail sections, so the map never disagrees with itself.
 2. **Never invent a signal or a person.** The board is populated only from rows that exist in the map. Unknown fields stay blank; the edit dialog says so.
 3. **One board, regenerated.** There is only ever one `market-map-board.html`. Overwrite it after each weekly update; do not accumulate dated copies. (Dated update files live in `market-watch/`; the board is not one of them.)
 4. **Offline and private.** The template is fully self-contained: no external scripts, fonts, or network calls. Board edits persist in the browser's local storage only, on the user's machine. The seed employer name appears only in the map header, never on the board.
@@ -54,7 +54,7 @@ The board has two export buttons: "Copy watchlist markdown" and "Download watchl
 When the user pastes exported markdown or mentions they have made board changes:
 
 1. **Diff before overwriting.** Compare the export against the current Watchlist section. Summarise what changed ("Two organisations raised to Act now; one removed; one added as Watch") and confirm before writing.
-2. **Replace the Watchlist section** of `market-map.md`, then update the Priority line (and its one-line reason, marked as the user's judgement) in the detail section of every organisation whose priority changed, so the map never carries two different priorities for one organisation. Themes, coverage, and next actions are untouched. For an organisation the user added on the board, create a minimal detail section with `[NOT FOUND]` fields and offer to research it at the next update; for one the user removed, remove its detail section too.
+2. **Replace the Watchlist section** of `market-map.md`, then update the Priority line in the detail section of every organisation whose priority changed, so the map never carries two different priorities for one organisation. The board carries no reason for a priority change, so do not invent one: this sync happens in conversation, so ask the user once for the reason behind each changed priority and record it marked as their judgement; if they give none, record "Changed on the board on {{date}}; reason not given" and leave the old evidence-based reason out. Themes, coverage, and next actions are untouched. For an organisation the user added on the board, create a minimal detail section with `[NOT FOUND]` fields and offer to research it at the next update; for one the user removed, remove its detail section too.
 3. **Priority changes made by hand are the user's judgement.** Record them, but at the next weekly update say plainly where the evidence disagrees ("You raised Acme to Act now; no hiring signal has appeared since") rather than silently overriding either side.
 4. **Regenerate the board** so the file data matches (otherwise "Reset to file data" would restore stale data).
 

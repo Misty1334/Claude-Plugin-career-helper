@@ -162,7 +162,7 @@ Overall suggested next steps:
 | Audience and channel map done | /personal-brand (Capability C: Content Pillars and Cadence) |
 | Content plan done | /linkedin-coach (turn pillars into LinkedIn-shaped tactics) |
 | Bio library done | /linkedin-coach (Profile Audit to apply bios to LinkedIn) |
-| Market map exists, no update in the last two weeks | /market-mapper (watchlist and weekly update) |
+| Market map exists, and either its last-checked date is over two weeks old or no update file exists from the last two weeks | /market-mapper (watchlist and weekly update) |
 | Market map has Act now organisations | /career-navigator (networking intelligence) or /job-scout (live roles at those organisations) |
 | Brand refresh plan done | Run the prioritised changes; route to /social-media-review or /employer-footprint if cleanup surfaced |
 | Nothing yet | /career-helper:quick-start |
