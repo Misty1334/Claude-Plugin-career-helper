@@ -7,6 +7,53 @@
 
 ---
 
+## One-Page Dashboard
+
+Written last, placed first. One screen.
+
+### Readiness by Competency
+
+| Competency | Verdict | What would move it |
+|:-----------|:--------|:-------------------|
+| {Competency 1} | {Ready / Needs work / Gap} | {One line} |
+| {Competency 2} | {Verdict} | {One line} |
+| {Repeat one row for every competency in the map, 8 to 12 in total} | | |
+
+Verdict rule: readiness is how prepared you are, not how strong the evidence is. Ready = a Strong or Partial rating with a prepared story or answer framework in this pack. Needs work = a Strong or Partial rating with no prepared story yet, or a story without a result. Gap = a Gap rating; the objection entry is the preparation.
+
+### Top Five Things They Will Like
+{Up to five; fewer if fewer Strong ratings exist, and say so}
+1. {Strength, traced to a Strong rating and the CV evidence}
+2. {...}
+3. {...}
+4. {...}
+5. {...}
+
+### Top Five Concerns They May Have
+{Up to five; fewer if fewer are real}
+1. {Risk 1, one line}
+2. {...}
+3. {...}
+4. {...}
+5. {...}
+
+### Top Five Stories to Have Ready
+1. {STAR story title} (covers: {competencies})
+2. {...}
+3. {...}
+4. {...}
+5. {...}
+
+### Top Ten Questions to Practise Aloud
+1. {Question, weighted towards Partial and Gap competencies}
+2. {...}
+{... to 10}
+
+### One Thing to Do Today
+{The single highest-value preparation action}
+
+---
+
 ## Interview Intelligence
 
 ### Likely Interview Format
@@ -14,16 +61,44 @@
 - **Format:** {Phone/Video/In-person}
 - **Duration:** {Expected length}
 - **Interviewers:** {Likely participants based on research}
-- **Structure:** {Behavioral/Technical/Case study mix expected}
+- **Structure:** {Behavioural/Technical/Case study mix expected}
 
 ### Company-Specific Interview Style
 {From Glassdoor, company content, or industry norms}
 
 ---
 
+## Competency Map and CV Alignment
+
+8 to 12 competencies from the job description. Ratings are text labels: Strong (evidenced at the level needed, with a result), Partial (smaller scale, adjacent context, or no result), Gap (nothing supports it; say so).
+
+| # | Competency | Why it matters to them | Evidence in the spec | Likelihood tested | Likely style | Your rating | Evidence from your CV | What may concern them |
+|:--|:-----------|:-----------------------|:---------------------|:------------------|:-------------|:------------|:----------------------|:----------------------|
+| 1 | {Competency} | {One line} | {Quote or paraphrase} | {High / Medium / Low} | {Behavioural / Technical / Situational / Motivational} | {Strong / Partial / Gap} | {CV line, role, or metric; or "none found"} | {Assessor's likely doubt, or "nothing obvious"} |
+| 2 | {Competency} | {...} | {...} | {...} | {...} | {...} | {...} | {...} |
+
+{DYSLEXIA-FRIENDLY VARIANT: replace this table with a numbered list, one competency per entry, each field on its own short labelled line. Keep every field.}
+
+---
+
+## Top Five Risks
+
+Ranked from the map: Gap on High-likelihood first, then Partial on High-likelihood, then CV-level concerns (tenure, gaps, a step down, overqualification). Five at most.
+
+### Risk 1: {Competency or CV concern}
+- **Why it is a concern:** {What the assessor will think}
+- **Likelihood it comes up:** {High / Medium / Low}
+- **Mitigation:** {Which story, which evidence, which framing}
+- **Handled in:** {Question numbers below and the matching objection entry}
+
+### Risk 2: {...}
+{Same structure}
+
+---
+
 ## Likely Interview Questions
 
-### Category 1: Behavioral Questions
+### Category 1: Behavioural Questions
 
 #### Question 1: {Question text}
 
@@ -52,15 +127,18 @@
 **Your Answer Framework:**
 - **Situation:** {Specific example from CV - Company X, Project Y, Time period}
 - **Task:** {Your responsibility or challenge}
-- **Action:** {What you did - emphasize skills from JD}
+- **Action:** {What you did - emphasise skills from JD}
 - **Result:** {Quantified outcome - tie to keywords}
 
-**Key Points to Emphasize:**
+**Key Points to Emphasise:**
 - {Keyword or concept from JD this addresses}
 - {Keyword or concept from JD this addresses}
 
 **Evidence from Your Background:**
 {Specific bullet from CV line X or experience at Company Y}
+
+**What Not to Say:**
+{One or two specific things to avoid, traced to the competency rating and the assessor's likely concern; not generic advice}
 
 ---
 
@@ -78,16 +156,19 @@
 - **Action:** {What you did}
 - **Result:** {Quantified outcome}
 
-**Key Points to Emphasize:**
+**Key Points to Emphasise:**
 - {Keyword/concept}
 - {Keyword/concept}
 
 **Evidence from Your Background:**
 {Specific reference}
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the competency rating}
+
 ---
 
-{Repeat for 15-20 likely questions, organized by category}
+{Repeat for 15-20 likely questions, organised by category. Every question carries all of the fields above, including "What Not to Say".}
 
 ---
 
@@ -109,10 +190,15 @@
 **Examples from Your Experience:**
 {Specific projects, tools used, outcomes achieved}
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the competency rating, for example leading with the tool rather than the decision}
+
 **Relevant Citations (if applicable):**
 - {Industry best practice or source if relevant}
 
 ---
+
+{Repeat for every technical question; each carries "What Not to Say".}
 
 ### Category 3: Situational/Hypothetical Questions
 
@@ -131,7 +217,12 @@
 **Similar Real Situation:**
 {Actual experience that provides credibility}
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the competency rating, for example a hypothetical with no real example behind it}
+
 ---
+
+{Repeat for every situational question; each carries "What Not to Say".}
 
 ### Category 4: Company-Specific Questions
 
@@ -153,6 +244,9 @@
 **Sources to Reference (if appropriate):**
 - {Recent article, interview, product launch}
 
+**What Not to Say:**
+{One or two specific things to avoid, for example praise that any candidate could give without research}
+
 ---
 
 #### "Why This Role?"
@@ -165,6 +259,9 @@
 - Specific aspects that excite you
 - How you'll add value}
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the risks section, for example implying the role is a step down}
+
 ---
 
 #### "Why Leave Your Current Role?"
@@ -176,6 +273,9 @@
 - Shows career growth logic
 - Demonstrates enthusiasm for target company
 - Avoids negativity}
+
+**What Not to Say:**
+{One or two specific things to avoid, for example criticism of a current employer or colleague}
 
 ---
 
@@ -223,7 +323,7 @@ These are your strongest examples that can be adapted for multiple questions.
 
 ## Questions for You to Ask
 
-Ask 3-5 questions in each interview. Organize by interview stage and audience.
+Ask 3-5 questions in each interview. Organise by interview stage and audience.
 
 ### For Hiring Manager:
 
@@ -282,25 +382,42 @@ These are key messages to deliver across multiple questions:
 
 ---
 
-## Potential Concerns to Address
+## Timed Openers
 
-Based on gap analysis, proactively address:
+Two or three answers that must land in about sixty seconds. Talking points in order, with a word count target, not prose to memorise.
 
-### Concern 1: {Identified gap or potential objection}
+### "Tell me about yourself"
+- Present: {Role and scope, one sentence}
+- Past: {The two experiences that most support the High-likelihood competencies}
+- Future: {Why this role, one sentence, from the research brief and your stated motivation}
+- Word count target: {120-150}
 
-**How to Address:**
-{Strategy to reframe or provide compensating evidence}
+### "Why this role, why now"
+- {Same structure; motivation comes from you, never invented}
 
-**Proactive Statement:**
-"{Exact wording to use if topic arises}"
+### {Optional stage-specific opener}
+- {...}
 
-### Concern 2: {Identified gap}
+---
 
-**How to Address:**
-{Strategy}
+## Handling Objections
 
-**Proactive Statement:**
-"{Wording}"
+One entry per risk above, in the same order. Four steps each: acknowledge, reframe, evidence, close.
+
+### Objection 1: {Risk 1, phrased as the assessor would put it}
+
+**Acknowledge:** "{One sentence accepting the fact, without apology or defensiveness}"
+
+**Reframe:** "{What it does and does not mean for this role}"
+
+**Evidence:** "{The closest real example with a result; if none, what you have done to prepare, never an invented example}"
+
+**Close:** "{One sentence back to the role and the first ninety days}"
+
+**When to raise it:** {Proactively in the opener / only if asked / not at all; and why}
+
+### Objection 2: {Risk 2}
+{Same four steps}
 
 ---
 
@@ -327,7 +444,7 @@ Based on gap analysis, proactively address:
 - [ ] Review STAR stories
 - [ ] Practice answering top 5 likely questions aloud
 - [ ] Review company research
-- [ ] Visualize successful interview
+- [ ] Visualise successful interview
 
 ### Day Of:
 
@@ -384,13 +501,13 @@ Best regards,
 
 ---
 
-## Customization Notes
+## Customisation Notes
 
 This prep guide is tailored for:
 - **Role:** {Target Role}
 - **Level:** {Seniority Level}
 - **Industry/Sector:** {Industry or sector}
-- **Organization Type:** {Startup/Scaleup/Enterprise/Government/Non-profit/Academic/etc.}
+- **Organisation Type:** {Startup/Scaleup/Enterprise/Government/Non-profit/Academic/etc.}
 
 For different roles or interview stages, regenerate with updated context.
 

@@ -285,6 +285,7 @@ When a capability specifies a template, you MUST:
 - **/linkedin-coach** - Optimise your LinkedIn profile and content
 - **/interview-master** - Prepare for interviews
 - **/career-transitions** - Explore portfolio/fractional career paths
+- **/market-mapper** - Map the organisations like your employer that are growing or hiring; an Act now organisation there seeds networking intelligence here
 
 ---
 

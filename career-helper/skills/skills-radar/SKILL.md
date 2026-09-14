@@ -79,6 +79,7 @@ Honest comparison of supply against demand:
 - Prioritises gaps by a text-label matrix: how much the role depends on it versus how far you are from it
 - Distinguishes **evidence gaps** (you have it but cannot prove it) from **skill gaps** (you do not have it); the fixes are completely different
 - Cross-reads `applications/learnings/patterns.md` if it exists: recurring interview objections are gap evidence
+- Cross-reads the competency map in any `applications/*/interview-prep.md`: a Gap rating there is direct evidence for a skill or evidence gap, and the same Gap across two or more preps outranks inference from postings
 
 **Output:** `skills-gap-analysis.md` (or `applications/{role-slug}/skills-gap-analysis.md` when tied to one application)
 
@@ -139,7 +140,7 @@ When a capability specifies a template, you MUST:
 - **/job-scout**: Winnability scoring uses the inventory; re-rank after gaps close
 - **/career-transitions**: AI Readiness Assessment for AI-specific skills roadmaps
 - **/employer-footprint**: Consent-based audit of what your public presence signals to employers
-- **/interview-master**: Turning evidenced skills into interview stories
+- **/interview-master**: Turning evidenced skills into interview stories; its competency map's Gap ratings are input to the gap analysis
 
 ---
 

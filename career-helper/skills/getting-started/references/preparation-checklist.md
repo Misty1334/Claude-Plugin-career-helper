@@ -117,6 +117,23 @@ Help the user gather the right materials before they start using career-helper s
 
 **What happens without a why-now anchor:** the position lands as "I have done X for many years" rather than "X is changing in this specific way and I have learned the lesson the field is about to learn the hard way". The latter is what gets followed, hired, and invited onto stages.
 
+
+### Keeping an Ear to the Ground (Market Mapper)
+
+**Essential:**
+- Your current or most recent employer (used only as the seed for "similar", and recorded only in the map header)
+- The region or locations you would consider, and your remote tolerance
+- The function and level you would move for
+- How discreet you need to be (employed and quiet, or openly searching)
+
+**Nice to have:**
+- Organisations you already have in mind, and any you want excluded (group companies, non-compete, bad history)
+- A sense of size band: a 50-person scale-up and a FTSE 250 hire very differently
+- Your `three-month-plan.md` or `skills-inventory.md` if they exist; the direction may already be defined there
+- The Claude for Chrome extension if you want LinkedIn coverage of decision makers
+
+**Why it matters:** the map is only as good as its seed. A wrong definition of "similar" produces a confidently wrong list, and the weekly update will keep watching the wrong organisations.
+
 ## Presentation Format
 
 Present the checklist as a clean, copy-paste-ready list in conversation. Example:

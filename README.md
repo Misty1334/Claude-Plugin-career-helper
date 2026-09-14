@@ -2,7 +2,7 @@
 
 # Career Helper - Claude Code Plugin
 
-End-to-end career support with guided coaching for job seekers at all levels, plus AI governance guidance for Non-Executive Directors and Board Governors. Fourteen skills including Tim (your personal career coach who guides you through the right skills in the right order), getting started guidance, AI impact assessment, employer footprint analysis, social media review, LinkedIn optimisation, ATS CV rewriting, cover letters and supporting statements, verified CV PDF production, interview preparation, reference and referee prep, job search strategy with an application tracker and interactive kanban board, live role discovery with batch ranking (job scout), an evidenced skills inventory with gap analysis and learning plans (skills radar), career transitions (including non-linear career exploration: entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling), board-level AI oversight, and personal brand building (Why You, Why Them, Why Now positioning, audience and channel map, content pillars, bio library). Ready-made Claude Cowork scheduled routines keep the search moving between sessions.
+End-to-end career support with guided coaching for job seekers at all levels, plus AI governance guidance for Non-Executive Directors and Board Governors. Sixteen skills including Tim (your personal career coach who guides you through the right skills in the right order), getting started guidance, AI impact assessment, employer footprint analysis, social media review, LinkedIn optimisation, ATS CV rewriting, cover letters and supporting statements, verified CV PDF production, interview preparation, reference and referee prep, job search strategy with an application tracker and interactive kanban board, live role discovery with batch ranking (job scout), an evidenced skills inventory with gap analysis and learning plans (skills radar), a market map of organisations like your employer with dated signals, decision makers, and a weekly what-changed update (market mapper), scheduled Cowork routines with a one-command weekly update (career routines), career transitions (including non-linear career exploration: entrepreneurship, startups, public sector, charity, intrapreneurship, and multi-role skilling), board-level AI oversight, and personal brand building (Why You, Why Them, Why Now positioning, audience and channel map, content pillars, bio library). Ready-made Claude Cowork scheduled routines keep the search moving between sessions.
 
 Available to all Claude users, including free subscriptions.
 
@@ -69,15 +69,17 @@ Or just describe what you need:
 
 | Skill | What It Does | Command |
 |:------|:-------------|:--------|
-| **Getting Started** | Full overview, preparation checklists, workflow planning, skill tips, power user strategies, scheduled Cowork routines | `/getting-started` |
+| **Getting Started** | Full overview, preparation checklists, workflow planning, skill tips, power user strategies | `/getting-started` |
+| **Career Routines** | Claude Cowork scheduled tasks for the one-command weekly update and narrower routines: tailored prompts, honest cloud-or-local guidance, a register of what is running, troubleshooting, and other surfaces | `/career-routines` |
 | **Employer Footprint** | Digital footprint audit through employer's eyes, social media scan, credit-report style dashboard, interview questions from online presence | `/employer-footprint` |
 | **Social Media Review** | Quick social media check through recruiter's eyes, privacy cleanup guide. Especially useful for graduates and early career. | `/social-media-review` |
 | **Application Optimiser** | Company and role research, ATS-optimised CV rewriting, cover letters and supporting statements, application strategy, verified CV PDF production with layout and ATS text-layer checks | `/application-optimiser` |
 | **LinkedIn Coach** | Profile audit, headline optimisation, content strategy, post review, video scripts | `/linkedin-coach` |
-| **Interview Master** | Interview prep, mock interviews, interviewer perspective reports, post-interview coaching, reference and referee prep, ageism support (UK law, practical strategies, emotional resilience) | `/interview-master` |
+| **Interview Master** | Interview prep built from a competency map (Strong, Partial, Gap ratings, top five risks, four-step objection handling, timed openers, one-page dashboard), mock interviews, interviewer perspective reports, post-interview coaching, reference and referee prep, ageism support (UK law, practical strategies, emotional resilience) | `/interview-master` |
 | **Career Navigator** | Networking intelligence, 3-month job search plans, salary negotiation, offer evaluation, application tracker with an interactive kanban board view | `/career-navigator` |
 | **Job Scout** | Live role discovery across boards and careers pages with honest coverage caveats, batch ranking of postings with deal-breaker vetting and deadline flags, shortlist feeding the tracker | `/job-scout` |
 | **Skills Radar** | Evidenced skills inventory (including your public work, with consent), gap analysis against a target role, realistic learning plans | `/skills-radar` |
+| **Market Mapper** | Evidenced map of ten to fifteen organisations like your employer with dated hiring, growth, investment, and change signals, decision makers confirmed by public sources, discreet angles for the employed, a weekly update that reports only what changed, and a watchlist board view | `/market-mapper` |
 | **Career Transitions** | Portfolio and fractional careers, AI readiness assessment, non-linear career exploration (entrepreneurship, startups, public sector, charity, intrapreneurship, multi-role skilling) | `/career-transitions` |
 | **AI Impact Assessment** | Researches whether AI will materially disrupt your role in the next 12 months, with a 6-month mitigation plan | `/ai-impact-assessment` |
 | **NED AI Helper** | AI governance for Non-Executive Directors, Board Governors, and Charity Trustees. Challenge frameworks, risk assessment, governance structures, regulatory guidance | `/ned-ai-helper` |
@@ -91,6 +93,7 @@ Or just describe what you need:
 | `/career-helper:help` | Find the right skill for your situation |
 | `/career-helper:quick-start` | Guided entry point - answers questions and routes you |
 | `/career-helper:status` | Check your progress and see generated outputs |
+| `/career-helper:weekly-update` | Run every recurring update in one unattended pass and save a dated report; built to go on a schedule |
 | `/career-helper:career-coach` | Start a guided coaching session with Tim |
 
 ---
@@ -115,7 +118,7 @@ Or just describe what you need:
 10. Evaluate competing offers     /career-navigator
 ```
 
-**Tip:** Inside Claude Cowork, run `/getting-started` and ask about scheduled routines to set up a weekly job-search standup, market monitor, and follow-up check that keep the search moving.
+**Tip:** In Claude Cowork, put `/career-helper:weekly-update` on a weekly `/schedule` and the tracker standup, follow-up check, and market map update run without you. `/career-routines` sets it up, explains when a task runs in the cloud and when it needs your computer, and covers other surfaces.
 
 ---
 
@@ -134,9 +137,10 @@ Or just describe what you need:
   *The board view of the application tracker, shown with placeholder data. Generated to `applications/board.html`; your tracker file stays the source of truth.*
 - **Job scouting** live role discovery and five-dimension batch ranking, honest about the limits of automated job-board search (and able to use the Claude for Chrome extension for logged-in boards)
 - **Skills radar** an evidenced skills inventory that separates real skill gaps from evidence gaps, with learning plans built around your actual weekly hours
+- **Market mapper** a map of organisations like your employer with dated signals and named decision makers, built for the employed and discreet, with a weekly update that reports only what changed and a watchlist board (four priority columns, same mechanics as the application board)
 - **Verified CV PDFs** a generate-verify loop that renders an ATS-safe PDF, checks the text layer parses, and inspects the layout page by page
 - **Reference and referee prep** choosing, asking, and briefing referees, with UK conventions and regulated-role notes
-- **Scheduled routines for Claude Cowork** ready-made `/schedule` prompts for a weekly standup, market monitor, and follow-up check
+- **Weekly update on a schedule** one command (`/career-helper:weekly-update`) runs the tracker standup, follow-ups, market map update, and learnings check unattended and saves a dated report; the career routines skill puts it on a Claude Cowork `/schedule`, keeps a register of what is running, and covers Claude Code Desktop, cron, and cloud Routines for people outside Cowork
 - **Ikigai direction-finding** Tim's four-question exercise for when you do not know what you want, with an optional interactive, colour-blind-safe ikigai map you can keep
 - **Career stage adaptation** from graduates to late career
 - **Wellbeing-aware coaching** Tim reads emotional signals, acknowledges difficulty before routing, checks in after heavy work, and carries wellbeing context across sessions
@@ -199,13 +203,18 @@ Skills generate markdown files you can convert to other formats:
 | `skills-inventory.md` | Skills Radar |
 | `skills-gap-analysis.md` | Skills Radar |
 | `learning-plan.md` | Skills Radar |
+| `market-map.md` | Market Mapper |
+| `market-map-board.html` | Market Mapper |
+| `updates/{date}-weekly-update.md` | Weekly Update command |
+| `routines.md` | Career Routines |
+| `market-watch/{date}-update.md` | Market Mapper |
 | `career-helper-preferences.md` | Tim (Career Coach) |
 
 ---
 
 ## Workspace Tip
 
-For the best experience, always use the same local folder for your career-helper sessions. This lets you build on previous analyses and track progress across sessions:
+For the best experience, use Desktop Cowork and always select the same local folder for your career-helper sessions. This lets you build on previous analyses and track progress across sessions. Career Helper also works in cloud Cowork, where created files live in the conversation's data store: stay in the same conversation to carry on a long-running piece of work, and use Desktop with the folder for scheduled routines that build on last week's files.
 
 ```bash
 mkdir -p ~/career-helper-workspace
@@ -239,4 +248,4 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-*Career Helper Plugin v1.15.0 | Prosper AI Consulting, UK*
+*Career Helper Plugin v1.16.0 | Prosper AI Consulting, UK*

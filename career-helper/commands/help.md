@@ -11,13 +11,16 @@ You are a career support navigator. Help the user find the right skill for their
 
 | Skill | What It Does | Best For |
 |:------|:-------------|:---------|
-| **/getting-started** | Full overview with examples, preparation checklists, workflow planning, tips, scheduled Cowork routines | New users, getting the most out of career-helper, or automating the search |
+| **/getting-started** | Full overview with examples, preparation checklists, workflow planning, tips | New users and getting the most out of career-helper |
+| **/career-routines** | Cowork scheduled tasks for the weekly update and narrower routines, tailored prompts, a register of what is running, troubleshooting, and other surfaces | Automating the search, or fixing a routine that is not running |
+| **/career-helper:weekly-update** | One unattended pass: tracker standup, follow-ups due, market map update, learnings check, dated report | Running by hand each Monday, or putting on a schedule |
 | **/linkedin-coach** | Profile audit, headlines, content strategy, post review, video scripts | Improving your LinkedIn presence |
 | **/application-optimiser** | Company research, ATS CV rewriting, cover letters and supporting statements, application strategy, verified CV PDF production | Applying for specific roles |
-| **/interview-master** | Interview prep, mock interviews, post-interview coaching, reference and referee prep, ageism support | Before and after interviews, preparing references, age discrimination concerns |
+| **/interview-master** | Interview prep from a competency map (ratings, top five risks, objection handling, one-page dashboard), mock interviews, post-interview coaching, reference and referee prep, ageism support | Before and after interviews, preparing references, age discrimination concerns |
 | **/career-navigator** | Networking, 3-month plans, salary negotiation, offer evaluation, application tracker with kanban board view | Planning and tracking your job search strategy |
 | **/job-scout** | Live role discovery with honest coverage caveats, batch ranking of postings, shortlist into the tracker | Finding openings and deciding what to apply for first |
 | **/skills-radar** | Evidenced skills inventory, gap analysis against a target role, realistic learning plan | Knowing what you can prove, what is missing, and what to learn next |
+| **/market-mapper** | Evidenced map of organisations like your employer with dated hiring, growth, and investment signals, named decision makers, discreet angles, a weekly what-changed update, and a watchlist board view | Keeping an ear to the ground, especially while employed |
 | **/career-transitions** | Portfolio careers, fractional executive roles, AI readiness, non-linear career exploration (entrepreneurship, startups, public sector, charity, intrapreneurship, multi-role skilling) | Changing career direction or exploring alternatives to traditional employment |
 | **/employer-footprint** | Digital footprint audit through employer's eyes, social media scan, interview questions from online presence | Checking what employers will find about you online |
 | **/social-media-review** | Quick social media check through recruiter's eyes, privacy cleanup guide | Graduates, early career, or anyone wanting a quick social media health check |
@@ -43,6 +46,10 @@ If the user described their situation, route them:
 | "Find me jobs" or "what roles are out there?" | /job-scout |
 | "Which of these roles should I apply for?" | /job-scout (batch ranking) |
 | "What skills am I missing?" or "what should I learn next?" | /skills-radar |
+| "Which companies like mine are growing or hiring?" or "map the market" | /market-mapper |
+| "Keep an ear to the ground for me" or "who should I be watching?" | /market-mapper |
+| "What has changed on my market map?" or "set up a weekly market watch" | /market-mapper (watchlist and weekly update) |
+| "Show me my watchlist as a board" | /market-mapper (watchlist board view) |
 | "Help me track my applications" or "where am I with all my applications?" | /career-navigator (application tracker) |
 | "Show me my applications as a board" | /career-navigator (kanban board view) |
 | "I got an offer" | /career-navigator (salary negotiation or offer evaluation) |
@@ -103,7 +110,9 @@ If the user described their situation, route them:
 | "Give me the getting the best guide" | /getting-started (getting the best guide) |
 | "How do I get the best results?" | /getting-started (getting the best guide) |
 | "Can I get a guide to share?" | /getting-started (getting the best guide) |
-| "Can I automate my job search?" or "set up a weekly routine" | /getting-started (scheduled routines, Cowork) |
+| "Can I automate my job search?" or "set up a weekly routine" | /career-routines |
+| "What routines do I have?" or "my scheduled task did not run" | /career-routines (review your routines) |
+| "Run my weekly update" or "what needs doing this week?" | /career-helper:weekly-update |
 
 ## Response Format
 

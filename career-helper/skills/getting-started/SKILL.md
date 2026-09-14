@@ -18,7 +18,7 @@ Get the most out of Career Helper. Whether you are a graduate writing your first
 | 4 | Skill-by-Skill Tips | Maximise results from any specific skill |
 | 5 | Power User Strategies | Advanced techniques for experienced users |
 | 6 | Getting the Best Guide | Comprehensive downloadable guide with scenario-based walkthroughs |
-| 7 | Scheduled Routines (Cowork) | Set up recurring job-search tasks in Claude Cowork |
+| 7 | Scheduled Routines | Put the weekly update or a narrower routine on a Cowork schedule (routes to /career-routines) |
 
 ## Quick Start
 
@@ -33,6 +33,7 @@ Get the most out of Career Helper. Whether you are a graduate writing your first
 "Give me the guide to share with someone"
 "Can I automate my job search?"
 "Set up a weekly routine for my job search"
+"Put the weekly update on a schedule"
 ```
 
 ---
@@ -75,7 +76,7 @@ A comprehensive guide covering installation, folder setup, and three scenario-ba
 Walk the user through everything career-helper can do, with concrete real-world examples showing exactly when and how to use each skill. This is the "show me everything" capability.
 
 **Core approach:**
-- Present all 13 skills and their capabilities with plain-language explanations
+- Present all 15 skills and their capabilities with plain-language explanations
 - For each skill, include a real-world scenario showing exactly what to say and what you get back
 - Show the complete plugin ecosystem: skills, commands, output files, and how they connect
 - End with "What's your situation? I'll tell you exactly where to start"
@@ -127,7 +128,7 @@ Create a personalised skill sequence based on the user's specific situation. Not
 Practical guidance for getting the best results from each skill. Not a repeat of help - specific tips on inputs, prompting, and iteration.
 
 **Core approach:**
-- Ask which skill they want tips for (or cover all thirteen)
+- Ask which skill they want tips for (or cover all fifteen)
 - Provide input quality tips (what makes a good CV upload, how to share a LinkedIn profile, what details to include in a job description)
 - Common mistakes and how to avoid them
 - How to iterate and refine outputs
@@ -156,20 +157,20 @@ Advanced techniques for users who have used the basic skills and want more.
 
 ---
 
-## 7. Scheduled Routines (Cowork)
+## 7. Scheduled Routines
 
-**What you need:** Claude Cowork on Claude Desktop, on a paid plan
-**Load:** @references/scheduled-routines.md
+**What you need:** A workspace folder and a Claude Cowork session
+**Load:** @../career-routines/references/cowork-scheduling.md and @../career-routines/references/routine-library.md
 
-Help the user turn their job search into a living process using Claude Cowork's scheduled tasks. Cowork can run a saved prompt on a schedule with full access to the Career Helper skills and the user's workspace folder.
+Scheduling has its own skill, `/career-routines`. From here, give the short version and route:
 
 **Core approach:**
-- Explain how `/schedule` works and the two honest limitations: the computer must be awake with Claude Desktop open, and scheduling is a Cowork feature, not part of the plugin (CLI and web users can run the same prompts manually)
-- Offer the ready-made routines: Monday job-search standup, weekly market monitor, LinkedIn posting reminder, follow-up check, and pre-interview nudge
-- Recommend starting with one routine (usually the Monday standup) rather than all five
-- Keep the "do not invent" instruction in any prompt the user edits
+- Lead with the simplest route: `/career-helper:weekly-update` runs the tracker standup, follow-up check, market map update, and learnings check in one unattended pass and saves a dated report; put that one command on a weekly Cowork schedule via `/schedule`
+- Say plainly where a Cowork task runs: in the cloud when it needs no folder on the computer, on the machine (which must be awake) when it is given a local workspace folder, which a Career Helper workspace usually is
+- Route to `/career-routines` for tailoring the prompt, recording it in `routines.md`, reviewing routines, or scheduling outside Cowork
+- Keep the "do not invent" and "record decisions, do not ask" instructions in any prompt the user edits
 
-**Output:** Conversational setup guidance and copy-paste `/schedule` prompts
+**Output:** Conversational guidance, then a handoff to `/career-routines`
 
 ---
 
@@ -183,7 +184,7 @@ When the user invokes this skill without specifying a capability:
    - "I need a plan for which skills to use and in what order" → Capability 3
    - "I want tips for getting better results from a specific skill" → Capability 4
    - "Give me the getting the best guide" → Capability 6
-   - "I want to automate or schedule parts of my job search" → Capability 7
+   - "I want to automate or schedule parts of my job search" → Capability 7 (lead with the weekly update command)
 
 2. If the user is brand new or unsure, default to Capability 1 (Full Overview).
 
@@ -233,6 +234,8 @@ Ready to get started? Use the skill that fits:
 - **/linkedin-coach** - Optimise your LinkedIn profile and content
 - **/interview-master** - Prepare for interviews
 - **/career-navigator** - Plan your search, negotiate offers
+- **/market-mapper** - Map the organisations like your employer that are growing or hiring, and keep the map current weekly
+- **/career-routines** - Put the weekly update and other routines on a Cowork schedule, and review what is running
 - **/career-transitions** - Explore portfolio/fractional career paths, entrepreneurship, public sector, charity, and non-linear alternatives
 - **/personal-brand** - Build or refresh a personal brand using Why You, Why Them, Why Now positioning, with audience and channel map, content pillars, and a bio library
 
@@ -240,4 +243,4 @@ Or run **/career-helper:quick-start** if you want guided routing.
 
 ---
 
-*Getting Started Guide v1.13.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Getting Started Guide v1.14.0 | Career Helper Plugin | Prosper AI Consulting, UK*

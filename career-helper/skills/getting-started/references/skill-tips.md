@@ -103,6 +103,8 @@ CV Optimisation (sync LinkedIn with CV)
 ### Common Mistakes
 
 - **Preparing for "an interview" generically.** Stage-specific preparation is dramatically more effective. Ask for the specific stage.
+- **Reading the dashboard and skipping the map.** The one-page dashboard is a summary. The competency map underneath it is where the Gap ratings live, and a Gap on a High-likelihood competency is the thing to work on first.
+- **Arguing with a Gap rating.** The skill rates what the CV evidences, not what you know you can do. If the rating is wrong, the fix is evidence (a line on the CV, a story with a result), not a better argument on the day.
 - **Skipping the Interviewer's Perspective report.** This capability shows what interviewers are REALLY assessing behind each question. It changes how you think about your answers.
 - **Memorising scripts instead of frameworks.** The skill provides STAR frameworks, not scripts. Memorised answers sound robotic. Understand the framework and adapt in the moment.
 - **Not doing a mock interview.** Reading preparation is not the same as practising delivery. The mock interview with feedback is where real improvement happens.
@@ -114,6 +116,7 @@ CV Optimisation (sync LinkedIn with CV)
 3. Do at least one mock interview
 4. Review feedback and update your preparation notes
 5. For a different stage at the same company, run Interview Preparation again with the new stage specified
+6. If the same Gap appears across two or three preps, run `/skills-radar`; a recurring interview Gap is gap-analysis evidence
 
 ### Reference and Referee Prep
 
@@ -381,4 +384,69 @@ Skills Radar inventory → Job Scout (honest winnability scoring)
 Learnings loop patterns → Skills Radar gap analysis (repeated objections are evidence)
 Skills Radar gap analysis → learning plan → CV update and shortlist re-rank
 AI-specific gaps → /career-transitions (AI Readiness Assessment)
+```
+
+---
+
+## Market Mapper Tips
+
+### Input Quality
+
+- **Say how discreet you need to be.** The posture (employed and discreet, or openly searching) changes every suggested angle. If you are unsure, discreet is the default.
+- **Define "similar" yourself if you can.** Sector, size band, region, and the customers you sell to. The skill will propose a seed profile from your employer, but you know which dimension matters most; say so before the search runs.
+- **Name your exclusions.** Group companies, anywhere covered by a non-compete, and anywhere you would never work. Exclusions are applied before the map is built, not after.
+
+### Common Mistakes
+
+- **Treating a signal as a vacancy.** A funding round means money, not a role for you. Read the signal for what it supports.
+- **Expecting LinkedIn coverage without the browser extension.** LinkedIn people search sits behind a login. Public leadership pages, Companies House, and press coverage confirm most decision makers; the Claude for Chrome extension closes the rest.
+- **Acting on every Act now in the same week.** An employed user engaging with five competitors in one week is noticeable. Pick one.
+- **Letting the map go stale.** A map with no update for a month is a list of old news. Run the weekly update, or schedule it in Claude Cowork.
+
+### Iteration Strategy
+
+- Accept or decline the offered removals and additions at each update; the map only changes when you say so.
+- When an organisation turns to Act now, move it into `/career-navigator` (Strategic Networking) or `/job-scout` rather than acting from the map alone.
+- Rebuild the seed profile if your direction changes; a map built for one function does not transfer to another.
+- Use the board view once the map passes eight organisations; drag priorities as your judgement changes, but expect the next update to say where the evidence disagrees.
+
+### What Feeds Into What
+
+```text
+Market Mapper map → market-map.md → weekly update → market-watch/{date}-update.md
+market-map.md → board view → market-map-board.html → export → Watchlist section of market-map.md
+Act now organisations → /career-navigator (networking intelligence) or /job-scout (live roles there)
+Chosen organisation with a role → applications/tracker.md (stage Researching) → /application-optimiser
+applications/tracker.md → Market Mapper update (organisations already in play are flagged, not re-suggested)
+```
+
+---
+
+## Career Routines Tips
+
+### Input Quality
+
+- **Have the inputs before the routine.** A weekly update with no tracker and no market map reports "not found" every Monday. Build one of them first.
+- **Say where you want it to run.** With your local workspace folder, a Cowork task runs on your machine and needs it awake; without a local folder it runs in the cloud, but each run is a new session with no memory of last week's files. For routines that build on the tracker or map, Desktop with the folder is the reliable choice.
+- **Run it once by hand.** Approve anything it asks for on that first run, so scheduled runs never stall on a permission.
+
+### Common Mistakes
+
+- **Scheduling six routines on day one.** Start with the weekly update; it already contains the standup, the follow-up check, and the market map update.
+- **A 07:30 Monday task on a laptop that is in a bag until nine.** The most common "it did not run". Pick a time you are at your desk, or move the workspace somewhere cloud-reachable.
+- **Editing out the honesty lines.** "Do not invent" and "record decisions, do not ask" are what keep an unattended run trustworthy.
+
+### Iteration Strategy
+
+- Read the "Decisions waiting for you" section each week and act on it; the routine cannot.
+- Review `routines.md` monthly via `/career-routines`; pause anything you no longer read.
+- If a report is the same every week, the input files are not changing; that is a job-search signal, not a routine fault.
+
+### What Feeds Into What
+
+```text
+/career-routines → Cowork /schedule → /career-helper:weekly-update → updates/{date}-weekly-update.md
+Weekly update → tracker At a Glance refresh, market-map.md and market-map-board.html refresh, market-watch/{date}-update.md
+updates/ "Decisions waiting for you" → /career-helper:status → you
+routines.md → /career-helper:status (stale routine check)
 ```

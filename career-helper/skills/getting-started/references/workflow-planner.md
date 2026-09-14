@@ -22,6 +22,7 @@ Ask using AskUserQuestion tool:
 - Exploring alternatives to traditional employment (starting a business, public sector, charity, etc.)
 - Want to improve my professional presence
 - Want to build or refresh my personal brand (positioning, audience, content, bios)
+- Employed, but want to keep an ear to the ground discreetly
 
 **Question 2 (based on answer):**
 - Applying → "Do you have a specific role in mind, or are you exploring?"
@@ -31,6 +32,7 @@ Ask using AskUserQuestion tool:
 - Alternatives to employment → "What are you most drawn to: starting your own business, public sector, charity/social enterprise, or are you not sure yet?"
 - Professional presence → "Is this for job search, thought leadership, or client acquisition?"
 - Personal brand → "Are you starting from scratch (positioning), refreshing existing bios, or building a content plan? And is this for fractional, board work, a sector pivot, or something else?"
+- Ear to the ground → "Which employer is the starting point for similar organisations, and which region and function matter most? How discreet do you need to be?"
 
 ## Workflow Patterns
 
@@ -265,6 +267,35 @@ Step 4 (optional): /linkedin-coach (Profile Audit)
         Output: linkedin-profile-review.md
         Why optional: applies the refreshed bios to LinkedIn at the platform-tactic layer
 ```
+
+### Pattern I: Employed and Quietly Exploring
+
+**Best for:** User is in a role, not actively applying, and wants to know which organisations like their employer are growing or hiring without announcing a search.
+
+```text
+Step 1: /market-mapper (Market Map)
+        Input: current employer as the seed, region, target function and level, exclusions, discretion posture
+        Output: market-map.md
+        Why first: it defines what "similar" means and gathers dated signals before any outreach is considered
+            ↓
+Step 2: /market-mapper (Watchlist and Weekly Update), on a Cowork schedule via /career-routines or run manually
+        Input: the existing map
+        Output: market-watch/{date}-update.md, updated market-map.md
+        Why: only what changed is reported, so the weekly read stays short
+            ↓
+Step 3 (optional): /market-mapper (Watchlist Board View)
+        Output: market-map-board.html
+        Why optional: useful once the map passes eight organisations
+            ↓
+Step 4 (when an organisation reaches Act now): /career-navigator (Strategic Networking Intelligence)
+        Input: the organisation, its decision makers and signals from the map
+        Output: applications/{role-slug}/networking-intelligence.md
+        Why: relationship first, at the user's pace; nothing here obliges an application
+            ↓
+Step 5 (when a role appears): /job-scout with the organisation's careers page as a named target, then /application-optimiser
+```
+
+**Key insight:** the discretion posture set in Step 1 governs every later step. An employed user's angles stay at follow, read, and comment until they decide otherwise.
 
 ### Pattern F: Offer Stage
 

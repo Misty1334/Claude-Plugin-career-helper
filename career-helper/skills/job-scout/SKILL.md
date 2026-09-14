@@ -150,6 +150,7 @@ When a capability specifies a template, you MUST:
 - **/career-navigator**: Application tracker, kanban board view, and 3-month search planning
 - **/application-optimiser**: Deep company research and CV tailoring for shortlisted roles
 - **/skills-radar**: Gap analysis when postings keep asking for something you lack
+- **/market-mapper**: The organisations worth watching before they advertise; use their careers pages as named targets here
 - **/interview-master**: Preparation once applications convert
 
 ---

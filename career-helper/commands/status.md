@@ -22,6 +22,18 @@ If the tracker shows three or more active applications and no `applications/boar
 
 ---
 
+## Check for a Weekly Update
+
+Check `updates/` for the most recent `*-weekly-update.md`. If one exists, whatever its age, read its "Decisions waiting for you" section and surface any open decisions after the tracker board; those are things an unattended run could not do. Freshness is a separate check: If `routines.md` exists, read it and note any active routine with a recurring cadence (daily, weekdays, or weekly) whose output folder has nothing newer than twice its cadence; skip on-demand routines and any marked paused in the Notes column. Offer `/career-routines` (review your routines) for the stale ones. If the newest weekly update is older than two weeks, or none exists and the user has a tracker or a market map, mention once that `/career-helper:weekly-update` runs the whole maintenance pass and can be put on a Cowork schedule via `/career-routines`.
+
+---
+
+## Check for a Market Map
+
+Check for `market-map.md`. If it exists, read the header and the watchlist table. Surface any organisation at priority Act now (one line each, with the signal date) after the tracker board. If the map's last-checked date is more than two weeks old, or `market-watch/` has no update file from the last two weeks, offer to run the weekly update via `/market-mapper`. If the map has eight or more organisations and no `market-map-board.html` exists, offer the board view once: "Would you like your watchlist as a board? You can drag organisations between priorities and export the changes back into your map." If `market-map-board.html` exists but the map has been updated since it was generated, offer to regenerate it. Never restate signals as new that the map already carries, and never invent a signal or a person.
+
+---
+
 ## Check for Learnings
 
 Check for `applications/learnings/patterns.md`. If it exists, read it and surface the single most useful current pattern (what is working, or a recurring gap) after the tracker board. If per-event notes exist under `applications/learnings/interview-notes/`, `rejections/`, or `wins/` but `patterns.md` is missing or looks stale relative to them, offer to synthesise via `/career-navigator` (Application Learnings Loop). Never invent a pattern that the notes do not support.
@@ -89,6 +101,11 @@ Scan the working directory root for shared and personal files:
 - *-governance-options.md
 - *-change-readiness-report.md
 - *-hitl-assessment.md
+- routines.md
+- market-map.md
+- market-map-board.html
+- market-watch/*-update.md
+- updates/*-weekly-update.md
 - ikigai-map.html
 - career-helper-preferences.md
 ```
@@ -145,5 +162,7 @@ Overall suggested next steps:
 | Audience and channel map done | /personal-brand (Capability C: Content Pillars and Cadence) |
 | Content plan done | /linkedin-coach (turn pillars into LinkedIn-shaped tactics) |
 | Bio library done | /linkedin-coach (Profile Audit to apply bios to LinkedIn) |
+| Market map exists, and either its last-checked date is over two weeks old or no update file exists from the last two weeks | /market-mapper (watchlist and weekly update) |
+| Market map has Act now organisations | /career-navigator (networking intelligence) or /job-scout (live roles at those organisations) |
 | Brand refresh plan done | Run the prioritised changes; route to /social-media-review or /employer-footprint if cleanup surfaced |
 | Nothing yet | /career-helper:quick-start |

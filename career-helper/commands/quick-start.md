@@ -37,6 +37,7 @@ Ask these questions one at a time (use AskUserQuestion tool):
 ### Question 1: Current Situation
 "What best describes your situation right now?"
 - Looking for a new role
+- Employed, but want to keep an ear to the ground discreetly
 - Preparing for an interview
 - Negotiating or evaluating an offer
 - Want to improve my LinkedIn
@@ -58,6 +59,7 @@ Ask these questions one at a time (use AskUserQuestion tool):
 | If they said | Follow-up |
 |:-------------|:----------|
 | Looking for a new role | "Do you have a target role/company, or are you still deciding?" |
+| Keeping an ear to the ground | "Which employer should I use as the starting point for similar organisations, and which region or functions matter most?" |
 | Preparing for interview | "When is the interview, and do you have the job description?" |
 | Negotiating/evaluating | "Have you received a written offer, or are you expecting one?" |
 | Improve LinkedIn | "What's your main goal - job search, thought leadership, or client acquisition?" |
@@ -87,6 +89,9 @@ Based on their answers, recommend ONE skill and invoke it:
 | Wants a visual board of the pipeline | /career-navigator (kanban board view) |
 | Cannot find roles to apply for | /job-scout |
 | Unsure which postings to prioritise | /job-scout (batch ranking) |
+| Employed and quietly watching the market | /market-mapper |
+| Wants a weekly update on companies worth watching | /market-mapper (watchlist and weekly update) |
+| Wants the watchlist as a visual board | /market-mapper (watchlist board view) |
 | Worried about missing skills | /skills-radar |
 | Interview coming | /interview-master |
 | Post-rejection | /interview-master |
@@ -128,7 +133,7 @@ Based on their answers, recommend ONE skill and invoke it:
 | Just exploring | /getting-started (full overview) |
 | "How does this work?" | /getting-started |
 | Wants a guide to read or share | /getting-started (getting the best guide) |
-| Wants to automate or schedule the search (Claude Cowork) | /getting-started (scheduled routines) |
+| Wants to automate or schedule the search | /career-routines |
 
 ## Handoff
 
