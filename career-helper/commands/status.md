@@ -24,7 +24,7 @@ If the tracker shows three or more active applications and no `applications/boar
 
 ## Check for a Market Map
 
-Check for `market-map.md`. If it exists, read the header and the watchlist table. Surface any organisation at priority Act now (one line each, with the signal date) after the tracker board. If the map's last-checked date is more than two weeks old, or `market-watch/` has no update file from the last two weeks, offer to run the weekly update via `/market-mapper`. Never restate signals as new that the map already carries, and never invent a signal or a person.
+Check for `market-map.md`. If it exists, read the header and the watchlist table. Surface any organisation at priority Act now (one line each, with the signal date) after the tracker board. If the map's last-checked date is more than two weeks old, or `market-watch/` has no update file from the last two weeks, offer to run the weekly update via `/market-mapper`. If the map has eight or more organisations and no `market-map-board.html` exists, offer the board view once: "Would you like your watchlist as a board? You can drag organisations between priorities and export the changes back into your map." If `market-map-board.html` exists but the map has been updated since it was generated, offer to regenerate it. Never restate signals as new that the map already carries, and never invent a signal or a person.
 
 ---
 
@@ -96,6 +96,7 @@ Scan the working directory root for shared and personal files:
 - *-change-readiness-report.md
 - *-hitl-assessment.md
 - market-map.md
+- market-map-board.html
 - market-watch/*-update.md
 - ikigai-map.html
 - career-helper-preferences.md

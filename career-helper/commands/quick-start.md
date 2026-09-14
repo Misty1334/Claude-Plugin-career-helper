@@ -91,6 +91,7 @@ Based on their answers, recommend ONE skill and invoke it:
 | Unsure which postings to prioritise | /job-scout (batch ranking) |
 | Employed and quietly watching the market | /market-mapper |
 | Wants a weekly update on companies worth watching | /market-mapper (watchlist and weekly update) |
+| Wants the watchlist as a visual board | /market-mapper (watchlist board view) |
 | Worried about missing skills | /skills-radar |
 | Interview coming | /interview-master |
 | Post-rejection | /interview-master |

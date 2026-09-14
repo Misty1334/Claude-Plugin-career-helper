@@ -405,11 +405,13 @@ AI-specific gaps → /career-transitions (AI Readiness Assessment)
 - Accept or decline the offered removals and additions at each update; the map only changes when you say so.
 - When an organisation turns to Act now, move it into `/career-navigator` (Strategic Networking) or `/job-scout` rather than acting from the map alone.
 - Rebuild the seed profile if your direction changes; a map built for one function does not transfer to another.
+- Use the board view once the map passes eight organisations; drag priorities as your judgement changes, but expect the next update to say where the evidence disagrees.
 
 ### What Feeds Into What
 
 ```text
 Market Mapper map → market-map.md → weekly update → market-watch/{date}-update.md
+market-map.md → board view → market-map-board.html → export → Watchlist section of market-map.md
 Act now organisations → /career-navigator (networking intelligence) or /job-scout (live roles there)
 Chosen organisation with a role → applications/tracker.md (stage Researching) → /application-optimiser
 applications/tracker.md → Market Mapper update (organisations already in play are flagged, not re-suggested)

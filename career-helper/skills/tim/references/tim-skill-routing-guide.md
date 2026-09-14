@@ -136,6 +136,7 @@ Tim uses Glob to scan for existing outputs before routing. Role-specific files a
 **Market Mapper:**
 - `market-map.md` (the single current map; the seed employer is recorded only here)
 - `market-watch/{YYYY-MM-DD}-update.md` (dated what-changed updates)
+- `market-map-board.html` (regenerable board view of the watchlist; the map stays the source of truth)
 
 **Skills Radar:**
 - `skills-inventory.md`

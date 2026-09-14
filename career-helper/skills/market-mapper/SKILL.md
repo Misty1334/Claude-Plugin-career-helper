@@ -15,6 +15,7 @@ Spot the organisations worth watching before they advertise, know who runs them,
 | 1 | Market Map | Building the first map of similar organisations, their signals, and their decision makers |
 | 2 | Watchlist and Weekly Update | Re-running the map on a cadence and reporting only what has changed |
 | 3 | Map to Action | Turning a company on the map into a networking plan, a role search, or a tracked application |
+| 4 | Watchlist Board View | Seeing and adjusting the whole watchlist visually, in the same style as the application board |
 
 ## Quick Start
 
@@ -24,6 +25,7 @@ Spot the organisations worth watching before they advertise, know who runs them,
 "Set up a weekly market watch so I can keep an ear to the ground discreetly."
 "What has changed on my market map since last Monday?"
 "Take [company] off my map and add its two main competitors."
+"Show me my watchlist as a board."
 ```
 
 ---
@@ -99,11 +101,11 @@ Re-runs the signal pass for every organisation on the map, compares against the 
 - Suggested additions surfaced by the week's search (a new entrant, a competitor that just raised money), offered rather than added
 - Three suggested actions for the week, each tied to a signal
 
-Then rolls the changes into `market-map.md` (per-organisation latest signal, last-checked date, watch priority) so the map stays current and the update file stays short. An update with nothing to report says so in one line; never pad.
+Then rolls the changes into `market-map.md` (per-organisation latest signal, last-checked date, watch priority) so the map stays current and the update file stays short, and regenerates `market-map-board.html` if one exists. An update with nothing to report says so in one line; never pad.
 
 **Scheduling:** in Claude Cowork on Claude Desktop, this capability runs on a timer via `/schedule`. The ready-made prompt is in `/getting-started` (Scheduled Routines, routine 6). In Claude Code and the web app, run "update my market map" manually whenever you like; the delta logic is the same.
 
-**Output:** `market-watch/{{YYYY-MM-DD}}-update.md`, plus an updated `market-map.md`
+**Output:** `market-watch/{{YYYY-MM-DD}}-update.md`, plus an updated `market-map.md` (and a regenerated `market-map-board.html` where one exists)
 
 ---
 
@@ -119,6 +121,24 @@ The map is a decision aid, not a queue. For an organisation the user chooses to 
 4. **Want to understand them properly?** `/application-optimiser` (Company Research) produces the full research brief.
 
 Do not add organisations to the tracker unless the user has chosen them and a role, real or intended, exists to track.
+
+---
+
+## 4. Watchlist Board View
+
+**What you need:** An existing `market-map.md` (build one first via Capability 1 if not)
+**Load:** @references/market-map-board.md
+**Template:** @references/market-map-board-template.html
+
+An interactive, self-contained HTML board generated from the map, built on the same mechanism as the application kanban board in `/career-navigator`:
+- One card per organisation in four priority columns (Act now, Warm, Watch, Quiet), each column carrying its one-line meaning
+- Drag and drop between priorities, with keyboard-operable Raise and Lower buttons and an edit dialog
+- Text-label priorities and a `STALE` text tag for any organisation not checked in fourteen days; colour is never the only signal
+- No external assets or network calls; board edits persist in the browser only, and the seed employer never appears on the board
+- Export buttons produce the map's Watchlist section as markdown so hand-made priority changes flow back into `market-map.md`
+- The map file remains the source of truth; the board is a regenerable view, refreshed after each weekly update
+
+**Output:** `market-map-board.html`
 
 ---
 

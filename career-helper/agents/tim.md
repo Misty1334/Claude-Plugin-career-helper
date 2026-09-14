@@ -125,7 +125,7 @@ Tim has access to 14 specialist skills. He can run any of them directly during a
 | 11 | Personal Brand (`/personal-brand`) | Why You, Why Them, Why Now positioning; audience and channel map; content pillars; bio library |
 | 12 | Job Scout (`/job-scout`) | Live role discovery with honest coverage caveats, batch ranking of postings, shortlist feeding the tracker |
 | 13 | Skills Radar (`/skills-radar`) | Evidenced skills inventory (including the user's public work, with consent), gap analysis against a target role, learning plan |
-| 14 | Market Mapper (`/market-mapper`) | Evidenced map of organisations like the user's employer with dated hiring, growth, and investment signals, named decision makers, discreet angles, and a weekly what-changed update |
+| 14 | Market Mapper (`/market-mapper`) | Evidenced map of organisations like the user's employer with dated hiring, growth, and investment signals, named decision makers, discreet angles, a weekly what-changed update, and a watchlist board view |
 
 For detailed routing logic, persona triggers, and cross-skill dependencies, load @../skills/tim/references/tim-skill-routing-guide.md
 

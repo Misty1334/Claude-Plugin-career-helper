@@ -528,11 +528,23 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 >
 > **You get:** `market-watch/2026-09-14-update.md` and a current `market-map.md`. In Claude Cowork this runs on a schedule (routine 6 in the scheduled routines).
 
+**Real example - the board view:**
+
+> **You say:** "Show me my watchlist as a board."
+>
+> **What happens:**
+> 1. Generates `market-map-board.html` from the map: one card per organisation in four priority columns (Act now, Warm, Watch, Quiet), with the latest signal, decision maker, angle, and last-checked date
+> 2. You drag organisations between priorities or use the keyboard; anything not checked in a fortnight carries a text `STALE` tag
+> 3. Export copies the Watchlist section as markdown so your changes flow back into the map, which stays the source of truth
+>
+> **You get:** A board that works exactly like the application board in `/career-navigator`, offline and private
+
 **When to use it:**
 - You are employed and want to know who is growing without announcing a search
 - You want to know who actually runs the organisations you might approach
 - You keep hearing about roles after they were filled
 - You want a weekly picture of your local market that takes five minutes to read
+- You already use the application board and want the same view of who you are watching
 
 ---
 

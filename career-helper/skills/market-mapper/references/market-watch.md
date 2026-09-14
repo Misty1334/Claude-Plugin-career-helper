@@ -76,6 +76,8 @@ Update `market-map.md` in place so it stays the single current view:
 3. Do not remove organisations or add suggested ones until the user confirms; record the offer in the update file and leave the map unchanged on that point
 4. Drop signals that have fallen outside the window from the watchlist "Latest signal" cell, but keep them in the organisation detail so history is not lost
 
+If `market-map-board.html` exists, regenerate it from the updated map (see `market-map-board.md`) so the board never shows stale data.
+
 Tell the user in one line that the map has been updated and the update file saved, using descriptions rather than filenames if dyslexia-friendly mode is on.
 
 ---

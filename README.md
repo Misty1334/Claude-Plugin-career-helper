@@ -78,7 +78,7 @@ Or just describe what you need:
 | **Career Navigator** | Networking intelligence, 3-month job search plans, salary negotiation, offer evaluation, application tracker with an interactive kanban board view | `/career-navigator` |
 | **Job Scout** | Live role discovery across boards and careers pages with honest coverage caveats, batch ranking of postings with deal-breaker vetting and deadline flags, shortlist feeding the tracker | `/job-scout` |
 | **Skills Radar** | Evidenced skills inventory (including your public work, with consent), gap analysis against a target role, realistic learning plans | `/skills-radar` |
-| **Market Mapper** | Evidenced map of ten to fifteen organisations like your employer with dated hiring, growth, investment, and change signals, decision makers confirmed by public sources, discreet angles for the employed, and a weekly update that reports only what changed | `/market-mapper` |
+| **Market Mapper** | Evidenced map of ten to fifteen organisations like your employer with dated hiring, growth, investment, and change signals, decision makers confirmed by public sources, discreet angles for the employed, a weekly update that reports only what changed, and a watchlist board view | `/market-mapper` |
 | **Career Transitions** | Portfolio and fractional careers, AI readiness assessment, non-linear career exploration (entrepreneurship, startups, public sector, charity, intrapreneurship, multi-role skilling) | `/career-transitions` |
 | **AI Impact Assessment** | Researches whether AI will materially disrupt your role in the next 12 months, with a 6-month mitigation plan | `/ai-impact-assessment` |
 | **NED AI Helper** | AI governance for Non-Executive Directors, Board Governors, and Charity Trustees. Challenge frameworks, risk assessment, governance structures, regulatory guidance | `/ned-ai-helper` |
@@ -135,7 +135,7 @@ Or just describe what you need:
   *The board view of the application tracker, shown with placeholder data. Generated to `applications/board.html`; your tracker file stays the source of truth.*
 - **Job scouting** live role discovery and five-dimension batch ranking, honest about the limits of automated job-board search (and able to use the Claude for Chrome extension for logged-in boards)
 - **Skills radar** an evidenced skills inventory that separates real skill gaps from evidence gaps, with learning plans built around your actual weekly hours
-- **Market mapper** a map of organisations like your employer with dated signals and named decision makers, built for the employed and discreet, with a weekly update that reports only what changed
+- **Market mapper** a map of organisations like your employer with dated signals and named decision makers, built for the employed and discreet, with a weekly update that reports only what changed and a watchlist board (four priority columns, same mechanics as the application board)
 - **Verified CV PDFs** a generate-verify loop that renders an ATS-safe PDF, checks the text layer parses, and inspects the layout page by page
 - **Reference and referee prep** choosing, asking, and briefing referees, with UK conventions and regulated-role notes
 - **Scheduled routines for Claude Cowork** ready-made `/schedule` prompts for a weekly standup, market monitor, market map update, and follow-up check
@@ -202,6 +202,7 @@ Skills generate markdown files you can convert to other formats:
 | `skills-gap-analysis.md` | Skills Radar |
 | `learning-plan.md` | Skills Radar |
 | `market-map.md` | Market Mapper |
+| `market-map-board.html` | Market Mapper |
 | `market-watch/{date}-update.md` | Market Mapper |
 | `career-helper-preferences.md` | Tim (Career Coach) |
 
