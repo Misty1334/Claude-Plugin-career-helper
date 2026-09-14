@@ -35,7 +35,7 @@ Read any `applications/*/application-strategy.md`. List follow-ups due today or 
 
 ### 3. Market map update
 
-If `market-map.md` exists, run the `/market-mapper` weekly update exactly as its `market-watch.md` reference describes: re-check every organisation since its last-checked date, report only what changed, offer (do not apply) removals and additions, roll the changes into the map, save `market-watch/{{YYYY-MM-DD}}-update.md`, and regenerate `market-map-board.html` if it exists (say so under "Files touched"; the regenerated board offers to copy any edits the user made on the previous board and never exported, so nothing is lost). If there is no market map, say so in one line and move on. Keep the posture recorded in the map. Put the headline changes (new Act now organisations, priority changes) in this report and point to the update file for the rest.
+If `market-map.md` exists, run the `/market-mapper` weekly update exactly as its `market-watch.md` reference describes: re-check every organisation since its last-checked date, report only what changed, offer (do not apply) removals and additions, roll the changes into the map, save `market-watch/{{YYYY-MM-DD}}-update.md` (creating the `market-watch/` folder if it does not exist), and regenerate `market-map-board.html` if it exists (say so under "Files touched"; the regenerated board offers to copy any edits the user made on the previous board and never exported, so nothing is lost). If there is no market map, say so in one line and move on. Keep the posture recorded in the map. Put the headline changes (new Act now organisations, priority changes) in this report and point to the update file for the rest.
 
 ### 4. Learnings check
 

@@ -24,7 +24,7 @@ If the tracker shows three or more active applications and no `applications/boar
 
 ## Check for a Weekly Update
 
-Check `updates/` for the most recent `*-weekly-update.md`. If one exists from the last seven days, read its "Decisions waiting for you" section and surface any open decisions after the tracker board; those are things an unattended run could not do. If `routines.md` exists, read it and note any active routine with a recurring cadence (daily, weekdays, or weekly) whose output folder has nothing newer than twice its cadence; skip on-demand routines and any marked paused in the Notes column. Offer `/career-routines` (review your routines) for the stale ones. If the newest weekly update is older than two weeks, or none exists and the user has a tracker or a market map, mention once that `/career-helper:weekly-update` runs the whole maintenance pass and can be put on a Cowork schedule via `/career-routines`.
+Check `updates/` for the most recent `*-weekly-update.md`. If one exists, whatever its age, read its "Decisions waiting for you" section and surface any open decisions after the tracker board; those are things an unattended run could not do. Freshness is a separate check: If `routines.md` exists, read it and note any active routine with a recurring cadence (daily, weekdays, or weekly) whose output folder has nothing newer than twice its cadence; skip on-demand routines and any marked paused in the Notes column. Offer `/career-routines` (review your routines) for the stale ones. If the newest weekly update is older than two weeks, or none exists and the user has a tracker or a market map, mention once that `/career-helper:weekly-update` runs the whole maintenance pass and can be put on a Cowork schedule via `/career-routines`.
 
 ---
 

@@ -259,6 +259,10 @@
   // has been exported, so a regenerated board (new fingerprint) can offer
   // the previous board's unexported changes instead of losing them.
   var STABLE_KEY = 'career-helper-market-board:last';
+  // Unexported edits from a previous board are parked under their own key
+  // until a successful recovery copy clears them, so they survive reloads
+  // of the regenerated board (whose own saves overwrite STABLE_KEY).
+  var PENDING_KEY = 'career-helper-market-board:pending';
   var GROUPS = ['Hiring', 'Growth', 'Investment', 'Change'];
   var state = load();
   var orphan = findOrphan();
@@ -266,9 +270,15 @@
   function findOrphan() {
     try {
       var raw = localStorage.getItem(STABLE_KEY);
-      if (!raw) { return null; }
-      var last = JSON.parse(raw);
-      if (last && last.fingerprint !== fingerprint && last.dirty && last.state) { return last.state; }
+      if (raw) {
+        var last = JSON.parse(raw);
+        if (last && last.fingerprint !== fingerprint && last.dirty && last.state) {
+          localStorage.setItem(PENDING_KEY, JSON.stringify(last.state));
+          return last.state;
+        }
+      }
+      var pending = localStorage.getItem(PENDING_KEY);
+      if (pending) { return JSON.parse(pending); }
     } catch (e) { /* ignore */ }
     return null;
   }
@@ -600,23 +610,35 @@
     var done = function () {
       recoverBtn.hidden = true;
       orphan = null;
+      try { localStorage.removeItem(PENDING_KEY); } catch (e) { /* ignore */ }
       save();
       announce('Previous board changes copied. Paste them to Claude to merge into your market map.');
     };
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(md).then(done, function () { fallbackCopy(md); done(); });
+      navigator.clipboard.writeText(md).then(done, function () {
+        if (fallbackCopy(md)) { done(); }
+      });
     } else {
-      fallbackCopy(md); done();
+      if (fallbackCopy(md)) { done(); }
     }
   });
+  // Returns true only when the copy succeeded; the caller decides what
+  // state to clear, so a failed copy never marks anything as exported.
   function fallbackCopy(md) {
     var ta = document.createElement('textarea');
     ta.value = md;
     document.body.appendChild(ta);
     ta.select();
-    try { document.execCommand('copy'); markExported(); announce('Watchlist markdown copied.'); }
-    catch (e) { announce('Copy failed. Use Download watchlist.md instead.'); }
+    var copied = false;
+    try { copied = document.execCommand('copy') === true; } catch (e) { copied = false; }
     document.body.removeChild(ta);
+    if (!copied) {
+      announce('Copy failed. Use Download watchlist.md instead; your board changes are still pending.');
+      return false;
+    }
+    markExported();
+    announce('Watchlist markdown copied.');
+    return true;
   }
   document.getElementById('download-md').addEventListener('click', function () {
     var blob = new Blob([toMarkdown()], { type: 'text/markdown' });

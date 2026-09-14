@@ -225,7 +225,7 @@ The five biggest risks, ranked, drawn from Section 1A: Gap ratings on High-likel
 
 **Always include at least one peer development / mentoring question:**
 
-Interviewers increasingly ask about how you've helped others grow — not just what you've delivered. This signals leadership maturity, team investment, and whether you raise the bar for everyone around you.
+Interviewers increasingly ask about how you've helped others grow, not just what you've delivered. This signals leadership maturity, team investment, and whether you raise the bar for everyone around you.
 
 **Example questions:**
 - "How have you helped your colleagues improve?"
@@ -233,7 +233,7 @@ Interviewers increasingly ask about how you've helped others grow — not just w
 - "How do you make the people around you better?"
 - "Describe a time you gave difficult feedback that led to real improvement"
 
-**Answer Framework:** Use STAR, but shift the emphasis to the other person's outcome, not yours. The result should be about their growth, promotion, confidence, or capability — not about how it reflected on you.
+**Answer Framework:** Use STAR, but shift the emphasis to the other person's outcome, not yours. The result should be about their growth, promotion, confidence, or capability, not about how it reflected on you.
 
 ---
 
@@ -274,9 +274,12 @@ Interviewers increasingly ask about how you've helped others grow — not just w
 - "{Technical follow-up 1}"
 - "{Technical follow-up 2}"
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the competency rating: for example, leading with the tool rather than the decision, or claiming depth the CV evidences only at a smaller scale}
+
 ---
 
-{Continue for 4-6 technical questions}
+{Continue for 4-6 technical questions; every question carries all of the fields above, including "What Not to Say"}
 
 ---
 
@@ -311,9 +314,12 @@ Interviewers increasingly ask about how you've helped others grow — not just w
 **Potential Pitfalls to Avoid:**
 {Show awareness of what could go wrong}
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the competency rating: for example, a hypothetical with no real situation behind it, or a plan that ignores the constraint the question sets}
+
 ---
 
-{Continue for 3-4 situational questions}
+{Continue for 3-4 situational questions; every question carries all of the fields above, including "What Not to Say"}
 
 ---
 
@@ -348,6 +354,9 @@ Interviewers increasingly ask about how you've helped others grow — not just w
 **Sources to Reference (Subtly):**
 {Recent articles, interviews, or developments you can mention naturally}
 
+**What Not to Say:**
+{One or two specific things to avoid: for example, praise any candidate could give without research, or a fact from the research brief that is out of date}
+
 ---
 
 **Question Z2:** "Why This Role?"
@@ -369,36 +378,42 @@ Interviewers increasingly ask about how you've helped others grow — not just w
 {Paragraph 3: Value you bring}
 "I'll bring immediate value through my experience in {domain}, specifically {achievement that's relevant}. I'm also excited to develop {growth area} under the leadership of {hiring manager if known}."
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the risks section: for example, implying the role is a step down, or leading with what you want from it rather than what you bring}
+
 ---
 
 **Question Z4:** "What matters most to you when choosing your next company?"
 
 **Why They're Asking:**
 - Whether your values align with theirs
-- Whether you'll stay — people who've thought about what they want are less likely to leave
+- Whether you'll stay: people who've thought about what they want are less likely to leave
 - Whether you're choosing them deliberately or applying everywhere
 
 **What They Want to Hear:**
-- Specific, honest criteria (not "a great team and exciting challenges" — everyone says that)
+- Specific, honest criteria (not "a great team and exciting challenges", which everyone says)
 - Evidence you've thought about what makes you thrive
 - Natural alignment with what their company offers
 
 **Your Answer:**
 
 {Paragraph 1: Lead with your most genuine criterion}
-"The thing that matters most to me is {specific criterion — e.g., 'working somewhere the team genuinely owns the outcome, not just the output'}. At {Previous Company}, I found that {experience that shaped this value}, and that taught me {what you need to do your best work}."
+"The thing that matters most to me is {specific criterion, e.g. 'working somewhere the team genuinely owns the outcome, not just the output'}. At {Previous Company}, I found that {experience that shaped this value}, and that taught me {what you need to do your best work}."
 
-{Paragraph 2: Secondary criteria — keep to 2-3}
-"Beyond that, I look for {criterion 2 — e.g., 'a company where learning is built into the role, not bolted on'} and {criterion 3 — e.g., 'leadership that's honest about what's hard, not just what's going well'}."
+{Paragraph 2: Secondary criteria, keep to 2-3}
+"Beyond that, I look for {criterion 2, e.g. 'a company where learning is built into the role, not bolted on'} and {criterion 3, e.g., 'leadership that's honest about what's hard, not just what's going well'}."
 
-{Paragraph 3: Connect to this company — but only if genuine}
+{Paragraph 3: Connect to this company, but only if genuine}
 "From my research into {Company Name}, {specific evidence that their company meets your criteria}. That's what moved this from interesting to exciting for me."
 
 **Key Principles:**
-- Be specific — generic answers ("good culture") signal you haven't thought about it
-- It's fine to mention things they can't offer (flexibility, size, mission) — authenticity builds trust
+- Be specific: generic answers ("good culture") signal you haven't thought about it
+- It's fine to mention things they can't offer (flexibility, size, mission); authenticity builds trust
 - Connect to real experience, not aspirational values
-- This question is a two-way street — it's also your chance to assess them
+- This question is a two-way street: it's also your chance to assess them
+
+**What Not to Say:**
+{One or two specific things to avoid: for example, criteria the research shows this company cannot meet, presented as deal-breakers}
 
 ---
 
@@ -415,17 +430,18 @@ Interviewers increasingly ask about how you've helped others grow — not just w
 **DO SAY:**
 "I've had a strong {X years} at {Current Company}, where I {major achievement}. I'm now looking for an opportunity to {growth goal}, and this role offers exactly that through {specific JD elements}."
 
-**DON'T SAY:**
+**What Not to Say:**
 - Anything negative about current company/manager
 - Vague "looking for new challenge"
 - Focus on what's wrong with current role
+- {One specific thing to avoid, traced to the risks section, such as a tenure pattern the assessor may probe}
 
 **If Asked About Specific Negatives:**
 {Prepared truthful but professional response to potential probing}
 
 ---
 
-{Continue for other company-specific questions}
+{Continue for other company-specific questions; every question carries "What Not to Say"}
 
 ---
 

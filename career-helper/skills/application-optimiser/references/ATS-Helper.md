@@ -39,7 +39,7 @@ If a bullet would need a detail you cannot cite, **flag and ask**. Never guess.
   </user_cv>
 
   <interview_prep_ratings>
-  [Optional. If `applications/{role-slug}/interview-prep.md` exists for this role, read its Competency Map and CV Alignment section. Every competency rated Partial is something the user has done that the CV undersells: surface it in the rewrite with the evidence the map cites. A Gap rating is not to be written around; it stays a gap.]
+  [Optional. If `applications/{role-slug}/interview-prep.md` exists for this role, read its Competency Map and CV Alignment section. A competency rated Partial is a candidate for something the user has done that the CV undersells: surface it in the rewrite only where the map cites evidence the master facts file or the CV supports, with that evidence; where it cites none, treat it as a gap for CV purposes. A Gap rating is not to be written around; it stays a gap. Skills Radar owns the classification of these ratings into evidence gaps and skill gaps; this file only decides what the CV can honestly say.]
   </interview_prep_ratings>
 
   <user_linkedin>
