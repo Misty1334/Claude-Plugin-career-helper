@@ -69,7 +69,7 @@ Or just describe what you need:
 
 | Skill | What It Does | Command |
 |:------|:-------------|:--------|
-| **Getting Started** | Full overview, preparation checklists, workflow planning, skill tips, power user strategies, scheduled Cowork routines | `/getting-started` |
+| **Getting Started** | Full overview, preparation checklists, workflow planning, skill tips, power user strategies, scheduled routines for every surface | `/getting-started` |
 | **Employer Footprint** | Digital footprint audit through employer's eyes, social media scan, credit-report style dashboard, interview questions from online presence | `/employer-footprint` |
 | **Social Media Review** | Quick social media check through recruiter's eyes, privacy cleanup guide. Especially useful for graduates and early career. | `/social-media-review` |
 | **Application Optimiser** | Company and role research, ATS-optimised CV rewriting, cover letters and supporting statements, application strategy, verified CV PDF production with layout and ATS text-layer checks | `/application-optimiser` |
@@ -92,6 +92,7 @@ Or just describe what you need:
 | `/career-helper:help` | Find the right skill for your situation |
 | `/career-helper:quick-start` | Guided entry point - answers questions and routes you |
 | `/career-helper:status` | Check your progress and see generated outputs |
+| `/career-helper:weekly-update` | Run every recurring update in one unattended pass and save a dated report; built to go on a schedule |
 | `/career-helper:career-coach` | Start a guided coaching session with Tim |
 
 ---
@@ -116,7 +117,7 @@ Or just describe what you need:
 10. Evaluate competing offers     /career-navigator
 ```
 
-**Tip:** Inside Claude Cowork, run `/getting-started` and ask about scheduled routines to set up a weekly job-search standup, market monitor, market map update, and follow-up check that keep the search moving.
+**Tip:** Put `/career-helper:weekly-update` on a weekly schedule and the tracker standup, follow-up check, and market map update run without you. `/getting-started` (Scheduled Routines) shows how on Claude Code Desktop, Claude Cowork, cron, or a cloud Routine, with the honest limits of each.
 
 ---
 
@@ -138,7 +139,7 @@ Or just describe what you need:
 - **Market mapper** a map of organisations like your employer with dated signals and named decision makers, built for the employed and discreet, with a weekly update that reports only what changed and a watchlist board (four priority columns, same mechanics as the application board)
 - **Verified CV PDFs** a generate-verify loop that renders an ATS-safe PDF, checks the text layer parses, and inspects the layout page by page
 - **Reference and referee prep** choosing, asking, and briefing referees, with UK conventions and regulated-role notes
-- **Scheduled routines for Claude Cowork** ready-made `/schedule` prompts for a weekly standup, market monitor, market map update, and follow-up check
+- **Weekly update on a schedule** one command (`/career-helper:weekly-update`) runs the tracker standup, follow-ups, market map update, and learnings check unattended and saves a dated report, with setup guidance for Claude Code Desktop scheduled tasks, Claude Cowork `/schedule`, cron, and cloud Routines
 - **Ikigai direction-finding** Tim's four-question exercise for when you do not know what you want, with an optional interactive, colour-blind-safe ikigai map you can keep
 - **Career stage adaptation** from graduates to late career
 - **Wellbeing-aware coaching** Tim reads emotional signals, acknowledges difficulty before routing, checks in after heavy work, and carries wellbeing context across sessions
@@ -203,6 +204,7 @@ Skills generate markdown files you can convert to other formats:
 | `learning-plan.md` | Skills Radar |
 | `market-map.md` | Market Mapper |
 | `market-map-board.html` | Market Mapper |
+| `updates/{date}-weekly-update.md` | Weekly Update command |
 | `market-watch/{date}-update.md` | Market Mapper |
 | `career-helper-preferences.md` | Tim (Career Coach) |
 

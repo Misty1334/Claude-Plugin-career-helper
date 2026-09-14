@@ -18,7 +18,7 @@ Get the most out of Career Helper. Whether you are a graduate writing your first
 | 4 | Skill-by-Skill Tips | Maximise results from any specific skill |
 | 5 | Power User Strategies | Advanced techniques for experienced users |
 | 6 | Getting the Best Guide | Comprehensive downloadable guide with scenario-based walkthroughs |
-| 7 | Scheduled Routines (Cowork) | Set up recurring job-search tasks in Claude Cowork |
+| 7 | Scheduled Routines | Put the weekly update or a narrower routine on a schedule, wherever you run Claude |
 
 ## Quick Start
 
@@ -33,6 +33,7 @@ Get the most out of Career Helper. Whether you are a graduate writing your first
 "Give me the guide to share with someone"
 "Can I automate my job search?"
 "Set up a weekly routine for my job search"
+"Put the weekly update on a schedule"
 ```
 
 ---
@@ -156,20 +157,21 @@ Advanced techniques for users who have used the basic skills and want more.
 
 ---
 
-## 7. Scheduled Routines (Cowork)
+## 7. Scheduled Routines
 
-**What you need:** Claude Cowork on Claude Desktop, on a paid plan
+**What you need:** A workspace folder, and to know where you run Claude (Claude Code Desktop, Claude Cowork, the command line, or the web)
 **Load:** @references/scheduled-routines.md
 
-Help the user turn their job search into a living process using Claude Cowork's scheduled tasks. Cowork can run a saved prompt on a schedule with full access to the Career Helper skills and the user's workspace folder.
+Help the user turn their job search into a living process that updates itself on a schedule.
 
 **Core approach:**
-- Explain how `/schedule` works and the two honest limitations: the computer must be awake with Claude Desktop open, and scheduling is a Cowork feature, not part of the plugin (CLI and web users can run the same prompts manually)
-- Offer the ready-made routines: Monday job-search standup, weekly market monitor, LinkedIn posting reminder, follow-up check, pre-interview nudge, and the weekly market map update (which needs a map built first via `/market-mapper`)
-- Recommend starting with one routine (usually the Monday standup, or the market map update for someone employed and quietly exploring) rather than all six
-- Keep the "do not invent" instruction in any prompt the user edits
+- Lead with the simplest route: `/career-helper:weekly-update` runs the tracker standup, follow-up check, market map update, and learnings check in one unattended pass and saves a dated report; put that one command on a weekly timer
+- Ask where they run Claude, then give the matching setup from the reference: a Claude Code Desktop local scheduled task (recommended; runs on their machine with the folder), Claude Cowork `/schedule`, a cron or launchd line running `claude -p "/career-helper:weekly-update"`, or a cloud Routine (only if the workspace is a private GitHub repository, since routines cannot see local files)
+- Be honest about each route's limits as the reference states them: local routes need the machine awake, cron does not catch up missed runs, cloud routines clone a repository rather than reading a folder, and `/loop` is session-scoped
+- Offer the narrower ready-made routines only if the user wants a different cadence for one of them
+- Keep the "do not invent" and "record decisions, do not ask" instructions in any prompt the user edits
 
-**Output:** Conversational setup guidance and copy-paste `/schedule` prompts
+**Output:** Conversational setup guidance and copy-paste prompts or scheduler entries
 
 ---
 
@@ -183,7 +185,7 @@ When the user invokes this skill without specifying a capability:
    - "I need a plan for which skills to use and in what order" → Capability 3
    - "I want tips for getting better results from a specific skill" → Capability 4
    - "Give me the getting the best guide" → Capability 6
-   - "I want to automate or schedule parts of my job search" → Capability 7
+   - "I want to automate or schedule parts of my job search" → Capability 7 (lead with the weekly update command)
 
 2. If the user is brand new or unsure, default to Capability 1 (Full Overview).
 

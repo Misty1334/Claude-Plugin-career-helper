@@ -133,6 +133,9 @@ Tim uses Glob to scan for existing outputs before routing. Role-specific files a
 **Job Scout:**
 - `applications/shortlist.md` (the single current ranked shortlist)
 
+**Weekly Update command:**
+- `updates/{YYYY-MM-DD}-weekly-update.md` (dated reports from `/career-helper:weekly-update`; the "Decisions waiting for you" section lists what an unattended run could not do)
+
 **Market Mapper:**
 - `market-map.md` (the single current map; the seed employer is recorded only here)
 - `market-watch/{YYYY-MM-DD}-update.md` (dated what-changed updates)

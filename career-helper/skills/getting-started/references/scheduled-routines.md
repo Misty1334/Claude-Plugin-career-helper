@@ -1,27 +1,69 @@
 # Scheduled Job-Search Routines
 
-**Purpose:** Turn the job search from a series of one-off sessions into a living process that keeps itself moving. Claude Cowork can run a saved prompt on a schedule (daily, weekly, weekdays only, or on demand), with full access to your skills, plugins, and local files each time. This guide gives you ready-made routines to drop into a scheduled task.
+**Purpose:** Turn the job search from a series of one-off sessions into a living process that keeps itself moving. Claude can run a saved prompt on a schedule (daily, weekly, weekdays only, or on demand), with access to the Career Helper skills and your workspace folder each time. This guide explains where you can schedule, gives you the one command that does all the updating, and supplies ready-made prompts for narrower routines.
 
-**Applies to:** Users running Career Helper inside Claude Cowork on Claude Desktop, on a paid plan (Pro, Max, Team, or Enterprise).
+**Applies to:** Anyone using Career Helper with a workspace folder. The scheduler you use depends on where you run Claude; the prompts are the same everywhere.
 
 ---
 
-## How Scheduled Tasks Work
+## The Simplest Route: One Command
 
-In Claude Cowork, type `/schedule` in the chat input to create a scheduled task. You write the prompt once, choose how often it runs, and Cowork runs it at that cadence as its own session. Each run can read your workspace folder and use the Career Helper skills, so a scheduled task can update your tracker, monitor the market, or remind you what to post.
+The plugin includes `/career-helper:weekly-update`, a single command that runs every recurring update in one pass and saves a dated report to `updates/`:
 
-**Two honest limitations to know before you rely on this:**
+1. Tracker standup: overdue actions first, stalled applications, the three things to do this week
+2. Follow-ups due from your application strategies
+3. Market map update via `/market-mapper`: only what changed, map and board refreshed, offers recorded rather than applied
+4. A check on whether your learnings notes are ready to synthesise
+5. One suggested next skill
 
-1. **Your computer must be awake and Claude Desktop must be open** for a scheduled task to run. If the machine is asleep or the app is closed at the scheduled time, Cowork skips that run and catches up the next time you open Claude Desktop.
-2. **Scheduled tasks are a Cowork feature, not part of the plugin itself.** The plugin supplies the skills; Cowork supplies the scheduler. If you are using Career Helper in the Claude Code CLI or the web app rather than Cowork on Desktop, these routines will not run on a timer. You can still run the same prompts manually whenever you like.
+It is written to run unattended: it never asks a question, never invents, and lists any decision it could not take under "Decisions waiting for you". Put that one command on whichever scheduler you have (below), weekly on Monday morning, and you have the whole loop. Run it by hand whenever you like too.
 
-Always keep your work in one folder (see the Workspace Tip in the README) so every scheduled run reads from and writes to the same place.
+---
+
+## Where You Can Schedule
+
+Four routes, in rough order of how easy they are for a Career Helper workspace. The plugin supplies the prompts; the scheduler is a feature of the surface you use, not of the plugin.
+
+| Route | Runs where | Needs your machine on | Sees your workspace folder | Minimum interval | Plan |
+|:------|:-----------|:----------------------|:---------------------------|:-----------------|:-----|
+| 1. Claude Code Desktop local scheduled task | Your machine | Yes, app open and awake (missed runs catch up once on wake) | Yes | 1 minute | Any plan with Claude Code Desktop |
+| 2. Claude Cowork `/schedule` | See note below | See note below | Yes | Daily, weekly, weekdays, or on demand | Paid plan (Pro, Max, Team, Enterprise) |
+| 3. System cron or launchd running `claude -p` | Your machine | Yes, awake at the scheduled time | Yes | Any | Claude Code CLI with a login or API key |
+| 4. Cloud Routine (claude.ai/code/routines) | Anthropic-managed cloud | No | No: it clones a GitHub repository, so your workspace would have to be a private repo | 1 hour | Pro, Max, Team, Enterprise |
+
+### 1. Claude Code Desktop local scheduled task (recommended for most people)
+
+In the Claude Desktop app's Code tab, open **Routines** in the sidebar, click **New routine**, and choose **Local**. Set the name, put `/career-helper:weekly-update` (or one of the prompts below) in the instructions, choose your workspace folder as the working folder, pick a permission mode (Accept edits lets it write files without stalling), and set the schedule to Weekly on Monday. You can also create one by asking Claude in any Desktop session: "set up a weekly task every Monday at 7:30 that runs /career-helper:weekly-update in this folder."
+
+Run it once with **Run now** and approve any permission prompts with "always allow", so future runs do not stall waiting for you. Runs only happen while the app is open and the computer is awake; if the machine slept through Monday, Desktop runs one catch-up when it wakes. Runs appear under **Scheduled** in the sidebar so you can read what happened.
+
+### 2. Claude Cowork `/schedule`
+
+In Claude Cowork, type `/schedule` in the chat input, paste the prompt, and choose the cadence. Each run is its own session with the plugin's skills and your workspace folder. Cowork's help centre documents the current behaviour, including whether a task runs when your computer is off; this guide does not assume it does. Keep the same folder selected in every run.
+
+### 3. System cron or launchd with the command line
+
+Plugin commands work in headless mode, so a scheduler entry can be one line. From your workspace folder:
+
+```bash
+cd ~/career-helper-workspace && claude -p "/career-helper:weekly-update" --permission-mode acceptEdits --permission-prompts none
+```
+
+`--permission-mode acceptEdits` lets Claude write files without a prompt; `--permission-prompts none` tells it nobody is there to answer anything else (Claude Code 2.1.259 or later). Put that line in `crontab -e` as, for example, `30 7 * * 1 cd ~/career-helper-workspace && claude -p "/career-helper:weekly-update" --permission-mode acceptEdits --permission-prompts none >> updates/cron.log 2>&1`, or in a launchd plist on macOS. The machine must be awake at the time; cron does not catch up missed runs. Do not add `--bare`: it skips plugin discovery, so the command would not be found.
+
+### 4. Cloud Routine
+
+Cloud Routines run without your machine, but they only see a GitHub repository they clone at the start of each run, and they cannot write to your local folder. That suits a workspace you keep in a private repository and are comfortable having cloned into Anthropic's cloud environment each week; it does not suit a folder of CVs on your laptop. If you do use one, the routine's prompt is the same `/career-helper:weekly-update`, and the run's changes come back as a branch you merge. Create one at claude.ai/code/routines or with `/schedule` in the Claude Code CLI.
+
+### Not a scheduler: `/loop`
+
+Claude Code's `/loop` repeats a prompt while a session stays open and expires after seven days. It is for polling during a session, not for a weekly job-search routine.
 
 ---
 
 ## Ready-Made Routines
 
-Copy a prompt below, run `/schedule`, paste it in, and set the cadence shown. Adjust the bracketed parts to your situation.
+If you want narrower routines than the weekly update, copy a prompt below into whichever scheduler you use and set the cadence shown. Adjust the bracketed parts to your situation. Every prompt below is also safe to run unattended, provided you keep its "do not invent" line.
 
 ### 1. Monday job-search standup (weekly, Monday morning)
 
@@ -113,8 +155,9 @@ Cadence: Weekly, Monday, 07:30 or whenever you start your week.
 
 - **Accessibility.** If you use dyslexia-friendly mode, the scheduled prompts will produce numbered, short-sentence output because every skill checks `career-helper-preferences.md` on each run. Keep that file in your workspace folder.
 - **Keep prompts honest.** Every routine above tells Claude not to invent applications, dates, or claims. Keep that instruction in if you edit a prompt; it is what stops a scheduled task from drifting into fabrication when a file is missing.
-- **Start with one.** The Monday standup is the highest-value routine for most people. Add others once it is part of your week. If you are employed and quietly exploring, the market map update is the better first routine; it needs no tracker and reports only what changed.
+- **Start with one.** For most people that is `/career-helper:weekly-update`, which already contains the standup, the follow-up check, and the market map update. Add the narrower routines only if you want them at a different cadence.
+- **Unattended runs cannot answer questions.** Any prompt you schedule should say what to do when a decision is needed: record it and move on. The weekly update does this by design.
 
 ---
 
-*Scheduled Job-Search Routines v1.1 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Scheduled Job-Search Routines v1.2 | Career Helper Plugin | Prosper AI Consulting, UK*

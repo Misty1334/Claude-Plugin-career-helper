@@ -103,7 +103,7 @@ Re-runs the signal pass for every organisation on the map, compares against the 
 
 Then rolls the changes into `market-map.md` (per-organisation latest signal, last-checked date, watch priority) so the map stays current and the update file stays short, and regenerates `market-map-board.html` if one exists. An update with nothing to report says so in one line; never pad.
 
-**Scheduling:** in Claude Cowork on Claude Desktop, this capability runs on a timer via `/schedule`. The ready-made prompt is in `/getting-started` (Scheduled Routines, routine 6). In Claude Code and the web app, run "update my market map" manually whenever you like; the delta logic is the same.
+**Scheduling:** `/career-helper:weekly-update` runs this update as one of its steps and is built to go on a timer; the ready-made standalone prompt is routine 6 in `/getting-started` (Scheduled Routines), which also explains each scheduler (Claude Code Desktop, Claude Cowork, cron, cloud Routine) and its limits. Run "update my market map" by hand whenever you like; the delta logic is the same.
 
 **Output:** `market-watch/{{YYYY-MM-DD}}-update.md`, plus an updated `market-map.md` (and a regenerated `market-map-board.html` where one exists)
 
@@ -185,7 +185,7 @@ When a capability specifies a template, you MUST:
 - **/career-navigator**: Strategic networking intelligence for one organisation; the application tracker
 - **/application-optimiser**: Full company research brief and CV tailoring once you commit
 - **/linkedin-coach**: Engaging with decision makers' content without signalling a search
-- **/getting-started**: Scheduled routines, including the weekly market map update for Claude Cowork
+- **/getting-started**: Scheduled routines, including where to schedule the weekly update and the standalone market map update
 
 ---
 

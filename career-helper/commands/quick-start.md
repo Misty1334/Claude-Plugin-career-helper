@@ -133,7 +133,7 @@ Based on their answers, recommend ONE skill and invoke it:
 | Just exploring | /getting-started (full overview) |
 | "How does this work?" | /getting-started |
 | Wants a guide to read or share | /getting-started (getting the best guide) |
-| Wants to automate or schedule the search (Claude Cowork) | /getting-started (scheduled routines) |
+| Wants to automate or schedule the search | /getting-started (scheduled routines), which leads with /career-helper:weekly-update |
 
 ## Handoff
 

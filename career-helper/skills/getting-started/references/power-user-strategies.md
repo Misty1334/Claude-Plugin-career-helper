@@ -215,23 +215,24 @@ For users returning after a career break who want positioning that frames the ga
 
 ---
 
-## Strategy 9: Automate the Search with Scheduled Tasks (Claude Cowork)
+## Strategy 9: Automate the Search with Scheduled Tasks
 
-**When to use:** You run Career Helper inside Claude Cowork on Claude Desktop and want the search to keep moving between sessions rather than only when you sit down to work on it.
+**When to use:** You want the search to keep moving between sessions rather than only when you sit down to work on it.
 
 **Approach:**
-1. Keep an application tracker (`/career-navigator`) so a scheduled task has something to read
-2. Use Cowork's `/schedule` to set up recurring routines (see `/getting-started`, Scheduled Routines):
+1. Keep an application tracker (`/career-navigator`) and, if you are watching the market, a market map (`/market-mapper`), so a scheduled run has something to read
+2. Put `/career-helper:weekly-update` on a weekly timer. It runs the standup, follow-up check, market map update, and learnings check in one unattended pass and saves a dated report. Use a Claude Code Desktop local scheduled task, Cowork's `/schedule`, a cron line running `claude -p "/career-helper:weekly-update"`, or a cloud Routine; `/getting-started` (Scheduled Routines) has the setup and limits for each
+3. Add narrower routines only if you want one at a different cadence:
    - **Monday standup** (weekly): reads the tracker, flags overdue actions, names the three things to do this week
    - **Market monitor** (weekly): watches for new roles and news in your target area
    - **Follow-up check** (weekdays): catches the follow-ups that slip
    - **Posting reminder** (weekly): keeps your LinkedIn content cadence on track
    - **Market map update** (weekly): re-checks the organisations on your `/market-mapper` map and reports only what changed; the best first routine if you are employed and quietly exploring
-3. Start with one routine, usually the Monday standup, and add others once it is part of your week
+4. Start with the weekly update alone and add others once it is part of your week
 
 **Key insight:** the value compounds with a persistent workspace folder and a current tracker. Each scheduled run reads the same files, so the routines get more useful as your search progresses.
 
-**Two honest caveats:** scheduled tasks only run while your computer is awake with Claude Desktop open, and scheduling is a Cowork feature rather than part of the plugin. If you use the CLI or web app, run the same prompts manually.
+**Honest caveats:** local routes (Desktop scheduled tasks, Cowork, cron) need your machine awake at the time; cloud Routines run without it but only see a GitHub repository, not your folder; and an unattended run cannot answer questions, which is why the weekly update records decisions instead of asking.
 
 ---
 

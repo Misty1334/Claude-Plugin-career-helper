@@ -638,7 +638,7 @@ To summarise, here is what you get across the full skill set:
 - **Reference and referee prep** to choose, ask, and brief your referees, with UK conventions and regulated-role notes
 - **An application tracker** that keeps every live application, its stage, and its next action in one plain-text board you own
 - **An application learnings loop** that captures each interview, rejection, and win as a structured note and synthesises them into the patterns that are actually shaping your search
-- **Scheduled routines for Claude Cowork** that put a Monday standup, market monitor, and follow-up check on repeat between sessions
+- **A weekly update you can schedule.** `/career-helper:weekly-update` runs the tracker standup, follow-up check, market map update, and learnings check in one unattended pass and saves a dated report. Put it on a Monday timer (Claude Code Desktop scheduled task, Cowork `/schedule`, cron, or a cloud Routine; `/getting-started` explains each route and its limits) and the search keeps moving between sessions.
 - **AI readiness assessments** with tiered upskilling roadmaps
 - **AI impact assessments** that research whether your role faces material disruption, with 6-month mitigation plans
 - **Fractional and portfolio career planning** including rate setting, IR35 guidance, and client acquisition strategy

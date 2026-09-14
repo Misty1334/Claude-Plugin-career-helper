@@ -550,17 +550,18 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 ## Commands
 
-In addition to skills, career-helper has three commands:
+In addition to skills, career-helper has four commands:
 
 | Command | What It Does | When to Use |
 |:--------|:-------------|:------------|
 | `/career-helper:help` | Shows all skills and routes you to the right one | You know you need help but are not sure which skill |
 | `/career-helper:quick-start` | Asks guided questions to find your starting point | You are brand new and want to be guided |
 | `/career-helper:status` | Shows all outputs you have generated and suggests next steps | You have used skills before and want to see progress |
+| `/career-helper:weekly-update` | Runs the tracker standup, follow-ups due, market map update, and learnings check in one unattended pass and saves a dated report | Every Monday by hand, or on a schedule |
 
-## Automating Your Search (Claude Cowork)
+## Automating Your Search
 
-If you use Career Helper inside Claude Cowork on Claude Desktop, you can put parts of the search on a schedule. Cowork's `/schedule` runs a saved prompt on a cadence (daily, weekly, weekdays, or on demand) with full access to the skills and your workspace folder. The getting-started skill offers ready-made routines: a Monday job-search standup that reads your tracker, a weekly market monitor, a LinkedIn posting reminder, a follow-up check, a pre-interview nudge, and a weekly market map update that reports only what has changed among the organisations you are watching. Ask "can I automate my job search?" or run `/getting-started` and choose scheduled routines. Two honest caveats: your computer must be awake with Claude Desktop open, and scheduling is a Cowork feature (CLI and web users can run the same prompts manually).
+The simplest way to keep the search moving between sessions is to put `/career-helper:weekly-update` on a weekly timer. It runs the tracker standup, the follow-up check, the market map update, and a learnings check in one unattended pass, saves a dated report to `updates/`, and lists anything it could not decide for you. Where you schedule it depends on where you run Claude: a local scheduled task in Claude Code Desktop (runs on your machine with your folder; needs the app open and the computer awake), Claude Cowork's `/schedule`, a cron or launchd line running `claude -p "/career-helper:weekly-update"`, or a cloud Routine (runs without your machine, but only sees a GitHub repository, not a local folder). Run `/getting-started` and choose scheduled routines for the setup steps and the honest limits of each route, plus narrower ready-made prompts (Monday standup, market monitor, posting reminder, follow-up check, pre-interview nudge, market map update) if you want one at a different cadence.
 
 ## Getting the Best Guide
 

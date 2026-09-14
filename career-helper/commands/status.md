@@ -22,6 +22,12 @@ If the tracker shows three or more active applications and no `applications/boar
 
 ---
 
+## Check for a Weekly Update
+
+Check `updates/` for the most recent `*-weekly-update.md`. If one exists from the last seven days, read its "Decisions waiting for you" section and surface any open decisions after the tracker board; those are things an unattended run could not do. If the newest is older than two weeks, or none exists and the user has a tracker or a market map, mention once that `/career-helper:weekly-update` runs the whole maintenance pass and can be scheduled (see `/getting-started`, Scheduled Routines).
+
+---
+
 ## Check for a Market Map
 
 Check for `market-map.md`. If it exists, read the header and the watchlist table. Surface any organisation at priority Act now (one line each, with the signal date) after the tracker board. If the map's last-checked date is more than two weeks old, or `market-watch/` has no update file from the last two weeks, offer to run the weekly update via `/market-mapper`. If the map has eight or more organisations and no `market-map-board.html` exists, offer the board view once: "Would you like your watchlist as a board? You can drag organisations between priorities and export the changes back into your map." If `market-map-board.html` exists but the map has been updated since it was generated, offer to regenerate it. Never restate signals as new that the map already carries, and never invent a signal or a person.
@@ -98,6 +104,7 @@ Scan the working directory root for shared and personal files:
 - market-map.md
 - market-map-board.html
 - market-watch/*-update.md
+- updates/*-weekly-update.md
 - ikigai-map.html
 - career-helper-preferences.md
 ```
