@@ -29,6 +29,8 @@ The evidence gap versus skill gap distinction is the most useful thing this anal
 
 If `applications/learnings/patterns.md` exists, cross-read it: an objection that has come up in two interviews ("lacks commercial ownership") is live market feedback and outranks inference from postings.
 
+Also read the Competency Map and CV Alignment section of any `applications/*/interview-prep.md`. A competency rated Gap there maps to Skill gap or Evidence gap here (decide which from the inventory: present but unprovable is an evidence gap); a Partial rating usually indicates an evidence gap. The same Gap across two or more preps is treated like a repeated interview objection.
+
 ---
 
 ## Step 3: Prioritise with a Text-Label Matrix

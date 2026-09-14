@@ -93,7 +93,7 @@ cd ~/career-helper-workspace && claude -p "/career-helper:weekly-update" --permi
 `--permission-mode acceptEdits` allows file writes; `--permission-prompts none` tells Claude nobody can answer a prompt (Claude Code 2.1.259 or later). Do not add `--bare`, which skips plugin discovery. The machine must be awake; cron does not catch up missed runs. Example crontab line for Monday 07:30:
 
 ```text
-30 7 * * 1 cd ~/career-helper-workspace && claude -p "/career-helper:weekly-update" --permission-mode acceptEdits --permission-prompts none >> updates/cron.log 2>&1
+30 7 * * 1 cd ~/career-helper-workspace && mkdir -p updates && claude -p "/career-helper:weekly-update" --permission-mode acceptEdits --permission-prompts none >> updates/cron.log 2>&1
 ```
 
 ### Cloud Routine

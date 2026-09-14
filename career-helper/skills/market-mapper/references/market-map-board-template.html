@@ -162,7 +162,7 @@
 <body>
 <header>
   <h1>Market Map Board</h1>
-  <p>Owner: {{NAME}}. Posture: {{POSTURE}}. Generated from market-map.md on {{DATE}}. The map file remains the source of truth: export your changes back when you finish. Priorities reflect evidence in the signal window, not preference.</p>
+  <p id="board-meta"></p>
 </header>
 
 <div class="toolbar">
@@ -170,6 +170,7 @@
   <button id="download-md">Download watchlist.md</button>
   <button id="add-card">Add organisation</button>
   <button id="reset-data">Reset to file data</button>
+  <button id="recover-md" hidden>Copy unexported changes from the previous board</button>
 </div>
 <p class="status-msg" id="status-msg" role="status" aria-live="polite"></p>
 
@@ -184,6 +185,14 @@
     <input id="f-overview" placeholder="What they do, size band, location">
     <label for="f-priority">Priority</label>
     <select id="f-priority"></select>
+    <label for="f-signal-group">Signal group</label>
+    <select id="f-signal-group">
+      <option value="">None</option>
+      <option>Hiring</option>
+      <option>Growth</option>
+      <option>Investment</option>
+      <option>Change</option>
+    </select>
     <label for="f-signal">Latest signal</label>
     <input id="f-signal" placeholder="One line of fact, with its source">
     <label for="f-signal-date">Signal date</label>
@@ -213,6 +222,7 @@
       "organisation": "{{ORGANISATION}}",
       "overview": "{{OVERVIEW}}",
       "priority": "{{Act now|Warm|Watch|Quiet}}",
+      "signalGroup": "{{Hiring|Growth|Investment|Change or empty string}}",
       "latestSignal": "{{LATEST_SIGNAL_WITH_SOURCE}}",
       "signalDate": "{{YYYY-MM-DD or empty string}}",
       "decisionMaker": "{{NAME, TITLE (source) or [NOT FOUND]}}",
@@ -245,7 +255,23 @@
     fingerprint = ((fingerprint << 5) - fingerprint + rawData.charCodeAt(fi)) | 0;
   }
   var STORAGE_KEY = 'career-helper-market-board:' + fingerprint;
+  // A stable key also records the most recent board state and whether it
+  // has been exported, so a regenerated board (new fingerprint) can offer
+  // the previous board's unexported changes instead of losing them.
+  var STABLE_KEY = 'career-helper-market-board:last';
+  var GROUPS = ['Hiring', 'Growth', 'Investment', 'Change'];
   var state = load();
+  var orphan = findOrphan();
+
+  function findOrphan() {
+    try {
+      var raw = localStorage.getItem(STABLE_KEY);
+      if (!raw) { return null; }
+      var last = JSON.parse(raw);
+      if (last && last.fingerprint !== fingerprint && last.dirty && last.state) { return last.state; }
+    } catch (e) { /* ignore */ }
+    return null;
+  }
 
   function load() {
     try {
@@ -265,18 +291,38 @@
         if (Object.prototype.hasOwnProperty.call(c, k)) { copy[k] = c[k]; }
       }
       if (PRIORITIES.indexOf(copy.priority) === -1) { copy.priority = 'Watch'; }
+      if (GROUPS.indexOf(copy.signalGroup) === -1) { copy.signalGroup = ''; }
       return copy;
     });
     cards.forEach(function (c, i) { c.id = 'card-' + i; });
     return { owner: data.owner, posture: data.posture, generated: data.generated, cards: cards, nextId: cards.length };
   }
+  var dirty = false;
   function save() {
-    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) { /* ignore */ }
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      localStorage.setItem(STABLE_KEY, JSON.stringify({ fingerprint: fingerprint, dirty: dirty, state: state }));
+    } catch (e) { /* ignore */ }
   }
+  function markDirty() { dirty = true; }
+  function markExported() { dirty = false; save(); }
 
   var board = document.getElementById('board');
   var statusMsg = document.getElementById('status-msg');
   function announce(text) { statusMsg.textContent = text; }
+
+  // Header text comes from the data block via textContent, so a name or
+  // posture containing markup is displayed as text, never interpreted.
+  document.getElementById('board-meta').textContent =
+    'Owner: ' + (fileData.owner || '[UNKNOWN]') + '. Posture: ' + (fileData.posture || '[UNKNOWN]') +
+    '. Generated from market-map.md on ' + (fileData.generated || '[UNKNOWN]') +
+    '. The map file remains the source of truth: export your changes back when you finish. ' +
+    'Priorities reflect evidence in the signal window, not preference.';
+
+  function signalText(card) {
+    if (!card.latestSignal) { return 'No public signals found in the window'; }
+    return (card.signalGroup ? card.signalGroup + ': ' : '') + card.latestSignal + (card.signalDate ? ' (' + card.signalDate + ')' : '');
+  }
 
   function isStale(card) {
     if (!card.lastChecked) { return false; }
@@ -339,11 +385,7 @@
       el.appendChild(ov);
     }
 
-    if (card.latestSignal) {
-      el.appendChild(meta('Signal', card.latestSignal + (card.signalDate ? ' (' + card.signalDate + ')' : '')));
-    } else {
-      el.appendChild(meta('Signal', 'No public signals found in the window'));
-    }
+    el.appendChild(meta('Signal', signalText(card)));
     if (card.decisionMaker) { el.appendChild(meta('Decision maker', card.decisionMaker)); }
     if (card.angle) { el.appendChild(meta('Angle', card.angle)); }
 
@@ -398,6 +440,7 @@
     var card = state.cards.find(function (c) { return c.id === id; });
     if (!card || card.priority === priority) { return; }
     card.priority = priority;
+    markDirty();
     announce(card.organisation + ' moved to ' + priority + '.');
     render();
   }
@@ -420,6 +463,7 @@
     document.getElementById('f-org').value = card.organisation;
     document.getElementById('f-overview').value = card.overview || '';
     prioritySelect.value = card.priority;
+    document.getElementById('f-signal-group').value = card.signalGroup || '';
     document.getElementById('f-signal').value = card.latestSignal || '';
     document.getElementById('f-signal-date').value = card.signalDate || '';
     document.getElementById('f-dm').value = card.decisionMaker || '';
@@ -440,12 +484,14 @@
     card.organisation = org;
     card.overview = document.getElementById('f-overview').value.trim();
     card.priority = prioritySelect.value;
+    card.signalGroup = document.getElementById('f-signal-group').value;
     card.latestSignal = document.getElementById('f-signal').value.trim();
     card.signalDate = document.getElementById('f-signal-date').value;
     card.decisionMaker = document.getElementById('f-dm').value.trim();
     card.angle = document.getElementById('f-angle').value.trim();
     card.lastChecked = document.getElementById('f-checked').value;
     delete card.draft;
+    markDirty();
     dialog.close();
     announce('Saved changes to ' + card.organisation + '.');
     render();
@@ -453,6 +499,7 @@
   document.getElementById('cancel-edit').addEventListener('click', function () { dialog.close(); });
   document.getElementById('delete-card').addEventListener('click', function () {
     state.cards = state.cards.filter(function (c) { return c.id !== editingId; });
+    markDirty();
     dialog.close();
     announce('Organisation removed from the board.');
     render();
@@ -475,6 +522,7 @@
       organisation: 'Organisation',
       overview: '',
       priority: 'Watch',
+      signalGroup: '',
       latestSignal: '',
       signalDate: '',
       decisionMaker: '',
@@ -490,6 +538,7 @@
   document.getElementById('reset-data').addEventListener('click', function () {
     if (confirm('Discard board changes and reload the data generated from market-map.md?')) {
       state = normalise(fileData);
+      dirty = false;
       announce('Board reset to the data generated from market-map.md.');
       render();
     }
@@ -511,22 +560,22 @@
     var day = String(d.getDate());
     return d.getFullYear() + '-' + (m.length < 2 ? '0' + m : m) + '-' + (day.length < 2 ? '0' + day : day);
   }
-  function toMarkdown() {
+  function toMarkdown(source) {
+    var src = source || state;
     var today = localDate();
     var lines = [];
     lines.push('## Watchlist', '');
-    lines.push('Exported from the board on ' + today + '. Replace the Watchlist section of market-map.md with this table; the organisation detail sections are unchanged.', '');
+    lines.push('Exported from the board on ' + today + '. Replace the Watchlist section of market-map.md with this table, and update the Priority line in any organisation detail section whose priority changed.', '');
     lines.push('| # | Organisation | Overview | Latest signal (date) | Decision maker | Suggested angle | Priority | Last checked |');
     lines.push('|:--|:-------------|:---------|:---------------------|:---------------|:----------------|:---------|:-------------|');
     var n = 0;
     PRIORITIES.forEach(function (priority) {
-      state.cards.filter(function (c) { return c.priority === priority; }).forEach(function (c) {
+      src.cards.filter(function (c) { return c.priority === priority; }).forEach(function (c) {
         n += 1;
-        var signal = c.latestSignal ? c.latestSignal + (c.signalDate ? ' (' + c.signalDate + ')' : '') : 'No public signals found in the window';
-        lines.push('| ' + [String(n), cell(c.organisation), cell(c.overview), cell(signal), cell(pad(c.decisionMaker)), cell(c.angle || 'Follow and read'), cell(c.priority), cell(pad(c.lastChecked))].join(' | ') + ' |');
+        lines.push('| ' + [String(n), cell(c.organisation), cell(c.overview), cell(signalText(c)), cell(pad(c.decisionMaker)), cell(c.angle || 'Follow and read'), cell(c.priority), cell(pad(c.lastChecked))].join(' | ') + ' |');
       });
     });
-    lines.push('', 'Priority reflects evidence in the window, not preference. Quiet rows are offered for removal at the next update.', '');
+    lines.push('', 'Priority reflects evidence in the window, not preference. Quiet rows are offered for removal at the next update. A Last checked of [UNKNOWN] means the next update checks the whole signal window for that organisation.', '');
     return lines.join('\n');
   }
 
@@ -534,10 +583,30 @@
     var md = toMarkdown();
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(md).then(function () {
+        markExported();
         announce('Watchlist markdown copied. Paste it to Claude and ask it to update your market map.');
       }, function () { fallbackCopy(md); });
     } else {
       fallbackCopy(md);
+    }
+  });
+  var recoverBtn = document.getElementById('recover-md');
+  if (orphan) {
+    recoverBtn.hidden = false;
+    announce('This board was regenerated from a newer map. Changes you made on the previous board were not exported; use the recovery button to copy them.');
+  }
+  recoverBtn.addEventListener('click', function () {
+    var md = toMarkdown(orphan);
+    var done = function () {
+      recoverBtn.hidden = true;
+      orphan = null;
+      save();
+      announce('Previous board changes copied. Paste them to Claude to merge into your market map.');
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(md).then(done, function () { fallbackCopy(md); done(); });
+    } else {
+      fallbackCopy(md); done();
     }
   });
   function fallbackCopy(md) {
@@ -545,7 +614,7 @@
     ta.value = md;
     document.body.appendChild(ta);
     ta.select();
-    try { document.execCommand('copy'); announce('Watchlist markdown copied.'); }
+    try { document.execCommand('copy'); markExported(); announce('Watchlist markdown copied.'); }
     catch (e) { announce('Copy failed. Use Download watchlist.md instead.'); }
     document.body.removeChild(ta);
   }
@@ -558,6 +627,7 @@
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(a.href);
+    markExported();
     announce('watchlist.md downloaded. Ask Claude to merge it into market-map.md.');
   });
 

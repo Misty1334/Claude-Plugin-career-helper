@@ -8,12 +8,12 @@
 
 Before any search:
 
-1. Read `market-map.md`. If it does not exist, stop and offer to build one via Capability 1; there is nothing to compare against.
+1. Read `market-map.md`. If it does not exist, there is nothing to compare against: in conversation, offer to build one via Capability 1; in an unattended run (a scheduled task or `/career-helper:weekly-update`), report in one line that no market map was found and end the step without asking anything.
 2. Note the posture, the signal window, the per-organisation last-checked dates, the current priorities, and the named decision makers.
 3. Read the most recent file in `market-watch/` if one exists, so a signal reported last week is not reported again as new.
 4. Read `applications/tracker.md` if it exists; an organisation the user is already applying to is flagged in the update rather than re-suggested as an angle.
 
-The comparison baseline is the per-organisation last-checked date, not the date of the last update file. If a run was skipped, the window simply covers the gap.
+The comparison baseline is the per-organisation last-checked date, not the date of the last update file. If a run was skipped, the window simply covers the gap. An organisation whose last-checked date is blank or `[UNKNOWN]` (for example one added on the board) gets a full signal-window check and its date set on this run.
 
 ---
 
@@ -78,7 +78,7 @@ Update `market-map.md` in place so it stays the single current view:
 3. Do not remove organisations or add suggested ones until the user confirms; record the offer in the update file and leave the map unchanged on that point
 4. Drop signals that have fallen outside the window from the watchlist "Latest signal" cell, but keep them in the organisation detail so history is not lost
 
-If `market-map-board.html` exists, regenerate it from the updated map (see `market-map-board.md`) so the board never shows stale data.
+If `market-map-board.html` exists, regenerate it from the updated map (see `market-map-board.md`) so the board never shows stale data, and say in the update that the board was regenerated. Edits made on the previous board and never exported are not lost: the regenerated board offers a recovery button that copies them as watchlist markdown.
 
 Tell the user in one line that the map has been updated and the update file saved, using descriptions rather than filenames if dyslexia-friendly mode is on.
 

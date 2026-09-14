@@ -76,6 +76,7 @@ NLP and recruitment AI specialist approach:
 - Keyword and concept extraction from job description
 - ATS-safe CV rewrite with quantified achievements
 - Keyword coverage analysis (target: 70%+ of JD terms)
+- Reads the competency map in `interview-prep.md` for the same role where it exists: Partial ratings are undersold experience to surface; Gap ratings are never written around
 - LinkedIn API consistency checks
 - Formatting and parsing safety verification
 

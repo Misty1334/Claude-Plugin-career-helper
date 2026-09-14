@@ -114,8 +114,8 @@ An angle is a specific, low-effort action that traces to one dated signal and fi
 
 | Posture | Acceptable angles | Not acceptable |
 |:--------|:------------------|:---------------|
-| Employed and discreet | Follow the organisation and the named person; comment substantively on a public post about the signal topic; attend a public event they are speaking at; read their filed accounts or strategy page and note two questions for later | Connection requests to hiring managers; any message; "Open to Work"; liking every post in one sitting |
-| Openly searching | All of the above plus a connection request with a note that references the signal; a short message congratulating a public milestone and asking one question about the work | Attaching a CV; asking about vacancies in the first message; contacting several people at the same organisation in one week |
+| Employed and discreet | Follow the organisation and the named person; comment substantively on a public post about the signal topic; read their filed accounts or strategy page and note two questions for later | Connection requests to hiring managers; any message; "Open to Work"; liking every post in one sitting; attending an event to meet them, which is visible to your own leadership |
+| Openly searching | All of the above plus attending a public event they are speaking at; a connection request with a note that references the signal; a short message congratulating a public milestone and asking one question about the work | Attaching a CV; asking about vacancies in the first message; contacting several people at the same organisation in one week |
 
 Write each angle as one line: the action, the person or channel, and the signal it draws on. Example shape (placeholders, not an actual recommendation): "Comment on {{PERSON}}'s post about the {{CONTRACT}} win (seen {{DATE}}) with a specific observation about delivery risk in the first year."
 

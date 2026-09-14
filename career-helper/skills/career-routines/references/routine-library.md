@@ -89,10 +89,11 @@ Keeps your ear to the ground on organisations like your employer without searchi
 
 ```text
 Read market-map.md in my workspace and the most recent file in market-watch/ if one
-exists. Run the market-mapper weekly update: re-check every organisation on the map for
+exists. If there is no market map, say so in one line and stop; do not ask me anything.
+Run the market-mapper weekly update: re-check every organisation on the map for
 hiring, growth, investment, and change signals dated after its last-checked date, and
-report only what has changed. Update the map file in place and save the update to
-market-watch/ with today's date. Keep the posture recorded in the map (if it says
+report only what has changed. Update the map file in place, save the update to
+market-watch/ with today's date, and regenerate market-map-board.html if it exists. Keep the posture recorded in the map (if it says
 employed and discreet, suggest only following, reading, or commenting). Offer, but do
 not apply, removals of quiet organisations or additions of new ones. If nothing changed,
 say so in one line. Do not invent a signal, a person, a title, or a URL.

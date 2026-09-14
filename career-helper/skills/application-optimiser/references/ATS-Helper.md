@@ -38,6 +38,10 @@ If a bullet would need a detail you cannot cite, **flag and ask**. Never guess.
   [Paste the user's full CV here in plain text. If a master facts file is present, this is supplementary; the facts file wins on any conflict.]
   </user_cv>
 
+  <interview_prep_ratings>
+  [Optional. If `applications/{role-slug}/interview-prep.md` exists for this role, read its Competency Map and CV Alignment section. Every competency rated Partial is something the user has done that the CV undersells: surface it in the rewrite with the evidence the map cites. A Gap rating is not to be written around; it stays a gap.]
+  </interview_prep_ratings>
+
   <user_linkedin>
   [LinkedIn profile content. LinkedIn blocks automated fetching, so ask the user to provide it via:
   1. **Copy/paste** the text from each profile section directly

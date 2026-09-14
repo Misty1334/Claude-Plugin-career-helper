@@ -19,6 +19,7 @@ Written last, placed first. One screen.
 | {Competency 2} | {Verdict} | {One line} |
 
 ### Top Five Things They Will Like
+{Up to five; fewer if fewer Strong ratings exist, and say so}
 1. {Strength, traced to a Strong rating and the CV evidence}
 2. {...}
 3. {...}
@@ -26,6 +27,7 @@ Written last, placed first. One screen.
 5. {...}
 
 ### Top Five Concerns They May Have
+{Up to five; fewer if fewer are real}
 1. {Risk 1, one line}
 2. {...}
 3. {...}
@@ -158,9 +160,12 @@ Ranked from the map: Gap on High-likelihood first, then Partial on High-likeliho
 **Evidence from Your Background:**
 {Specific reference}
 
+**What Not to Say:**
+{One or two specific things to avoid, traced to the competency rating}
+
 ---
 
-{Repeat for 15-20 likely questions, organised by category}
+{Repeat for 15-20 likely questions, organised by category. Every question carries all of the fields above, including "What Not to Say".}
 
 ---
 

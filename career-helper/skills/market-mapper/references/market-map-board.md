@@ -25,7 +25,7 @@ Offer the board (do not push it) when:
 
 Suggested wording: "Would you like your watchlist as a board? Organisations sit in four priority columns, you can drag them between priorities as your own judgement changes, and export the result back into your map."
 
-If the map has fewer than five organisations, the watchlist table is enough; do not offer the board.
+If the map has fewer than five organisations, do not offer the board proactively; the watchlist table is enough. A direct request is always honoured, whatever the map's size.
 
 ---
 
@@ -37,10 +37,10 @@ If the map has fewer than five organisations, the watchlist table is enough; do 
    - `owner`: the user's name from the map header, or `[UNKNOWN]`.
    - `posture`: the posture from the map header (Employed and discreet, or Openly searching).
    - `generated`: today's date, `YYYY-MM-DD`.
-   - `cards`: one object per watchlist row, mapping `organisation`, `overview`, `priority`, `latestSignal` (the signal text and source, without the date), `signalDate`, `decisionMaker`, `angle`, and `lastChecked`.
+   - `cards`: one object per watchlist row, mapping `organisation`, `overview`, `priority`, `signalGroup` (Hiring, Growth, Investment, or Change; empty string when there is no signal), `latestSignal` (the signal text and source, without the group or the date), `signalDate`, `decisionMaker`, `angle`, and `lastChecked` (empty string when the map shows `[UNKNOWN]`; the weekly update then checks the whole signal window for that organisation).
    - Use empty strings for unknown fields, never invented values. Remove the placeholder example card.
-   - Escape every literal `<` inside JSON string values as `<` (JSON.parse restores the character). Map content includes fetched web text; an unescaped closing script tag would otherwise terminate the data block and break, or worse script-inject, the page.
-4. **Replace the header placeholders.** `{{NAME}}`, `{{POSTURE}}`, and `{{DATE}}` appear in the header paragraph; fill all three. (Browser state is keyed to a fingerprint of the data block, so a regenerated board automatically discards state saved against older data.)
+   - Escape every literal `<` inside JSON string values as `\u003c` (JSON.parse restores the character). Map content includes fetched web text; an unescaped closing script tag would otherwise terminate the data block and break, or worse script-inject, the page.
+4. **Do not edit the HTML text.** The header paragraph is rendered from the JSON `owner`, `posture`, and `generated` values with `textContent`, so there are no placeholders outside the data block and nothing user-supplied is ever inserted as markup. (Browser state is keyed to a fingerprint of the data block, so a regenerated board loads fresh; if the previous board had edits that were never exported, the new board shows a recovery button that copies them as watchlist markdown.)
 5. **Write the file** to `market-map-board.html` in the workspace root and tell the user to open it in their browser.
 
 Regenerate the board at the end of every weekly update so it matches the map.
@@ -54,9 +54,11 @@ The board has two export buttons: "Copy watchlist markdown" and "Download watchl
 When the user pastes exported markdown or mentions they have made board changes:
 
 1. **Diff before overwriting.** Compare the export against the current Watchlist section. Summarise what changed ("Two organisations raised to Act now; one removed; one added as Watch") and confirm before writing.
-2. **Replace only the Watchlist section** of `market-map.md`. Organisation detail sections, themes, coverage, and next actions are untouched. For an organisation the user added on the board, create a minimal detail section with `[NOT FOUND]` fields and offer to research it at the next update; for one the user removed, remove its detail section too.
+2. **Replace the Watchlist section** of `market-map.md`, then update the Priority line (and its one-line reason, marked as the user's judgement) in the detail section of every organisation whose priority changed, so the map never carries two different priorities for one organisation. Themes, coverage, and next actions are untouched. For an organisation the user added on the board, create a minimal detail section with `[NOT FOUND]` fields and offer to research it at the next update; for one the user removed, remove its detail section too.
 3. **Priority changes made by hand are the user's judgement.** Record them, but at the next weekly update say plainly where the evidence disagrees ("You raised Acme to Act now; no hiring signal has appeared since") rather than silently overriding either side.
 4. **Regenerate the board** so the file data matches (otherwise "Reset to file data" would restore stale data).
+
+When the board is regenerated unattended (the weekly update does this), any edits made on the previous board and never exported are not lost: the new board detects them and offers a "Copy unexported changes from the previous board" button. Say in the update report that the board was regenerated, so the user knows to look for that button if they had been editing.
 
 If the user edited both the map file and the board since the last sync, treat the map file as authoritative, list the conflicts, and ask the user to resolve them. Never silently discard either side.
 
