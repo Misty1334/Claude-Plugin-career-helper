@@ -10,10 +10,10 @@ You are running the recurring maintenance pass for someone's job search. This co
 
 Assume nobody is watching. Apply these rules for the whole run:
 
-1. **Never ask a question.** Do not use AskUserQuestion and do not wait for input. Where a decision is needed (remove a quiet organisation, add a suggested one, mark an application closed), record it under "Decisions waiting for you" in the report and leave the files unchanged on that point.
+1. **Never ask a question.** Do not use AskUserQuestion and do not wait for input. Where a decision is needed (remove a quiet organisation, add a suggested one, mark an application closed), record it under "Decisions waiting for you" in the report and leave the files unchanged on that point. One decision per numbered item, each with a plain "what to do" line; never two decisions in one item. This applies to everyone, not only in dyslexia-friendly mode.
 2. **Never invent.** No applications, dates, contacts, signals, people, or URLs that the files or a cited public source do not support. A missing file is reported as missing, not filled in.
 3. **Only touch what this command owns.** Write the dated report, update `market-map.md` and `market-map-board.html` through the market mapper's own update logic, and refresh the tracker's At a Glance counts. Do not rewrite a CV, cover letter, or plan.
-4. **Read preferences first.** If `career-helper-preferences.md` exists, apply its accessibility settings to the report. Do not create the file if it is absent. With `dyslexia_friendly: true`: number every list, including the tracker and market map items; keep sentences short; signpost each section ("Section 2 of 6: follow-ups"); refer to files by description ("your market map", "this week's report in your updates folder"), never by path; repeat the organisation or role name in every line that mentions it, so nothing depends on remembering an earlier line; write each item under "Decisions waiting for you" as one numbered decision with a plain "what to do" line, never two decisions in one item; use no idioms or metaphors. With `colour_blind: true`, nothing changes: the report already uses text labels only.
+4. **Read preferences first.** If `career-helper-preferences.md` exists, apply its accessibility settings to the report. Do not create the file if it is absent. With `dyslexia_friendly: true`: number every list, including the tracker and market map items; keep sentences short; signpost each section ("Section 2 of 6: follow-ups"); refer to files by description ("your market map", "this week's report in your updates folder"), never by path; repeat the organisation or role name in every line that mentions it, so nothing depends on remembering an earlier line; use no idioms or metaphors. Apply these only when the preference is set; the default report keeps its paths and its normal shape. With `colour_blind: true`, nothing changes: the report already uses text labels only.
 5. **Keep it to one screen.** A quiet week is a short report. Do not pad.
 
 ## Steps
@@ -67,7 +67,9 @@ Save the report to `updates/{{YYYY-MM-DD}}-weekly-update.md` (create the folder 
 {{Headline changes and a pointer to market-watch/{{date}}-update.md; or "No market map found"}}
 
 ## Decisions waiting for you
-{{Offers recorded during the run: removals, additions, learnings synthesis; or "None"}}
+1. {{One decision, then on the next line: What to do: {{plain action}}}}
+2. {{...}}
+{{Or "None"}}
 
 ## Files touched
 {{List, or "None"}}
