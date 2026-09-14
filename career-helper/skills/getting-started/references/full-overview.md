@@ -30,7 +30,7 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 **Important:** Never minimise the emotional challenge. A graduate terrified of their first interview deserves the same quality of support as a VP negotiating a package. Redundancy at 55 is a different experience from redundancy at 30. Let the user's situation shape how you present the tools.
 
-## The Thirteen Skills - With Examples
+## The Fourteen Skills - With Examples
 
 ### Application Optimiser - Research, CV, Cover Letters, and Strategy
 
@@ -499,6 +499,43 @@ Career-helper adapts to your stage. When presenting the overview, be aware of th
 
 ---
 
+### Market Mapper - Keep an Ear to the Ground
+
+**What it does:** Builds an evidenced map of ten to fifteen organisations similar to your current or recent employer, with dated hiring, growth, investment, and change signals from public sources, one or two decision makers per organisation where a leadership page, Companies House, or press coverage confirms them, and a suggested angle that fits how discreet you need to be. A weekly update then re-checks every organisation and reports only what has changed, so you stay informed without starting from scratch each time. It never invents a person, a title, or a LinkedIn URL; where nothing confirms one, it says `[NOT FOUND]` and gives you the search to run yourself.
+
+**Real example - employed, quietly exploring:**
+
+> **You say:** "I work at a mid-sized logistics software company in the Midlands. Map similar organisations that are growing or hiring, and keep it discreet."
+>
+> **What happens:**
+> 1. Confirms your posture (employed and discreet) and plays back a seed profile: sector, size band, geography, customers, ownership
+> 2. Searches competitors, adjacent-sector peers, suppliers and customers, function-led postings, regional business press, Companies House, and funding sources in parallel
+> 3. Records dated signals per organisation, including negative ones, and marks "no public signals found" where that is the truth
+> 4. Names decision makers only where a public source confirms them, with the source
+> 5. Suggests one low-key angle per organisation (follow, read, comment on a topic post) and assigns a text-label priority: Act now, Warm, Watch, or Quiet
+>
+> **You get:** `market-map.md`, with a coverage statement saying which sources were reachable
+
+**Real example - the weekly update:**
+
+> **You say:** "What has changed on my market map since last Monday?"
+>
+> **What happens:**
+> 1. Reads the map and last week's update so nothing is reported twice
+> 2. Re-checks each organisation for signals dated after its last-checked date
+> 3. Reports new signals, priority changes, and decision-maker moves; offers (but does not apply) removals of quiet organisations and additions of new ones
+> 4. Suggests three actions for the week, each tied to a signal, and updates the map in place
+>
+> **You get:** `market-watch/2026-09-14-update.md` and a current `market-map.md`. In Claude Cowork this runs on a schedule (routine 6 in the scheduled routines).
+
+**When to use it:**
+- You are employed and want to know who is growing without announcing a search
+- You want to know who actually runs the organisations you might approach
+- You keep hearing about roles after they were filled
+- You want a weekly picture of your local market that takes five minutes to read
+
+---
+
 ## Commands
 
 In addition to skills, career-helper has three commands:
@@ -511,7 +548,7 @@ In addition to skills, career-helper has three commands:
 
 ## Automating Your Search (Claude Cowork)
 
-If you use Career Helper inside Claude Cowork on Claude Desktop, you can put parts of the search on a schedule. Cowork's `/schedule` runs a saved prompt on a cadence (daily, weekly, weekdays, or on demand) with full access to the skills and your workspace folder. The getting-started skill offers ready-made routines: a Monday job-search standup that reads your tracker, a weekly market monitor, a LinkedIn posting reminder, a follow-up check, and a pre-interview nudge. Ask "can I automate my job search?" or run `/getting-started` and choose scheduled routines. Two honest caveats: your computer must be awake with Claude Desktop open, and scheduling is a Cowork feature (CLI and web users can run the same prompts manually).
+If you use Career Helper inside Claude Cowork on Claude Desktop, you can put parts of the search on a schedule. Cowork's `/schedule` runs a saved prompt on a cadence (daily, weekly, weekdays, or on demand) with full access to the skills and your workspace folder. The getting-started skill offers ready-made routines: a Monday job-search standup that reads your tracker, a weekly market monitor, a LinkedIn posting reminder, a follow-up check, a pre-interview nudge, and a weekly market map update that reports only what has changed among the organisations you are watching. Ask "can I automate my job search?" or run `/getting-started` and choose scheduled routines. Two honest caveats: your computer must be awake with Claude Desktop open, and scheduling is a Cowork feature (CLI and web users can run the same prompts manually).
 
 ## Getting the Best Guide
 

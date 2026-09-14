@@ -20,7 +20,7 @@ The source repository is at [github.com/Zal4DW/career-helper](https://github.com
 
 ## What You Get
 
-Career Helper is not a single tool. It is a set of thirteen skills plus a guided coach, each designed for a different part of the career journey. You do not need to use them all, and you do not need to use them in order. Pick the ones that fit your situation, or let Tim (your career coach) figure it out for you. Here is the quick summary; the rest of this guide shows you exactly how to put them together.
+Career Helper is not a single tool. It is a set of fourteen skills plus a guided coach, each designed for a different part of the career journey. You do not need to use them all, and you do not need to use them in order. Pick the ones that fit your situation, or let Tim (your career coach) figure it out for you. Here is the quick summary; the rest of this guide shows you exactly how to put them together.
 
 | Skill | What It Does |
 |:----|:----|
@@ -33,6 +33,7 @@ Career Helper is not a single tool. It is a set of thirteen skills plus a guided
 | `/career-navigator` | Networking intelligence, 3-month plans, salary negotiation, offer evaluation, an application tracker with an interactive kanban board view, and a learnings loop that turns interviews, rejections, and wins into synthesised patterns |
 | `/job-scout` | Live role discovery across job boards and careers pages (with honest coverage caveats), batch ranking of postings, and a shortlist that feeds the tracker |
 | `/skills-radar` | An evidenced skills inventory (including skills your CV undersells), gap analysis against a target role, and a realistic learning plan |
+| `/market-mapper` | An evidenced map of organisations like your employer with dated hiring, growth, and investment signals, decision makers confirmed by public sources, discreet angles, and a weekly what-changed update |
 | `/career-transitions` | Fractional/portfolio careers, AI readiness, and non-linear career exploration (entrepreneurship, startups, public sector, charity, intrapreneurship) |
 | `/ai-impact-assessment` | Honest assessment of AI disruption risk for your role, with a 6-month mitigation plan |
 | `/ned-ai-helper` | AI governance for Non-Executive Directors, Governors, and Trustees |

@@ -22,6 +22,12 @@ If the tracker shows three or more active applications and no `applications/boar
 
 ---
 
+## Check for a Market Map
+
+Check for `market-map.md`. If it exists, read the header and the watchlist table. Surface any organisation at priority Act now (one line each, with the signal date) after the tracker board. If the map's last-checked date is more than two weeks old, or `market-watch/` has no update file from the last two weeks, offer to run the weekly update via `/market-mapper`. Never restate signals as new that the map already carries, and never invent a signal or a person.
+
+---
+
 ## Check for Learnings
 
 Check for `applications/learnings/patterns.md`. If it exists, read it and surface the single most useful current pattern (what is working, or a recurring gap) after the tracker board. If per-event notes exist under `applications/learnings/interview-notes/`, `rejections/`, or `wins/` but `patterns.md` is missing or looks stale relative to them, offer to synthesise via `/career-navigator` (Application Learnings Loop). Never invent a pattern that the notes do not support.
@@ -89,6 +95,8 @@ Scan the working directory root for shared and personal files:
 - *-governance-options.md
 - *-change-readiness-report.md
 - *-hitl-assessment.md
+- market-map.md
+- market-watch/*-update.md
 - ikigai-map.html
 - career-helper-preferences.md
 ```
@@ -145,5 +153,7 @@ Overall suggested next steps:
 | Audience and channel map done | /personal-brand (Capability C: Content Pillars and Cadence) |
 | Content plan done | /linkedin-coach (turn pillars into LinkedIn-shaped tactics) |
 | Bio library done | /linkedin-coach (Profile Audit to apply bios to LinkedIn) |
+| Market map exists, no update in the last two weeks | /market-mapper (watchlist and weekly update) |
+| Market map has Act now organisations | /career-navigator (networking intelligence) or /job-scout (live roles at those organisations) |
 | Brand refresh plan done | Run the prioritised changes; route to /social-media-review or /employer-footprint if cleanup surfaced |
 | Nothing yet | /career-helper:quick-start |

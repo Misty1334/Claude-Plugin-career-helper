@@ -382,3 +382,35 @@ Learnings loop patterns → Skills Radar gap analysis (repeated objections are e
 Skills Radar gap analysis → learning plan → CV update and shortlist re-rank
 AI-specific gaps → /career-transitions (AI Readiness Assessment)
 ```
+
+---
+
+## Market Mapper Tips
+
+### Input Quality
+
+- **Say how discreet you need to be.** The posture (employed and discreet, or openly searching) changes every suggested angle. If you are unsure, discreet is the default.
+- **Define "similar" yourself if you can.** Sector, size band, region, and the customers you sell to. The skill will propose a seed profile from your employer, but you know which dimension matters most; say so before the search runs.
+- **Name your exclusions.** Group companies, anywhere covered by a non-compete, and anywhere you would never work. Exclusions are applied before the map is built, not after.
+
+### Common Mistakes
+
+- **Treating a signal as a vacancy.** A funding round means money, not a role for you. Read the signal for what it supports.
+- **Expecting LinkedIn coverage without the browser extension.** LinkedIn people search sits behind a login. Public leadership pages, Companies House, and press coverage confirm most decision makers; the Claude for Chrome extension closes the rest.
+- **Acting on every Act now in the same week.** An employed user engaging with five competitors in one week is noticeable. Pick one.
+- **Letting the map go stale.** A map with no update for a month is a list of old news. Run the weekly update, or schedule it in Claude Cowork.
+
+### Iteration Strategy
+
+- Accept or decline the offered removals and additions at each update; the map only changes when you say so.
+- When an organisation turns to Act now, move it into `/career-navigator` (Strategic Networking) or `/job-scout` rather than acting from the map alone.
+- Rebuild the seed profile if your direction changes; a map built for one function does not transfer to another.
+
+### What Feeds Into What
+
+```text
+Market Mapper map → market-map.md → weekly update → market-watch/{date}-update.md
+Act now organisations → /career-navigator (networking intelligence) or /job-scout (live roles there)
+Chosen organisation with a role → applications/tracker.md (stage Researching) → /application-optimiser
+applications/tracker.md → Market Mapper update (organisations already in play are flagged, not re-suggested)
+```

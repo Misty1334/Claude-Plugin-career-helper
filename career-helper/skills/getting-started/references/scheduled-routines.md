@@ -90,14 +90,31 @@ Keep it short and calm in tone.
 
 Cadence: On demand.
 
+### 6. Weekly market map update (weekly, Monday morning)
+
+Keeps your ear to the ground on organisations like your employer without searching from scratch. Build the map first with `/market-mapper`; this routine only updates it.
+
+```text
+Read market-map.md in my workspace and the most recent file in market-watch/ if one
+exists. Run the market-mapper weekly update: re-check every organisation on the map for
+hiring, growth, investment, and change signals dated after its last-checked date, and
+report only what has changed. Update the map file in place and save the update to
+market-watch/ with today's date. Keep the posture recorded in the map (if it says
+employed and discreet, suggest only following, reading, or commenting). Offer, but do
+not apply, removals of quiet organisations or additions of new ones. If nothing changed,
+say so in one line. Do not invent a signal, a person, a title, or a URL.
+```
+
+Cadence: Weekly, Monday, 07:30 or whenever you start your week.
+
 ---
 
 ## Adapting These
 
 - **Accessibility.** If you use dyslexia-friendly mode, the scheduled prompts will produce numbered, short-sentence output because every skill checks `career-helper-preferences.md` on each run. Keep that file in your workspace folder.
 - **Keep prompts honest.** Every routine above tells Claude not to invent applications, dates, or claims. Keep that instruction in if you edit a prompt; it is what stops a scheduled task from drifting into fabrication when a file is missing.
-- **Start with one.** The Monday standup is the highest-value routine for most people. Add others once it is part of your week.
+- **Start with one.** The Monday standup is the highest-value routine for most people. Add others once it is part of your week. If you are employed and quietly exploring, the market map update is the better first routine; it needs no tracker and reports only what changed.
 
 ---
 
-*Scheduled Job-Search Routines v1.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Scheduled Job-Search Routines v1.1 | Career Helper Plugin | Prosper AI Consulting, UK*

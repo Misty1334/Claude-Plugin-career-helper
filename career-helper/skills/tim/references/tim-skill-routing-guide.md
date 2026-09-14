@@ -1,6 +1,6 @@
 # Tim Skill Routing Guide
 
-This file is loaded by the Tim career coach skill when making routing decisions. It describes how the 13 skills relate to each other, what output files to expect, and how to handle common scenarios.
+This file is loaded by the Tim career coach skill when making routing decisions. It describes how the 14 skills relate to each other, what output files to expect, and how to handle common scenarios.
 
 ---
 
@@ -25,6 +25,7 @@ Skills produce outputs that feed into other skills. Tim checks for existing outp
 - career-transitions output feeds into: personal-brand (structural decision must be made before the brand layer; never run brand for a path the user has not yet committed to)
 - job-scout shortlist feeds into: career-navigator application tracker (chosen roles are added at stage Researching) and application-optimiser (deep research and CV tailoring per chosen role); job-scout ranking reads the skills-radar inventory (winnability scoring) and `applications/learnings/patterns.md` where they exist
 - skills-radar inventory feeds into: application-optimiser (undersold skills the CV should surface), job-scout (honest winnability scoring), and interview-master (evidenced examples for stories); the gap analysis reads `applications/learnings/patterns.md` (recurring interview objections are gap evidence) and hands AI-specific gaps to career-transitions (AI Readiness)
+- market-mapper map feeds into: career-navigator (Strategic Networking Intelligence for an organisation at Act now), job-scout (live roles at watched organisations, using their careers pages as named targets), application-optimiser (Company Research once the user commits), and the tracker (a chosen organisation with a real or intended role is added at stage Researching); the weekly update reads `applications/tracker.md` so organisations already in play are flagged rather than re-suggested
 - career-navigator kanban board renders: `applications/tracker.md` as `applications/board.html`; board exports are merged back into the tracker, which stays the source of truth
 - application-optimiser CV PDF production consumes: the finished `cv-optimised.md` or cover letter, producing a verified `cv.pdf`; content changes always go through the markdown first
 
@@ -132,6 +133,10 @@ Tim uses Glob to scan for existing outputs before routing. Role-specific files a
 **Job Scout:**
 - `applications/shortlist.md` (the single current ranked shortlist)
 
+**Market Mapper:**
+- `market-map.md` (the single current map; the seed employer is recorded only here)
+- `market-watch/{YYYY-MM-DD}-update.md` (dated what-changed updates)
+
 **Skills Radar:**
 - `skills-inventory.md`
 - `skills-gap-analysis.md` (or `applications/{role-slug}/skills-gap-analysis.md` when tied to one role)
@@ -198,3 +203,6 @@ Route to skills-radar. The gap analysis separates skill gaps (genuinely missing)
 
 **16. Several applications in flight, user losing the thread**
 The tracker is the answer, and the kanban board is its visual layer. If no tracker exists, build it first (career-navigator, Application Tracker). With three or more active applications, offer the board view (career-navigator, Kanban Board View): drag between stages, then export back to the tracker. Follow the stage-change triggers on sync: Interviewing suggests interview-master, Offer suggests negotiation or offer evaluation, Closed with a rejection offers the learnings loop.
+
+**17. Employed and quietly exploring: "keep an ear to the ground"**
+Route to market-mapper, and confirm the posture before anything else: an employed user who wants discretion gets angles limited to following, reading, and commenting, and no suggestion that touches their LinkedIn settings or messages a hiring manager. The map is built once from the user's current or recent employer (ten to fifteen similar organisations, dated signals, decision makers confirmed by public sources); the weekly update reports only what changed. Do not push the user towards applications; when an organisation reaches Act now, offer career-navigator (Strategic Networking) or job-scout for live roles there, and let them decide the pace. If the user has no employer to seed from (a returner, a graduate), job-scout or the three-month plan is the better starting point.

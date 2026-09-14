@@ -75,7 +75,7 @@ A comprehensive guide covering installation, folder setup, and three scenario-ba
 Walk the user through everything career-helper can do, with concrete real-world examples showing exactly when and how to use each skill. This is the "show me everything" capability.
 
 **Core approach:**
-- Present all 13 skills and their capabilities with plain-language explanations
+- Present all 14 skills and their capabilities with plain-language explanations
 - For each skill, include a real-world scenario showing exactly what to say and what you get back
 - Show the complete plugin ecosystem: skills, commands, output files, and how they connect
 - End with "What's your situation? I'll tell you exactly where to start"
@@ -127,7 +127,7 @@ Create a personalised skill sequence based on the user's specific situation. Not
 Practical guidance for getting the best results from each skill. Not a repeat of help - specific tips on inputs, prompting, and iteration.
 
 **Core approach:**
-- Ask which skill they want tips for (or cover all thirteen)
+- Ask which skill they want tips for (or cover all fourteen)
 - Provide input quality tips (what makes a good CV upload, how to share a LinkedIn profile, what details to include in a job description)
 - Common mistakes and how to avoid them
 - How to iterate and refine outputs
@@ -165,8 +165,8 @@ Help the user turn their job search into a living process using Claude Cowork's 
 
 **Core approach:**
 - Explain how `/schedule` works and the two honest limitations: the computer must be awake with Claude Desktop open, and scheduling is a Cowork feature, not part of the plugin (CLI and web users can run the same prompts manually)
-- Offer the ready-made routines: Monday job-search standup, weekly market monitor, LinkedIn posting reminder, follow-up check, and pre-interview nudge
-- Recommend starting with one routine (usually the Monday standup) rather than all five
+- Offer the ready-made routines: Monday job-search standup, weekly market monitor, LinkedIn posting reminder, follow-up check, pre-interview nudge, and the weekly market map update (which needs a map built first via `/market-mapper`)
+- Recommend starting with one routine (usually the Monday standup, or the market map update for someone employed and quietly exploring) rather than all six
 - Keep the "do not invent" instruction in any prompt the user edits
 
 **Output:** Conversational setup guidance and copy-paste `/schedule` prompts
@@ -233,6 +233,7 @@ Ready to get started? Use the skill that fits:
 - **/linkedin-coach** - Optimise your LinkedIn profile and content
 - **/interview-master** - Prepare for interviews
 - **/career-navigator** - Plan your search, negotiate offers
+- **/market-mapper** - Map the organisations like your employer that are growing or hiring, and keep the map current weekly
 - **/career-transitions** - Explore portfolio/fractional career paths, entrepreneurship, public sector, charity, and non-linear alternatives
 - **/personal-brand** - Build or refresh a personal brand using Why You, Why Them, Why Now positioning, with audience and channel map, content pillars, and a bio library
 
@@ -240,4 +241,4 @@ Or run **/career-helper:quick-start** if you want guided routing.
 
 ---
 
-*Getting Started Guide v1.13.0 | Career Helper Plugin | Prosper AI Consulting, UK*
+*Getting Started Guide v1.14.0 | Career Helper Plugin | Prosper AI Consulting, UK*

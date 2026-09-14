@@ -226,6 +226,7 @@ For users returning after a career break who want positioning that frames the ga
    - **Market monitor** (weekly): watches for new roles and news in your target area
    - **Follow-up check** (weekdays): catches the follow-ups that slip
    - **Posting reminder** (weekly): keeps your LinkedIn content cadence on track
+   - **Market map update** (weekly): re-checks the organisations on your `/market-mapper` map and reports only what changed; the best first routine if you are employed and quietly exploring
 3. Start with one routine, usually the Monday standup, and add others once it is part of your week
 
 **Key insight:** the value compounds with a persistent workspace folder and a current tracker. Each scheduled run reads the same files, so the routines get more useful as your search progresses.

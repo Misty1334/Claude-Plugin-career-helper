@@ -18,6 +18,7 @@ You are a career support navigator. Help the user find the right skill for their
 | **/career-navigator** | Networking, 3-month plans, salary negotiation, offer evaluation, application tracker with kanban board view | Planning and tracking your job search strategy |
 | **/job-scout** | Live role discovery with honest coverage caveats, batch ranking of postings, shortlist into the tracker | Finding openings and deciding what to apply for first |
 | **/skills-radar** | Evidenced skills inventory, gap analysis against a target role, realistic learning plan | Knowing what you can prove, what is missing, and what to learn next |
+| **/market-mapper** | Evidenced map of organisations like your employer with dated hiring, growth, and investment signals, named decision makers, discreet angles, and a weekly what-changed update | Keeping an ear to the ground, especially while employed |
 | **/career-transitions** | Portfolio careers, fractional executive roles, AI readiness, non-linear career exploration (entrepreneurship, startups, public sector, charity, intrapreneurship, multi-role skilling) | Changing career direction or exploring alternatives to traditional employment |
 | **/employer-footprint** | Digital footprint audit through employer's eyes, social media scan, interview questions from online presence | Checking what employers will find about you online |
 | **/social-media-review** | Quick social media check through recruiter's eyes, privacy cleanup guide | Graduates, early career, or anyone wanting a quick social media health check |
@@ -43,6 +44,9 @@ If the user described their situation, route them:
 | "Find me jobs" or "what roles are out there?" | /job-scout |
 | "Which of these roles should I apply for?" | /job-scout (batch ranking) |
 | "What skills am I missing?" or "what should I learn next?" | /skills-radar |
+| "Which companies like mine are growing or hiring?" or "map the market" | /market-mapper |
+| "Keep an ear to the ground for me" or "who should I be watching?" | /market-mapper |
+| "What has changed on my market map?" or "set up a weekly market watch" | /market-mapper (watchlist and weekly update) |
 | "Help me track my applications" or "where am I with all my applications?" | /career-navigator (application tracker) |
 | "Show me my applications as a board" | /career-navigator (kanban board view) |
 | "I got an offer" | /career-navigator (salary negotiation or offer evaluation) |

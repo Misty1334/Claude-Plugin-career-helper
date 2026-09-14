@@ -6,6 +6,29 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Version
 
 ---
 
+## [1.16.0] - 2026-09-14
+
+### Added
+- **Market Mapper skill** (`/market-mapper`). Builds an evidenced map of ten to fifteen organisations similar to the user's current or recent employer: a confirmed seed profile (sector, size band, geography, products and customers, ownership), comparables gathered across competitors, adjacent-sector peers, suppliers and customers, function-led postings, regional business press, Companies House, and funding sources, then dated signals per organisation in four groups (hiring, growth, investment, and change, including negative signals), decision makers named only where a public source confirms them (with `[NOT FOUND]` and the search to run where none does), a suggested angle per organisation that traces to a specific signal, and a text-label watch priority (Act now, Warm, Watch, Quiet). A discretion posture is confirmed before the first run: for the employed-and-discreet default, every angle is limited to following, reading, and commenting, and nothing touches LinkedIn settings or messages a hiring manager. The Watchlist and Weekly Update capability re-checks every organisation, reports only what has changed since each organisation's last-checked date, offers (but never applies) removals and additions, flags organisations already in the tracker, and rolls the changes into the map in place. Map to Action routes an Act now organisation to `/career-navigator` (Strategic Networking), `/job-scout` (live roles there), or the tracker. New references `company-mapping.md`, `market-watch.md`, `market-map-template.md`, and `market-watch-update-template.md`. Outputs: `market-map.md` and `market-watch/{date}-update.md`.
+- **Weekly market map update routine** (routine 6) in the scheduled Cowork routines, so the update runs on a Monday timer with the same do-not-invent and offer-do-not-apply instructions as the skill.
+
+### Changed
+- Plugin and marketplace version bumped to 1.16.0, with descriptions updated for the new skill (fifteen in total)
+- `/career-helper:help` skills table and routing, `/career-helper:quick-start` intake option and routing, and `/career-helper:status` (a market map check that surfaces Act now organisations, offers the weekly update when the map is stale, and lists the new output files) updated
+- Tim career coach agent and skill now list 14 orchestratable skills, with a routing judgement for "I'm not actively looking, but I want to keep an ear to the ground"
+- Tim skill routing guide updated: cross-skill dependency map, output-file patterns, and a new routing scenario (17) for the employed and quietly exploring
+- Getting-started guides updated for fourteen skills: `full-overview.md` (new skill section with examples and the automation paragraph), `skill-tips.md` (tips for the new skill), `getting-the-best-guide.md` (table row and skill count, PDF regenerated), `power-user-strategies.md` (routine list), and the getting-started skill itself (routine list, counts, related skills, v1.14.0)
+- `/job-scout` and `/career-navigator` related-skills lists point at the market mapper
+- README description, skills table, features, Cowork tip, and output-files table updated
+
+### House style
+- All new content adheres to the house style: no em dashes, UK English throughout, Oxford comma, hyphenated compound modifiers, no emojis, no hyperbole, second-person coaching voice. Templates use `{{PLACEHOLDER}}` syntax and carry no real personal data. Watch priorities are text labels, never colour alone.
+
+### Credits
+- Feature direction inspired by Simon Bucknell's "Jobseeker Market Mapper" (Stand Out Get Hired), a copy-and-paste prompt for mapping organisations similar to your employer, their hiring signals, and their decision makers on a weekly schedule. Reinterpreted for Career Helper's evidence-first approach: dated and sourced signals, decision makers confirmed by public sources or marked not found, a discretion posture for the employed, and a weekly update that reports only what changed.
+
+---
+
 ## [1.15.0] - 2026-07-10
 
 ### Added
