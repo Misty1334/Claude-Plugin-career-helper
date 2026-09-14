@@ -214,7 +214,7 @@ Skills generate markdown files you can convert to other formats:
 
 ## Workspace Tip
 
-For the best experience, always use the same local folder for your career-helper sessions. This lets you build on previous analyses and track progress across sessions:
+For the best experience, use Desktop Cowork and always select the same local folder for your career-helper sessions. This lets you build on previous analyses and track progress across sessions. Career Helper also works in cloud Cowork, where created files live in the conversation's data store: stay in the same conversation to carry on a long-running piece of work, and use Desktop with the folder for scheduled routines that build on last week's files.
 
 ```bash
 mkdir -p ~/career-helper-workspace

@@ -28,9 +28,14 @@ Cowork runs a scheduled task remotely when it can, and on your computer when it 
 | No folder (or a workspace Cowork can reach from the cloud) | In the cloud | Can be off or asleep; Claude Desktop can be closed | Connected tools, plugins, skills, web research, files saved to your Claude account |
 | A folder on your computer | On your machine | Must be on and awake, with Claude Desktop available | Everything above plus that folder |
 
-A Career Helper workspace is usually a folder on your computer, because that is where the tracker, market map, and application folders live. So the honest default for the weekly update is: it runs on your machine, and the machine must be awake at the scheduled time. Pick a time you are normally at your desk (Monday 07:30 is a poor choice if the laptop is in a bag until nine).
+### Desktop Cowork and cloud Cowork keep data differently
 
-If you want the routine to run with the lid closed, the workspace has to live somewhere Cowork can reach from the cloud. What that includes depends on your plan and connectors; check the help centre article and Cowork's folder picker for what your account offers. Do not move a folder of CVs to a shared or public location for the sake of a routine.
+Career Helper works in both, but they persist your files differently, and routines depend on persistence:
+
+- **Desktop Cowork with a local folder** is the most feature-rich option for keeping data. Every session, and every scheduled run given that folder, reads and writes the same files on disk. Last week's tracker, map, and reports are simply there.
+- **Cloud Cowork** keeps the files Claude creates in that conversation's data store. To carry on a long-running piece of work with Career Helper in cloud Cowork, stay in the same conversation; start a new one and the earlier files are not there. Each scheduled run is its own new session, so a cloud-run routine cannot build on last week's files unless the workspace lives somewhere every session can reach, such as a connected drive. Check what your account offers.
+
+So the honest default for the weekly update is: use Desktop Cowork, give the task your workspace folder, accept that it runs on your machine, and pick a time you are normally at your desk (Monday 07:30 is a poor choice if the laptop is in a bag until nine). A cloud-run routine is right for a task that needs only connectors and web research, such as a market monitor that saves nothing, or for a workspace kept on a connected drive. Do not move a folder of CVs to a shared or public location for the sake of a routine.
 
 If a run you expected in the cloud instead waited for your machine, the task was given a local folder. That is the single most common reason a routine "did not run".
 
@@ -61,6 +66,7 @@ A scheduled run cannot ask you anything. Two consequences:
 | The run stalled or ended early | It needed a permission nobody was there to grant | Run it once by hand and approve what it asks for |
 | Report says "no tracker found" or "no market map found" | The input file does not exist in the folder the task uses | Build the file first (`/career-navigator` tracker, `/market-mapper` map), or check the task points at the right folder |
 | The same news reported every week as new | The prompt lost its "report only what changed" instruction, or the map's last-checked dates are not being updated | Restore the library prompt; run the market map update by hand once so the dates roll forward |
+| Cloud-run routine reports "no tracker found" every week | Each scheduled run is a new session and cannot see files from an earlier cloud conversation | Run it from Desktop Cowork with your local folder, or keep the workspace on a connected drive every session can reach |
 | Nothing at all runs | The task is paused, or the plan does not include scheduled tasks | Check the Scheduled list; check the plan |
 | Cannot find `/schedule` | Not in a Cowork task, or the feature is not available on this account | Open Cowork and start a task first; check the help centre for plan availability |
 

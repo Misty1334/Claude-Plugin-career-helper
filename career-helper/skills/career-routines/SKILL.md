@@ -51,7 +51,9 @@ The one thing to understand before scheduling anything is **where the task runs*
 - **In the cloud** when the task does not need a folder on your computer. Your laptop can be closed. It can use connected tools, plugins, skills, web research, and files saved to your Claude account.
 - **On your machine** when the task is given a folder on your computer. Then your computer and Claude Desktop must be available at the scheduled time.
 
-A Career Helper workspace is usually a local folder, so the honest default is that a routine which reads your tracker or market map runs on your machine. If you want it to run with the lid closed, the workspace must live somewhere Cowork can reach from the cloud. Say this plainly before setting anything up, and let the user choose.
+Career Helper works in both Desktop Cowork and cloud Cowork, but they keep data differently, and routines depend on that. Desktop Cowork with a local folder is the most feature-rich option for persistence: every session and every scheduled run sees the same files on disk. Cloud Cowork keeps created files in the conversation's data store, so a long-running piece of work there means staying in the same conversation, and a scheduled run (a new session each time) cannot build on last week's files unless the workspace lives on something every session can reach, such as a connected drive.
+
+So the honest default for a routine that reads the tracker or market map is Desktop Cowork with the workspace folder, running on the user's machine at a time it is awake. Say this plainly before setting anything up, and let the user choose.
 
 **Load:** @references/cowork-scheduling.md for the setup steps, the cloud-or-local rules, permissions, and troubleshooting.
 
@@ -68,7 +70,7 @@ Walk the user through one routine at a time:
 1. **Check what exists.** Glob the workspace for `applications/tracker.md`, `market-map.md`, `applications/learnings/`, and any content calendar. A routine that reads a file which does not exist reports "not found" every week; suggest building the file first, or pick a routine whose inputs exist.
 2. **Recommend the routine.** For almost everyone the first routine is the weekly update (`/career-helper:weekly-update`), because it already contains the standup, the follow-up check, and the market map update. Offer the narrower prompts only for a different cadence.
 3. **Tailor the prompt.** Fill the bracketed parts (target role, location, employer where relevant). Keep the "do not invent" and "record decisions, do not ask" lines; they are what keep an unattended run honest.
-4. **Decide where it runs.** Ask whether they want it on their machine (folder chosen, computer must be awake) or in the cloud (workspace reachable from the cloud, lid closed). State the trade-off in two sentences.
+4. **Decide where it runs.** Ask whether they want it on their machine (Desktop Cowork, folder chosen, computer must be awake) or in the cloud (no local folder, lid closed, but no memory of last week's files unless the workspace is on a connected drive). State the trade-off in two sentences.
 5. **Give the exact steps.** Type `/schedule` in any Cowork task (or open Scheduled in the sidebar), paste the prompt, choose the cadence, choose the folder or leave it for the cloud, and save. Suggest running it once immediately to confirm it works and to approve anything it needs.
 6. **Record it.** Add a row to `routines.md` (create from the template if absent): name, cadence, where it runs, prompt, date set up. `/career-helper:status` reads this file.
 

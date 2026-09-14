@@ -79,6 +79,8 @@ Career Helper saves files as it works. Research briefs, optimised CVs, interview
 2. When you open Cowork, use the "Work in a folder" option and select that folder.
 3. Every session after that, select the same folder.
 
+**Desktop or cloud?** Career Helper works in both Desktop Cowork and cloud Cowork. Desktop with a local folder is the most feature-rich option for keeping your data: every session sees the same files on disk. Cloud Cowork keeps the files Claude creates in that conversation, so if you work there, stay in the same conversation to carry on; a new conversation will not have the earlier files. Scheduled routines that build on last week's files belong on Desktop with the folder for the same reason.
+
 Career Helper organises your files automatically. When you start working on an application, it creates a subfolder for that role inside an `applications/` directory. Everything for that application; your research brief, tailored CV, interview prep, and strategy; lives together in one place. Shared files like your three-month plan and preferences stay in the root folder.
 
 ```

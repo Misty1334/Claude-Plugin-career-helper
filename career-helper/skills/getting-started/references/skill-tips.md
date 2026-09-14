@@ -424,7 +424,7 @@ applications/tracker.md → Market Mapper update (organisations already in play 
 ### Input Quality
 
 - **Have the inputs before the routine.** A weekly update with no tracker and no market map reports "not found" every Monday. Build one of them first.
-- **Say where you want it to run.** With your local workspace folder, a Cowork task runs on your machine and needs it awake; without a local folder it runs in the cloud. Choose a time to match.
+- **Say where you want it to run.** With your local workspace folder, a Cowork task runs on your machine and needs it awake; without a local folder it runs in the cloud, but each run is a new session with no memory of last week's files. For routines that build on the tracker or map, Desktop with the folder is the reliable choice.
 - **Run it once by hand.** Approve anything it asks for on that first run, so scheduled runs never stall on a permission.
 
 ### Common Mistakes

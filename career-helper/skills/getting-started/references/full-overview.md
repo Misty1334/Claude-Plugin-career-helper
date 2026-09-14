@@ -613,7 +613,7 @@ mkdir -p ~/career-helper-workspace
 cd ~/career-helper-workspace
 ```
 
-This lets you build on previous analyses, keep all outputs in one place, and track progress across sessions with `/career-helper:status`.
+This lets you build on previous analyses, keep all outputs in one place, and track progress across sessions with `/career-helper:status`. Desktop Cowork with a local folder is the most feature-rich option for keeping data. Career Helper also works in cloud Cowork, where created files live in the conversation's data store: stay in the same conversation to carry on, and use Desktop with the folder for scheduled routines.
 
 ## How Skills Connect
 
